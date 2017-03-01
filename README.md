@@ -1,6 +1,5 @@
 # Modules
 Awayjs is composed of a series of modules which implement and isolate specific functionalities, allowing for a very flexible configuration of feature sets.
-TODO
 
 **More info needed.**
 

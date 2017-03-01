@@ -20,7 +20,7 @@ ls -la node_modules/@awayjs
 
 # Pull requests and commits to other branches shouldn't try to deploy, just build to verify
 if [ "$TRAVIS_PULL_REQUEST" != "false" -o "$TRAVIS_BRANCH" != "$SOURCE_BRANCH" ]; then
-    echo "Not a dev branch commit, skipping docs deploy."
+    echo "Skipping docs deploy."
     exit 0
 fi
 

@@ -48,8 +48,7 @@ ls -la out
 # Run our compile script
 echo "Compiling documentation..."
 doCompile
-rm -f docs/bin/docs.json
-cp -r docs/bin/* out/
+cp -r bin/* out/
 ls -la out
 
 # Now let's go have some fun with the cloned repo

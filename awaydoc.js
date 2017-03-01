@@ -3,7 +3,7 @@
 var typedoc = require('typedoc');
 var handlebars = require('handlebars');
 var fs = require('fs');
-var nav = require("node_modules/typedoc/dist/lib/output/models/NavigationItem.js");
+var nav = require("./node_modules/typedoc/dist/lib/output/models/NavigationItem.js");
 var mini = require('minimist');
 
 console.log("~awaydoc~ running typedoc API...");

@@ -21,7 +21,8 @@ var options = {
     "out": out,
     "name": name,
     "json": "",
-    "theme": ".",
+    "theme": "theme",
+    "disableOutputCheck": true,
     "mode": "file",
     "logger": "console",
     "moduleResolution": "node",
@@ -87,11 +88,6 @@ handlebars.registerHelper('newLine', function () { return '\n'; });
             applyAlias(project);
 
             return origGetUrls.call(this, project);
-        }
-
-        // Modify existing files check.
-        app.renderer.theme.isOutputDirectory = function(path) {
-            return true;
         }
 
         return success;

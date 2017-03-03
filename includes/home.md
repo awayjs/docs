@@ -5,7 +5,7 @@ TODO
 
 # Modules
 
-### Awayjs is composed of a series of modules which implement specific functionalities, allowing for a very flexible configuration of feature sets.
+Awayjs is composed of a series of modules which implement specific functionalities, allowing for a very flexible configuration of feature sets.
 
 ## [@awayjs/core](core/)
 The root dependency for all Awayjs modules: contains basic data structures, loading mechanisms, event objects and utility functions useful for all types of rich media interface and interaction.

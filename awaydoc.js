@@ -83,8 +83,8 @@ handlebars.registerHelper('newLine', function () { return '\n'; });
                 if(urlMapping.url.indexOf("modules/") !== -1) {
                     var lastUrlComp = urlMapping.url.split("modules/")[1];
                     var noExt = lastUrlComp.split(".html")[0];
-                    urlMapping.url = noExt + "/index.html";
-                    urlMapping.model.url = noExt + "/index.html";
+                    urlMapping.url = noExt + "/";
+                    urlMapping.model.url = noExt + "/";
                 }
                 return urlMapping;
             });

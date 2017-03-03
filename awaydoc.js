@@ -70,10 +70,24 @@ handlebars.registerHelper('newLine', function () { return '\n'; });
             buildToc(model, page.toc, 0);
         });
 
-        // Keep camelcase in URLs.
+        // Modify urls.
         var origGetUrls = app.renderer.theme.getUrls;
         app.renderer.theme.getUrls = function modGetURls(project) {
             console.log("~awaydoc~   modifying theme.getUrls()");
+
+            var origUrls = origGetUrls.call(this, project);
+
+            // Hardcode awayjs module urls.
+            var modUrls = origUrls.map(function(urlMapping) {
+                console.log("~awaydoc~     url: " + urlMapping.url);
+                if(urlMapping.url.indexOf("modules/") !== -1) {
+                    var lastUrlComp = urlMapping.url.split("modules/")[1];
+                    var noExt = lastUrlComp.split(".html")[0];
+                    urlMapping.url = noExt + "/index.html";
+                    urlMapping.model.url = noExt + "/index.html";
+                }
+                return urlMapping;
+            });
 
             // Reflection.getAlias() uses toLowerCase(),
             // here, we state that we want the original class names as aliases.
@@ -87,7 +101,7 @@ handlebars.registerHelper('newLine', function () { return '\n'; });
             }
             applyAlias(project);
 
-            return origGetUrls.call(this, project);
+            return modUrls;
         }
 
         return success;

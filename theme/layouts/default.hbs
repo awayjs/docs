@@ -14,6 +14,12 @@
 {{> header}}
 
 <div class="container container-main">
+    {{#if model.kindString}} <!-- account spacing for having no title -->
+    {{else}}
+        <br>
+        <br>
+        <br>
+    {{/if}}
     <div class="row">
         <div class="col-8 col-content">
             {{{contents}}}

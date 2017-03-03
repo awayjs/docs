@@ -49,21 +49,23 @@
         </div>
     </div>
 
-    <!-- Page title -->
-    <div class="tsd-page-title">
-        <div class="container">
-            <h1>{{#compact}}
-                {{model.kindString}}&nbsp;
-                {{model.name}}
-                {{#if model.typeParameters}}
-                    &lt;
-                    {{#each model.typeParameters}}
-                        {{#if @index}},&nbsp;{{/if}}
-                        {{name}}
-                    {{/each}}
-                    &gt;
-                {{/if}}
-            {{/compact}}</h1>
+    <!-- Page title: only show in leafs -->
+    {{#if model.kindString}}
+        <div class="tsd-page-title">
+            <div class="container">
+                <h1>{{#compact}}
+                    {{model.kindString}}&nbsp;
+                    {{model.name}}
+                    {{#if model.typeParameters}}
+                        &lt;
+                        {{#each model.typeParameters}}
+                            {{#if @index}},&nbsp;{{/if}}
+                            {{name}}
+                        {{/each}}
+                        &gt;
+                    {{/if}}
+                {{/compact}}</h1>
+            </div>
         </div>
-    </div>
+    {{/if}}
 </header>

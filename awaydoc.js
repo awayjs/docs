@@ -15,6 +15,7 @@ var name = argv["name"] || "";
 var out = argv["out"] || "bin";
 var tsconfig = argv["tsconfig"] || "tsconfig.json";
 var sources = argv["sources"] || "lib";
+var useParentAssets = argv["useParentAssets"] || "false";
 
 // Initialize typedoc API.
 var options = {
@@ -55,6 +56,10 @@ handlebars.registerHelper('newLine', function () { return '\n'; });
 
         // Remove unwanted plugins.
         app.renderer.removeComponent('pretty-print');
+        if(useParentAssets == "true") {
+            console.log("~awaydoc~ skipping assets...");
+            app.renderer.removeComponent('assets');
+        }
 
         // Always keep the nav at the project root.
         app.renderer.removeComponent('toc');

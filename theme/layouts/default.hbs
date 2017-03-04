@@ -6,8 +6,13 @@
     <title>{{#ifCond model.name '==' project.name}}{{project.name}}{{else}}{{model.name}} | {{project.name}}{{/ifCond}}</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="{{relativeURL "assets/css/main.css"}}">
-    <script src="{{relativeURL "assets/js/modernizr.js"}}"></script>
+    {{#ifCond project.name '==' "@awayjs"}}
+        <link rel="stylesheet" href="{{relativeURL "assets/css/main.css"}}">
+        <script src="{{relativeURL "assets/js/modernizr.js"}}"></script>
+    {{else}}
+        <link rel="stylesheet" href="{{relativeURL "../assets/css/main.css"}}">
+        <script src="{{relativeURL "../assets/js/modernizr.js"}}"></script>
+    {{/ifCond}}
 </head>
 <body>
 
@@ -43,7 +48,11 @@
 {{> footer}}
 
 <div class="overlay"></div>
-<script src="{{relativeURL "assets/js/main.js"}}"></script>
+{{#ifCond project.name '==' "@awayjs"}}
+    <script src="{{relativeURL "assets/js/main.js"}}"></script>
+{{else}}
+    <script src="{{relativeURL "../assets/js/main.js"}}"></script>
+{{/ifCond}}
 <script>if (location.protocol == 'file:') document.write('<script src="{{relativeURL "assets/js/search.js"}}"><' + '/script>');</script>
 
 {{> analytics}}

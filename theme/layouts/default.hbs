@@ -14,13 +14,16 @@
 {{> header}}
 
 <div class="container container-main">
-    {{#if model.kindString}} <!-- account spacing for having no title -->
+
+    <!-- account spacing for having no title, which happens in non leafs -->
+    {{#if model.kindString}}
     {{else}}
         <br>
         <br>
         <br>
         <br>
     {{/if}}
+
     <div class="row">
         <div class="col-8 col-content">
             {{{contents}}}

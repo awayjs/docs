@@ -31,7 +31,7 @@ commands each time you want to get the latest docs.
 
 ## Custom Typedoc Implementation/Theme
 
-This uses a modified version of [https://github.com/TypeStrong/typedoc](Typedoc). However,
+This uses a modified version of [Typedoc](https://github.com/TypeStrong/typedoc). However,
 all modifications are done at runtime in a single file, externaly to typedoc, [https://github.com/awayjs/docs/blob/master/awaydoc.js](awaydoc.js).
 This means that no typedoc code is ever altered.
 Most changes are generally minor tweaks of features that typedoc doesn't support out of the box.

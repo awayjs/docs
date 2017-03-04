@@ -8,9 +8,10 @@ so the docs, as the code, are fully typed.
 
 Any push to any of the AwayJS modules will trigger a Travis CI rebuild of the documentation,
 so the static docs site should remain up to date with the source code from the **dev** branches at
-all times.
+all times. Travis publishes the generated docs in the gh-pages branch and can hence be viewed in the browser at:
+[https://awayjs.github.io/docs](https://awayjs.github.io/docs)
 
-## Local Copy
+## Generate Local Copy
 
 This repository does not track any documentation files or output, only the generator files, so
 in order to obtain a local copy of the documentation, you will have to clone this repository and 
@@ -28,6 +29,8 @@ npm run docs
 
 This will generate a bin folder with the documentation. Note that you will have to repeat the above
 commands each time you want to get the latest docs.
+
+Another alternative for obtaining a local copy of the docs is to checkout the gh-pages branch, or download the zip file for the branch.
 
 ## Custom Typedoc Implementation/Theme
 

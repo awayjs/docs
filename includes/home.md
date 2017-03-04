@@ -1,5 +1,4 @@
 # AwayJS API Documentation
-
 AwayJS is composed of a series of modules which implement specific functionalities, allowing for a very flexible configuration of feature sets.
 
 ## [core](core/)

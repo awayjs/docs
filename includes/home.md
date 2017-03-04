@@ -30,6 +30,11 @@ Interface for scene modules, providing user interaction input / output and culli
 ### [view](view/)
 Temporary module to hold parsers that output classes spanning multiple modules. To be split and moved to their respective module location(s) once additional refactors are in place.
 
+## Installation
+
+Please refer to the installation instructions found in
+[awayjs-full](https://github.com/awayjs/awayjs-full).
+
 ## Feedback
 
 Please let us know how you think this resource could be improved. We hear you!<br>

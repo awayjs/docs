@@ -80,6 +80,18 @@ handlebars.registerHelper('newLine', function () { return '\n'; });
         app.renderer.theme.getUrls = function modGetURls(project) {
             console.log("~awaydoc~   modifying theme.getUrls()");
 
+            // Reflection.getAlias() uses toLowerCase(),
+            // here, we state that we want the original class names as aliases.
+            function applyAlias(obj) {
+                if (obj.children) {
+                    obj.children.forEach((child) => {
+                        child._alias = child.name;
+                        applyAlias(child);
+                    });
+                }
+            }
+            applyAlias(project);
+
             var origUrls = origGetUrls.call(this, project);
 
             // Hardcode awayjs module urls.
@@ -93,18 +105,6 @@ handlebars.registerHelper('newLine', function () { return '\n'; });
                 }
                 return urlMapping;
             });
-
-            // Reflection.getAlias() uses toLowerCase(),
-            // here, we state that we want the original class names as aliases.
-            function applyAlias(obj) {
-                if (obj.children) {
-                    obj.children.forEach((child) => {
-                        child._alias = child.name;
-                        applyAlias(child);
-                    });
-                }
-            }
-            applyAlias(project);
 
             return modUrls;
         }

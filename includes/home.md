@@ -14,25 +14,25 @@ The root dependency for all AwayJS modules: contains basic data structures, load
 ### [graphics](graphics/)
 Dependency for AwayJS applications requiring graphical output: contains data structures for shapes and textures, and interface descriptions for additional APIs such as material and animator data.
 
-### [materials](materials/)
+### [scene](scene/)
 Dependency for AwayJS applications requiring a heirarchical scenegraph: contains data structures for a collection of display object types, as well as geometric prefabs for simple 2D & 3D objects.
 
-### [parsers](parsers/)
+### [stage](stage/)
 Interface for graphics module providing various outputs options to render. Contains context implementations for WebGL and Software (js) outputs, as well as a bridge option for external (native) rendering.
 
-### [player](player/)
+### [renderer](renderer/)
 Interface for scene and material modules, providing simpified rendering for complex heriarchies.
 
-### [renderer](renderer/)
+### [materials](materials/)
 Dependency for AwayJS applications requiring a configurable method for coloring / texturing / lighting the surfaces of objects: contains data structures for a collection of material types, as well as the rendering APIs (to be moved to renderer module).
 
-### [scene](scene/)
-Dependecy for AwayJS applications requiring scriopting abstraction for different converted syntax trees such as AS2, AS3 etc.
-
-### [stage](stage/)
-Interface for scene modules, providing user interaction input / output and culling management for display objects sent to the renderer.
+### [player](player/)
+Dependecy for AwayJS applications requiring scripting abstraction for different converted syntax trees such as AS2, AS3 etc.
 
 ### [view](view/)
+Interface for scene modules, providing user interaction input / output and culling management for display objects sent to the renderer.
+
+### [parsers](parsers/)
 Temporary module to hold parsers that output classes spanning multiple modules. To be split and moved to their respective module location(s) once additional refactors are in place.
 
 <a name="installation"></a>

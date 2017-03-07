@@ -844,6 +844,13 @@ ul.tsd-parameters .tsd-comment, ul.tsd-type-parameters .tsd-comment { margin-top
 .tsd-sources ul, .tsd-sources p { margin: 0 !important; }
 .tsd-sources ul { list-style: none; padding: 0; }
 
+/* offset anchors to account for sticky header */
+a.anchor {
+    display: block;
+    position: relative;
+    top: -40px;
+}
+
 .tsd-page-toolbar {
     position: fixed;
     z-index: 1;

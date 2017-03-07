@@ -1,11 +1,11 @@
 # AwayJS API Documentation
 AwayJS is composed of a series of modules which implement specific functionalities, allowing for a very flexible configuration of feature sets.
 
-* [Modules](#modules)
-* [Installation](#installation)
-* [Feedback](#feedback)
+* [Modules](#anchor_modules)
+* [Installation](#anchor_installation)
+* [Feedback](#anchor_feedback)
 
-<a name="modules"></a>
+<a name="anchor_modules" class="anchor"></a>
 ## Modules
 
 ### [core](core/)
@@ -35,13 +35,13 @@ Interface for scene modules, providing user interaction input / output and culli
 ### [parsers](parsers/)
 Temporary module to hold parsers that output classes spanning multiple modules. To be split and moved to their respective module location(s) once additional refactors are in place.
 
-<a name="installation"></a>
+<a name="anchor_installation" class="anchor"></a>
 ## Installation
 
 Please refer to the installation instructions found in
 [awayjs-full](https://github.com/awayjs/awayjs-full).
 
-<a name="feedback"></a>
+<a name="anchor_feedback" class="anchor"></a>
 ## Feedback
 
 Please let us know how you think this resource could be improved. We hear you!<br>

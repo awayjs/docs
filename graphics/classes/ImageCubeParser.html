@@ -1,0 +1,1776 @@
+<!doctype html>
+<html class="default no-js toggle-inherited">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>ImageCubeParser | graphics</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="../../assets/css/main.css">
+        <script src="../../assets/js/modernizr.js"></script>
+    <!--<link href="https://fonts.googleapis.com/css?family=Advent+Pro:100" rel="stylesheet">-->
+    <link href="https://fonts.googleapis.com/css?family=Maven+Pro" rel="stylesheet">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+
+<header>
+    <div class="tsd-page-toolbar">
+        <div class="container">
+            <div class="table-wrap">
+
+                <!-- Overall title and Search -->
+                <div class="table-cell" id="tsd-search" data-index="../assets/js/search.js" data-base="..">
+
+                    <!-- Title (with breadcrumbs) -->
+                    <ul class="tsd-breadcrumb title">
+                            <li><a href="/docs">@awayjs</a></li>
+                            <li><a href="../index.html">graphics</a></li>
+                            
+    <!--<li>-->
+        <!---->
+            <!--<a href="ImageCubeParser.html">ImageCubeParser</a>-->
+        <!---->
+    <!--</li>-->
+
+                    </ul>
+
+                    <!-- Search -->
+                    <!---->
+                        <div class="field">
+                            <label for="tsd-search-field" class="tsd-widget search no-caption">Search</label>
+                            <input id="tsd-search-field" type="text" />
+                        </div>
+                    <!---->
+
+                    <ul class="results">
+                        <li class="state loading">Preparing search index...</li>
+                        <li class="state failure">The search index is not available</li>
+                    </ul>
+                </div>
+
+                <!-- Filter -->
+
+                    <div class="table-cell" id="tsd-widgets">
+                        <div id="tsd-filter">
+                                <a href="#" class="tsd-widget options no-caption" data-toggle="options">Options</a>
+                                <div class="tsd-filter-group">
+                                    <input type="checkbox" id="tsd-filter-inherited"/>
+                                    <label class="tsd-widget" for="tsd-filter-inherited">Show Inherited</label>
+                                </div>
+                        </div>
+                        <a href="#" class="tsd-widget menu no-caption" data-toggle="menu">Menu</a>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Page title: only show in leafs -->
+        <div class="tsd-page-title">
+            <div class="container">
+                <h1>Class ImageCubeParser</h1>
+            </div>
+        </div>
+</header>
+<div class="container container-main">
+
+    <!-- account spacing for having no title, which happens in non leafs -->
+
+    <div class="row">
+        <div class="col-8 col-content">
+                    <section class="tsd-panel tsd-comment">
+                    <div class="tsd-comment tsd-typography">
+                <div class="lead">
+                    <p>ImageCubeParser provides a &quot;parser&quot; for natively supported image types (jpg, png). While it simply loads bytes into
+a loader object, it wraps it in a BitmapImage2DResource so resource management can happen consistently without
+exception cases.</p>
+
+                </div>
+        </div>
+        </section>
+
+
+    <section class="tsd-panel tsd-hierarchy">
+        <h3>Hierarchy</h3>
+        <ul class="tsd-hierarchy">
+        <li>
+                <span class="tsd-signature-type">ParserBase</span>
+        </li>
+</ul>
+
+    </section>
+
+
+
+
+
+    <section class="tsd-panel-group tsd-index-group">
+    <h2>Index</h2>
+    <section class="tsd-panel tsd-index-panel">
+        <div class="tsd-index-content">
+                <section class="tsd-index-section ">
+                    <h3>Constructors</h3>
+                    <ul class="tsd-index-list">
+                        <li class="tsd-kind-constructor tsd-parent-kind-class tsd-is-overwrite"><a href="ImageCubeParser.html#constructor" class="tsd-kind-icon">constructor</a></li>
+                    </ul>
+                </section>
+                <section class="tsd-index-section tsd-is-inherited">
+                    <h3>Properties</h3>
+                    <ul class="tsd-index-list">
+                        <li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="ImageCubeParser.html#_iFileName" class="tsd-kind-icon">_i<wbr>File<wbr>Name</a></li>
+                        <li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="ImageCubeParser.html#_isParsing" class="tsd-kind-icon">_is<wbr>Parsing</a></li>
+                        <li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="ImageCubeParser.html#_pContent" class="tsd-kind-icon">_p<wbr>Content</a></li>
+                        <li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="ImageCubeParser.html#content" class="tsd-kind-icon">content</a></li>
+                        <li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="ImageCubeParser.html#data" class="tsd-kind-icon">data</a></li>
+                        <li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="ImageCubeParser.html#dataFormat" class="tsd-kind-icon">data<wbr>Format</a></li>
+                        <li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="ImageCubeParser.html#dependencies" class="tsd-kind-icon">dependencies</a></li>
+                        <li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="ImageCubeParser.html#materialMode" class="tsd-kind-icon">material<wbr>Mode</a></li>
+                        <li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="ImageCubeParser.html#parsingComplete" class="tsd-kind-icon">parsing<wbr>Complete</a></li>
+                        <li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="ImageCubeParser.html#parsingFailure" class="tsd-kind-icon">parsing<wbr>Failure</a></li>
+                        <li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="ImageCubeParser.html#parsingPaused" class="tsd-kind-icon">parsing<wbr>Paused</a></li>
+                        <li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited tsd-is-static"><a href="ImageCubeParser.html#MORE_TO_PARSE" class="tsd-kind-icon">MORE_<wbr>TO_<wbr>PARSE</a></li>
+                        <li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited tsd-is-static"><a href="ImageCubeParser.html#PARSING_DONE" class="tsd-kind-icon">PARSING_<wbr>DONE</a></li>
+                    </ul>
+                </section>
+                <section class="tsd-index-section ">
+                    <h3>Methods</h3>
+                    <ul class="tsd-index-list">
+                        <li class="tsd-kind-method tsd-parent-kind-class tsd-is-overwrite"><a href="ImageCubeParser.html#_iResolveDependency" class="tsd-kind-icon">_i<wbr>Resolve<wbr>Dependency</a></li>
+                        <li class="tsd-kind-method tsd-parent-kind-class tsd-is-overwrite"><a href="ImageCubeParser.html#_iResolveDependencyFailure" class="tsd-kind-icon">_i<wbr>Resolve<wbr>Dependency<wbr>Failure</a></li>
+                        <li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="ImageCubeParser.html#_iResolveDependencyName" class="tsd-kind-icon">_i<wbr>Resolve<wbr>Dependency<wbr>Name</a></li>
+                        <li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="ImageCubeParser.html#_iResumeParsing" class="tsd-kind-icon">_i<wbr>Resume<wbr>Parsing</a></li>
+                        <li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="ImageCubeParser.html#_pAddDependency" class="tsd-kind-icon">_p<wbr>Add<wbr>Dependency</a></li>
+                        <li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="ImageCubeParser.html#_pDieWithError" class="tsd-kind-icon">_p<wbr>Die<wbr>With<wbr>Error</a></li>
+                        <li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="ImageCubeParser.html#_pFinalizeAsset" class="tsd-kind-icon">_p<wbr>Finalize<wbr>Asset</a></li>
+                        <li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="ImageCubeParser.html#_pFinishParsing" class="tsd-kind-icon">_p<wbr>Finish<wbr>Parsing</a></li>
+                        <li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited tsd-is-private"><a href="ImageCubeParser.html#_pGetByteData" class="tsd-kind-icon">_p<wbr>Get<wbr>Byte<wbr>Data</a></li>
+                        <li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited tsd-is-private"><a href="ImageCubeParser.html#_pGetData" class="tsd-kind-icon">_p<wbr>Get<wbr>Data</a></li>
+                        <li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited tsd-is-private"><a href="ImageCubeParser.html#_pGetTextData" class="tsd-kind-icon">_p<wbr>Get<wbr>Text<wbr>Data</a></li>
+                        <li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="ImageCubeParser.html#_pHasTime" class="tsd-kind-icon">_p<wbr>Has<wbr>Time</a></li>
+                        <li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="ImageCubeParser.html#_pOnInterval" class="tsd-kind-icon">_p<wbr>OnInterval</a></li>
+                        <li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="ImageCubeParser.html#_pPauseAndRetrieveDependencies" class="tsd-kind-icon">_p<wbr>Pause<wbr>And<wbr>Retrieve<wbr>Dependencies</a></li>
+                        <li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="ImageCubeParser.html#_pPauseParsing" class="tsd-kind-icon">_p<wbr>Pause<wbr>Parsing</a></li>
+                        <li class="tsd-kind-method tsd-parent-kind-class tsd-is-overwrite"><a href="ImageCubeParser.html#_pProceedParsing" class="tsd-kind-icon">_p<wbr>Proceed<wbr>Parsing</a></li>
+                        <li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="ImageCubeParser.html#_pStartParsing" class="tsd-kind-icon">_p<wbr>Start<wbr>Parsing</a></li>
+                        <li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="ImageCubeParser.html#addEventListener" class="tsd-kind-icon">add<wbr>Event<wbr>Listener</a></li>
+                        <li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="ImageCubeParser.html#dispatchEvent" class="tsd-kind-icon">dispatch<wbr>Event</a></li>
+                        <li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="ImageCubeParser.html#hasEventListener" class="tsd-kind-icon">has<wbr>Event<wbr>Listener</a></li>
+                        <li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="ImageCubeParser.html#parseAsync" class="tsd-kind-icon">parse<wbr>Async</a></li>
+                        <li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="ImageCubeParser.html#removeEventListener" class="tsd-kind-icon">remove<wbr>Event<wbr>Listener</a></li>
+                        <li class="tsd-kind-method tsd-parent-kind-class tsd-is-static"><a href="ImageCubeParser.html#supportsData" class="tsd-kind-icon">supports<wbr>Data</a></li>
+                        <li class="tsd-kind-method tsd-parent-kind-class tsd-is-overwrite tsd-is-static"><a href="ImageCubeParser.html#supportsType" class="tsd-kind-icon">supports<wbr>Type</a></li>
+                    </ul>
+                </section>
+        </div>
+    </section>
+</section>
+            <section class="tsd-panel-group tsd-member-group ">
+    <h2>Constructors</h2>
+            <section class="tsd-panel tsd-member tsd-kind-constructor tsd-parent-kind-class tsd-is-overwrite">
+    <a name="constructor" class="tsd-anchor"></a>
+        <h3>constructor</h3>
+
+        <ul class="tsd-signatures tsd-kind-constructor tsd-parent-kind-class tsd-is-overwrite">
+        <li class="tsd-signature tsd-kind-icon">new <wbr>Image<wbr>Cube<wbr>Parser<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="ImageCubeParser.html" class="tsd-signature-type">ImageCubeParser</a></li>
+</ul>
+
+<ul class="tsd-descriptions">
+        <li class="tsd-description">
+                <aside class="tsd-sources">
+        <p>Overwrites ParserBase.__constructor</p>
+        <ul>
+                    <li>Defined in parsers/ImageCubeParser.ts:20</li>
+        </ul>
+</aside>
+        <div class="tsd-comment tsd-typography">
+                <div class="lead">
+                    <p>Creates a new ImageCubeParser object.</p>
+
+                </div>
+        </div>
+
+
+
+    <h4 class="tsd-returns-title">Returns <a href="ImageCubeParser.html" class="tsd-signature-type">ImageCubeParser</a></h4>
+
+
+        </li>
+</ul>    
+
+</section>
+</section>
+        <section class="tsd-panel-group tsd-member-group tsd-is-inherited">
+    <h2>Properties</h2>
+            <section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-inherited">
+    <a name="_iFileName" class="tsd-anchor"></a>
+        <h3>_i<wbr>File<wbr>Name</h3>
+
+        <div class="tsd-signature tsd-kind-icon">_i<wbr>File<wbr>Name<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
+
+<aside class="tsd-sources">
+        <p>Inherited from ParserBase._iFileName</p>
+        <ul>
+                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/core/dist/lib/parsers/ParserBase.d.ts:28</li>
+        </ul>
+</aside>
+
+    
+
+</section>
+            <section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-inherited">
+    <a name="_isParsing" class="tsd-anchor"></a>
+        <h3>_is<wbr>Parsing</h3>
+
+        <div class="tsd-signature tsd-kind-icon">_is<wbr>Parsing<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span></div>
+
+<aside class="tsd-sources">
+        <p>Inherited from ParserBase._isParsing</p>
+        <ul>
+                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/core/dist/lib/parsers/ParserBase.d.ts:27</li>
+        </ul>
+</aside>
+
+    
+
+</section>
+            <section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-inherited">
+    <a name="_pContent" class="tsd-anchor"></a>
+        <h3>_p<wbr>Content</h3>
+
+        <div class="tsd-signature tsd-kind-icon">_p<wbr>Content<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">IAsset</span></div>
+
+<aside class="tsd-sources">
+        <p>Inherited from ParserBase._pContent</p>
+        <ul>
+                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/core/dist/lib/parsers/ParserBase.d.ts:34</li>
+        </ul>
+</aside>
+
+    
+
+</section>
+            <section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-inherited">
+    <a name="content" class="tsd-anchor"></a>
+        <h3>content</h3>
+
+        <div class="tsd-signature tsd-kind-icon">content<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">IAsset</span></div>
+
+<aside class="tsd-sources">
+        <p>Inherited from ParserBase.content</p>
+        <ul>
+                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/core/dist/lib/parsers/ParserBase.d.ts:50</li>
+        </ul>
+</aside>
+
+    
+
+</section>
+            <section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-inherited">
+    <a name="data" class="tsd-anchor"></a>
+        <h3>data</h3>
+
+        <div class="tsd-signature tsd-kind-icon">data<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">any</span></div>
+
+<aside class="tsd-sources">
+        <p>Inherited from ParserBase.data</p>
+        <ul>
+                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/core/dist/lib/parsers/ParserBase.d.ts:62</li>
+        </ul>
+</aside>
+
+    
+
+</section>
+            <section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-inherited">
+    <a name="dataFormat" class="tsd-anchor"></a>
+        <h3>data<wbr>Format</h3>
+
+        <div class="tsd-signature tsd-kind-icon">data<wbr>Format<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
+
+<aside class="tsd-sources">
+        <p>Inherited from ParserBase.dataFormat</p>
+        <ul>
+                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/core/dist/lib/parsers/ParserBase.d.ts:66</li>
+        </ul>
+</aside>
+        <div class="tsd-comment tsd-typography">
+                <div class="lead">
+                    <p>The data format of the file data to be parsed. Options are <code>URLLoaderDataFormat.BINARY</code>, <code>URLLoaderDataFormat.ARRAY_BUFFER</code>, <code>URLLoaderDataFormat.BLOB</code>, <code>URLLoaderDataFormat.VARIABLES</code> or <code>URLLoaderDataFormat.TEXT</code>.</p>
+
+                </div>
+        </div>
+
+    
+
+</section>
+            <section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-inherited">
+    <a name="dependencies" class="tsd-anchor"></a>
+        <h3>dependencies</h3>
+
+        <div class="tsd-signature tsd-kind-icon">dependencies<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">Array</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">ResourceDependency</span><span class="tsd-signature-symbol">&gt;</span></div>
+
+<aside class="tsd-sources">
+        <p>Inherited from ParserBase.dependencies</p>
+        <ul>
+                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/core/dist/lib/parsers/ParserBase.d.ts:81</li>
+        </ul>
+</aside>
+        <div class="tsd-comment tsd-typography">
+                <div class="lead">
+                    <p>A list of dependencies that need to be loaded and resolved for the object being parsed.</p>
+
+                </div>
+        </div>
+
+    
+
+</section>
+            <section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-inherited">
+    <a name="materialMode" class="tsd-anchor"></a>
+        <h3>material<wbr>Mode</h3>
+
+        <div class="tsd-signature tsd-kind-icon">material<wbr>Mode<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
+
+<aside class="tsd-sources">
+        <p>Inherited from ParserBase.materialMode</p>
+        <ul>
+                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/core/dist/lib/parsers/ParserBase.d.ts:61</li>
+        </ul>
+</aside>
+
+    
+
+</section>
+            <section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-inherited">
+    <a name="parsingComplete" class="tsd-anchor"></a>
+        <h3>parsing<wbr>Complete</h3>
+
+        <div class="tsd-signature tsd-kind-icon">parsing<wbr>Complete<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span></div>
+
+<aside class="tsd-sources">
+        <p>Inherited from ParserBase.parsingComplete</p>
+        <ul>
+                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/core/dist/lib/parsers/ParserBase.d.ts:60</li>
+        </ul>
+</aside>
+
+    
+
+</section>
+            <section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-inherited">
+    <a name="parsingFailure" class="tsd-anchor"></a>
+        <h3>parsing<wbr>Failure</h3>
+
+        <div class="tsd-signature tsd-kind-icon">parsing<wbr>Failure<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span></div>
+
+<aside class="tsd-sources">
+        <p>Inherited from ParserBase.parsingFailure</p>
+        <ul>
+                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/core/dist/lib/parsers/ParserBase.d.ts:58</li>
+        </ul>
+</aside>
+
+    
+
+</section>
+            <section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-inherited">
+    <a name="parsingPaused" class="tsd-anchor"></a>
+        <h3>parsing<wbr>Paused</h3>
+
+        <div class="tsd-signature tsd-kind-icon">parsing<wbr>Paused<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span></div>
+
+<aside class="tsd-sources">
+        <p>Inherited from ParserBase.parsingPaused</p>
+        <ul>
+                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/core/dist/lib/parsers/ParserBase.d.ts:59</li>
+        </ul>
+</aside>
+
+    
+
+</section>
+            <section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-inherited tsd-is-static">
+    <a name="MORE_TO_PARSE" class="tsd-anchor"></a>
+        <h3><span class="tsd-flag ts-flagStatic">Static</span> MORE_<wbr>TO_<wbr>PARSE</h3>
+
+        <div class="tsd-signature tsd-kind-icon">MORE_<wbr>TO_<wbr>PARSE<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span></div>
+
+<aside class="tsd-sources">
+        <p>Inherited from ParserBase.MORE_TO_PARSE</p>
+        <ul>
+                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/core/dist/lib/parsers/ParserBase.d.ts:49</li>
+        </ul>
+</aside>
+        <div class="tsd-comment tsd-typography">
+                <div class="lead">
+                    <p>Returned by <code>proceedParsing</code> to indicate more parsing is needed, allowing asynchronous parsing.</p>
+
+                </div>
+        </div>
+
+    
+
+</section>
+            <section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-inherited tsd-is-static">
+    <a name="PARSING_DONE" class="tsd-anchor"></a>
+        <h3><span class="tsd-flag ts-flagStatic">Static</span> PARSING_<wbr>DONE</h3>
+
+        <div class="tsd-signature tsd-kind-icon">PARSING_<wbr>DONE<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span></div>
+
+<aside class="tsd-sources">
+        <p>Inherited from ParserBase.PARSING_DONE</p>
+        <ul>
+                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/core/dist/lib/parsers/ParserBase.d.ts:45</li>
+        </ul>
+</aside>
+        <div class="tsd-comment tsd-typography">
+                <div class="lead">
+                    <p>Returned by <code>proceedParsing</code> to indicate no more parsing is needed.</p>
+
+                </div>
+        </div>
+
+    
+
+</section>
+</section>
+        <section class="tsd-panel-group tsd-member-group ">
+    <h2>Methods</h2>
+            <section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-overwrite">
+    <a name="_iResolveDependency" class="tsd-anchor"></a>
+        <h3>_i<wbr>Resolve<wbr>Dependency</h3>
+
+        <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-overwrite">
+        <li class="tsd-signature tsd-kind-icon">_i<wbr>Resolve<wbr>Dependency<span class="tsd-signature-symbol">(</span>resourceDependency<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">ResourceDependency</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+</ul>
+
+<ul class="tsd-descriptions">
+        <li class="tsd-description">
+                <aside class="tsd-sources">
+        <p>Overwrites ParserBase._iResolveDependency</p>
+        <ul>
+                    <li>Defined in parsers/ImageCubeParser.ts:66</li>
+        </ul>
+</aside>
+        <div class="tsd-comment tsd-typography">
+                <dl class="tsd-comment-tags">
+                        <dt>inheritdoc</dt>
+                        <dd></dd>
+                </dl>
+        </div>
+
+
+    <h4 class="tsd-parameters-title">Parameters</h4>
+    <ul class="tsd-parameters">
+            <li>
+                <h5>resourceDependency: <span class="tsd-signature-type">ResourceDependency</span></h5>
+
+                
+            </li>
+    </ul>
+
+    <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+
+
+        </li>
+</ul>    
+
+</section>
+            <section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-overwrite">
+    <a name="_iResolveDependencyFailure" class="tsd-anchor"></a>
+        <h3>_i<wbr>Resolve<wbr>Dependency<wbr>Failure</h3>
+
+        <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-overwrite">
+        <li class="tsd-signature tsd-kind-icon">_i<wbr>Resolve<wbr>Dependency<wbr>Failure<span class="tsd-signature-symbol">(</span>resourceDependency<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">ResourceDependency</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+</ul>
+
+<ul class="tsd-descriptions">
+        <li class="tsd-description">
+                <aside class="tsd-sources">
+        <p>Overwrites ParserBase._iResolveDependencyFailure</p>
+        <ul>
+                    <li>Defined in parsers/ImageCubeParser.ts:74</li>
+        </ul>
+</aside>
+        <div class="tsd-comment tsd-typography">
+                <dl class="tsd-comment-tags">
+                        <dt>inheritdoc</dt>
+                        <dd></dd>
+                </dl>
+        </div>
+
+
+    <h4 class="tsd-parameters-title">Parameters</h4>
+    <ul class="tsd-parameters">
+            <li>
+                <h5>resourceDependency: <span class="tsd-signature-type">ResourceDependency</span></h5>
+
+                
+            </li>
+    </ul>
+
+    <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+
+
+        </li>
+</ul>    
+
+</section>
+            <section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+    <a name="_iResolveDependencyName" class="tsd-anchor"></a>
+        <h3>_i<wbr>Resolve<wbr>Dependency<wbr>Name</h3>
+
+        <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+        <li class="tsd-signature tsd-kind-icon">_i<wbr>Resolve<wbr>Dependency<wbr>Name<span class="tsd-signature-symbol">(</span>resourceDependency<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">ResourceDependency</span>, asset<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">IAsset</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span></li>
+</ul>
+
+<ul class="tsd-descriptions">
+        <li class="tsd-description">
+                <aside class="tsd-sources">
+        <p>Inherited from ParserBase._iResolveDependencyName</p>
+        <ul>
+                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/core/dist/lib/parsers/ParserBase.d.ts:101</li>
+        </ul>
+</aside>
+        <div class="tsd-comment tsd-typography">
+                <div class="lead">
+                    <p>Resolve a dependency name</p>
+
+                </div>
+        </div>
+
+
+    <h4 class="tsd-parameters-title">Parameters</h4>
+    <ul class="tsd-parameters">
+            <li>
+                <h5>resourceDependency: <span class="tsd-signature-type">ResourceDependency</span></h5>
+
+                        <div class="tsd-comment tsd-typography">
+                <p>The dependency to be resolved.</p>
+
+        </div>
+
+            </li>
+            <li>
+                <h5>asset: <span class="tsd-signature-type">IAsset</span></h5>
+
+                
+            </li>
+    </ul>
+
+    <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">string</span></h4>
+
+
+        </li>
+</ul>    
+
+</section>
+            <section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+    <a name="_iResumeParsing" class="tsd-anchor"></a>
+        <h3>_i<wbr>Resume<wbr>Parsing</h3>
+
+        <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+        <li class="tsd-signature tsd-kind-icon">_i<wbr>Resume<wbr>Parsing<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+</ul>
+
+<ul class="tsd-descriptions">
+        <li class="tsd-description">
+                <aside class="tsd-sources">
+        <p>Inherited from ParserBase._iResumeParsing</p>
+        <ul>
+                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/core/dist/lib/parsers/ParserBase.d.ts:102</li>
+        </ul>
+</aside>
+
+
+
+    <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+
+
+        </li>
+</ul>    
+
+</section>
+            <section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+    <a name="_pAddDependency" class="tsd-anchor"></a>
+        <h3>_p<wbr>Add<wbr>Dependency</h3>
+
+        <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+        <li class="tsd-signature tsd-kind-icon">_p<wbr>Add<wbr>Dependency<span class="tsd-signature-symbol">(</span>id<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span>, req<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">URLRequest</span>, retrieveAsRawData<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">boolean</span>, data<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">any</span>, suppressErrorEvents<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">boolean</span>, sub_id<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">ResourceDependency</span></li>
+</ul>
+
+<ul class="tsd-descriptions">
+        <li class="tsd-description">
+                <aside class="tsd-sources">
+        <p>Inherited from ParserBase._pAddDependency</p>
+        <ul>
+                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/core/dist/lib/parsers/ParserBase.d.ts:111</li>
+        </ul>
+</aside>
+
+
+    <h4 class="tsd-parameters-title">Parameters</h4>
+    <ul class="tsd-parameters">
+            <li>
+                <h5>id: <span class="tsd-signature-type">string</span></h5>
+
+                
+            </li>
+            <li>
+                <h5>req: <span class="tsd-signature-type">URLRequest</span></h5>
+
+                
+            </li>
+            <li>
+                <h5><span class="tsd-flag ts-flagOptional">Optional</span> retrieveAsRawData: <span class="tsd-signature-type">boolean</span></h5>
+
+                
+            </li>
+            <li>
+                <h5><span class="tsd-flag ts-flagOptional">Optional</span> data: <span class="tsd-signature-type">any</span></h5>
+
+                
+            </li>
+            <li>
+                <h5><span class="tsd-flag ts-flagOptional">Optional</span> suppressErrorEvents: <span class="tsd-signature-type">boolean</span></h5>
+
+                
+            </li>
+            <li>
+                <h5><span class="tsd-flag ts-flagOptional">Optional</span> sub_id: <span class="tsd-signature-type">number</span></h5>
+
+                
+            </li>
+    </ul>
+
+    <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">ResourceDependency</span></h4>
+
+
+        </li>
+</ul>    
+
+</section>
+            <section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+    <a name="_pDieWithError" class="tsd-anchor"></a>
+        <h3>_p<wbr>Die<wbr>With<wbr>Error</h3>
+
+        <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+        <li class="tsd-signature tsd-kind-icon">_p<wbr>Die<wbr>With<wbr>Error<span class="tsd-signature-symbol">(</span>message<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+</ul>
+
+<ul class="tsd-descriptions">
+        <li class="tsd-description">
+                <aside class="tsd-sources">
+        <p>Inherited from ParserBase._pDieWithError</p>
+        <ul>
+                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/core/dist/lib/parsers/ParserBase.d.ts:110</li>
+        </ul>
+</aside>
+
+
+    <h4 class="tsd-parameters-title">Parameters</h4>
+    <ul class="tsd-parameters">
+            <li>
+                <h5><span class="tsd-flag ts-flagOptional">Optional</span> message: <span class="tsd-signature-type">string</span></h5>
+
+                
+            </li>
+    </ul>
+
+    <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+
+
+        </li>
+</ul>    
+
+</section>
+            <section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+    <a name="_pFinalizeAsset" class="tsd-anchor"></a>
+        <h3>_p<wbr>Finalize<wbr>Asset</h3>
+
+        <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+        <li class="tsd-signature tsd-kind-icon">_p<wbr>Finalize<wbr>Asset<span class="tsd-signature-symbol">(</span>asset<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">IAsset</span>, name<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+</ul>
+
+<ul class="tsd-descriptions">
+        <li class="tsd-description">
+                <aside class="tsd-sources">
+        <p>Inherited from ParserBase._pFinalizeAsset</p>
+        <ul>
+                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/core/dist/lib/parsers/ParserBase.d.ts:103</li>
+        </ul>
+</aside>
+
+
+    <h4 class="tsd-parameters-title">Parameters</h4>
+    <ul class="tsd-parameters">
+            <li>
+                <h5>asset: <span class="tsd-signature-type">IAsset</span></h5>
+
+                
+            </li>
+            <li>
+                <h5><span class="tsd-flag ts-flagOptional">Optional</span> name: <span class="tsd-signature-type">string</span></h5>
+
+                
+            </li>
+    </ul>
+
+    <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+
+
+        </li>
+</ul>    
+
+</section>
+            <section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+    <a name="_pFinishParsing" class="tsd-anchor"></a>
+        <h3>_p<wbr>Finish<wbr>Parsing</h3>
+
+        <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+        <li class="tsd-signature tsd-kind-icon">_p<wbr>Finish<wbr>Parsing<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+</ul>
+
+<ul class="tsd-descriptions">
+        <li class="tsd-description">
+                <aside class="tsd-sources">
+        <p>Inherited from ParserBase._pFinishParsing</p>
+        <ul>
+                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/core/dist/lib/parsers/ParserBase.d.ts:131</li>
+        </ul>
+</aside>
+        <div class="tsd-comment tsd-typography">
+                <div class="lead">
+                    <p>Finish parsing the data.</p>
+
+                </div>
+        </div>
+
+
+
+    <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+
+
+        </li>
+</ul>    
+
+</section>
+            <section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-inherited tsd-is-private">
+    <a name="_pGetByteData" class="tsd-anchor"></a>
+        <h3><span class="tsd-flag ts-flagPrivate">Private</span> _p<wbr>Get<wbr>Byte<wbr>Data</h3>
+
+        <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-inherited tsd-is-private">
+        <li class="tsd-signature tsd-kind-icon">_p<wbr>Get<wbr>Byte<wbr>Data<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">ByteArray</span></li>
+</ul>
+
+<ul class="tsd-descriptions">
+        <li class="tsd-description">
+                <aside class="tsd-sources">
+        <p>Inherited from ParserBase._pGetByteData</p>
+        <ul>
+                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/core/dist/lib/parsers/ParserBase.d.ts:143</li>
+        </ul>
+</aside>
+        <div class="tsd-comment tsd-typography">
+        </div>
+
+
+
+    <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">ByteArray</span></h4>
+
+
+        </li>
+</ul>    
+
+</section>
+            <section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-inherited tsd-is-private">
+    <a name="_pGetData" class="tsd-anchor"></a>
+        <h3><span class="tsd-flag ts-flagPrivate">Private</span> _p<wbr>Get<wbr>Data</h3>
+
+        <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-inherited tsd-is-private">
+        <li class="tsd-signature tsd-kind-icon">_p<wbr>Get<wbr>Data<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span></li>
+</ul>
+
+<ul class="tsd-descriptions">
+        <li class="tsd-description">
+                <aside class="tsd-sources">
+        <p>Inherited from ParserBase._pGetData</p>
+        <ul>
+                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/core/dist/lib/parsers/ParserBase.d.ts:149</li>
+        </ul>
+</aside>
+        <div class="tsd-comment tsd-typography">
+        </div>
+
+
+
+    <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">any</span></h4>
+
+
+        </li>
+</ul>    
+
+</section>
+            <section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-inherited tsd-is-private">
+    <a name="_pGetTextData" class="tsd-anchor"></a>
+        <h3><span class="tsd-flag ts-flagPrivate">Private</span> _p<wbr>Get<wbr>Text<wbr>Data</h3>
+
+        <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-inherited tsd-is-private">
+        <li class="tsd-signature tsd-kind-icon">_p<wbr>Get<wbr>Text<wbr>Data<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span></li>
+</ul>
+
+<ul class="tsd-descriptions">
+        <li class="tsd-description">
+                <aside class="tsd-sources">
+        <p>Inherited from ParserBase._pGetTextData</p>
+        <ul>
+                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/core/dist/lib/parsers/ParserBase.d.ts:137</li>
+        </ul>
+</aside>
+        <div class="tsd-comment tsd-typography">
+        </div>
+
+
+
+    <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">string</span></h4>
+
+
+        </li>
+</ul>    
+
+</section>
+            <section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+    <a name="_pHasTime" class="tsd-anchor"></a>
+        <h3>_p<wbr>Has<wbr>Time</h3>
+
+        <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+        <li class="tsd-signature tsd-kind-icon">_p<wbr>Has<wbr>Time<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">boolean</span></li>
+</ul>
+
+<ul class="tsd-descriptions">
+        <li class="tsd-description">
+                <aside class="tsd-sources">
+        <p>Inherited from ParserBase._pHasTime</p>
+        <ul>
+                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/core/dist/lib/parsers/ParserBase.d.ts:118</li>
+        </ul>
+</aside>
+        <div class="tsd-comment tsd-typography">
+                <div class="lead">
+                    <p>Tests whether or not there is still time left for parsing within the maximum allowed time frame per session.</p>
+
+                </div>
+        </div>
+
+
+
+    <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">boolean</span></h4>
+
+        <p>True if there is still time left, false if the maximum allotted time was exceeded and parsing should be interrupted.</p>
+
+
+        </li>
+</ul>    
+
+</section>
+            <section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+    <a name="_pOnInterval" class="tsd-anchor"></a>
+        <h3>_p<wbr>OnInterval</h3>
+
+        <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+        <li class="tsd-signature tsd-kind-icon">_p<wbr>OnInterval<span class="tsd-signature-symbol">(</span>event<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">TimerEvent</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+</ul>
+
+<ul class="tsd-descriptions">
+        <li class="tsd-description">
+                <aside class="tsd-sources">
+        <p>Inherited from ParserBase._pOnInterval</p>
+        <ul>
+                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/core/dist/lib/parsers/ParserBase.d.ts:122</li>
+        </ul>
+</aside>
+        <div class="tsd-comment tsd-typography">
+                <div class="lead">
+                    <p>Called when the parsing pause interval has passed and parsing can proceed.</p>
+
+                </div>
+        </div>
+
+
+    <h4 class="tsd-parameters-title">Parameters</h4>
+    <ul class="tsd-parameters">
+            <li>
+                <h5><span class="tsd-flag ts-flagOptional">Optional</span> event: <span class="tsd-signature-type">TimerEvent</span></h5>
+
+                
+            </li>
+    </ul>
+
+    <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+
+
+        </li>
+</ul>    
+
+</section>
+            <section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+    <a name="_pPauseAndRetrieveDependencies" class="tsd-anchor"></a>
+        <h3>_p<wbr>Pause<wbr>And<wbr>Retrieve<wbr>Dependencies</h3>
+
+        <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+        <li class="tsd-signature tsd-kind-icon">_p<wbr>Pause<wbr>And<wbr>Retrieve<wbr>Dependencies<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+</ul>
+
+<ul class="tsd-descriptions">
+        <li class="tsd-description">
+                <aside class="tsd-sources">
+        <p>Inherited from ParserBase._pPauseAndRetrieveDependencies</p>
+        <ul>
+                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/core/dist/lib/parsers/ParserBase.d.ts:112</li>
+        </ul>
+</aside>
+
+
+
+    <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+
+
+        </li>
+</ul>    
+
+</section>
+            <section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+    <a name="_pPauseParsing" class="tsd-anchor"></a>
+        <h3>_p<wbr>Pause<wbr>Parsing</h3>
+
+        <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+        <li class="tsd-signature tsd-kind-icon">_p<wbr>Pause<wbr>Parsing<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+</ul>
+
+<ul class="tsd-descriptions">
+        <li class="tsd-description">
+                <aside class="tsd-sources">
+        <p>Inherited from ParserBase._pPauseParsing</p>
+        <ul>
+                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/core/dist/lib/parsers/ParserBase.d.ts:113</li>
+        </ul>
+</aside>
+
+
+
+    <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+
+
+        </li>
+</ul>    
+
+</section>
+            <section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-overwrite">
+    <a name="_pProceedParsing" class="tsd-anchor"></a>
+        <h3>_p<wbr>Proceed<wbr>Parsing</h3>
+
+        <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-overwrite">
+        <li class="tsd-signature tsd-kind-icon">_p<wbr>Proceed<wbr>Parsing<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">boolean</span></li>
+</ul>
+
+<ul class="tsd-descriptions">
+        <li class="tsd-description">
+                <aside class="tsd-sources">
+        <p>Overwrites ParserBase._pProceedParsing</p>
+        <ul>
+                    <li>Defined in parsers/ImageCubeParser.ts:82</li>
+        </ul>
+</aside>
+        <div class="tsd-comment tsd-typography">
+                <dl class="tsd-comment-tags">
+                        <dt>inheritdoc</dt>
+                        <dd></dd>
+                </dl>
+        </div>
+
+
+
+    <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">boolean</span></h4>
+
+
+        </li>
+</ul>    
+
+</section>
+            <section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+    <a name="_pStartParsing" class="tsd-anchor"></a>
+        <h3>_p<wbr>Start<wbr>Parsing</h3>
+
+        <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+        <li class="tsd-signature tsd-kind-icon">_p<wbr>Start<wbr>Parsing<span class="tsd-signature-symbol">(</span>frameLimit<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+</ul>
+
+<ul class="tsd-descriptions">
+        <li class="tsd-description">
+                <aside class="tsd-sources">
+        <p>Inherited from ParserBase._pStartParsing</p>
+        <ul>
+                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/core/dist/lib/parsers/ParserBase.d.ts:127</li>
+        </ul>
+</aside>
+        <div class="tsd-comment tsd-typography">
+                <div class="lead">
+                    <p>Initializes the parsing of data.</p>
+
+                </div>
+        </div>
+
+
+    <h4 class="tsd-parameters-title">Parameters</h4>
+    <ul class="tsd-parameters">
+            <li>
+                <h5>frameLimit: <span class="tsd-signature-type">number</span></h5>
+
+                        <div class="tsd-comment tsd-typography">
+                <p>The maximum duration of a parsing session.</p>
+
+        </div>
+
+            </li>
+    </ul>
+
+    <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+
+
+        </li>
+</ul>    
+
+</section>
+            <section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+    <a name="addEventListener" class="tsd-anchor"></a>
+        <h3>add<wbr>Event<wbr>Listener</h3>
+
+        <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+        <li class="tsd-signature tsd-kind-icon">add<wbr>Event<wbr>Listener<span class="tsd-signature-symbol">(</span>type<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span>, listener<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">function</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+</ul>
+
+<ul class="tsd-descriptions">
+        <li class="tsd-description">
+                <aside class="tsd-sources">
+        <p>Inherited from EventDispatcher.addEventListener</p>
+        <ul>
+                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/core/dist/lib/events/EventDispatcher.d.ts:18</li>
+        </ul>
+</aside>
+        <div class="tsd-comment tsd-typography">
+                <div class="lead">
+                    <p>Add an event listener</p>
+
+                </div>
+                <dl class="tsd-comment-tags">
+                        <dt>method</dt>
+                        <dd><p>addEventListener</p>
+</dd>
+                </dl>
+        </div>
+
+
+    <h4 class="tsd-parameters-title">Parameters</h4>
+    <ul class="tsd-parameters">
+            <li>
+                <h5>type: <span class="tsd-signature-type">string</span></h5>
+
+                
+            </li>
+            <li>
+                <h5>listener: <span class="tsd-signature-type">function</span></h5>
+
+                
+                        <ul class="tsd-parameters">
+        <li class="tsd-parameter-siganture">
+            <ul class="tsd-signatures tsd-kind-type-literal tsd-is-not-exported">
+                    <li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">(</span>event<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">EventBase</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+            </ul>
+
+            <ul class="tsd-descriptions">
+                    <li class="tsd-description">
+
+
+    <h4 class="tsd-parameters-title">Parameters</h4>
+    <ul class="tsd-parameters">
+            <li>
+                <h5>event: <span class="tsd-signature-type">EventBase</span></h5>
+
+                
+            </li>
+    </ul>
+
+    <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+
+
+</li>
+            </ul>
+        </li>
+</ul>
+            </li>
+    </ul>
+
+    <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+
+
+        </li>
+</ul>    
+
+</section>
+            <section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+    <a name="dispatchEvent" class="tsd-anchor"></a>
+        <h3>dispatch<wbr>Event</h3>
+
+        <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+        <li class="tsd-signature tsd-kind-icon">dispatch<wbr>Event<span class="tsd-signature-symbol">(</span>event<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">EventBase</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+</ul>
+
+<ul class="tsd-descriptions">
+        <li class="tsd-description">
+                <aside class="tsd-sources">
+        <p>Inherited from EventDispatcher.dispatchEvent</p>
+        <ul>
+                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/core/dist/lib/events/EventDispatcher.d.ts:31</li>
+        </ul>
+</aside>
+        <div class="tsd-comment tsd-typography">
+                <div class="lead">
+                    <p>Dispatch an event</p>
+
+                </div>
+                <dl class="tsd-comment-tags">
+                        <dt>method</dt>
+                        <dd><p>dispatchEvent</p>
+</dd>
+                </dl>
+        </div>
+
+
+    <h4 class="tsd-parameters-title">Parameters</h4>
+    <ul class="tsd-parameters">
+            <li>
+                <h5>event: <span class="tsd-signature-type">EventBase</span></h5>
+
+                
+            </li>
+    </ul>
+
+    <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+
+
+        </li>
+</ul>    
+
+</section>
+            <section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+    <a name="hasEventListener" class="tsd-anchor"></a>
+        <h3>has<wbr>Event<wbr>Listener</h3>
+
+        <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+        <li class="tsd-signature tsd-kind-icon">has<wbr>Event<wbr>Listener<span class="tsd-signature-symbol">(</span>type<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span>, listener<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">function</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">boolean</span></li>
+</ul>
+
+<ul class="tsd-descriptions">
+        <li class="tsd-description">
+                <aside class="tsd-sources">
+        <p>Inherited from EventDispatcher.hasEventListener</p>
+        <ul>
+                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/core/dist/lib/events/EventDispatcher.d.ts:38</li>
+        </ul>
+</aside>
+        <div class="tsd-comment tsd-typography">
+                <div class="lead">
+                    <p>check if an object has an event listener assigned to it</p>
+
+                </div>
+                <dl class="tsd-comment-tags">
+                        <dt>method</dt>
+                        <dd><p>hasListener</p>
+</dd>
+                </dl>
+        </div>
+
+
+    <h4 class="tsd-parameters-title">Parameters</h4>
+    <ul class="tsd-parameters">
+            <li>
+                <h5>type: <span class="tsd-signature-type">string</span></h5>
+
+                
+            </li>
+            <li>
+                <h5><span class="tsd-flag ts-flagOptional">Optional</span> listener: <span class="tsd-signature-type">function</span></h5>
+
+                
+                        <ul class="tsd-parameters">
+        <li class="tsd-parameter-siganture">
+            <ul class="tsd-signatures tsd-kind-type-literal tsd-is-not-exported">
+                    <li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">(</span>event<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">EventBase</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+            </ul>
+
+            <ul class="tsd-descriptions">
+                    <li class="tsd-description">
+
+
+    <h4 class="tsd-parameters-title">Parameters</h4>
+    <ul class="tsd-parameters">
+            <li>
+                <h5>event: <span class="tsd-signature-type">EventBase</span></h5>
+
+                
+            </li>
+    </ul>
+
+    <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+
+
+</li>
+            </ul>
+        </li>
+</ul>
+            </li>
+    </ul>
+
+    <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">boolean</span></h4>
+
+
+        </li>
+</ul>    
+
+</section>
+            <section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+    <a name="parseAsync" class="tsd-anchor"></a>
+        <h3>parse<wbr>Async</h3>
+
+        <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+        <li class="tsd-signature tsd-kind-icon">parse<wbr>Async<span class="tsd-signature-symbol">(</span>data<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span>, frameLimit<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+</ul>
+
+<ul class="tsd-descriptions">
+        <li class="tsd-description">
+                <aside class="tsd-sources">
+        <p>Inherited from ParserBase.parseAsync</p>
+        <ul>
+                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/core/dist/lib/parsers/ParserBase.d.ts:77</li>
+        </ul>
+</aside>
+        <div class="tsd-comment tsd-typography">
+                <div class="lead">
+                    <p>Parse data (possibly containing bytearry, plain text or BitmapAsset) asynchronously, meaning that
+the parser will periodically stop parsing so that the AVM may proceed to the
+next frame.</p>
+
+                </div>
+        </div>
+
+
+    <h4 class="tsd-parameters-title">Parameters</h4>
+    <ul class="tsd-parameters">
+            <li>
+                <h5>data: <span class="tsd-signature-type">any</span></h5>
+
+                        <div class="tsd-comment tsd-typography">
+                <p>The untyped data object in which the loaded data resides.</p>
+
+        </div>
+
+            </li>
+            <li>
+                <h5><span class="tsd-flag ts-flagOptional">Optional</span> frameLimit: <span class="tsd-signature-type">number</span></h5>
+
+                        <div class="tsd-comment tsd-typography">
+                <p>number of milliseconds of parsing allowed per frame. The
+actual time spent on a frame can exceed this number since time-checks can
+only be performed between logical sections of the parsing procedure.</p>
+
+        </div>
+
+            </li>
+    </ul>
+
+    <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+
+
+        </li>
+</ul>    
+
+</section>
+            <section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+    <a name="removeEventListener" class="tsd-anchor"></a>
+        <h3>remove<wbr>Event<wbr>Listener</h3>
+
+        <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+        <li class="tsd-signature tsd-kind-icon">remove<wbr>Event<wbr>Listener<span class="tsd-signature-symbol">(</span>type<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span>, listener<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">function</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+</ul>
+
+<ul class="tsd-descriptions">
+        <li class="tsd-description">
+                <aside class="tsd-sources">
+        <p>Inherited from EventDispatcher.removeEventListener</p>
+        <ul>
+                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/core/dist/lib/events/EventDispatcher.d.ts:25</li>
+        </ul>
+</aside>
+        <div class="tsd-comment tsd-typography">
+                <div class="lead">
+                    <p>Remove an event listener</p>
+
+                </div>
+                <dl class="tsd-comment-tags">
+                        <dt>method</dt>
+                        <dd><p>removeEventListener</p>
+</dd>
+                </dl>
+        </div>
+
+
+    <h4 class="tsd-parameters-title">Parameters</h4>
+    <ul class="tsd-parameters">
+            <li>
+                <h5>type: <span class="tsd-signature-type">string</span></h5>
+
+                
+            </li>
+            <li>
+                <h5>listener: <span class="tsd-signature-type">function</span></h5>
+
+                
+                        <ul class="tsd-parameters">
+        <li class="tsd-parameter-siganture">
+            <ul class="tsd-signatures tsd-kind-type-literal tsd-is-not-exported">
+                    <li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">(</span>event<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">EventBase</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+            </ul>
+
+            <ul class="tsd-descriptions">
+                    <li class="tsd-description">
+
+
+    <h4 class="tsd-parameters-title">Parameters</h4>
+    <ul class="tsd-parameters">
+            <li>
+                <h5>event: <span class="tsd-signature-type">EventBase</span></h5>
+
+                
+            </li>
+    </ul>
+
+    <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+
+
+</li>
+            </ul>
+        </li>
+</ul>
+            </li>
+    </ul>
+
+    <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+
+
+        </li>
+</ul>    
+
+</section>
+            <section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-static">
+    <a name="supportsData" class="tsd-anchor"></a>
+        <h3><span class="tsd-flag ts-flagStatic">Static</span> supports<wbr>Data</h3>
+
+        <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-static">
+        <li class="tsd-signature tsd-kind-icon">supports<wbr>Data<span class="tsd-signature-symbol">(</span>data<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">boolean</span></li>
+</ul>
+
+<ul class="tsd-descriptions">
+        <li class="tsd-description">
+                <aside class="tsd-sources">
+        <ul>
+                    <li>Defined in parsers/ImageCubeParser.ts:49</li>
+        </ul>
+</aside>
+        <div class="tsd-comment tsd-typography">
+                <div class="lead">
+                    <p>Tests whether a data block can be parsed by the parser.</p>
+
+                </div>
+        </div>
+
+
+    <h4 class="tsd-parameters-title">Parameters</h4>
+    <ul class="tsd-parameters">
+            <li>
+                <h5>data: <span class="tsd-signature-type">any</span></h5>
+
+                        <div class="tsd-comment tsd-typography">
+                <p>The data block to potentially be parsed.</p>
+
+        </div>
+
+            </li>
+    </ul>
+
+    <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">boolean</span></h4>
+
+        <p>Whether or not the given data is supported.</p>
+
+
+        </li>
+</ul>    
+
+</section>
+            <section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-overwrite tsd-is-static">
+    <a name="supportsType" class="tsd-anchor"></a>
+        <h3><span class="tsd-flag ts-flagStatic">Static</span> supports<wbr>Type</h3>
+
+        <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-overwrite tsd-is-static">
+        <li class="tsd-signature tsd-kind-icon">supports<wbr>Type<span class="tsd-signature-symbol">(</span>extension<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">boolean</span></li>
+</ul>
+
+<ul class="tsd-descriptions">
+        <li class="tsd-description">
+                <aside class="tsd-sources">
+        <p>Overwrites ParserBase.supportsType</p>
+        <ul>
+                    <li>Defined in parsers/ImageCubeParser.ts:38</li>
+        </ul>
+</aside>
+        <div class="tsd-comment tsd-typography">
+                <div class="lead">
+                    <p>Indicates whether or not a given file extension is supported by the parser.</p>
+
+                </div>
+        </div>
+
+
+    <h4 class="tsd-parameters-title">Parameters</h4>
+    <ul class="tsd-parameters">
+            <li>
+                <h5>extension: <span class="tsd-signature-type">string</span></h5>
+
+                        <div class="tsd-comment tsd-typography">
+                <p>The file extension of a potential file to be parsed.</p>
+
+        </div>
+
+            </li>
+    </ul>
+
+    <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">boolean</span></h4>
+
+        <p>Whether or not the given file type is supported.</p>
+
+
+        </li>
+</ul>    
+
+</section>
+</section>
+
+        </div>
+        <div class="col-4 col-menu menu-sticky-wrap menu-highlight">
+            <nav class="tsd-navigation secondary menu-sticky">
+                <ul class="before-current">
+                        <li class=" tsd-kind-class">
+    <a href="AnimationNodeBase.html" class="tsd-kind-icon">Animation<wbr>Node<wbr>Base</a>
+</li>
+                        <li class=" tsd-kind-class">
+    <a href="BasicMaterial.html" class="tsd-kind-icon">Basic<wbr>Material</a>
+</li>
+                        <li class=" tsd-kind-class">
+    <a href="BitmapImage2D.html" class="tsd-kind-icon">Bitmap<wbr>Image2D</a>
+</li>
+                        <li class=" tsd-kind-class">
+    <a href="BitmapImageChannel.html" class="tsd-kind-icon">Bitmap<wbr>Image<wbr>Channel</a>
+</li>
+                        <li class=" tsd-kind-class">
+    <a href="BitmapImageCube.html" class="tsd-kind-icon">Bitmap<wbr>Image<wbr>Cube</a>
+</li>
+                        <li class=" tsd-kind-class">
+    <a href="BitmapImageUtils.html" class="tsd-kind-icon">Bitmap<wbr>Image<wbr>Utils</a>
+</li>
+                        <li class=" tsd-kind-class">
+    <a href="BlendMode.html" class="tsd-kind-icon">Blend<wbr>Mode</a>
+</li>
+                        <li class=" tsd-kind-class">
+    <a href="BoxFilter.html" class="tsd-kind-icon">Box<wbr>Filter</a>
+</li>
+                        <li class=" tsd-kind-class">
+    <a href="CPUCanvas.html" class="tsd-kind-icon">CPUCanvas</a>
+</li>
+                        <li class=" tsd-kind-class">
+    <a href="CPURenderingContext2D.html" class="tsd-kind-icon">CPURendering<wbr>Context2D</a>
+</li>
+                        <li class=" tsd-kind-class">
+    <a href="CapsStyle.html" class="tsd-kind-icon">Caps<wbr>Style</a>
+</li>
+                        <li class=" tsd-kind-class">
+    <a href="DefaultMaterialManager.html" class="tsd-kind-icon">Default<wbr>Material<wbr>Manager</a>
+</li>
+                        <li class=" tsd-kind-class">
+    <a href="DrawMode.html" class="tsd-kind-icon">Draw<wbr>Mode</a>
+</li>
+                        <li class=" tsd-kind-class">
+    <a href="ElementsBase.html" class="tsd-kind-icon">Elements<wbr>Base</a>
+</li>
+                        <li class=" tsd-kind-class">
+    <a href="ElementsEvent.html" class="tsd-kind-icon">Elements<wbr>Event</a>
+</li>
+                        <li class=" tsd-kind-class">
+    <a href="ElementsType.html" class="tsd-kind-icon">Elements<wbr>Type</a>
+</li>
+                        <li class=" tsd-kind-class">
+    <a href="ElementsUtils.html" class="tsd-kind-icon">Elements<wbr>Utils</a>
+</li>
+                        <li class=" tsd-kind-class">
+    <a href="ExternalImage2D.html" class="tsd-kind-icon">External<wbr>Image2D</a>
+</li>
+                        <li class=" tsd-kind-class">
+    <a href="GradientType.html" class="tsd-kind-icon">Gradient<wbr>Type</a>
+</li>
+                        <li class=" tsd-kind-class">
+    <a href="Graphics.html" class="tsd-kind-icon">Graphics</a>
+</li>
+                        <li class=" tsd-kind-class">
+    <a href="GraphicsFactoryFills.html" class="tsd-kind-icon">Graphics<wbr>Factory<wbr>Fills</a>
+</li>
+                        <li class=" tsd-kind-class">
+    <a href="GraphicsFactoryHelper.html" class="tsd-kind-icon">Graphics<wbr>Factory<wbr>Helper</a>
+</li>
+                        <li class=" tsd-kind-class">
+    <a href="GraphicsFactoryStrokes.html" class="tsd-kind-icon">Graphics<wbr>Factory<wbr>Strokes</a>
+</li>
+                        <li class=" tsd-kind-class">
+    <a href="GraphicsFillStyle.html" class="tsd-kind-icon">Graphics<wbr>Fill<wbr>Style</a>
+</li>
+                        <li class=" tsd-kind-class">
+    <a href="GraphicsPath.html" class="tsd-kind-icon">Graphics<wbr>Path</a>
+</li>
+                        <li class=" tsd-kind-class">
+    <a href="GraphicsPathCommand.html" class="tsd-kind-icon">Graphics<wbr>Path<wbr>Command</a>
+</li>
+                        <li class=" tsd-kind-class">
+    <a href="GraphicsPathWinding.html" class="tsd-kind-icon">Graphics<wbr>Path<wbr>Winding</a>
+</li>
+                        <li class=" tsd-kind-class">
+    <a href="GraphicsStrokeStyle.html" class="tsd-kind-icon">Graphics<wbr>Stroke<wbr>Style</a>
+</li>
+                        <li class=" tsd-kind-class">
+    <a href="HitTestCache.html" class="tsd-kind-icon">Hit<wbr>Test<wbr>Cache</a>
+</li>
+                        <li class=" tsd-kind-class">
+    <a href="Image2D.html" class="tsd-kind-icon">Image2D</a>
+</li>
+                        <li class=" tsd-kind-class">
+    <a href="Image2DParser.html" class="tsd-kind-icon">Image2DParser</a>
+</li>
+                        <li class=" tsd-kind-class">
+    <a href="ImageBase.html" class="tsd-kind-icon">Image<wbr>Base</a>
+</li>
+                        <li class=" tsd-kind-class">
+    <a href="ImageCube.html" class="tsd-kind-icon">Image<wbr>Cube</a>
+</li>
+                        <li class=" tsd-kind-class">
+    <a href="ImageCubeParser.html" class="tsd-kind-icon">Image<wbr>Cube<wbr>Parser</a>
+</li>
+                        <li class=" tsd-kind-class">
+    <a href="ImageData.html" class="tsd-kind-icon">Image<wbr>Data</a>
+</li>
+                        <li class=" tsd-kind-class">
+    <a href="ImageUtils.html" class="tsd-kind-icon">Image<wbr>Utils</a>
+</li>
+                        <li class=" tsd-kind-class">
+    <a href="InterpolationMethod.html" class="tsd-kind-icon">Interpolation<wbr>Method</a>
+</li>
+                        <li class=" tsd-kind-class">
+    <a href="JointStyle.html" class="tsd-kind-icon">Joint<wbr>Style</a>
+</li>
+                        <li class=" tsd-kind-class">
+    <a href="LineElements.html" class="tsd-kind-icon">Line<wbr>Elements</a>
+</li>
+                        <li class=" tsd-kind-class">
+    <a href="LineScaleMode.html" class="tsd-kind-icon">Line<wbr>Scale<wbr>Mode</a>
+</li>
+                        <li class=" tsd-kind-class">
+    <a href="MappingMode.html" class="tsd-kind-icon">Mapping<wbr>Mode</a>
+</li>
+                        <li class=" tsd-kind-class">
+    <a href="MaterialBase.html" class="tsd-kind-icon">Material<wbr>Base</a>
+</li>
+                        <li class=" tsd-kind-class">
+    <a href="MaterialEvent.html" class="tsd-kind-icon">Material<wbr>Event</a>
+</li>
+                        <li class=" tsd-kind-class">
+    <a href="MipmapGenerator.html" class="tsd-kind-icon">Mipmap<wbr>Generator</a>
+</li>
+                        <li class=" tsd-kind-class">
+    <a href="ParticleData.html" class="tsd-kind-icon">Particle<wbr>Data</a>
+</li>
+                        <li class=" tsd-kind-class">
+    <a href="PickingCollision.html" class="tsd-kind-icon">Picking<wbr>Collision</a>
+</li>
+                        <li class=" tsd-kind-class">
+    <a href="PixelSnapping.html" class="tsd-kind-icon">Pixel<wbr>Snapping</a>
+</li>
+                        <li class=" tsd-kind-class">
+    <a href="PolyphaseKernel.html" class="tsd-kind-icon">Polyphase<wbr>Kernel</a>
+</li>
+                        <li class=" tsd-kind-class">
+    <a href="RenderableEvent.html" class="tsd-kind-icon">Renderable<wbr>Event</a>
+</li>
+                        <li class=" tsd-kind-class">
+    <a href="Sampler2D.html" class="tsd-kind-icon">Sampler2D</a>
+</li>
+                        <li class=" tsd-kind-class">
+    <a href="SamplerBase.html" class="tsd-kind-icon">Sampler<wbr>Base</a>
+</li>
+                        <li class=" tsd-kind-class">
+    <a href="SamplerCube.html" class="tsd-kind-icon">Sampler<wbr>Cube</a>
+</li>
+                        <li class=" tsd-kind-class">
+    <a href="Shape.html" class="tsd-kind-icon">Shape</a>
+</li>
+                        <li class=" tsd-kind-class">
+    <a href="ShapeEvent.html" class="tsd-kind-icon">Shape<wbr>Event</a>
+</li>
+                        <li class=" tsd-kind-class">
+    <a href="Single2DTexture.html" class="tsd-kind-icon">Single2DTexture</a>
+</li>
+                        <li class=" tsd-kind-class">
+    <a href="SingleCubeTexture.html" class="tsd-kind-icon">Single<wbr>Cube<wbr>Texture</a>
+</li>
+                        <li class=" tsd-kind-class">
+    <a href="SpecularImage2D.html" class="tsd-kind-icon">Specular<wbr>Image2D</a>
+</li>
+                        <li class=" tsd-kind-class">
+    <a href="SpreadMethod.html" class="tsd-kind-icon">Spread<wbr>Method</a>
+</li>
+                        <li class=" tsd-kind-class">
+    <a href="Style.html" class="tsd-kind-icon">Style</a>
+</li>
+                        <li class=" tsd-kind-class">
+    <a href="StyleEvent.html" class="tsd-kind-icon">Style<wbr>Event</a>
+</li>
+                        <li class=" tsd-kind-class">
+    <a href="TextureAtlasParser.html" class="tsd-kind-icon">Texture<wbr>Atlas<wbr>Parser</a>
+</li>
+                        <li class=" tsd-kind-class">
+    <a href="TextureAtlasParserState.html" class="tsd-kind-icon">Texture<wbr>Atlas<wbr>Parser<wbr>State</a>
+</li>
+                        <li class=" tsd-kind-class">
+    <a href="TextureBase.html" class="tsd-kind-icon">Texture<wbr>Base</a>
+</li>
+                        <li class=" tsd-kind-class">
+    <a href="TraverserBase.html" class="tsd-kind-icon">Traverser<wbr>Base</a>
+</li>
+                        <li class=" tsd-kind-class">
+    <a href="TriangleCulling.html" class="tsd-kind-icon">Triangle<wbr>Culling</a>
+</li>
+                        <li class=" tsd-kind-class">
+    <a href="TriangleElements.html" class="tsd-kind-icon">Triangle<wbr>Elements</a>
+</li>
+                        <li class=" tsd-kind-class">
+    <a href="VideoTexture.html" class="tsd-kind-icon">Video<wbr>Texture</a>
+</li>
+                        <li class=" tsd-kind-interface">
+    <a href="../interfaces/IAnimationSet.html" class="tsd-kind-icon">IAnimation<wbr>Set</a>
+</li>
+                        <li class=" tsd-kind-interface">
+    <a href="../interfaces/IAnimator.html" class="tsd-kind-icon">IAnimator</a>
+</li>
+                        <li class=" tsd-kind-interface">
+    <a href="../interfaces/IContainerNode.html" class="tsd-kind-icon">IContainer<wbr>Node</a>
+</li>
+                        <li class=" tsd-kind-interface">
+    <a href="../interfaces/IEntity.html" class="tsd-kind-icon">IEntity</a>
+</li>
+                        <li class=" tsd-kind-interface">
+    <a href="../interfaces/IGraphicsData.html" class="tsd-kind-icon">IGraphics<wbr>Data</a>
+</li>
+                        <li class=" tsd-kind-interface">
+    <a href="../interfaces/IImageCanvas.html" class="tsd-kind-icon">IImage<wbr>Canvas</a>
+</li>
+                        <li class=" tsd-kind-interface">
+    <a href="../interfaces/IMaterial.html" class="tsd-kind-icon">IMaterial</a>
+</li>
+                        <li class=" tsd-kind-interface">
+    <a href="../interfaces/INode.html" class="tsd-kind-icon">INode</a>
+</li>
+                        <li class=" tsd-kind-interface">
+    <a href="../interfaces/IRenderable.html" class="tsd-kind-icon">IRenderable</a>
+</li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+</div>
+
+
+<footer class="with-border-bottom">
+    <div class="container">
+        <h2>Legend</h2>
+        <div class="tsd-legend-group">
+            <ul class="tsd-legend">
+                <li class="tsd-kind-module"><span class="tsd-kind-icon">Module</span></li>
+                <li class="tsd-kind-object-literal"><span class="tsd-kind-icon">Object literal</span></li>
+                <li class="tsd-kind-variable"><span class="tsd-kind-icon">Variable</span></li>
+                <li class="tsd-kind-function"><span class="tsd-kind-icon">Function</span></li>
+                <li class="tsd-kind-function tsd-has-type-parameter"><span class="tsd-kind-icon">Function with type parameter</span></li>
+                <li class="tsd-kind-index-signature"><span class="tsd-kind-icon">Index signature</span></li>
+                <li class="tsd-kind-type-alias"><span class="tsd-kind-icon">Type alias</span></li>
+            </ul>
+            <ul class="tsd-legend">
+                <li class="tsd-kind-enum"><span class="tsd-kind-icon">Enumeration</span></li>
+                <li class="tsd-kind-enum-member"><span class="tsd-kind-icon">Enumeration member</span></li>
+                <li class="tsd-kind-property tsd-parent-kind-enum"><span class="tsd-kind-icon">Property</span></li>
+                <li class="tsd-kind-method tsd-parent-kind-enum"><span class="tsd-kind-icon">Method</span></li>
+            </ul>
+            <ul class="tsd-legend">
+                <li class="tsd-kind-interface"><span class="tsd-kind-icon">Interface</span></li>
+                <li class="tsd-kind-interface tsd-has-type-parameter"><span class="tsd-kind-icon">Interface with type parameter</span></li>
+                <li class="tsd-kind-constructor tsd-parent-kind-interface"><span class="tsd-kind-icon">Constructor</span></li>
+                <li class="tsd-kind-property tsd-parent-kind-interface"><span class="tsd-kind-icon">Property</span></li>
+                <li class="tsd-kind-method tsd-parent-kind-interface"><span class="tsd-kind-icon">Method</span></li>
+                <li class="tsd-kind-index-signature tsd-parent-kind-interface"><span class="tsd-kind-icon">Index signature</span></li>
+            </ul>
+            <ul class="tsd-legend">
+                <li class="tsd-kind-class"><span class="tsd-kind-icon">Class</span></li>
+                <li class="tsd-kind-class tsd-has-type-parameter"><span class="tsd-kind-icon">Class with type parameter</span></li>
+                <li class="tsd-kind-constructor tsd-parent-kind-class"><span class="tsd-kind-icon">Constructor</span></li>
+                <li class="tsd-kind-property tsd-parent-kind-class"><span class="tsd-kind-icon">Property</span></li>
+                <li class="tsd-kind-method tsd-parent-kind-class"><span class="tsd-kind-icon">Method</span></li>
+                <li class="tsd-kind-accessor tsd-parent-kind-class"><span class="tsd-kind-icon">Accessor</span></li>
+                <li class="tsd-kind-index-signature tsd-parent-kind-class"><span class="tsd-kind-icon">Index signature</span></li>
+            </ul>
+            <ul class="tsd-legend">
+                <li class="tsd-kind-constructor tsd-parent-kind-class tsd-is-inherited"><span class="tsd-kind-icon">Inherited constructor</span></li>
+                <li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><span class="tsd-kind-icon">Inherited property</span></li>
+                <li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><span class="tsd-kind-icon">Inherited method</span></li>
+                <li class="tsd-kind-accessor tsd-parent-kind-class tsd-is-inherited"><span class="tsd-kind-icon">Inherited accessor</span></li>
+            </ul>
+            <ul class="tsd-legend">
+                <li class="tsd-kind-property tsd-parent-kind-class tsd-is-protected"><span class="tsd-kind-icon">Protected property</span></li>
+                <li class="tsd-kind-method tsd-parent-kind-class tsd-is-protected"><span class="tsd-kind-icon">Protected method</span></li>
+                <li class="tsd-kind-accessor tsd-parent-kind-class tsd-is-protected"><span class="tsd-kind-icon">Protected accessor</span></li>
+            </ul>
+            <ul class="tsd-legend">
+                <li class="tsd-kind-property tsd-parent-kind-class tsd-is-private"><span class="tsd-kind-icon">Private property</span></li>
+                <li class="tsd-kind-method tsd-parent-kind-class tsd-is-private"><span class="tsd-kind-icon">Private method</span></li>
+                <li class="tsd-kind-accessor tsd-parent-kind-class tsd-is-private"><span class="tsd-kind-icon">Private accessor</span></li>
+            </ul>
+            <ul class="tsd-legend">
+                <li class="tsd-kind-property tsd-parent-kind-class tsd-is-static"><span class="tsd-kind-icon">Static property</span></li>
+                <li class="tsd-kind-call-signature tsd-parent-kind-class tsd-is-static"><span class="tsd-kind-icon">Static method</span></li>
+            </ul>
+        </div>
+    </div>
+</footer>
+
+    <div class="container tsd-generator">
+        <p>Generated using <a href="http://typedoc.io" target="_blank">TypeDoc</a></p>
+    </div>
+
+<div class="overlay"></div>
+    <script src="../../assets/js/main.js"></script>
+<script>if (location.protocol == 'file:') document.write('<script src="../assets/js/search.js"><' + '/script>');</script>
+
+
+</body>
+</html>

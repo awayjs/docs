@@ -1,0 +1,442 @@
+<!doctype html>
+<html class="default no-js toggle-inherited">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>IPickingCollider | view</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="../../assets/css/main.css">
+        <script src="../../assets/js/modernizr.js"></script>
+    <!--<link href="https://fonts.googleapis.com/css?family=Advent+Pro:100" rel="stylesheet">-->
+    <link href="https://fonts.googleapis.com/css?family=Maven+Pro" rel="stylesheet">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+
+<header>
+    <div class="tsd-page-toolbar">
+        <div class="container">
+            <div class="table-wrap">
+
+                <!-- Overall title and Search -->
+                <div class="table-cell" id="tsd-search" data-index="../assets/js/search.js" data-base="..">
+
+                    <!-- Title (with breadcrumbs) -->
+                    <ul class="tsd-breadcrumb title">
+                            <li><a href="/docs">@awayjs</a></li>
+                            <li><a href="../index.html">view</a></li>
+                            
+    <!--<li>-->
+        <!---->
+            <!--<a href="IPickingCollider.html">IPickingCollider</a>-->
+        <!---->
+    <!--</li>-->
+
+                    </ul>
+
+                    <!-- Search -->
+                    <!---->
+                        <div class="field">
+                            <label for="tsd-search-field" class="tsd-widget search no-caption">Search</label>
+                            <input id="tsd-search-field" type="text" />
+                        </div>
+                    <!---->
+
+                    <ul class="results">
+                        <li class="state loading">Preparing search index...</li>
+                        <li class="state failure">The search index is not available</li>
+                    </ul>
+                </div>
+
+                <!-- Filter -->
+
+                    <div class="table-cell" id="tsd-widgets">
+                        <div id="tsd-filter">
+                                <a href="#" class="tsd-widget options no-caption" data-toggle="options">Options</a>
+                                <div class="tsd-filter-group">
+                                    <input type="checkbox" id="tsd-filter-inherited"/>
+                                    <label class="tsd-widget" for="tsd-filter-inherited">Show Inherited</label>
+                                </div>
+                        </div>
+                        <a href="#" class="tsd-widget menu no-caption" data-toggle="menu">Menu</a>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Page title: only show in leafs -->
+        <div class="tsd-page-title">
+            <div class="container">
+                <h1>Interface IPickingCollider</h1>
+            </div>
+        </div>
+</header>
+<div class="container container-main">
+
+    <!-- account spacing for having no title, which happens in non leafs -->
+
+    <div class="row">
+        <div class="col-8 col-content">
+                    <section class="tsd-panel tsd-comment">
+                    <div class="tsd-comment tsd-typography">
+                <div class="lead">
+                    <p>Provides an interface for picking colliders that can be assigned to individual entities in a scene for specific picking behaviour.
+Used with the <code>RaycastPicker</code> picking object.</p>
+
+                </div>
+                <dl class="tsd-comment-tags">
+                        <dt>see</dt>
+                        <dd><p>away.entities.Entity#pickingCollider</p>
+</dd>
+                        <dt>see</dt>
+                        <dd><p>away.pick.RaycastPicker</p>
+</dd>
+                        <dt>interface</dt>
+                        <dd><p>away.pick.IPickingCollider</p>
+</dd>
+                </dl>
+        </div>
+        </section>
+
+
+    <section class="tsd-panel tsd-hierarchy">
+        <h3>Hierarchy</h3>
+        <ul class="tsd-hierarchy">
+        <li>
+                <span class="target">IPickingCollider</span>
+
+        </li>
+</ul>
+
+    </section>
+
+
+
+
+
+    <section class="tsd-panel-group tsd-index-group">
+    <h2>Index</h2>
+    <section class="tsd-panel tsd-index-panel">
+        <div class="tsd-index-content">
+                <section class="tsd-index-section ">
+                    <h3>Methods</h3>
+                    <ul class="tsd-index-list">
+                        <li class="tsd-kind-method tsd-parent-kind-interface"><a href="IPickingCollider.html#testBillboardCollision" class="tsd-kind-icon">test<wbr>Billboard<wbr>Collision</a></li>
+                        <li class="tsd-kind-method tsd-parent-kind-interface"><a href="IPickingCollider.html#testLineCollision" class="tsd-kind-icon">test<wbr>Line<wbr>Collision</a></li>
+                        <li class="tsd-kind-method tsd-parent-kind-interface"><a href="IPickingCollider.html#testTriangleCollision" class="tsd-kind-icon">test<wbr>Triangle<wbr>Collision</a></li>
+                    </ul>
+                </section>
+        </div>
+    </section>
+</section>
+            <section class="tsd-panel-group tsd-member-group ">
+    <h2>Methods</h2>
+            <section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-interface">
+    <a name="testBillboardCollision" class="tsd-anchor"></a>
+        <h3>test<wbr>Billboard<wbr>Collision</h3>
+
+        <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-interface">
+        <li class="tsd-signature tsd-kind-icon">test<wbr>Billboard<wbr>Collision<span class="tsd-signature-symbol">(</span>billboard<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Billboard</span>, material<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">IMaterial</span>, pickingCollision<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">PickingCollision</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">boolean</span></li>
+</ul>
+
+<ul class="tsd-descriptions">
+        <li class="tsd-description">
+                <aside class="tsd-sources">
+        <ul>
+                    <li>Defined in pick/IPickingCollider.ts:25</li>
+        </ul>
+</aside>
+        <div class="tsd-comment tsd-typography">
+                <div class="lead">
+                    <p>Tests a <code>Billboard</code> object for a collision with the picking ray.</p>
+
+                </div>
+        </div>
+
+
+    <h4 class="tsd-parameters-title">Parameters</h4>
+    <ul class="tsd-parameters">
+            <li>
+                <h5>billboard: <span class="tsd-signature-type">Billboard</span></h5>
+
+                
+            </li>
+            <li>
+                <h5>material: <span class="tsd-signature-type">IMaterial</span></h5>
+
+                
+            </li>
+            <li>
+                <h5>pickingCollision: <span class="tsd-signature-type">PickingCollision</span></h5>
+
+                
+            </li>
+    </ul>
+
+    <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">boolean</span></h4>
+
+
+        </li>
+</ul>    
+
+</section>
+            <section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-interface">
+    <a name="testLineCollision" class="tsd-anchor"></a>
+        <h3>test<wbr>Line<wbr>Collision</h3>
+
+        <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-interface">
+        <li class="tsd-signature tsd-kind-icon">test<wbr>Line<wbr>Collision<span class="tsd-signature-symbol">(</span>lineElements<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">LineElements</span>, material<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">IMaterial</span>, pickingCollision<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">PickingCollision</span>, count<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span>, offset<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">boolean</span></li>
+</ul>
+
+<ul class="tsd-descriptions">
+        <li class="tsd-description">
+                <aside class="tsd-sources">
+        <ul>
+                    <li>Defined in pick/IPickingCollider.ts:45</li>
+        </ul>
+</aside>
+        <div class="tsd-comment tsd-typography">
+                <div class="lead">
+                    <p>Tests a <code>LineElements</code> object for a collision with the picking ray.</p>
+
+                </div>
+        </div>
+
+
+    <h4 class="tsd-parameters-title">Parameters</h4>
+    <ul class="tsd-parameters">
+            <li>
+                <h5>lineElements: <span class="tsd-signature-type">LineElements</span></h5>
+
+                
+            </li>
+            <li>
+                <h5>material: <span class="tsd-signature-type">IMaterial</span></h5>
+
+                
+            </li>
+            <li>
+                <h5>pickingCollision: <span class="tsd-signature-type">PickingCollision</span></h5>
+
+                
+            </li>
+            <li>
+                <h5>count: <span class="tsd-signature-type">number</span></h5>
+
+                
+            </li>
+            <li>
+                <h5><span class="tsd-flag ts-flagOptional">Optional</span> offset: <span class="tsd-signature-type">number</span></h5>
+
+                
+            </li>
+    </ul>
+
+    <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">boolean</span></h4>
+
+
+        </li>
+</ul>    
+
+</section>
+            <section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-interface">
+    <a name="testTriangleCollision" class="tsd-anchor"></a>
+        <h3>test<wbr>Triangle<wbr>Collision</h3>
+
+        <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-interface">
+        <li class="tsd-signature tsd-kind-icon">test<wbr>Triangle<wbr>Collision<span class="tsd-signature-symbol">(</span>triangleElements<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">TriangleElements</span>, material<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">IMaterial</span>, pickingCollision<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">PickingCollision</span>, count<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span>, offset<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">boolean</span></li>
+</ul>
+
+<ul class="tsd-descriptions">
+        <li class="tsd-description">
+                <aside class="tsd-sources">
+        <ul>
+                    <li>Defined in pick/IPickingCollider.ts:35</li>
+        </ul>
+</aside>
+        <div class="tsd-comment tsd-typography">
+                <div class="lead">
+                    <p>Tests a <code>TriangleElements</code> object for a collision with the picking ray.</p>
+
+                </div>
+        </div>
+
+
+    <h4 class="tsd-parameters-title">Parameters</h4>
+    <ul class="tsd-parameters">
+            <li>
+                <h5>triangleElements: <span class="tsd-signature-type">TriangleElements</span></h5>
+
+                
+            </li>
+            <li>
+                <h5>material: <span class="tsd-signature-type">IMaterial</span></h5>
+
+                
+            </li>
+            <li>
+                <h5>pickingCollision: <span class="tsd-signature-type">PickingCollision</span></h5>
+
+                
+            </li>
+            <li>
+                <h5>count: <span class="tsd-signature-type">number</span></h5>
+
+                
+            </li>
+            <li>
+                <h5><span class="tsd-flag ts-flagOptional">Optional</span> offset: <span class="tsd-signature-type">number</span></h5>
+
+                
+            </li>
+    </ul>
+
+    <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">boolean</span></h4>
+
+
+        </li>
+</ul>    
+
+</section>
+</section>
+
+        </div>
+        <div class="col-4 col-menu menu-sticky-wrap menu-highlight">
+            <nav class="tsd-navigation secondary menu-sticky">
+                <ul class="before-current">
+                        <li class=" tsd-kind-class">
+    <a href="../classes/BasicPartition.html" class="tsd-kind-icon">Basic<wbr>Partition</a>
+</li>
+                        <li class=" tsd-kind-class">
+    <a href="../classes/CameraNode.html" class="tsd-kind-icon">Camera<wbr>Node</a>
+</li>
+                        <li class=" tsd-kind-class">
+    <a href="../classes/DisplayObjectNode.html" class="tsd-kind-icon">Display<wbr>Object<wbr>Node</a>
+</li>
+                        <li class=" tsd-kind-class">
+    <a href="../classes/EntityNode.html" class="tsd-kind-icon">Entity<wbr>Node</a>
+</li>
+                        <li class=" tsd-kind-class">
+    <a href="../classes/JSPickingCollider.html" class="tsd-kind-icon">JSPicking<wbr>Collider</a>
+</li>
+                        <li class=" tsd-kind-class">
+    <a href="../classes/MouseManager.html" class="tsd-kind-icon">Mouse<wbr>Manager</a>
+</li>
+                        <li class=" tsd-kind-class">
+    <a href="../classes/NodeBase.html" class="tsd-kind-icon">Node<wbr>Base</a>
+</li>
+                        <li class=" tsd-kind-class">
+    <a href="../classes/PartitionBase.html" class="tsd-kind-icon">Partition<wbr>Base</a>
+</li>
+                        <li class=" tsd-kind-class">
+    <a href="../classes/RaycastPicker.html" class="tsd-kind-icon">Raycast<wbr>Picker</a>
+</li>
+                        <li class=" tsd-kind-class">
+    <a href="../classes/SceneGraphNode.html" class="tsd-kind-icon">Scene<wbr>Graph<wbr>Node</a>
+</li>
+                        <li class=" tsd-kind-class">
+    <a href="../classes/SceneGraphNodePool.html" class="tsd-kind-icon">Scene<wbr>Graph<wbr>Node<wbr>Pool</a>
+</li>
+                        <li class=" tsd-kind-class">
+    <a href="../classes/SceneGraphPartition.html" class="tsd-kind-icon">Scene<wbr>Graph<wbr>Partition</a>
+</li>
+                        <li class=" tsd-kind-class">
+    <a href="../classes/SkyboxNode.html" class="tsd-kind-icon">Skybox<wbr>Node</a>
+</li>
+                        <li class=" tsd-kind-class">
+    <a href="../classes/TouchManager.html" class="tsd-kind-icon">Touch<wbr>Manager</a>
+</li>
+                        <li class=" tsd-kind-class">
+    <a href="../classes/View.html" class="tsd-kind-icon">View</a>
+</li>
+                        <li class=" tsd-kind-interface">
+    <a href="IDisplayObjectNode.html" class="tsd-kind-icon">IDisplay<wbr>Object<wbr>Node</a>
+</li>
+                        <li class=" tsd-kind-interface">
+    <a href="IEntityNodeClass.html" class="tsd-kind-icon">IEntity<wbr>Node<wbr>Class</a>
+</li>
+                        <li class=" tsd-kind-interface">
+    <a href="IPicker.html" class="tsd-kind-icon">IPicker</a>
+</li>
+                        <li class=" tsd-kind-interface">
+    <a href="IPickingCollider.html" class="tsd-kind-icon">IPicking<wbr>Collider</a>
+</li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+</div>
+
+
+<footer class="with-border-bottom">
+    <div class="container">
+        <h2>Legend</h2>
+        <div class="tsd-legend-group">
+            <ul class="tsd-legend">
+                <li class="tsd-kind-module"><span class="tsd-kind-icon">Module</span></li>
+                <li class="tsd-kind-object-literal"><span class="tsd-kind-icon">Object literal</span></li>
+                <li class="tsd-kind-variable"><span class="tsd-kind-icon">Variable</span></li>
+                <li class="tsd-kind-function"><span class="tsd-kind-icon">Function</span></li>
+                <li class="tsd-kind-function tsd-has-type-parameter"><span class="tsd-kind-icon">Function with type parameter</span></li>
+                <li class="tsd-kind-index-signature"><span class="tsd-kind-icon">Index signature</span></li>
+                <li class="tsd-kind-type-alias"><span class="tsd-kind-icon">Type alias</span></li>
+            </ul>
+            <ul class="tsd-legend">
+                <li class="tsd-kind-enum"><span class="tsd-kind-icon">Enumeration</span></li>
+                <li class="tsd-kind-enum-member"><span class="tsd-kind-icon">Enumeration member</span></li>
+                <li class="tsd-kind-property tsd-parent-kind-enum"><span class="tsd-kind-icon">Property</span></li>
+                <li class="tsd-kind-method tsd-parent-kind-enum"><span class="tsd-kind-icon">Method</span></li>
+            </ul>
+            <ul class="tsd-legend">
+                <li class="tsd-kind-interface"><span class="tsd-kind-icon">Interface</span></li>
+                <li class="tsd-kind-interface tsd-has-type-parameter"><span class="tsd-kind-icon">Interface with type parameter</span></li>
+                <li class="tsd-kind-constructor tsd-parent-kind-interface"><span class="tsd-kind-icon">Constructor</span></li>
+                <li class="tsd-kind-property tsd-parent-kind-interface"><span class="tsd-kind-icon">Property</span></li>
+                <li class="tsd-kind-method tsd-parent-kind-interface"><span class="tsd-kind-icon">Method</span></li>
+                <li class="tsd-kind-index-signature tsd-parent-kind-interface"><span class="tsd-kind-icon">Index signature</span></li>
+            </ul>
+            <ul class="tsd-legend">
+                <li class="tsd-kind-class"><span class="tsd-kind-icon">Class</span></li>
+                <li class="tsd-kind-class tsd-has-type-parameter"><span class="tsd-kind-icon">Class with type parameter</span></li>
+                <li class="tsd-kind-constructor tsd-parent-kind-class"><span class="tsd-kind-icon">Constructor</span></li>
+                <li class="tsd-kind-property tsd-parent-kind-class"><span class="tsd-kind-icon">Property</span></li>
+                <li class="tsd-kind-method tsd-parent-kind-class"><span class="tsd-kind-icon">Method</span></li>
+                <li class="tsd-kind-accessor tsd-parent-kind-class"><span class="tsd-kind-icon">Accessor</span></li>
+                <li class="tsd-kind-index-signature tsd-parent-kind-class"><span class="tsd-kind-icon">Index signature</span></li>
+            </ul>
+            <ul class="tsd-legend">
+                <li class="tsd-kind-constructor tsd-parent-kind-class tsd-is-inherited"><span class="tsd-kind-icon">Inherited constructor</span></li>
+                <li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><span class="tsd-kind-icon">Inherited property</span></li>
+                <li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><span class="tsd-kind-icon">Inherited method</span></li>
+                <li class="tsd-kind-accessor tsd-parent-kind-class tsd-is-inherited"><span class="tsd-kind-icon">Inherited accessor</span></li>
+            </ul>
+            <ul class="tsd-legend">
+                <li class="tsd-kind-property tsd-parent-kind-class tsd-is-protected"><span class="tsd-kind-icon">Protected property</span></li>
+                <li class="tsd-kind-method tsd-parent-kind-class tsd-is-protected"><span class="tsd-kind-icon">Protected method</span></li>
+                <li class="tsd-kind-accessor tsd-parent-kind-class tsd-is-protected"><span class="tsd-kind-icon">Protected accessor</span></li>
+            </ul>
+            <ul class="tsd-legend">
+                <li class="tsd-kind-property tsd-parent-kind-class tsd-is-private"><span class="tsd-kind-icon">Private property</span></li>
+                <li class="tsd-kind-method tsd-parent-kind-class tsd-is-private"><span class="tsd-kind-icon">Private method</span></li>
+                <li class="tsd-kind-accessor tsd-parent-kind-class tsd-is-private"><span class="tsd-kind-icon">Private accessor</span></li>
+            </ul>
+            <ul class="tsd-legend">
+                <li class="tsd-kind-property tsd-parent-kind-class tsd-is-static"><span class="tsd-kind-icon">Static property</span></li>
+                <li class="tsd-kind-call-signature tsd-parent-kind-class tsd-is-static"><span class="tsd-kind-icon">Static method</span></li>
+            </ul>
+        </div>
+    </div>
+</footer>
+
+    <div class="container tsd-generator">
+        <p>Generated using <a href="http://typedoc.io" target="_blank">TypeDoc</a></p>
+    </div>
+
+<div class="overlay"></div>
+    <script src="../../assets/js/main.js"></script>
+<script>if (location.protocol == 'file:') document.write('<script src="../assets/js/search.js"><' + '/script>');</script>
+
+
+</body>
+</html>

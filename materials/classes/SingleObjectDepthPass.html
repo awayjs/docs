@@ -1,0 +1,1719 @@
+<!doctype html>
+<html class="default no-js toggle-inherited">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>SingleObjectDepthPass | materials</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="../../assets/css/main.css">
+        <script src="../../assets/js/modernizr.js"></script>
+    <!--<link href="https://fonts.googleapis.com/css?family=Advent+Pro:100" rel="stylesheet">-->
+    <link href="https://fonts.googleapis.com/css?family=Maven+Pro" rel="stylesheet">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+
+<header>
+    <div class="tsd-page-toolbar">
+        <div class="container">
+            <div class="table-wrap">
+
+                <!-- Overall title and Search -->
+                <div class="table-cell" id="tsd-search" data-index="../assets/js/search.js" data-base="..">
+
+                    <!-- Title (with breadcrumbs) -->
+                    <ul class="tsd-breadcrumb title">
+                            <li><a href="/docs">@awayjs</a></li>
+                            <li><a href="../index.html">materials</a></li>
+                            
+    <!--<li>-->
+        <!---->
+            <!--<a href="SingleObjectDepthPass.html">SingleObjectDepthPass</a>-->
+        <!---->
+    <!--</li>-->
+
+                    </ul>
+
+                    <!-- Search -->
+                    <!---->
+                        <div class="field">
+                            <label for="tsd-search-field" class="tsd-widget search no-caption">Search</label>
+                            <input id="tsd-search-field" type="text" />
+                        </div>
+                    <!---->
+
+                    <ul class="results">
+                        <li class="state loading">Preparing search index...</li>
+                        <li class="state failure">The search index is not available</li>
+                    </ul>
+                </div>
+
+                <!-- Filter -->
+
+                    <div class="table-cell" id="tsd-widgets">
+                        <div id="tsd-filter">
+                                <a href="#" class="tsd-widget options no-caption" data-toggle="options">Options</a>
+                                <div class="tsd-filter-group">
+                                    <input type="checkbox" id="tsd-filter-inherited"/>
+                                    <label class="tsd-widget" for="tsd-filter-inherited">Show Inherited</label>
+                                </div>
+                        </div>
+                        <a href="#" class="tsd-widget menu no-caption" data-toggle="menu">Menu</a>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Page title: only show in leafs -->
+        <div class="tsd-page-title">
+            <div class="container">
+                <h1>Class SingleObjectDepthPass</h1>
+            </div>
+        </div>
+</header>
+<div class="container container-main">
+
+    <!-- account spacing for having no title, which happens in non leafs -->
+
+    <div class="row">
+        <div class="col-8 col-content">
+                    <section class="tsd-panel tsd-comment">
+                    <div class="tsd-comment tsd-typography">
+                <div class="lead">
+                    <p>The SingleObjectDepthPass provides a material pass that renders a single object to a depth map from the point
+of view from a light.</p>
+
+                </div>
+        </div>
+        </section>
+
+
+    <section class="tsd-panel tsd-hierarchy">
+        <h3>Hierarchy</h3>
+        <ul class="tsd-hierarchy">
+        <li>
+                <span class="tsd-signature-type">PassBase</span>
+        </li>
+</ul>
+
+    </section>
+
+    <section class="tsd-panel">
+        <h3>Implements</h3>
+        <ul class="tsd-hierarchy">
+                <li><span class="tsd-signature-type">IPass</span></li>
+        </ul>
+    </section>
+
+
+
+
+    <section class="tsd-panel-group tsd-index-group">
+    <h2>Index</h2>
+    <section class="tsd-panel tsd-index-panel">
+        <div class="tsd-index-content">
+                <section class="tsd-index-section ">
+                    <h3>Constructors</h3>
+                    <ul class="tsd-index-list">
+                        <li class="tsd-kind-constructor tsd-parent-kind-class tsd-is-overwrite"><a href="SingleObjectDepthPass.html#constructor" class="tsd-kind-icon">constructor</a></li>
+                    </ul>
+                </section>
+                <section class="tsd-index-section tsd-is-inherited">
+                    <h3>Properties</h3>
+                    <ul class="tsd-index-list">
+                        <li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="SingleObjectDepthPass.html#_elementsClass" class="tsd-kind-icon">_elements<wbr>Class</a></li>
+                        <li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="SingleObjectDepthPass.html#_material" class="tsd-kind-icon">_material</a></li>
+                        <li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="SingleObjectDepthPass.html#_render" class="tsd-kind-icon">_render</a></li>
+                        <li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="SingleObjectDepthPass.html#_shader" class="tsd-kind-icon">_shader</a></li>
+                        <li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="SingleObjectDepthPass.html#_stage" class="tsd-kind-icon">_stage</a></li>
+                        <li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="SingleObjectDepthPass.html#animationSet" class="tsd-kind-icon">animation<wbr>Set</a></li>
+                        <li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="SingleObjectDepthPass.html#forceSeparateMVP" class="tsd-kind-icon">force<wbr>SeparateMVP</a></li>
+                        <li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="SingleObjectDepthPass.html#preserveAlpha" class="tsd-kind-icon">preserve<wbr>Alpha</a></li>
+                        <li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="SingleObjectDepthPass.html#shader" class="tsd-kind-icon">shader</a></li>
+                    </ul>
+                </section>
+                <section class="tsd-index-section ">
+                    <h3>Accessors</h3>
+                    <ul class="tsd-index-list">
+                        <li class="tsd-kind-accessor tsd-parent-kind-class"><a href="SingleObjectDepthPass.html#polyOffset" class="tsd-kind-icon">poly<wbr>Offset</a></li>
+                        <li class="tsd-kind-accessor tsd-parent-kind-class"><a href="SingleObjectDepthPass.html#textureSize" class="tsd-kind-icon">texture<wbr>Size</a></li>
+                    </ul>
+                </section>
+                <section class="tsd-index-section ">
+                    <h3>Methods</h3>
+                    <ul class="tsd-index-list">
+                        <li class="tsd-kind-method tsd-parent-kind-class tsd-is-overwrite"><a href="SingleObjectDepthPass.html#_iActivate" class="tsd-kind-icon">_i<wbr>Activate</a></li>
+                        <li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited tsd-is-private"><a href="SingleObjectDepthPass.html#_iDeactivate" class="tsd-kind-icon">_i<wbr>Deactivate</a></li>
+                        <li class="tsd-kind-method tsd-parent-kind-class"><a href="SingleObjectDepthPass.html#_iGetDepthMap" class="tsd-kind-icon">_i<wbr>Get<wbr>Depth<wbr>Map</a></li>
+                        <li class="tsd-kind-method tsd-parent-kind-class tsd-is-overwrite"><a href="SingleObjectDepthPass.html#_iGetFragmentCode" class="tsd-kind-icon">_i<wbr>Get<wbr>Fragment<wbr>Code</a></li>
+                        <li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="SingleObjectDepthPass.html#_iGetNormalFragmentCode" class="tsd-kind-icon">_i<wbr>Get<wbr>Normal<wbr>Fragment<wbr>Code</a></li>
+                        <li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="SingleObjectDepthPass.html#_iGetNormalVertexCode" class="tsd-kind-icon">_i<wbr>Get<wbr>Normal<wbr>Vertex<wbr>Code</a></li>
+                        <li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="SingleObjectDepthPass.html#_iGetPreLightingFragmentCode" class="tsd-kind-icon">_i<wbr>Get<wbr>Pre<wbr>Lighting<wbr>Fragment<wbr>Code</a></li>
+                        <li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="SingleObjectDepthPass.html#_iGetPreLightingVertexCode" class="tsd-kind-icon">_i<wbr>Get<wbr>Pre<wbr>Lighting<wbr>Vertex<wbr>Code</a></li>
+                        <li class="tsd-kind-method tsd-parent-kind-class"><a href="SingleObjectDepthPass.html#_iGetProjection" class="tsd-kind-icon">_i<wbr>Get<wbr>Projection</a></li>
+                        <li class="tsd-kind-method tsd-parent-kind-class tsd-is-overwrite"><a href="SingleObjectDepthPass.html#_iGetVertexCode" class="tsd-kind-icon">_i<wbr>Get<wbr>Vertex<wbr>Code</a></li>
+                        <li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="SingleObjectDepthPass.html#_iIncludeDependencies" class="tsd-kind-icon">_i<wbr>Include<wbr>Dependencies</a></li>
+                        <li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="SingleObjectDepthPass.html#_iInitConstantData" class="tsd-kind-icon">_i<wbr>Init<wbr>Constant<wbr>Data</a></li>
+                        <li class="tsd-kind-method tsd-parent-kind-class"><a href="SingleObjectDepthPass.html#_iRender" class="tsd-kind-icon">_i<wbr>Render</a></li>
+                        <li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="SingleObjectDepthPass.html#_setRenderState" class="tsd-kind-icon">_set<wbr>Render<wbr>State</a></li>
+                        <li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="SingleObjectDepthPass.html#addEventListener" class="tsd-kind-icon">add<wbr>Event<wbr>Listener</a></li>
+                        <li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="SingleObjectDepthPass.html#dispatchEvent" class="tsd-kind-icon">dispatch<wbr>Event</a></li>
+                        <li class="tsd-kind-method tsd-parent-kind-class tsd-is-overwrite"><a href="SingleObjectDepthPass.html#dispose" class="tsd-kind-icon">dispose</a></li>
+                        <li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="SingleObjectDepthPass.html#getImageIndex" class="tsd-kind-icon">get<wbr>Image<wbr>Index</a></li>
+                        <li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="SingleObjectDepthPass.html#hasEventListener" class="tsd-kind-icon">has<wbr>Event<wbr>Listener</a></li>
+                        <li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="SingleObjectDepthPass.html#invalidate" class="tsd-kind-icon">invalidate</a></li>
+                        <li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="SingleObjectDepthPass.html#removeEventListener" class="tsd-kind-icon">remove<wbr>Event<wbr>Listener</a></li>
+                    </ul>
+                </section>
+        </div>
+    </section>
+</section>
+            <section class="tsd-panel-group tsd-member-group ">
+    <h2>Constructors</h2>
+            <section class="tsd-panel tsd-member tsd-kind-constructor tsd-parent-kind-class tsd-is-overwrite">
+    <a name="constructor" class="tsd-anchor"></a>
+        <h3>constructor</h3>
+
+        <ul class="tsd-signatures tsd-kind-constructor tsd-parent-kind-class tsd-is-overwrite">
+        <li class="tsd-signature tsd-kind-icon">new <wbr>Single<wbr>Object<wbr>Depth<wbr>Pass<span class="tsd-signature-symbol">(</span>render<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">GL_MaterialBase</span>, renderOwner<span class="tsd-signature-symbol">: </span><a href="MethodMaterial.html" class="tsd-signature-type">MethodMaterial</a>, elementsClass<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">IElementsClassGL</span>, stage<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Stage</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="SingleObjectDepthPass.html" class="tsd-signature-type">SingleObjectDepthPass</a></li>
+</ul>
+
+<ul class="tsd-descriptions">
+        <li class="tsd-description">
+                <aside class="tsd-sources">
+        <p>Overwrites PassBase.__constructor</p>
+        <ul>
+                    <li>Defined in surfaces/passes/SingleObjectDepthPass.ts:51</li>
+        </ul>
+</aside>
+        <div class="tsd-comment tsd-typography">
+                <div class="lead">
+                    <p>Creates a new SingleObjectDepthPass object.</p>
+
+                </div>
+        </div>
+
+
+    <h4 class="tsd-parameters-title">Parameters</h4>
+    <ul class="tsd-parameters">
+            <li>
+                <h5>render: <span class="tsd-signature-type">GL_MaterialBase</span></h5>
+
+                
+            </li>
+            <li>
+                <h5>renderOwner: <a href="MethodMaterial.html" class="tsd-signature-type">MethodMaterial</a></h5>
+
+                
+            </li>
+            <li>
+                <h5>elementsClass: <span class="tsd-signature-type">IElementsClassGL</span></h5>
+
+                
+            </li>
+            <li>
+                <h5>stage: <span class="tsd-signature-type">Stage</span></h5>
+
+                
+            </li>
+    </ul>
+
+    <h4 class="tsd-returns-title">Returns <a href="SingleObjectDepthPass.html" class="tsd-signature-type">SingleObjectDepthPass</a></h4>
+
+
+        </li>
+</ul>    
+
+</section>
+</section>
+        <section class="tsd-panel-group tsd-member-group tsd-is-inherited">
+    <h2>Properties</h2>
+            <section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-inherited">
+    <a name="_elementsClass" class="tsd-anchor"></a>
+        <h3>_elements<wbr>Class</h3>
+
+        <div class="tsd-signature tsd-kind-icon">_elements<wbr>Class<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">IElementsClassGL</span></div>
+
+<aside class="tsd-sources">
+        <p>Inherited from PassBase._elementsClass</p>
+        <ul>
+                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/renderer/dist/lib/materials/passes/PassBase.d.ts:20</li>
+        </ul>
+</aside>
+
+    
+
+</section>
+            <section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-inherited">
+    <a name="_material" class="tsd-anchor"></a>
+        <h3>_material</h3>
+
+        <div class="tsd-signature tsd-kind-icon">_material<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">IMaterial</span></div>
+
+<aside class="tsd-sources">
+        <p>Inherited from PassBase._material</p>
+        <ul>
+                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/renderer/dist/lib/materials/passes/PassBase.d.ts:19</li>
+        </ul>
+</aside>
+
+    
+
+</section>
+            <section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-inherited">
+    <a name="_render" class="tsd-anchor"></a>
+        <h3>_render</h3>
+
+        <div class="tsd-signature tsd-kind-icon">_render<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">GL_MaterialBase</span></div>
+
+<aside class="tsd-sources">
+        <p>Inherited from PassBase._render</p>
+        <ul>
+                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/renderer/dist/lib/materials/passes/PassBase.d.ts:18</li>
+        </ul>
+</aside>
+
+    
+
+</section>
+            <section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-inherited">
+    <a name="_shader" class="tsd-anchor"></a>
+        <h3>_shader</h3>
+
+        <div class="tsd-signature tsd-kind-icon">_shader<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">ShaderBase</span></div>
+
+<aside class="tsd-sources">
+        <p>Inherited from PassBase._shader</p>
+        <ul>
+                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/renderer/dist/lib/materials/passes/PassBase.d.ts:22</li>
+        </ul>
+</aside>
+
+    
+
+</section>
+            <section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-inherited">
+    <a name="_stage" class="tsd-anchor"></a>
+        <h3>_stage</h3>
+
+        <div class="tsd-signature tsd-kind-icon">_stage<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">Stage</span></div>
+
+<aside class="tsd-sources">
+        <p>Inherited from PassBase._stage</p>
+        <ul>
+                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/renderer/dist/lib/materials/passes/PassBase.d.ts:21</li>
+        </ul>
+</aside>
+
+    
+
+</section>
+            <section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-inherited">
+    <a name="animationSet" class="tsd-anchor"></a>
+        <h3>animation<wbr>Set</h3>
+
+        <div class="tsd-signature tsd-kind-icon">animation<wbr>Set<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">AnimationSetBase</span></div>
+
+<aside class="tsd-sources">
+        <p>Inherited from PassBase.animationSet</p>
+        <ul>
+                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/renderer/dist/lib/materials/passes/PassBase.d.ts:26</li>
+        </ul>
+</aside>
+
+    
+
+</section>
+            <section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-inherited">
+    <a name="forceSeparateMVP" class="tsd-anchor"></a>
+        <h3>force<wbr>SeparateMVP</h3>
+
+        <div class="tsd-signature tsd-kind-icon">force<wbr>SeparateMVP<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span></div>
+
+<aside class="tsd-sources">
+        <p>Inherited from PassBase.forceSeparateMVP</p>
+        <ul>
+                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/renderer/dist/lib/materials/passes/PassBase.d.ts:36</li>
+        </ul>
+</aside>
+        <div class="tsd-comment tsd-typography">
+                <div class="lead">
+                    <p>Indicates whether the screen projection should be calculated by forcing a separate scene matrix and
+view-projection matrix. This is used to prevent rounding errors when using multiple passes with different
+projection code.</p>
+
+                </div>
+        </div>
+
+    
+
+</section>
+            <section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-inherited">
+    <a name="preserveAlpha" class="tsd-anchor"></a>
+        <h3>preserve<wbr>Alpha</h3>
+
+        <div class="tsd-signature tsd-kind-icon">preserve<wbr>Alpha<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span></div>
+
+<aside class="tsd-sources">
+        <p>Inherited from PassBase.preserveAlpha</p>
+        <ul>
+                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/renderer/dist/lib/materials/passes/PassBase.d.ts:30</li>
+        </ul>
+</aside>
+        <div class="tsd-comment tsd-typography">
+                <div class="lead">
+                    <p>Indicates whether the output alpha value should remain unchanged compared to the material&#39;s original alpha.</p>
+
+                </div>
+        </div>
+
+    
+
+</section>
+            <section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-inherited">
+    <a name="shader" class="tsd-anchor"></a>
+        <h3>shader</h3>
+
+        <div class="tsd-signature tsd-kind-icon">shader<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">ShaderBase</span></div>
+
+<aside class="tsd-sources">
+        <p>Inherited from PassBase.shader</p>
+        <ul>
+                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/renderer/dist/lib/materials/passes/PassBase.d.ts:25</li>
+        </ul>
+</aside>
+
+    
+
+</section>
+</section>
+        <section class="tsd-panel-group tsd-member-group ">
+    <h2>Accessors</h2>
+            <section class="tsd-panel tsd-member tsd-kind-accessor tsd-parent-kind-class">
+    <a name="polyOffset" class="tsd-anchor"></a>
+        <h3>poly<wbr>Offset</h3>
+
+
+        <ul class="tsd-signatures tsd-kind-accessor tsd-parent-kind-class">
+            <li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">get</span> <span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span></li>
+            <li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">set</span> <span class="tsd-signature-symbol">(</span>value<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+</ul>
+
+<ul class="tsd-descriptions">
+            <li class="tsd-description">
+                    <aside class="tsd-sources">
+        <ul>
+                    <li>Defined in surfaces/passes/SingleObjectDepthPass.ts:43</li>
+        </ul>
+</aside>
+        <div class="tsd-comment tsd-typography">
+                <div class="lead">
+                    <p>The amount by which the rendered object will be inflated, to prevent depth map rounding errors.</p>
+
+                </div>
+        </div>
+
+
+
+    <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">number</span></h4>
+
+
+            </li>
+            <li class="tsd-description">
+                    <aside class="tsd-sources">
+        <ul>
+                    <li>Defined in surfaces/passes/SingleObjectDepthPass.ts:48</li>
+        </ul>
+</aside>
+        <div class="tsd-comment tsd-typography">
+                <div class="lead">
+                    <p>The amount by which the rendered object will be inflated, to prevent depth map rounding errors.</p>
+
+                </div>
+        </div>
+
+
+    <h4 class="tsd-parameters-title">Parameters</h4>
+    <ul class="tsd-parameters">
+            <li>
+                <h5>value: <span class="tsd-signature-type">number</span></h5>
+
+                
+            </li>
+    </ul>
+
+    <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+
+
+            </li>
+</ul>
+
+</section>
+            <section class="tsd-panel tsd-member tsd-kind-accessor tsd-parent-kind-class">
+    <a name="textureSize" class="tsd-anchor"></a>
+        <h3>texture<wbr>Size</h3>
+
+
+        <ul class="tsd-signatures tsd-kind-accessor tsd-parent-kind-class">
+            <li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">get</span> <span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span></li>
+            <li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">set</span> <span class="tsd-signature-symbol">(</span>value<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+</ul>
+
+<ul class="tsd-descriptions">
+            <li class="tsd-description">
+                    <aside class="tsd-sources">
+        <ul>
+                    <li>Defined in surfaces/passes/SingleObjectDepthPass.ts:30</li>
+        </ul>
+</aside>
+        <div class="tsd-comment tsd-typography">
+                <div class="lead">
+                    <p>The size of the depth map texture to render to.</p>
+
+                </div>
+        </div>
+
+
+
+    <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">number</span></h4>
+
+
+            </li>
+            <li class="tsd-description">
+                    <aside class="tsd-sources">
+        <ul>
+                    <li>Defined in surfaces/passes/SingleObjectDepthPass.ts:35</li>
+        </ul>
+</aside>
+        <div class="tsd-comment tsd-typography">
+                <div class="lead">
+                    <p>The size of the depth map texture to render to.</p>
+
+                </div>
+        </div>
+
+
+    <h4 class="tsd-parameters-title">Parameters</h4>
+    <ul class="tsd-parameters">
+            <li>
+                <h5>value: <span class="tsd-signature-type">number</span></h5>
+
+                
+            </li>
+    </ul>
+
+    <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+
+
+            </li>
+</ul>
+
+</section>
+</section>
+        <section class="tsd-panel-group tsd-member-group ">
+    <h2>Methods</h2>
+            <section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-overwrite">
+    <a name="_iActivate" class="tsd-anchor"></a>
+        <h3>_i<wbr>Activate</h3>
+
+        <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-overwrite">
+        <li class="tsd-signature tsd-kind-icon">_i<wbr>Activate<span class="tsd-signature-symbol">(</span>camera<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Camera</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+</ul>
+
+<ul class="tsd-descriptions">
+        <li class="tsd-description">
+                <aside class="tsd-sources">
+        <p>Overwrites PassBase._iActivate</p>
+        <ul>
+                    <li>Defined in surfaces/passes/SingleObjectDepthPass.ts:199</li>
+        </ul>
+</aside>
+        <div class="tsd-comment tsd-typography">
+                <dl class="tsd-comment-tags">
+                        <dt>inheritdoc</dt>
+                        <dd></dd>
+                </dl>
+        </div>
+
+
+    <h4 class="tsd-parameters-title">Parameters</h4>
+    <ul class="tsd-parameters">
+            <li>
+                <h5>camera: <span class="tsd-signature-type">Camera</span></h5>
+
+                
+            </li>
+    </ul>
+
+    <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+
+
+        </li>
+</ul>    
+
+</section>
+            <section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-inherited tsd-is-private">
+    <a name="_iDeactivate" class="tsd-anchor"></a>
+        <h3><span class="tsd-flag ts-flagPrivate">Private</span> _i<wbr>Deactivate</h3>
+
+        <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-inherited tsd-is-private">
+        <li class="tsd-signature tsd-kind-icon">_i<wbr>Deactivate<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+</ul>
+
+<ul class="tsd-descriptions">
+        <li class="tsd-description">
+                <aside class="tsd-sources">
+        <p>Inherited from PassBase._iDeactivate</p>
+        <ul>
+                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/renderer/dist/lib/materials/passes/PassBase.d.ts:77</li>
+        </ul>
+</aside>
+        <div class="tsd-comment tsd-typography">
+                <div class="lead">
+                    <p>Clears the render state for the pass. This needs to be called before activating another pass.</p>
+
+                </div>
+        </div>
+
+
+
+    <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+
+
+        </li>
+</ul>    
+
+</section>
+            <section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+    <a name="_iGetDepthMap" class="tsd-anchor"></a>
+        <h3>_i<wbr>Get<wbr>Depth<wbr>Map</h3>
+
+        <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+        <li class="tsd-signature tsd-kind-icon">_i<wbr>Get<wbr>Depth<wbr>Map<span class="tsd-signature-symbol">(</span>renderableGL<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">GL_RenderableBase</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">TextureBase</span></li>
+</ul>
+
+<ul class="tsd-descriptions">
+        <li class="tsd-description">
+                <aside class="tsd-sources">
+        <ul>
+                    <li>Defined in surfaces/passes/SingleObjectDepthPass.ts:144</li>
+        </ul>
+</aside>
+        <div class="tsd-comment tsd-typography">
+                <div class="lead">
+                    <p>Gets the depth maps rendered for this object from all lights.</p>
+
+                </div>
+        </div>
+
+
+    <h4 class="tsd-parameters-title">Parameters</h4>
+    <ul class="tsd-parameters">
+            <li>
+                <h5>renderableGL: <span class="tsd-signature-type">GL_RenderableBase</span></h5>
+
+                        <div class="tsd-comment tsd-typography">
+                <p>The renderableGL for which to retrieve the depth maps.</p>
+
+        </div>
+
+            </li>
+    </ul>
+
+    <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">TextureBase</span></h4>
+
+        <p>A list of depth map textures for all supported lights.</p>
+
+
+        </li>
+</ul>    
+
+</section>
+            <section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-overwrite">
+    <a name="_iGetFragmentCode" class="tsd-anchor"></a>
+        <h3>_i<wbr>Get<wbr>Fragment<wbr>Code</h3>
+
+        <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-overwrite">
+        <li class="tsd-signature tsd-kind-icon">_i<wbr>Get<wbr>Fragment<wbr>Code<span class="tsd-signature-symbol">(</span>shader<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">ShaderBase</span>, registerCache<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">ShaderRegisterCache</span>, sharedRegisters<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">ShaderRegisterData</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span></li>
+</ul>
+
+<ul class="tsd-descriptions">
+        <li class="tsd-description">
+                <aside class="tsd-sources">
+        <p>Overwrites PassBase._iGetFragmentCode</p>
+        <ul>
+                    <li>Defined in surfaces/passes/SingleObjectDepthPass.ts:124</li>
+        </ul>
+</aside>
+        <div class="tsd-comment tsd-typography">
+                <dl class="tsd-comment-tags">
+                        <dt>inheritdoc</dt>
+                        <dd></dd>
+                </dl>
+        </div>
+
+
+    <h4 class="tsd-parameters-title">Parameters</h4>
+    <ul class="tsd-parameters">
+            <li>
+                <h5>shader: <span class="tsd-signature-type">ShaderBase</span></h5>
+
+                
+            </li>
+            <li>
+                <h5>registerCache: <span class="tsd-signature-type">ShaderRegisterCache</span></h5>
+
+                
+            </li>
+            <li>
+                <h5>sharedRegisters: <span class="tsd-signature-type">ShaderRegisterData</span></h5>
+
+                
+            </li>
+    </ul>
+
+    <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">string</span></h4>
+
+
+        </li>
+</ul>    
+
+</section>
+            <section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+    <a name="_iGetNormalFragmentCode" class="tsd-anchor"></a>
+        <h3>_i<wbr>Get<wbr>Normal<wbr>Fragment<wbr>Code</h3>
+
+        <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+        <li class="tsd-signature tsd-kind-icon">_i<wbr>Get<wbr>Normal<wbr>Fragment<wbr>Code<span class="tsd-signature-symbol">(</span>shader<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">ShaderBase</span>, registerCache<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">ShaderRegisterCache</span>, sharedRegisters<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">ShaderRegisterData</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span></li>
+</ul>
+
+<ul class="tsd-descriptions">
+        <li class="tsd-description">
+                <aside class="tsd-sources">
+        <p>Inherited from PassBase._iGetNormalFragmentCode</p>
+        <ul>
+                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/renderer/dist/lib/materials/passes/PassBase.d.ts:85</li>
+        </ul>
+</aside>
+
+
+    <h4 class="tsd-parameters-title">Parameters</h4>
+    <ul class="tsd-parameters">
+            <li>
+                <h5>shader: <span class="tsd-signature-type">ShaderBase</span></h5>
+
+                
+            </li>
+            <li>
+                <h5>registerCache: <span class="tsd-signature-type">ShaderRegisterCache</span></h5>
+
+                
+            </li>
+            <li>
+                <h5>sharedRegisters: <span class="tsd-signature-type">ShaderRegisterData</span></h5>
+
+                
+            </li>
+    </ul>
+
+    <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">string</span></h4>
+
+
+        </li>
+</ul>    
+
+</section>
+            <section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+    <a name="_iGetNormalVertexCode" class="tsd-anchor"></a>
+        <h3>_i<wbr>Get<wbr>Normal<wbr>Vertex<wbr>Code</h3>
+
+        <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+        <li class="tsd-signature tsd-kind-icon">_i<wbr>Get<wbr>Normal<wbr>Vertex<wbr>Code<span class="tsd-signature-symbol">(</span>shader<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">ShaderBase</span>, registerCache<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">ShaderRegisterCache</span>, sharedRegisters<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">ShaderRegisterData</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span></li>
+</ul>
+
+<ul class="tsd-descriptions">
+        <li class="tsd-description">
+                <aside class="tsd-sources">
+        <p>Inherited from PassBase._iGetNormalVertexCode</p>
+        <ul>
+                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/renderer/dist/lib/materials/passes/PassBase.d.ts:84</li>
+        </ul>
+</aside>
+
+
+    <h4 class="tsd-parameters-title">Parameters</h4>
+    <ul class="tsd-parameters">
+            <li>
+                <h5>shader: <span class="tsd-signature-type">ShaderBase</span></h5>
+
+                
+            </li>
+            <li>
+                <h5>registerCache: <span class="tsd-signature-type">ShaderRegisterCache</span></h5>
+
+                
+            </li>
+            <li>
+                <h5>sharedRegisters: <span class="tsd-signature-type">ShaderRegisterData</span></h5>
+
+                
+            </li>
+    </ul>
+
+    <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">string</span></h4>
+
+
+        </li>
+</ul>    
+
+</section>
+            <section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+    <a name="_iGetPreLightingFragmentCode" class="tsd-anchor"></a>
+        <h3>_i<wbr>Get<wbr>Pre<wbr>Lighting<wbr>Fragment<wbr>Code</h3>
+
+        <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+        <li class="tsd-signature tsd-kind-icon">_i<wbr>Get<wbr>Pre<wbr>Lighting<wbr>Fragment<wbr>Code<span class="tsd-signature-symbol">(</span>shader<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">ShaderBase</span>, registerCache<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">ShaderRegisterCache</span>, sharedRegisters<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">ShaderRegisterData</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span></li>
+</ul>
+
+<ul class="tsd-descriptions">
+        <li class="tsd-description">
+                <aside class="tsd-sources">
+        <p>Inherited from PassBase._iGetPreLightingFragmentCode</p>
+        <ul>
+                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/renderer/dist/lib/materials/passes/PassBase.d.ts:81</li>
+        </ul>
+</aside>
+
+
+    <h4 class="tsd-parameters-title">Parameters</h4>
+    <ul class="tsd-parameters">
+            <li>
+                <h5>shader: <span class="tsd-signature-type">ShaderBase</span></h5>
+
+                
+            </li>
+            <li>
+                <h5>registerCache: <span class="tsd-signature-type">ShaderRegisterCache</span></h5>
+
+                
+            </li>
+            <li>
+                <h5>sharedRegisters: <span class="tsd-signature-type">ShaderRegisterData</span></h5>
+
+                
+            </li>
+    </ul>
+
+    <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">string</span></h4>
+
+
+        </li>
+</ul>    
+
+</section>
+            <section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+    <a name="_iGetPreLightingVertexCode" class="tsd-anchor"></a>
+        <h3>_i<wbr>Get<wbr>Pre<wbr>Lighting<wbr>Vertex<wbr>Code</h3>
+
+        <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+        <li class="tsd-signature tsd-kind-icon">_i<wbr>Get<wbr>Pre<wbr>Lighting<wbr>Vertex<wbr>Code<span class="tsd-signature-symbol">(</span>shader<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">ShaderBase</span>, registerCache<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">ShaderRegisterCache</span>, sharedRegisters<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">ShaderRegisterData</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span></li>
+</ul>
+
+<ul class="tsd-descriptions">
+        <li class="tsd-description">
+                <aside class="tsd-sources">
+        <p>Inherited from PassBase._iGetPreLightingVertexCode</p>
+        <ul>
+                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/renderer/dist/lib/materials/passes/PassBase.d.ts:80</li>
+        </ul>
+</aside>
+
+
+    <h4 class="tsd-parameters-title">Parameters</h4>
+    <ul class="tsd-parameters">
+            <li>
+                <h5>shader: <span class="tsd-signature-type">ShaderBase</span></h5>
+
+                
+            </li>
+            <li>
+                <h5>registerCache: <span class="tsd-signature-type">ShaderRegisterCache</span></h5>
+
+                
+            </li>
+            <li>
+                <h5>sharedRegisters: <span class="tsd-signature-type">ShaderRegisterData</span></h5>
+
+                
+            </li>
+    </ul>
+
+    <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">string</span></h4>
+
+
+        </li>
+</ul>    
+
+</section>
+            <section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+    <a name="_iGetProjection" class="tsd-anchor"></a>
+        <h3>_i<wbr>Get<wbr>Projection</h3>
+
+        <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+        <li class="tsd-signature tsd-kind-icon">_i<wbr>Get<wbr>Projection<span class="tsd-signature-symbol">(</span>renderableGL<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">GL_RenderableBase</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Matrix3D</span></li>
+</ul>
+
+<ul class="tsd-descriptions">
+        <li class="tsd-description">
+                <aside class="tsd-sources">
+        <ul>
+                    <li>Defined in surfaces/passes/SingleObjectDepthPass.ts:154</li>
+        </ul>
+</aside>
+        <div class="tsd-comment tsd-typography">
+                <div class="lead">
+                    <p>Retrieves the depth map projection maps for all lights.</p>
+
+                </div>
+        </div>
+
+
+    <h4 class="tsd-parameters-title">Parameters</h4>
+    <ul class="tsd-parameters">
+            <li>
+                <h5>renderableGL: <span class="tsd-signature-type">GL_RenderableBase</span></h5>
+
+                        <div class="tsd-comment tsd-typography">
+                <p>The renderableGL for which to retrieve the projection maps.</p>
+
+        </div>
+
+            </li>
+    </ul>
+
+    <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Matrix3D</span></h4>
+
+        <p>A list of projection maps for all supported lights.</p>
+
+
+        </li>
+</ul>    
+
+</section>
+            <section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-overwrite">
+    <a name="_iGetVertexCode" class="tsd-anchor"></a>
+        <h3>_i<wbr>Get<wbr>Vertex<wbr>Code</h3>
+
+        <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-overwrite">
+        <li class="tsd-signature tsd-kind-icon">_i<wbr>Get<wbr>Vertex<wbr>Code<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span></li>
+</ul>
+
+<ul class="tsd-descriptions">
+        <li class="tsd-description">
+                <aside class="tsd-sources">
+        <p>Overwrites PassBase._iGetVertexCode</p>
+        <ul>
+                    <li>Defined in surfaces/passes/SingleObjectDepthPass.ts:104</li>
+        </ul>
+</aside>
+        <div class="tsd-comment tsd-typography">
+                <dl class="tsd-comment-tags">
+                        <dt>inheritdoc</dt>
+                        <dd></dd>
+                </dl>
+        </div>
+
+
+
+    <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">string</span></h4>
+
+
+        </li>
+</ul>    
+
+</section>
+            <section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+    <a name="_iIncludeDependencies" class="tsd-anchor"></a>
+        <h3>_i<wbr>Include<wbr>Dependencies</h3>
+
+        <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+        <li class="tsd-signature tsd-kind-icon">_i<wbr>Include<wbr>Dependencies<span class="tsd-signature-symbol">(</span>shader<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">ShaderBase</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+</ul>
+
+<ul class="tsd-descriptions">
+        <li class="tsd-description">
+                <aside class="tsd-sources">
+        <p>Inherited from PassBase._iIncludeDependencies</p>
+        <ul>
+                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/renderer/dist/lib/materials/passes/PassBase.d.ts:78</li>
+        </ul>
+</aside>
+
+
+    <h4 class="tsd-parameters-title">Parameters</h4>
+    <ul class="tsd-parameters">
+            <li>
+                <h5>shader: <span class="tsd-signature-type">ShaderBase</span></h5>
+
+                
+            </li>
+    </ul>
+
+    <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+
+
+        </li>
+</ul>    
+
+</section>
+            <section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+    <a name="_iInitConstantData" class="tsd-anchor"></a>
+        <h3>_i<wbr>Init<wbr>Constant<wbr>Data</h3>
+
+        <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+        <li class="tsd-signature tsd-kind-icon">_i<wbr>Init<wbr>Constant<wbr>Data<span class="tsd-signature-symbol">(</span>shader<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">ShaderBase</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+</ul>
+
+<ul class="tsd-descriptions">
+        <li class="tsd-description">
+                <aside class="tsd-sources">
+        <p>Inherited from PassBase._iInitConstantData</p>
+        <ul>
+                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/renderer/dist/lib/materials/passes/PassBase.d.ts:79</li>
+        </ul>
+</aside>
+
+
+    <h4 class="tsd-parameters-title">Parameters</h4>
+    <ul class="tsd-parameters">
+            <li>
+                <h5>shader: <span class="tsd-signature-type">ShaderBase</span></h5>
+
+                
+            </li>
+    </ul>
+
+    <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+
+
+        </li>
+</ul>    
+
+</section>
+            <section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+    <a name="_iRender" class="tsd-anchor"></a>
+        <h3>_i<wbr>Render</h3>
+
+        <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+        <li class="tsd-signature tsd-kind-icon">_i<wbr>Render<span class="tsd-signature-symbol">(</span>renderableGL<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">GL_RenderableBase</span>, camera<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Camera</span>, viewProjection<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Matrix3D</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+</ul>
+
+<ul class="tsd-descriptions">
+        <li class="tsd-description">
+                <aside class="tsd-sources">
+        <ul>
+                    <li>Defined in surfaces/passes/SingleObjectDepthPass.ts:162</li>
+        </ul>
+</aside>
+        <div class="tsd-comment tsd-typography">
+                <dl class="tsd-comment-tags">
+                        <dt>inheritdoc</dt>
+                        <dd></dd>
+                </dl>
+        </div>
+
+
+    <h4 class="tsd-parameters-title">Parameters</h4>
+    <ul class="tsd-parameters">
+            <li>
+                <h5>renderableGL: <span class="tsd-signature-type">GL_RenderableBase</span></h5>
+
+                
+            </li>
+            <li>
+                <h5>camera: <span class="tsd-signature-type">Camera</span></h5>
+
+                
+            </li>
+            <li>
+                <h5>viewProjection: <span class="tsd-signature-type">Matrix3D</span></h5>
+
+                
+            </li>
+    </ul>
+
+    <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+
+
+        </li>
+</ul>    
+
+</section>
+            <section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+    <a name="_setRenderState" class="tsd-anchor"></a>
+        <h3>_set<wbr>Render<wbr>State</h3>
+
+        <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+        <li class="tsd-signature tsd-kind-icon">_set<wbr>Render<wbr>State<span class="tsd-signature-symbol">(</span>renderable<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">GL_RenderableBase</span>, camera<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Camera</span>, viewProjection<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Matrix3D</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+</ul>
+
+<ul class="tsd-descriptions">
+        <li class="tsd-description">
+                <aside class="tsd-sources">
+        <p>Inherited from PassBase._setRenderState</p>
+        <ul>
+                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/renderer/dist/lib/materials/passes/PassBase.d.ts:62</li>
+        </ul>
+</aside>
+        <div class="tsd-comment tsd-typography">
+                <div class="lead">
+                    <p>Renders the current pass. Before calling pass, activatePass needs to be called with the same index.</p>
+
+                </div>
+                <dl class="tsd-comment-tags">
+                        <dt>internal</dt>
+                        <dd></dd>
+                </dl>
+        </div>
+
+
+    <h4 class="tsd-parameters-title">Parameters</h4>
+    <ul class="tsd-parameters">
+            <li>
+                <h5>renderable: <span class="tsd-signature-type">GL_RenderableBase</span></h5>
+
+                        <div class="tsd-comment tsd-typography">
+                <p>The IRenderable object to draw.</p>
+
+        </div>
+
+            </li>
+            <li>
+                <h5>camera: <span class="tsd-signature-type">Camera</span></h5>
+
+                
+            </li>
+            <li>
+                <h5>viewProjection: <span class="tsd-signature-type">Matrix3D</span></h5>
+
+                        <div class="tsd-comment tsd-typography">
+                <p>The view-projection matrix used to project to the screen. This is not the same as
+camera.viewProjection as it includes the scaling factors when rendering to textures.</p>
+
+        </div>
+
+            </li>
+    </ul>
+
+    <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+
+
+        </li>
+</ul>    
+
+</section>
+            <section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+    <a name="addEventListener" class="tsd-anchor"></a>
+        <h3>add<wbr>Event<wbr>Listener</h3>
+
+        <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+        <li class="tsd-signature tsd-kind-icon">add<wbr>Event<wbr>Listener<span class="tsd-signature-symbol">(</span>type<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span>, listener<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">function</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+</ul>
+
+<ul class="tsd-descriptions">
+        <li class="tsd-description">
+                <aside class="tsd-sources">
+        <p>Inherited from EventDispatcher.addEventListener</p>
+        <ul>
+                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/core/dist/lib/events/EventDispatcher.d.ts:18</li>
+        </ul>
+</aside>
+        <div class="tsd-comment tsd-typography">
+                <div class="lead">
+                    <p>Add an event listener</p>
+
+                </div>
+                <dl class="tsd-comment-tags">
+                        <dt>method</dt>
+                        <dd><p>addEventListener</p>
+</dd>
+                </dl>
+        </div>
+
+
+    <h4 class="tsd-parameters-title">Parameters</h4>
+    <ul class="tsd-parameters">
+            <li>
+                <h5>type: <span class="tsd-signature-type">string</span></h5>
+
+                
+            </li>
+            <li>
+                <h5>listener: <span class="tsd-signature-type">function</span></h5>
+
+                
+                        <ul class="tsd-parameters">
+        <li class="tsd-parameter-siganture">
+            <ul class="tsd-signatures tsd-kind-type-literal tsd-is-not-exported">
+                    <li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">(</span>event<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">EventBase</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+            </ul>
+
+            <ul class="tsd-descriptions">
+                    <li class="tsd-description">
+
+
+    <h4 class="tsd-parameters-title">Parameters</h4>
+    <ul class="tsd-parameters">
+            <li>
+                <h5>event: <span class="tsd-signature-type">EventBase</span></h5>
+
+                
+            </li>
+    </ul>
+
+    <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+
+
+</li>
+            </ul>
+        </li>
+</ul>
+            </li>
+    </ul>
+
+    <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+
+
+        </li>
+</ul>    
+
+</section>
+            <section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+    <a name="dispatchEvent" class="tsd-anchor"></a>
+        <h3>dispatch<wbr>Event</h3>
+
+        <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+        <li class="tsd-signature tsd-kind-icon">dispatch<wbr>Event<span class="tsd-signature-symbol">(</span>event<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">EventBase</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+</ul>
+
+<ul class="tsd-descriptions">
+        <li class="tsd-description">
+                <aside class="tsd-sources">
+        <p>Inherited from EventDispatcher.dispatchEvent</p>
+        <ul>
+                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/core/dist/lib/events/EventDispatcher.d.ts:31</li>
+        </ul>
+</aside>
+        <div class="tsd-comment tsd-typography">
+                <div class="lead">
+                    <p>Dispatch an event</p>
+
+                </div>
+                <dl class="tsd-comment-tags">
+                        <dt>method</dt>
+                        <dd><p>dispatchEvent</p>
+</dd>
+                </dl>
+        </div>
+
+
+    <h4 class="tsd-parameters-title">Parameters</h4>
+    <ul class="tsd-parameters">
+            <li>
+                <h5>event: <span class="tsd-signature-type">EventBase</span></h5>
+
+                
+            </li>
+    </ul>
+
+    <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+
+
+        </li>
+</ul>    
+
+</section>
+            <section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-overwrite">
+    <a name="dispose" class="tsd-anchor"></a>
+        <h3>dispose</h3>
+
+        <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-overwrite">
+        <li class="tsd-signature tsd-kind-icon">dispose<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+</ul>
+
+<ul class="tsd-descriptions">
+        <li class="tsd-description">
+                <aside class="tsd-sources">
+        <p>Overwrites PassBase.dispose</p>
+        <ul>
+                    <li>Defined in surfaces/passes/SingleObjectDepthPass.ts:73</li>
+        </ul>
+</aside>
+        <div class="tsd-comment tsd-typography">
+                <dl class="tsd-comment-tags">
+                        <dt>inheritdoc</dt>
+                        <dd></dd>
+                </dl>
+        </div>
+
+
+
+    <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+
+
+        </li>
+</ul>    
+
+</section>
+            <section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+    <a name="getImageIndex" class="tsd-anchor"></a>
+        <h3>get<wbr>Image<wbr>Index</h3>
+
+        <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+        <li class="tsd-signature tsd-kind-icon">get<wbr>Image<wbr>Index<span class="tsd-signature-symbol">(</span>texture<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">TextureBase</span>, index<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span></li>
+</ul>
+
+<ul class="tsd-descriptions">
+        <li class="tsd-description">
+                <aside class="tsd-sources">
+        <p>Inherited from PassBase.getImageIndex</p>
+        <ul>
+                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/renderer/dist/lib/materials/passes/PassBase.d.ts:41</li>
+        </ul>
+</aside>
+
+
+    <h4 class="tsd-parameters-title">Parameters</h4>
+    <ul class="tsd-parameters">
+            <li>
+                <h5>texture: <span class="tsd-signature-type">TextureBase</span></h5>
+
+                
+            </li>
+            <li>
+                <h5><span class="tsd-flag ts-flagOptional">Optional</span> index: <span class="tsd-signature-type">number</span></h5>
+
+                
+            </li>
+    </ul>
+
+    <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">number</span></h4>
+
+
+        </li>
+</ul>    
+
+</section>
+            <section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+    <a name="hasEventListener" class="tsd-anchor"></a>
+        <h3>has<wbr>Event<wbr>Listener</h3>
+
+        <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+        <li class="tsd-signature tsd-kind-icon">has<wbr>Event<wbr>Listener<span class="tsd-signature-symbol">(</span>type<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span>, listener<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">function</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">boolean</span></li>
+</ul>
+
+<ul class="tsd-descriptions">
+        <li class="tsd-description">
+                <aside class="tsd-sources">
+        <p>Inherited from EventDispatcher.hasEventListener</p>
+        <ul>
+                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/core/dist/lib/events/EventDispatcher.d.ts:38</li>
+        </ul>
+</aside>
+        <div class="tsd-comment tsd-typography">
+                <div class="lead">
+                    <p>check if an object has an event listener assigned to it</p>
+
+                </div>
+                <dl class="tsd-comment-tags">
+                        <dt>method</dt>
+                        <dd><p>hasListener</p>
+</dd>
+                </dl>
+        </div>
+
+
+    <h4 class="tsd-parameters-title">Parameters</h4>
+    <ul class="tsd-parameters">
+            <li>
+                <h5>type: <span class="tsd-signature-type">string</span></h5>
+
+                
+            </li>
+            <li>
+                <h5><span class="tsd-flag ts-flagOptional">Optional</span> listener: <span class="tsd-signature-type">function</span></h5>
+
+                
+                        <ul class="tsd-parameters">
+        <li class="tsd-parameter-siganture">
+            <ul class="tsd-signatures tsd-kind-type-literal tsd-is-not-exported">
+                    <li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">(</span>event<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">EventBase</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+            </ul>
+
+            <ul class="tsd-descriptions">
+                    <li class="tsd-description">
+
+
+    <h4 class="tsd-parameters-title">Parameters</h4>
+    <ul class="tsd-parameters">
+            <li>
+                <h5>event: <span class="tsd-signature-type">EventBase</span></h5>
+
+                
+            </li>
+    </ul>
+
+    <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+
+
+</li>
+            </ul>
+        </li>
+</ul>
+            </li>
+    </ul>
+
+    <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">boolean</span></h4>
+
+
+        </li>
+</ul>    
+
+</section>
+            <section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+    <a name="invalidate" class="tsd-anchor"></a>
+        <h3>invalidate</h3>
+
+        <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+        <li class="tsd-signature tsd-kind-icon">invalidate<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+</ul>
+
+<ul class="tsd-descriptions">
+        <li class="tsd-description">
+                <aside class="tsd-sources">
+        <p>Inherited from PassBase.invalidate</p>
+        <ul>
+                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/renderer/dist/lib/materials/passes/PassBase.d.ts:45</li>
+        </ul>
+</aside>
+        <div class="tsd-comment tsd-typography">
+                <div class="lead">
+                    <p>Marks the shader program as invalid, so it will be recompiled before the next render.</p>
+
+                </div>
+        </div>
+
+
+
+    <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+
+
+        </li>
+</ul>    
+
+</section>
+            <section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+    <a name="removeEventListener" class="tsd-anchor"></a>
+        <h3>remove<wbr>Event<wbr>Listener</h3>
+
+        <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+        <li class="tsd-signature tsd-kind-icon">remove<wbr>Event<wbr>Listener<span class="tsd-signature-symbol">(</span>type<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span>, listener<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">function</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+</ul>
+
+<ul class="tsd-descriptions">
+        <li class="tsd-description">
+                <aside class="tsd-sources">
+        <p>Inherited from EventDispatcher.removeEventListener</p>
+        <ul>
+                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/core/dist/lib/events/EventDispatcher.d.ts:25</li>
+        </ul>
+</aside>
+        <div class="tsd-comment tsd-typography">
+                <div class="lead">
+                    <p>Remove an event listener</p>
+
+                </div>
+                <dl class="tsd-comment-tags">
+                        <dt>method</dt>
+                        <dd><p>removeEventListener</p>
+</dd>
+                </dl>
+        </div>
+
+
+    <h4 class="tsd-parameters-title">Parameters</h4>
+    <ul class="tsd-parameters">
+            <li>
+                <h5>type: <span class="tsd-signature-type">string</span></h5>
+
+                
+            </li>
+            <li>
+                <h5>listener: <span class="tsd-signature-type">function</span></h5>
+
+                
+                        <ul class="tsd-parameters">
+        <li class="tsd-parameter-siganture">
+            <ul class="tsd-signatures tsd-kind-type-literal tsd-is-not-exported">
+                    <li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">(</span>event<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">EventBase</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+            </ul>
+
+            <ul class="tsd-descriptions">
+                    <li class="tsd-description">
+
+
+    <h4 class="tsd-parameters-title">Parameters</h4>
+    <ul class="tsd-parameters">
+            <li>
+                <h5>event: <span class="tsd-signature-type">EventBase</span></h5>
+
+                
+            </li>
+    </ul>
+
+    <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+
+
+</li>
+            </ul>
+        </li>
+</ul>
+            </li>
+    </ul>
+
+    <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+
+
+        </li>
+</ul>    
+
+</section>
+</section>
+
+        </div>
+        <div class="col-4 col-menu menu-sticky-wrap menu-highlight">
+            <nav class="tsd-navigation secondary menu-sticky">
+                <ul class="before-current">
+                        <li class=" tsd-kind-class">
+    <a href="AmbientBasicMethod.html" class="tsd-kind-icon">Ambient<wbr>Basic<wbr>Method</a>
+</li>
+                        <li class=" tsd-kind-class">
+    <a href="AmbientEnvMapMethod.html" class="tsd-kind-icon">Ambient<wbr>Env<wbr>Map<wbr>Method</a>
+</li>
+                        <li class=" tsd-kind-class">
+    <a href="CurveBasicMethod.html" class="tsd-kind-icon">Curve<wbr>Basic<wbr>Method</a>
+</li>
+                        <li class=" tsd-kind-class">
+    <a href="DiffuseBasicMethod.html" class="tsd-kind-icon">Diffuse<wbr>Basic<wbr>Method</a>
+</li>
+                        <li class=" tsd-kind-class">
+    <a href="DiffuseCelMethod.html" class="tsd-kind-icon">Diffuse<wbr>Cel<wbr>Method</a>
+</li>
+                        <li class=" tsd-kind-class">
+    <a href="DiffuseCompositeMethod.html" class="tsd-kind-icon">Diffuse<wbr>Composite<wbr>Method</a>
+</li>
+                        <li class=" tsd-kind-class">
+    <a href="DiffuseDepthMethod.html" class="tsd-kind-icon">Diffuse<wbr>Depth<wbr>Method</a>
+</li>
+                        <li class=" tsd-kind-class">
+    <a href="DiffuseGradientMethod.html" class="tsd-kind-icon">Diffuse<wbr>Gradient<wbr>Method</a>
+</li>
+                        <li class=" tsd-kind-class">
+    <a href="DiffuseLightMapMethod.html" class="tsd-kind-icon">Diffuse<wbr>Light<wbr>Map<wbr>Method</a>
+</li>
+                        <li class=" tsd-kind-class">
+    <a href="DiffuseSubSurfaceMethod.html" class="tsd-kind-icon">Diffuse<wbr>Sub<wbr>Surface<wbr>Method</a>
+</li>
+                        <li class=" tsd-kind-class">
+    <a href="DiffuseWrapMethod.html" class="tsd-kind-icon">Diffuse<wbr>Wrap<wbr>Method</a>
+</li>
+                        <li class=" tsd-kind-class">
+    <a href="EffectAlphaMaskMethod.html" class="tsd-kind-icon">Effect<wbr>Alpha<wbr>Mask<wbr>Method</a>
+</li>
+                        <li class=" tsd-kind-class">
+    <a href="EffectColorMatrixMethod.html" class="tsd-kind-icon">Effect<wbr>Color<wbr>Matrix<wbr>Method</a>
+</li>
+                        <li class=" tsd-kind-class">
+    <a href="EffectColorTransformMethod.html" class="tsd-kind-icon">Effect<wbr>Color<wbr>Transform<wbr>Method</a>
+</li>
+                        <li class=" tsd-kind-class">
+    <a href="EffectEnvMapMethod.html" class="tsd-kind-icon">Effect<wbr>Env<wbr>Map<wbr>Method</a>
+</li>
+                        <li class=" tsd-kind-class">
+    <a href="EffectFogMethod.html" class="tsd-kind-icon">Effect<wbr>Fog<wbr>Method</a>
+</li>
+                        <li class=" tsd-kind-class">
+    <a href="EffectFresnelEnvMapMethod.html" class="tsd-kind-icon">Effect<wbr>Fresnel<wbr>Env<wbr>Map<wbr>Method</a>
+</li>
+                        <li class=" tsd-kind-class">
+    <a href="EffectLightMapMethod.html" class="tsd-kind-icon">Effect<wbr>Light<wbr>Map<wbr>Method</a>
+</li>
+                        <li class=" tsd-kind-class">
+    <a href="EffectMethodBase.html" class="tsd-kind-icon">Effect<wbr>Method<wbr>Base</a>
+</li>
+                        <li class=" tsd-kind-class">
+    <a href="EffectProjectiveTextureMethod.html" class="tsd-kind-icon">Effect<wbr>Projective<wbr>Texture<wbr>Method</a>
+</li>
+                        <li class=" tsd-kind-class">
+    <a href="EffectRefractionEnvMapMethod.html" class="tsd-kind-icon">Effect<wbr>Refraction<wbr>Env<wbr>Map<wbr>Method</a>
+</li>
+                        <li class=" tsd-kind-class">
+    <a href="EffectRimLightMethod.html" class="tsd-kind-icon">Effect<wbr>Rim<wbr>Light<wbr>Method</a>
+</li>
+                        <li class=" tsd-kind-class">
+    <a href="GL_MethodMaterial.html" class="tsd-kind-icon">GL_<wbr><wbr>Method<wbr>Material</a>
+</li>
+                        <li class=" tsd-kind-class">
+    <a href="LightingMethodBase.html" class="tsd-kind-icon">Lighting<wbr>Method<wbr>Base</a>
+</li>
+                        <li class=" tsd-kind-class">
+    <a href="MethodMaterial.html" class="tsd-kind-icon">Method<wbr>Material</a>
+</li>
+                        <li class=" tsd-kind-class">
+    <a href="MethodMaterialMode.html" class="tsd-kind-icon">Method<wbr>Material<wbr>Mode</a>
+</li>
+                        <li class=" tsd-kind-class">
+    <a href="MethodPass.html" class="tsd-kind-icon">Method<wbr>Pass</a>
+</li>
+                        <li class=" tsd-kind-class">
+    <a href="MethodPassMode.html" class="tsd-kind-icon">Method<wbr>Pass<wbr>Mode</a>
+</li>
+                        <li class=" tsd-kind-class">
+    <a href="MethodVO.html" class="tsd-kind-icon">MethodVO</a>
+</li>
+                        <li class=" tsd-kind-class">
+    <a href="NormalBasicMethod.html" class="tsd-kind-icon">Normal<wbr>Basic<wbr>Method</a>
+</li>
+                        <li class=" tsd-kind-class">
+    <a href="NormalHeightMapMethod.html" class="tsd-kind-icon">Normal<wbr>Height<wbr>Map<wbr>Method</a>
+</li>
+                        <li class=" tsd-kind-class">
+    <a href="NormalSimpleWaterMethod.html" class="tsd-kind-icon">Normal<wbr>Simple<wbr>Water<wbr>Method</a>
+</li>
+                        <li class=" tsd-kind-class">
+    <a href="ShadingMethodBase.html" class="tsd-kind-icon">Shading<wbr>Method<wbr>Base</a>
+</li>
+                        <li class=" tsd-kind-class">
+    <a href="ShadowCascadeMethod.html" class="tsd-kind-icon">Shadow<wbr>Cascade<wbr>Method</a>
+</li>
+                        <li class=" tsd-kind-class">
+    <a href="ShadowDitheredMethod.html" class="tsd-kind-icon">Shadow<wbr>Dithered<wbr>Method</a>
+</li>
+                        <li class=" tsd-kind-class">
+    <a href="ShadowFilteredMethod.html" class="tsd-kind-icon">Shadow<wbr>Filtered<wbr>Method</a>
+</li>
+                        <li class=" tsd-kind-class">
+    <a href="ShadowHardMethod.html" class="tsd-kind-icon">Shadow<wbr>Hard<wbr>Method</a>
+</li>
+                        <li class=" tsd-kind-class">
+    <a href="ShadowMapMethodBase.html" class="tsd-kind-icon">Shadow<wbr>Map<wbr>Method<wbr>Base</a>
+</li>
+                        <li class=" tsd-kind-class">
+    <a href="ShadowMethodBase.html" class="tsd-kind-icon">Shadow<wbr>Method<wbr>Base</a>
+</li>
+                        <li class=" tsd-kind-class">
+    <a href="ShadowNearMethod.html" class="tsd-kind-icon">Shadow<wbr>Near<wbr>Method</a>
+</li>
+                        <li class=" tsd-kind-class">
+    <a href="ShadowSoftMethod.html" class="tsd-kind-icon">Shadow<wbr>Soft<wbr>Method</a>
+</li>
+                        <li class=" tsd-kind-class">
+    <a href="SingleObjectDepthPass.html" class="tsd-kind-icon">Single<wbr>Object<wbr>Depth<wbr>Pass</a>
+</li>
+                        <li class=" tsd-kind-class">
+    <a href="SpecularAnisotropicMethod.html" class="tsd-kind-icon">Specular<wbr>Anisotropic<wbr>Method</a>
+</li>
+                        <li class=" tsd-kind-class">
+    <a href="SpecularBasicMethod.html" class="tsd-kind-icon">Specular<wbr>Basic<wbr>Method</a>
+</li>
+                        <li class=" tsd-kind-class">
+    <a href="SpecularCelMethod.html" class="tsd-kind-icon">Specular<wbr>Cel<wbr>Method</a>
+</li>
+                        <li class=" tsd-kind-class">
+    <a href="SpecularCompositeMethod.html" class="tsd-kind-icon">Specular<wbr>Composite<wbr>Method</a>
+</li>
+                        <li class=" tsd-kind-class">
+    <a href="SpecularFresnelMethod.html" class="tsd-kind-icon">Specular<wbr>Fresnel<wbr>Method</a>
+</li>
+                        <li class=" tsd-kind-class">
+    <a href="SpecularPhongMethod.html" class="tsd-kind-icon">Specular<wbr>Phong<wbr>Method</a>
+</li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+</div>
+
+
+<footer class="with-border-bottom">
+    <div class="container">
+        <h2>Legend</h2>
+        <div class="tsd-legend-group">
+            <ul class="tsd-legend">
+                <li class="tsd-kind-module"><span class="tsd-kind-icon">Module</span></li>
+                <li class="tsd-kind-object-literal"><span class="tsd-kind-icon">Object literal</span></li>
+                <li class="tsd-kind-variable"><span class="tsd-kind-icon">Variable</span></li>
+                <li class="tsd-kind-function"><span class="tsd-kind-icon">Function</span></li>
+                <li class="tsd-kind-function tsd-has-type-parameter"><span class="tsd-kind-icon">Function with type parameter</span></li>
+                <li class="tsd-kind-index-signature"><span class="tsd-kind-icon">Index signature</span></li>
+                <li class="tsd-kind-type-alias"><span class="tsd-kind-icon">Type alias</span></li>
+            </ul>
+            <ul class="tsd-legend">
+                <li class="tsd-kind-enum"><span class="tsd-kind-icon">Enumeration</span></li>
+                <li class="tsd-kind-enum-member"><span class="tsd-kind-icon">Enumeration member</span></li>
+                <li class="tsd-kind-property tsd-parent-kind-enum"><span class="tsd-kind-icon">Property</span></li>
+                <li class="tsd-kind-method tsd-parent-kind-enum"><span class="tsd-kind-icon">Method</span></li>
+            </ul>
+            <ul class="tsd-legend">
+                <li class="tsd-kind-interface"><span class="tsd-kind-icon">Interface</span></li>
+                <li class="tsd-kind-interface tsd-has-type-parameter"><span class="tsd-kind-icon">Interface with type parameter</span></li>
+                <li class="tsd-kind-constructor tsd-parent-kind-interface"><span class="tsd-kind-icon">Constructor</span></li>
+                <li class="tsd-kind-property tsd-parent-kind-interface"><span class="tsd-kind-icon">Property</span></li>
+                <li class="tsd-kind-method tsd-parent-kind-interface"><span class="tsd-kind-icon">Method</span></li>
+                <li class="tsd-kind-index-signature tsd-parent-kind-interface"><span class="tsd-kind-icon">Index signature</span></li>
+            </ul>
+            <ul class="tsd-legend">
+                <li class="tsd-kind-class"><span class="tsd-kind-icon">Class</span></li>
+                <li class="tsd-kind-class tsd-has-type-parameter"><span class="tsd-kind-icon">Class with type parameter</span></li>
+                <li class="tsd-kind-constructor tsd-parent-kind-class"><span class="tsd-kind-icon">Constructor</span></li>
+                <li class="tsd-kind-property tsd-parent-kind-class"><span class="tsd-kind-icon">Property</span></li>
+                <li class="tsd-kind-method tsd-parent-kind-class"><span class="tsd-kind-icon">Method</span></li>
+                <li class="tsd-kind-accessor tsd-parent-kind-class"><span class="tsd-kind-icon">Accessor</span></li>
+                <li class="tsd-kind-index-signature tsd-parent-kind-class"><span class="tsd-kind-icon">Index signature</span></li>
+            </ul>
+            <ul class="tsd-legend">
+                <li class="tsd-kind-constructor tsd-parent-kind-class tsd-is-inherited"><span class="tsd-kind-icon">Inherited constructor</span></li>
+                <li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><span class="tsd-kind-icon">Inherited property</span></li>
+                <li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><span class="tsd-kind-icon">Inherited method</span></li>
+                <li class="tsd-kind-accessor tsd-parent-kind-class tsd-is-inherited"><span class="tsd-kind-icon">Inherited accessor</span></li>
+            </ul>
+            <ul class="tsd-legend">
+                <li class="tsd-kind-property tsd-parent-kind-class tsd-is-protected"><span class="tsd-kind-icon">Protected property</span></li>
+                <li class="tsd-kind-method tsd-parent-kind-class tsd-is-protected"><span class="tsd-kind-icon">Protected method</span></li>
+                <li class="tsd-kind-accessor tsd-parent-kind-class tsd-is-protected"><span class="tsd-kind-icon">Protected accessor</span></li>
+            </ul>
+            <ul class="tsd-legend">
+                <li class="tsd-kind-property tsd-parent-kind-class tsd-is-private"><span class="tsd-kind-icon">Private property</span></li>
+                <li class="tsd-kind-method tsd-parent-kind-class tsd-is-private"><span class="tsd-kind-icon">Private method</span></li>
+                <li class="tsd-kind-accessor tsd-parent-kind-class tsd-is-private"><span class="tsd-kind-icon">Private accessor</span></li>
+            </ul>
+            <ul class="tsd-legend">
+                <li class="tsd-kind-property tsd-parent-kind-class tsd-is-static"><span class="tsd-kind-icon">Static property</span></li>
+                <li class="tsd-kind-call-signature tsd-parent-kind-class tsd-is-static"><span class="tsd-kind-icon">Static method</span></li>
+            </ul>
+        </div>
+    </div>
+</footer>
+
+    <div class="container tsd-generator">
+        <p>Generated using <a href="http://typedoc.io" target="_blank">TypeDoc</a></p>
+    </div>
+
+<div class="overlay"></div>
+    <script src="../../assets/js/main.js"></script>
+<script>if (location.protocol == 'file:') document.write('<script src="../assets/js/search.js"><' + '/script>');</script>
+
+
+</body>
+</html>

@@ -1,0 +1,1233 @@
+<!doctype html>
+<html class="default no-js toggle-inherited">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>RaycastPicker | view</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="../../assets/css/main.css">
+        <script src="../../assets/js/modernizr.js"></script>
+    <!--<link href="https://fonts.googleapis.com/css?family=Advent+Pro:100" rel="stylesheet">-->
+    <link href="https://fonts.googleapis.com/css?family=Maven+Pro" rel="stylesheet">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+
+<header>
+    <div class="tsd-page-toolbar">
+        <div class="container">
+            <div class="table-wrap">
+
+                <!-- Overall title and Search -->
+                <div class="table-cell" id="tsd-search" data-index="../assets/js/search.js" data-base="..">
+
+                    <!-- Title (with breadcrumbs) -->
+                    <ul class="tsd-breadcrumb title">
+                            <li><a href="/docs">@awayjs</a></li>
+                            <li><a href="../index.html">view</a></li>
+                            
+    <!--<li>-->
+        <!---->
+            <!--<a href="RaycastPicker.html">RaycastPicker</a>-->
+        <!---->
+    <!--</li>-->
+
+                    </ul>
+
+                    <!-- Search -->
+                    <!---->
+                        <div class="field">
+                            <label for="tsd-search-field" class="tsd-widget search no-caption">Search</label>
+                            <input id="tsd-search-field" type="text" />
+                        </div>
+                    <!---->
+
+                    <ul class="results">
+                        <li class="state loading">Preparing search index...</li>
+                        <li class="state failure">The search index is not available</li>
+                    </ul>
+                </div>
+
+                <!-- Filter -->
+
+                    <div class="table-cell" id="tsd-widgets">
+                        <div id="tsd-filter">
+                                <a href="#" class="tsd-widget options no-caption" data-toggle="options">Options</a>
+                                <div class="tsd-filter-group">
+                                    <input type="checkbox" id="tsd-filter-inherited"/>
+                                    <label class="tsd-widget" for="tsd-filter-inherited">Show Inherited</label>
+                                </div>
+                        </div>
+                        <a href="#" class="tsd-widget menu no-caption" data-toggle="menu">Menu</a>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Page title: only show in leafs -->
+        <div class="tsd-page-title">
+            <div class="container">
+                <h1>Class RaycastPicker</h1>
+            </div>
+        </div>
+</header>
+<div class="container container-main">
+
+    <!-- account spacing for having no title, which happens in non leafs -->
+
+    <div class="row">
+        <div class="col-8 col-content">
+                    <section class="tsd-panel tsd-comment">
+                    <div class="tsd-comment tsd-typography">
+                <div class="lead">
+                    <p>Picks a 3d object from a view or scene by 3D raycast calculations.
+Performs an initial coarse boundary calculation to return a subset of entities whose bounding volumes intersect with the specified ray,
+then triggers an optional picking collider on individual renderable objects to further determine the precise values of the picking ray collision.</p>
+
+                </div>
+                <dl class="tsd-comment-tags">
+                        <dt>class</dt>
+                        <dd><p>away.pick.RaycastPicker</p>
+</dd>
+                </dl>
+        </div>
+        </section>
+
+
+    <section class="tsd-panel tsd-hierarchy">
+        <h3>Hierarchy</h3>
+        <ul class="tsd-hierarchy">
+        <li>
+                <span class="tsd-signature-type">TraverserBase</span>
+        </li>
+</ul>
+
+    </section>
+
+    <section class="tsd-panel">
+        <h3>Implements</h3>
+        <ul class="tsd-hierarchy">
+                <li><a href="../interfaces/IPicker.html" class="tsd-signature-type">IPicker</a></li>
+        </ul>
+    </section>
+
+
+
+
+    <section class="tsd-panel-group tsd-index-group">
+    <h2>Index</h2>
+    <section class="tsd-panel tsd-index-panel">
+        <div class="tsd-index-content">
+                <section class="tsd-index-section ">
+                    <h3>Constructors</h3>
+                    <ul class="tsd-index-list">
+                        <li class="tsd-kind-constructor tsd-parent-kind-class tsd-is-overwrite"><a href="RaycastPicker.html#constructor" class="tsd-kind-icon">constructor</a></li>
+                    </ul>
+                </section>
+                <section class="tsd-index-section ">
+                    <h3>Properties</h3>
+                    <ul class="tsd-index-list">
+                        <li class="tsd-kind-property tsd-parent-kind-class"><a href="RaycastPicker.html#onlyMouseEnabled" class="tsd-kind-icon">only<wbr>Mouse<wbr>Enabled</a></li>
+                        <li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited tsd-is-static"><a href="RaycastPicker.html#entityNames" class="tsd-kind-icon">entity<wbr>Names</a></li>
+                        <li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited tsd-is-static"><a href="RaycastPicker.html#renderableNames" class="tsd-kind-icon">renderable<wbr>Names</a></li>
+                    </ul>
+                </section>
+                <section class="tsd-index-section ">
+                    <h3>Methods</h3>
+                    <ul class="tsd-index-list">
+                        <li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="RaycastPicker.html#addEventListener" class="tsd-kind-icon">add<wbr>Event<wbr>Listener</a></li>
+                        <li class="tsd-kind-method tsd-parent-kind-class"><a href="RaycastPicker.html#applyBillboard" class="tsd-kind-icon">apply<wbr>Billboard</a></li>
+                        <li class="tsd-kind-method tsd-parent-kind-class"><a href="RaycastPicker.html#applyDirectionalLight" class="tsd-kind-icon">apply<wbr>Directional<wbr>Light</a></li>
+                        <li class="tsd-kind-method tsd-parent-kind-class tsd-is-overwrite"><a href="RaycastPicker.html#applyEntity" class="tsd-kind-icon">apply<wbr>Entity</a></li>
+                        <li class="tsd-kind-method tsd-parent-kind-class"><a href="RaycastPicker.html#applyLightProbe" class="tsd-kind-icon">apply<wbr>Light<wbr>Probe</a></li>
+                        <li class="tsd-kind-method tsd-parent-kind-class"><a href="RaycastPicker.html#applyLineShape" class="tsd-kind-icon">apply<wbr>Line<wbr>Shape</a></li>
+                        <li class="tsd-kind-method tsd-parent-kind-class"><a href="RaycastPicker.html#applyPointLight" class="tsd-kind-icon">apply<wbr>Point<wbr>Light</a></li>
+                        <li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="RaycastPicker.html#applyRenderable" class="tsd-kind-icon">apply<wbr>Renderable</a></li>
+                        <li class="tsd-kind-method tsd-parent-kind-class"><a href="RaycastPicker.html#applySkybox" class="tsd-kind-icon">apply<wbr>Skybox</a></li>
+                        <li class="tsd-kind-method tsd-parent-kind-class"><a href="RaycastPicker.html#applyTriangleShape" class="tsd-kind-icon">apply<wbr>Triangle<wbr>Shape</a></li>
+                        <li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="RaycastPicker.html#dispatchEvent" class="tsd-kind-icon">dispatch<wbr>Event</a></li>
+                        <li class="tsd-kind-method tsd-parent-kind-class tsd-is-overwrite"><a href="RaycastPicker.html#dispose" class="tsd-kind-icon">dispose</a></li>
+                        <li class="tsd-kind-method tsd-parent-kind-class tsd-is-overwrite"><a href="RaycastPicker.html#enterNode" class="tsd-kind-icon">enter<wbr>Node</a></li>
+                        <li class="tsd-kind-method tsd-parent-kind-class"><a href="RaycastPicker.html#getCollision" class="tsd-kind-icon">get<wbr>Collision</a></li>
+                        <li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="RaycastPicker.html#hasEventListener" class="tsd-kind-icon">has<wbr>Event<wbr>Listener</a></li>
+                        <li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="RaycastPicker.html#removeEventListener" class="tsd-kind-icon">remove<wbr>Event<wbr>Listener</a></li>
+                        <li class="tsd-kind-method tsd-parent-kind-class"><a href="RaycastPicker.html#setIgnoreList" class="tsd-kind-icon">set<wbr>Ignore<wbr>List</a></li>
+                        <li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited tsd-is-static"><a href="RaycastPicker.html#addEntityName" class="tsd-kind-icon">add<wbr>Entity<wbr>Name</a></li>
+                        <li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited tsd-is-static"><a href="RaycastPicker.html#addRenderableName" class="tsd-kind-icon">add<wbr>Renderable<wbr>Name</a></li>
+                    </ul>
+                </section>
+        </div>
+    </section>
+</section>
+            <section class="tsd-panel-group tsd-member-group ">
+    <h2>Constructors</h2>
+            <section class="tsd-panel tsd-member tsd-kind-constructor tsd-parent-kind-class tsd-is-overwrite">
+    <a name="constructor" class="tsd-anchor"></a>
+        <h3>constructor</h3>
+
+        <ul class="tsd-signatures tsd-kind-constructor tsd-parent-kind-class tsd-is-overwrite">
+        <li class="tsd-signature tsd-kind-icon">new <wbr>Raycast<wbr>Picker<span class="tsd-signature-symbol">(</span>findClosestCollision<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="RaycastPicker.html" class="tsd-signature-type">RaycastPicker</a></li>
+</ul>
+
+<ul class="tsd-descriptions">
+        <li class="tsd-description">
+                <aside class="tsd-sources">
+        <p>Overwrites TraverserBase.__constructor</p>
+        <ul>
+                    <li>Defined in pick/RaycastPicker.ts:35</li>
+        </ul>
+</aside>
+        <div class="tsd-comment tsd-typography">
+                <div class="lead">
+                    <p>Creates a new <code>RaycastPicker</code> object.</p>
+
+                </div>
+        </div>
+
+
+    <h4 class="tsd-parameters-title">Parameters</h4>
+    <ul class="tsd-parameters">
+            <li>
+                <h5><span class="tsd-flag ts-flagDefault value">Default value</span> findClosestCollision: <span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol"> =&nbsp;false</span></h5>
+
+                        <div class="tsd-comment tsd-typography">
+                <div class="lead">
+                    <p>Determines whether the picker searches for the closest bounds collision along the ray,
+or simply returns the first collision encountered. Defaults to false.</p>
+
+                </div>
+        </div>
+
+            </li>
+    </ul>
+
+    <h4 class="tsd-returns-title">Returns <a href="RaycastPicker.html" class="tsd-signature-type">RaycastPicker</a></h4>
+
+
+        </li>
+</ul>    
+
+</section>
+</section>
+        <section class="tsd-panel-group tsd-member-group ">
+    <h2>Properties</h2>
+            <section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+    <a name="onlyMouseEnabled" class="tsd-anchor"></a>
+        <h3>only<wbr>Mouse<wbr>Enabled</h3>
+
+        <div class="tsd-signature tsd-kind-icon">only<wbr>Mouse<wbr>Enabled<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span></div>
+
+<aside class="tsd-sources">
+        <p>Implementation of <a href="../interfaces/IPicker.html">IPicker</a>.<a href="../interfaces/IPicker.html#onlyMouseEnabled">onlyMouseEnabled</a></p>
+        <ul>
+                    <li>Defined in pick/RaycastPicker.ts:35</li>
+        </ul>
+</aside>
+        <div class="tsd-comment tsd-typography">
+                <div class="lead">
+                    <p>Determines whether the picker takes account of the mouseEnabled properties of entities. Defaults to true.</p>
+
+                </div>
+        </div>
+
+    
+
+</section>
+            <section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-inherited tsd-is-static">
+    <a name="entityNames" class="tsd-anchor"></a>
+        <h3><span class="tsd-flag ts-flagStatic">Static</span> entity<wbr>Names</h3>
+
+        <div class="tsd-signature tsd-kind-icon">entity<wbr>Names<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">Array</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">&gt;</span></div>
+
+<aside class="tsd-sources">
+        <p>Inherited from TraverserBase.entityNames</p>
+        <ul>
+                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/graphics/dist/lib/base/TraverserBase.d.ts:13</li>
+        </ul>
+</aside>
+
+    
+
+</section>
+            <section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-inherited tsd-is-static">
+    <a name="renderableNames" class="tsd-anchor"></a>
+        <h3><span class="tsd-flag ts-flagStatic">Static</span> renderable<wbr>Names</h3>
+
+        <div class="tsd-signature tsd-kind-icon">renderable<wbr>Names<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">Array</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">&gt;</span></div>
+
+<aside class="tsd-sources">
+        <p>Inherited from TraverserBase.renderableNames</p>
+        <ul>
+                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/graphics/dist/lib/base/TraverserBase.d.ts:14</li>
+        </ul>
+</aside>
+
+    
+
+</section>
+</section>
+        <section class="tsd-panel-group tsd-member-group ">
+    <h2>Methods</h2>
+            <section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+    <a name="addEventListener" class="tsd-anchor"></a>
+        <h3>add<wbr>Event<wbr>Listener</h3>
+
+        <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+        <li class="tsd-signature tsd-kind-icon">add<wbr>Event<wbr>Listener<span class="tsd-signature-symbol">(</span>type<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span>, listener<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">function</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+</ul>
+
+<ul class="tsd-descriptions">
+        <li class="tsd-description">
+                <aside class="tsd-sources">
+        <p>Inherited from EventDispatcher.addEventListener</p>
+        <ul>
+                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/core/dist/lib/events/EventDispatcher.d.ts:18</li>
+        </ul>
+</aside>
+        <div class="tsd-comment tsd-typography">
+                <div class="lead">
+                    <p>Add an event listener</p>
+
+                </div>
+                <dl class="tsd-comment-tags">
+                        <dt>method</dt>
+                        <dd><p>addEventListener</p>
+</dd>
+                </dl>
+        </div>
+
+
+    <h4 class="tsd-parameters-title">Parameters</h4>
+    <ul class="tsd-parameters">
+            <li>
+                <h5>type: <span class="tsd-signature-type">string</span></h5>
+
+                
+            </li>
+            <li>
+                <h5>listener: <span class="tsd-signature-type">function</span></h5>
+
+                
+                        <ul class="tsd-parameters">
+        <li class="tsd-parameter-siganture">
+            <ul class="tsd-signatures tsd-kind-type-literal tsd-is-not-exported">
+                    <li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">(</span>event<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">EventBase</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+            </ul>
+
+            <ul class="tsd-descriptions">
+                    <li class="tsd-description">
+
+
+    <h4 class="tsd-parameters-title">Parameters</h4>
+    <ul class="tsd-parameters">
+            <li>
+                <h5>event: <span class="tsd-signature-type">EventBase</span></h5>
+
+                
+            </li>
+    </ul>
+
+    <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+
+
+</li>
+            </ul>
+        </li>
+</ul>
+            </li>
+    </ul>
+
+    <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+
+
+        </li>
+</ul>    
+
+</section>
+            <section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+    <a name="applyBillboard" class="tsd-anchor"></a>
+        <h3>apply<wbr>Billboard</h3>
+
+        <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+        <li class="tsd-signature tsd-kind-icon">apply<wbr>Billboard<span class="tsd-signature-symbol">(</span>billboard<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Billboard</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+</ul>
+
+<ul class="tsd-descriptions">
+        <li class="tsd-description">
+                <aside class="tsd-sources">
+        <ul>
+                    <li>Defined in pick/RaycastPicker.ts:194</li>
+        </ul>
+</aside>
+
+
+    <h4 class="tsd-parameters-title">Parameters</h4>
+    <ul class="tsd-parameters">
+            <li>
+                <h5>billboard: <span class="tsd-signature-type">Billboard</span></h5>
+
+                
+            </li>
+    </ul>
+
+    <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+
+
+        </li>
+</ul>    
+
+</section>
+            <section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+    <a name="applyDirectionalLight" class="tsd-anchor"></a>
+        <h3>apply<wbr>Directional<wbr>Light</h3>
+
+        <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+        <li class="tsd-signature tsd-kind-icon">apply<wbr>Directional<wbr>Light<span class="tsd-signature-symbol">(</span>entity<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">IEntity</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+</ul>
+
+<ul class="tsd-descriptions">
+        <li class="tsd-description">
+                <aside class="tsd-sources">
+        <ul>
+                    <li>Defined in pick/RaycastPicker.ts:216</li>
+        </ul>
+</aside>
+        <div class="tsd-comment tsd-typography">
+        </div>
+
+
+    <h4 class="tsd-parameters-title">Parameters</h4>
+    <ul class="tsd-parameters">
+            <li>
+                <h5>entity: <span class="tsd-signature-type">IEntity</span></h5>
+
+                        <div class="tsd-comment tsd-typography">
+                
+        </div>
+
+            </li>
+    </ul>
+
+    <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+
+
+        </li>
+</ul>    
+
+</section>
+            <section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-overwrite">
+    <a name="applyEntity" class="tsd-anchor"></a>
+        <h3>apply<wbr>Entity</h3>
+
+        <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-overwrite">
+        <li class="tsd-signature tsd-kind-icon">apply<wbr>Entity<span class="tsd-signature-symbol">(</span>entity<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">IEntity</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+</ul>
+
+<ul class="tsd-descriptions">
+        <li class="tsd-description">
+                <aside class="tsd-sources">
+        <p>Overwrites TraverserBase.applyEntity</p>
+        <ul>
+                    <li>Defined in pick/RaycastPicker.ts:188</li>
+        </ul>
+</aside>
+        <div class="tsd-comment tsd-typography">
+        </div>
+
+
+    <h4 class="tsd-parameters-title">Parameters</h4>
+    <ul class="tsd-parameters">
+            <li>
+                <h5>entity: <span class="tsd-signature-type">IEntity</span></h5>
+
+                        <div class="tsd-comment tsd-typography">
+                
+        </div>
+
+            </li>
+    </ul>
+
+    <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+
+
+        </li>
+</ul>    
+
+</section>
+            <section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+    <a name="applyLightProbe" class="tsd-anchor"></a>
+        <h3>apply<wbr>Light<wbr>Probe</h3>
+
+        <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+        <li class="tsd-signature tsd-kind-icon">apply<wbr>Light<wbr>Probe<span class="tsd-signature-symbol">(</span>entity<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">IEntity</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+</ul>
+
+<ul class="tsd-descriptions">
+        <li class="tsd-description">
+                <aside class="tsd-sources">
+        <ul>
+                    <li>Defined in pick/RaycastPicker.ts:225</li>
+        </ul>
+</aside>
+        <div class="tsd-comment tsd-typography">
+        </div>
+
+
+    <h4 class="tsd-parameters-title">Parameters</h4>
+    <ul class="tsd-parameters">
+            <li>
+                <h5>entity: <span class="tsd-signature-type">IEntity</span></h5>
+
+                        <div class="tsd-comment tsd-typography">
+                
+        </div>
+
+            </li>
+    </ul>
+
+    <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+
+
+        </li>
+</ul>    
+
+</section>
+            <section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+    <a name="applyLineShape" class="tsd-anchor"></a>
+        <h3>apply<wbr>Line<wbr>Shape</h3>
+
+        <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+        <li class="tsd-signature tsd-kind-icon">apply<wbr>Line<wbr>Shape<span class="tsd-signature-symbol">(</span>shape<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Shape</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+</ul>
+
+<ul class="tsd-descriptions">
+        <li class="tsd-description">
+                <aside class="tsd-sources">
+        <ul>
+                    <li>Defined in pick/RaycastPicker.ts:200</li>
+        </ul>
+</aside>
+
+
+    <h4 class="tsd-parameters-title">Parameters</h4>
+    <ul class="tsd-parameters">
+            <li>
+                <h5>shape: <span class="tsd-signature-type">Shape</span></h5>
+
+                
+            </li>
+    </ul>
+
+    <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+
+
+        </li>
+</ul>    
+
+</section>
+            <section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+    <a name="applyPointLight" class="tsd-anchor"></a>
+        <h3>apply<wbr>Point<wbr>Light</h3>
+
+        <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+        <li class="tsd-signature tsd-kind-icon">apply<wbr>Point<wbr>Light<span class="tsd-signature-symbol">(</span>entity<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">IEntity</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+</ul>
+
+<ul class="tsd-descriptions">
+        <li class="tsd-description">
+                <aside class="tsd-sources">
+        <ul>
+                    <li>Defined in pick/RaycastPicker.ts:234</li>
+        </ul>
+</aside>
+        <div class="tsd-comment tsd-typography">
+        </div>
+
+
+    <h4 class="tsd-parameters-title">Parameters</h4>
+    <ul class="tsd-parameters">
+            <li>
+                <h5>entity: <span class="tsd-signature-type">IEntity</span></h5>
+
+                        <div class="tsd-comment tsd-typography">
+                
+        </div>
+
+            </li>
+    </ul>
+
+    <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+
+
+        </li>
+</ul>    
+
+</section>
+            <section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+    <a name="applyRenderable" class="tsd-anchor"></a>
+        <h3>apply<wbr>Renderable</h3>
+
+        <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+        <li class="tsd-signature tsd-kind-icon">apply<wbr>Renderable<span class="tsd-signature-symbol">(</span>renderable<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">IRenderable</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+</ul>
+
+<ul class="tsd-descriptions">
+        <li class="tsd-description">
+                <aside class="tsd-sources">
+        <p>Inherited from TraverserBase.applyRenderable</p>
+        <ul>
+                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/graphics/dist/lib/base/TraverserBase.d.ts:37</li>
+        </ul>
+</aside>
+        <div class="tsd-comment tsd-typography">
+        </div>
+
+
+    <h4 class="tsd-parameters-title">Parameters</h4>
+    <ul class="tsd-parameters">
+            <li>
+                <h5>renderable: <span class="tsd-signature-type">IRenderable</span></h5>
+
+                
+            </li>
+    </ul>
+
+    <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+
+
+        </li>
+</ul>    
+
+</section>
+            <section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+    <a name="applySkybox" class="tsd-anchor"></a>
+        <h3>apply<wbr>Skybox</h3>
+
+        <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+        <li class="tsd-signature tsd-kind-icon">apply<wbr>Skybox<span class="tsd-signature-symbol">(</span>entity<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">IEntity</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+</ul>
+
+<ul class="tsd-descriptions">
+        <li class="tsd-description">
+                <aside class="tsd-sources">
+        <ul>
+                    <li>Defined in pick/RaycastPicker.ts:243</li>
+        </ul>
+</aside>
+        <div class="tsd-comment tsd-typography">
+        </div>
+
+
+    <h4 class="tsd-parameters-title">Parameters</h4>
+    <ul class="tsd-parameters">
+            <li>
+                <h5>entity: <span class="tsd-signature-type">IEntity</span></h5>
+
+                        <div class="tsd-comment tsd-typography">
+                
+        </div>
+
+            </li>
+    </ul>
+
+    <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+
+
+        </li>
+</ul>    
+
+</section>
+            <section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+    <a name="applyTriangleShape" class="tsd-anchor"></a>
+        <h3>apply<wbr>Triangle<wbr>Shape</h3>
+
+        <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+        <li class="tsd-signature tsd-kind-icon">apply<wbr>Triangle<wbr>Shape<span class="tsd-signature-symbol">(</span>shape<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Shape</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+</ul>
+
+<ul class="tsd-descriptions">
+        <li class="tsd-description">
+                <aside class="tsd-sources">
+        <ul>
+                    <li>Defined in pick/RaycastPicker.ts:206</li>
+        </ul>
+</aside>
+
+
+    <h4 class="tsd-parameters-title">Parameters</h4>
+    <ul class="tsd-parameters">
+            <li>
+                <h5>shape: <span class="tsd-signature-type">Shape</span></h5>
+
+                
+            </li>
+    </ul>
+
+    <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+
+
+        </li>
+</ul>    
+
+</section>
+            <section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+    <a name="dispatchEvent" class="tsd-anchor"></a>
+        <h3>dispatch<wbr>Event</h3>
+
+        <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+        <li class="tsd-signature tsd-kind-icon">dispatch<wbr>Event<span class="tsd-signature-symbol">(</span>event<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">EventBase</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+</ul>
+
+<ul class="tsd-descriptions">
+        <li class="tsd-description">
+                <aside class="tsd-sources">
+        <p>Inherited from EventDispatcher.dispatchEvent</p>
+        <ul>
+                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/core/dist/lib/events/EventDispatcher.d.ts:31</li>
+        </ul>
+</aside>
+        <div class="tsd-comment tsd-typography">
+                <div class="lead">
+                    <p>Dispatch an event</p>
+
+                </div>
+                <dl class="tsd-comment-tags">
+                        <dt>method</dt>
+                        <dd><p>dispatchEvent</p>
+</dd>
+                </dl>
+        </div>
+
+
+    <h4 class="tsd-parameters-title">Parameters</h4>
+    <ul class="tsd-parameters">
+            <li>
+                <h5>event: <span class="tsd-signature-type">EventBase</span></h5>
+
+                
+            </li>
+    </ul>
+
+    <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+
+
+        </li>
+</ul>    
+
+</section>
+            <section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-overwrite">
+    <a name="dispose" class="tsd-anchor"></a>
+        <h3>dispose</h3>
+
+        <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-overwrite">
+        <li class="tsd-signature tsd-kind-icon">dispose<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+</ul>
+
+<ul class="tsd-descriptions">
+        <li class="tsd-description">
+                <aside class="tsd-sources">
+        <p>Implementation of <a href="../interfaces/IPicker.html">IPicker</a>.<a href="../interfaces/IPicker.html#dispose">dispose</a></p>
+        <p>Overwrites TraverserBase.dispose</p>
+        <ul>
+                    <li>Defined in pick/RaycastPicker.ts:179</li>
+        </ul>
+</aside>
+
+
+
+    <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+
+
+        </li>
+</ul>    
+
+</section>
+            <section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-overwrite">
+    <a name="enterNode" class="tsd-anchor"></a>
+        <h3>enter<wbr>Node</h3>
+
+        <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-overwrite">
+        <li class="tsd-signature tsd-kind-icon">enter<wbr>Node<span class="tsd-signature-symbol">(</span>node<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">INode</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">boolean</span></li>
+</ul>
+
+<ul class="tsd-descriptions">
+        <li class="tsd-description">
+                <aside class="tsd-sources">
+        <p>Overwrites TraverserBase.enterNode</p>
+        <ul>
+                    <li>Defined in pick/RaycastPicker.ts:55</li>
+        </ul>
+</aside>
+        <div class="tsd-comment tsd-typography">
+                <div class="lead">
+                    <p>Returns true if the current node is at least partly in the frustum. If so, the partition node knows to pass on the traverser to its children.</p>
+
+                </div>
+        </div>
+
+
+    <h4 class="tsd-parameters-title">Parameters</h4>
+    <ul class="tsd-parameters">
+            <li>
+                <h5>node: <span class="tsd-signature-type">INode</span></h5>
+
+                        <div class="tsd-comment tsd-typography">
+                <p>The Partition3DNode object to frustum-test.</p>
+
+        </div>
+
+            </li>
+    </ul>
+
+    <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">boolean</span></h4>
+
+
+        </li>
+</ul>    
+
+</section>
+            <section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+    <a name="getCollision" class="tsd-anchor"></a>
+        <h3>get<wbr>Collision</h3>
+
+        <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+        <li class="tsd-signature tsd-kind-icon">get<wbr>Collision<span class="tsd-signature-symbol">(</span>rayPosition<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Vector3D</span>, rayDirection<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Vector3D</span>, view<span class="tsd-signature-symbol">: </span><a href="View.html" class="tsd-signature-type">View</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">PickingCollision</span></li>
+</ul>
+
+<ul class="tsd-descriptions">
+        <li class="tsd-description">
+                <aside class="tsd-sources">
+        <p>Implementation of <a href="../interfaces/IPicker.html">IPicker</a>.<a href="../interfaces/IPicker.html#getCollision">getCollision</a></p>
+        <ul>
+                    <li>Defined in pick/RaycastPicker.ts:63</li>
+        </ul>
+</aside>
+        <div class="tsd-comment tsd-typography">
+                <div class="lead">
+                    <p>Gets the collision object from the scene position and direction of the picking ray.</p>
+
+                </div>
+        </div>
+
+
+    <h4 class="tsd-parameters-title">Parameters</h4>
+    <ul class="tsd-parameters">
+            <li>
+                <h5>rayPosition: <span class="tsd-signature-type">Vector3D</span></h5>
+
+                
+            </li>
+            <li>
+                <h5>rayDirection: <span class="tsd-signature-type">Vector3D</span></h5>
+
+                
+            </li>
+            <li>
+                <h5>view: <a href="View.html" class="tsd-signature-type">View</a></h5>
+
+                
+            </li>
+    </ul>
+
+    <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">PickingCollision</span></h4>
+
+
+        </li>
+</ul>    
+
+</section>
+            <section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+    <a name="hasEventListener" class="tsd-anchor"></a>
+        <h3>has<wbr>Event<wbr>Listener</h3>
+
+        <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+        <li class="tsd-signature tsd-kind-icon">has<wbr>Event<wbr>Listener<span class="tsd-signature-symbol">(</span>type<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span>, listener<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">function</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">boolean</span></li>
+</ul>
+
+<ul class="tsd-descriptions">
+        <li class="tsd-description">
+                <aside class="tsd-sources">
+        <p>Inherited from EventDispatcher.hasEventListener</p>
+        <ul>
+                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/core/dist/lib/events/EventDispatcher.d.ts:38</li>
+        </ul>
+</aside>
+        <div class="tsd-comment tsd-typography">
+                <div class="lead">
+                    <p>check if an object has an event listener assigned to it</p>
+
+                </div>
+                <dl class="tsd-comment-tags">
+                        <dt>method</dt>
+                        <dd><p>hasListener</p>
+</dd>
+                </dl>
+        </div>
+
+
+    <h4 class="tsd-parameters-title">Parameters</h4>
+    <ul class="tsd-parameters">
+            <li>
+                <h5>type: <span class="tsd-signature-type">string</span></h5>
+
+                
+            </li>
+            <li>
+                <h5><span class="tsd-flag ts-flagOptional">Optional</span> listener: <span class="tsd-signature-type">function</span></h5>
+
+                
+                        <ul class="tsd-parameters">
+        <li class="tsd-parameter-siganture">
+            <ul class="tsd-signatures tsd-kind-type-literal tsd-is-not-exported">
+                    <li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">(</span>event<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">EventBase</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+            </ul>
+
+            <ul class="tsd-descriptions">
+                    <li class="tsd-description">
+
+
+    <h4 class="tsd-parameters-title">Parameters</h4>
+    <ul class="tsd-parameters">
+            <li>
+                <h5>event: <span class="tsd-signature-type">EventBase</span></h5>
+
+                
+            </li>
+    </ul>
+
+    <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+
+
+</li>
+            </ul>
+        </li>
+</ul>
+            </li>
+    </ul>
+
+    <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">boolean</span></h4>
+
+
+        </li>
+</ul>    
+
+</section>
+            <section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+    <a name="removeEventListener" class="tsd-anchor"></a>
+        <h3>remove<wbr>Event<wbr>Listener</h3>
+
+        <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+        <li class="tsd-signature tsd-kind-icon">remove<wbr>Event<wbr>Listener<span class="tsd-signature-symbol">(</span>type<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span>, listener<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">function</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+</ul>
+
+<ul class="tsd-descriptions">
+        <li class="tsd-description">
+                <aside class="tsd-sources">
+        <p>Inherited from EventDispatcher.removeEventListener</p>
+        <ul>
+                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/core/dist/lib/events/EventDispatcher.d.ts:25</li>
+        </ul>
+</aside>
+        <div class="tsd-comment tsd-typography">
+                <div class="lead">
+                    <p>Remove an event listener</p>
+
+                </div>
+                <dl class="tsd-comment-tags">
+                        <dt>method</dt>
+                        <dd><p>removeEventListener</p>
+</dd>
+                </dl>
+        </div>
+
+
+    <h4 class="tsd-parameters-title">Parameters</h4>
+    <ul class="tsd-parameters">
+            <li>
+                <h5>type: <span class="tsd-signature-type">string</span></h5>
+
+                
+            </li>
+            <li>
+                <h5>listener: <span class="tsd-signature-type">function</span></h5>
+
+                
+                        <ul class="tsd-parameters">
+        <li class="tsd-parameter-siganture">
+            <ul class="tsd-signatures tsd-kind-type-literal tsd-is-not-exported">
+                    <li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">(</span>event<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">EventBase</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+            </ul>
+
+            <ul class="tsd-descriptions">
+                    <li class="tsd-description">
+
+
+    <h4 class="tsd-parameters-title">Parameters</h4>
+    <ul class="tsd-parameters">
+            <li>
+                <h5>event: <span class="tsd-signature-type">EventBase</span></h5>
+
+                
+            </li>
+    </ul>
+
+    <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+
+
+</li>
+            </ul>
+        </li>
+</ul>
+            </li>
+    </ul>
+
+    <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+
+
+        </li>
+</ul>    
+
+</section>
+            <section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+    <a name="setIgnoreList" class="tsd-anchor"></a>
+        <h3>set<wbr>Ignore<wbr>List</h3>
+
+        <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+        <li class="tsd-signature tsd-kind-icon">set<wbr>Ignore<wbr>List<span class="tsd-signature-symbol">(</span>entities<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Array</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">IEntity</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+</ul>
+
+<ul class="tsd-descriptions">
+        <li class="tsd-description">
+                <aside class="tsd-sources">
+        <ul>
+                    <li>Defined in pick/RaycastPicker.ts:100</li>
+        </ul>
+</aside>
+
+
+    <h4 class="tsd-parameters-title">Parameters</h4>
+    <ul class="tsd-parameters">
+            <li>
+                <h5>entities: <span class="tsd-signature-type">Array</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">IEntity</span><span class="tsd-signature-symbol">&gt;</span></h5>
+
+                
+            </li>
+    </ul>
+
+    <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+
+
+        </li>
+</ul>    
+
+</section>
+            <section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-inherited tsd-is-static">
+    <a name="addEntityName" class="tsd-anchor"></a>
+        <h3><span class="tsd-flag ts-flagStatic">Static</span> add<wbr>Entity<wbr>Name</h3>
+
+        <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-inherited tsd-is-static">
+        <li class="tsd-signature tsd-kind-icon">add<wbr>Entity<wbr>Name<span class="tsd-signature-symbol">(</span>name<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span></li>
+</ul>
+
+<ul class="tsd-descriptions">
+        <li class="tsd-description">
+                <aside class="tsd-sources">
+        <p>Inherited from TraverserBase.addEntityName</p>
+        <ul>
+                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/graphics/dist/lib/base/TraverserBase.d.ts:15</li>
+        </ul>
+</aside>
+
+
+    <h4 class="tsd-parameters-title">Parameters</h4>
+    <ul class="tsd-parameters">
+            <li>
+                <h5>name: <span class="tsd-signature-type">string</span></h5>
+
+                
+            </li>
+    </ul>
+
+    <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">string</span></h4>
+
+
+        </li>
+</ul>    
+
+</section>
+            <section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-inherited tsd-is-static">
+    <a name="addRenderableName" class="tsd-anchor"></a>
+        <h3><span class="tsd-flag ts-flagStatic">Static</span> add<wbr>Renderable<wbr>Name</h3>
+
+        <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-inherited tsd-is-static">
+        <li class="tsd-signature tsd-kind-icon">add<wbr>Renderable<wbr>Name<span class="tsd-signature-symbol">(</span>name<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span></li>
+</ul>
+
+<ul class="tsd-descriptions">
+        <li class="tsd-description">
+                <aside class="tsd-sources">
+        <p>Inherited from TraverserBase.addRenderableName</p>
+        <ul>
+                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/graphics/dist/lib/base/TraverserBase.d.ts:16</li>
+        </ul>
+</aside>
+
+
+    <h4 class="tsd-parameters-title">Parameters</h4>
+    <ul class="tsd-parameters">
+            <li>
+                <h5>name: <span class="tsd-signature-type">string</span></h5>
+
+                
+            </li>
+    </ul>
+
+    <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">string</span></h4>
+
+
+        </li>
+</ul>    
+
+</section>
+</section>
+
+        </div>
+        <div class="col-4 col-menu menu-sticky-wrap menu-highlight">
+            <nav class="tsd-navigation secondary menu-sticky">
+                <ul class="before-current">
+                        <li class=" tsd-kind-class">
+    <a href="BasicPartition.html" class="tsd-kind-icon">Basic<wbr>Partition</a>
+</li>
+                        <li class=" tsd-kind-class">
+    <a href="CameraNode.html" class="tsd-kind-icon">Camera<wbr>Node</a>
+</li>
+                        <li class=" tsd-kind-class">
+    <a href="DisplayObjectNode.html" class="tsd-kind-icon">Display<wbr>Object<wbr>Node</a>
+</li>
+                        <li class=" tsd-kind-class">
+    <a href="EntityNode.html" class="tsd-kind-icon">Entity<wbr>Node</a>
+</li>
+                        <li class=" tsd-kind-class">
+    <a href="JSPickingCollider.html" class="tsd-kind-icon">JSPicking<wbr>Collider</a>
+</li>
+                        <li class=" tsd-kind-class">
+    <a href="MouseManager.html" class="tsd-kind-icon">Mouse<wbr>Manager</a>
+</li>
+                        <li class=" tsd-kind-class">
+    <a href="NodeBase.html" class="tsd-kind-icon">Node<wbr>Base</a>
+</li>
+                        <li class=" tsd-kind-class">
+    <a href="PartitionBase.html" class="tsd-kind-icon">Partition<wbr>Base</a>
+</li>
+                        <li class=" tsd-kind-class">
+    <a href="RaycastPicker.html" class="tsd-kind-icon">Raycast<wbr>Picker</a>
+</li>
+                        <li class=" tsd-kind-class">
+    <a href="SceneGraphNode.html" class="tsd-kind-icon">Scene<wbr>Graph<wbr>Node</a>
+</li>
+                        <li class=" tsd-kind-class">
+    <a href="SceneGraphNodePool.html" class="tsd-kind-icon">Scene<wbr>Graph<wbr>Node<wbr>Pool</a>
+</li>
+                        <li class=" tsd-kind-class">
+    <a href="SceneGraphPartition.html" class="tsd-kind-icon">Scene<wbr>Graph<wbr>Partition</a>
+</li>
+                        <li class=" tsd-kind-class">
+    <a href="SkyboxNode.html" class="tsd-kind-icon">Skybox<wbr>Node</a>
+</li>
+                        <li class=" tsd-kind-class">
+    <a href="TouchManager.html" class="tsd-kind-icon">Touch<wbr>Manager</a>
+</li>
+                        <li class=" tsd-kind-class">
+    <a href="View.html" class="tsd-kind-icon">View</a>
+</li>
+                        <li class=" tsd-kind-interface">
+    <a href="../interfaces/IDisplayObjectNode.html" class="tsd-kind-icon">IDisplay<wbr>Object<wbr>Node</a>
+</li>
+                        <li class=" tsd-kind-interface">
+    <a href="../interfaces/IEntityNodeClass.html" class="tsd-kind-icon">IEntity<wbr>Node<wbr>Class</a>
+</li>
+                        <li class=" tsd-kind-interface">
+    <a href="../interfaces/IPicker.html" class="tsd-kind-icon">IPicker</a>
+</li>
+                        <li class=" tsd-kind-interface">
+    <a href="../interfaces/IPickingCollider.html" class="tsd-kind-icon">IPicking<wbr>Collider</a>
+</li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+</div>
+
+
+<footer class="with-border-bottom">
+    <div class="container">
+        <h2>Legend</h2>
+        <div class="tsd-legend-group">
+            <ul class="tsd-legend">
+                <li class="tsd-kind-module"><span class="tsd-kind-icon">Module</span></li>
+                <li class="tsd-kind-object-literal"><span class="tsd-kind-icon">Object literal</span></li>
+                <li class="tsd-kind-variable"><span class="tsd-kind-icon">Variable</span></li>
+                <li class="tsd-kind-function"><span class="tsd-kind-icon">Function</span></li>
+                <li class="tsd-kind-function tsd-has-type-parameter"><span class="tsd-kind-icon">Function with type parameter</span></li>
+                <li class="tsd-kind-index-signature"><span class="tsd-kind-icon">Index signature</span></li>
+                <li class="tsd-kind-type-alias"><span class="tsd-kind-icon">Type alias</span></li>
+            </ul>
+            <ul class="tsd-legend">
+                <li class="tsd-kind-enum"><span class="tsd-kind-icon">Enumeration</span></li>
+                <li class="tsd-kind-enum-member"><span class="tsd-kind-icon">Enumeration member</span></li>
+                <li class="tsd-kind-property tsd-parent-kind-enum"><span class="tsd-kind-icon">Property</span></li>
+                <li class="tsd-kind-method tsd-parent-kind-enum"><span class="tsd-kind-icon">Method</span></li>
+            </ul>
+            <ul class="tsd-legend">
+                <li class="tsd-kind-interface"><span class="tsd-kind-icon">Interface</span></li>
+                <li class="tsd-kind-interface tsd-has-type-parameter"><span class="tsd-kind-icon">Interface with type parameter</span></li>
+                <li class="tsd-kind-constructor tsd-parent-kind-interface"><span class="tsd-kind-icon">Constructor</span></li>
+                <li class="tsd-kind-property tsd-parent-kind-interface"><span class="tsd-kind-icon">Property</span></li>
+                <li class="tsd-kind-method tsd-parent-kind-interface"><span class="tsd-kind-icon">Method</span></li>
+                <li class="tsd-kind-index-signature tsd-parent-kind-interface"><span class="tsd-kind-icon">Index signature</span></li>
+            </ul>
+            <ul class="tsd-legend">
+                <li class="tsd-kind-class"><span class="tsd-kind-icon">Class</span></li>
+                <li class="tsd-kind-class tsd-has-type-parameter"><span class="tsd-kind-icon">Class with type parameter</span></li>
+                <li class="tsd-kind-constructor tsd-parent-kind-class"><span class="tsd-kind-icon">Constructor</span></li>
+                <li class="tsd-kind-property tsd-parent-kind-class"><span class="tsd-kind-icon">Property</span></li>
+                <li class="tsd-kind-method tsd-parent-kind-class"><span class="tsd-kind-icon">Method</span></li>
+                <li class="tsd-kind-accessor tsd-parent-kind-class"><span class="tsd-kind-icon">Accessor</span></li>
+                <li class="tsd-kind-index-signature tsd-parent-kind-class"><span class="tsd-kind-icon">Index signature</span></li>
+            </ul>
+            <ul class="tsd-legend">
+                <li class="tsd-kind-constructor tsd-parent-kind-class tsd-is-inherited"><span class="tsd-kind-icon">Inherited constructor</span></li>
+                <li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><span class="tsd-kind-icon">Inherited property</span></li>
+                <li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><span class="tsd-kind-icon">Inherited method</span></li>
+                <li class="tsd-kind-accessor tsd-parent-kind-class tsd-is-inherited"><span class="tsd-kind-icon">Inherited accessor</span></li>
+            </ul>
+            <ul class="tsd-legend">
+                <li class="tsd-kind-property tsd-parent-kind-class tsd-is-protected"><span class="tsd-kind-icon">Protected property</span></li>
+                <li class="tsd-kind-method tsd-parent-kind-class tsd-is-protected"><span class="tsd-kind-icon">Protected method</span></li>
+                <li class="tsd-kind-accessor tsd-parent-kind-class tsd-is-protected"><span class="tsd-kind-icon">Protected accessor</span></li>
+            </ul>
+            <ul class="tsd-legend">
+                <li class="tsd-kind-property tsd-parent-kind-class tsd-is-private"><span class="tsd-kind-icon">Private property</span></li>
+                <li class="tsd-kind-method tsd-parent-kind-class tsd-is-private"><span class="tsd-kind-icon">Private method</span></li>
+                <li class="tsd-kind-accessor tsd-parent-kind-class tsd-is-private"><span class="tsd-kind-icon">Private accessor</span></li>
+            </ul>
+            <ul class="tsd-legend">
+                <li class="tsd-kind-property tsd-parent-kind-class tsd-is-static"><span class="tsd-kind-icon">Static property</span></li>
+                <li class="tsd-kind-call-signature tsd-parent-kind-class tsd-is-static"><span class="tsd-kind-icon">Static method</span></li>
+            </ul>
+        </div>
+    </div>
+</footer>
+
+    <div class="container tsd-generator">
+        <p>Generated using <a href="http://typedoc.io" target="_blank">TypeDoc</a></p>
+    </div>
+
+<div class="overlay"></div>
+    <script src="../../assets/js/main.js"></script>
+<script>if (location.protocol == 'file:') document.write('<script src="../assets/js/search.js"><' + '/script>');</script>
+
+
+</body>
+</html>

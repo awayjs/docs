@@ -17,13 +17,13 @@
                     </ul>
 
                     <!-- Search -->
-                    <!--{{#ifCond project.name '==' "@awayjs"}}-->
-                    <!--{{else}}-->
+                    {{#ifCond project.name '==' "@awayjs"}}
+                    {{else}}
                         <div class="field">
                             <label for="tsd-search-field" class="tsd-widget search no-caption">Search</label>
                             <input id="tsd-search-field" type="text" />
                         </div>
-                    <!--{{/ifCond}}-->
+                    {{/ifCond}}
 
                     <ul class="results">
                         <li class="state loading">Preparing search index...</li>

@@ -856,7 +856,7 @@ ul.tsd-parameters .tsd-comment, ul.tsd-type-parameters .tsd-comment { margin-top
 .tsd-page-toolbar a:hover { color: #d1382f; text-decoration: none; }
 .tsd-page-toolbar a.title { font-weight: bold; }
 .tsd-page-toolbar a.title:hover { text-decoration: underline; }
-.tsd-page-toolbar .container { background: url(../images/logo_small.png) no-repeat left; }
+@media (min-width: 900px) { .tsd-page-toolbar .container { background: url(../images/logo_small.png) no-repeat left; }}
 .tsd-page-toolbar .table-wrap { display: table; width: 100%; height: 40px; }
 .tsd-page-toolbar .table-cell { display: table-cell; position: relative; white-space: nowrap; line-height: 40px; }
 .tsd-page-toolbar .table-cell:first-child { width: 100%; }

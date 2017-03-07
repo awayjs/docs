@@ -17,13 +17,13 @@
                     </ul>
 
                     <!-- Search -->
-                    {{#ifCond project.name '==' "@awayjs"}}
-                    {{else}}
+                    <!--{{#ifCond project.name '==' "@awayjs"}}-->
+                    <!--{{else}}-->
                         <div class="field">
                             <label for="tsd-search-field" class="tsd-widget search no-caption">Search</label>
                             <input id="tsd-search-field" type="text" />
                         </div>
-                    {{/ifCond}}
+                    <!--{{/ifCond}}-->
 
                     <ul class="results">
                         <li class="state loading">Preparing search index...</li>
@@ -32,19 +32,20 @@
                 </div>
 
                 <!-- Filter -->
-                {{#ifCond project.name '==' "@awayjs"}}
-                {{else}}
+
                     <div class="table-cell" id="tsd-widgets">
                         <div id="tsd-filter">
-                            <a href="#" class="tsd-widget options no-caption" data-toggle="options">Options</a>
-                            <div class="tsd-filter-group">
-                                <input type="checkbox" id="tsd-filter-inherited"/>
-                                <label class="tsd-widget" for="tsd-filter-inherited">Show Inherited</label>
-                            </div>
+                            {{#ifCond project.name '==' "@awayjs"}}
+                            {{else}}
+                                <a href="#" class="tsd-widget options no-caption" data-toggle="options">Options</a>
+                                <div class="tsd-filter-group">
+                                    <input type="checkbox" id="tsd-filter-inherited"/>
+                                    <label class="tsd-widget" for="tsd-filter-inherited">Show Inherited</label>
+                                </div>
+                            {{/ifCond}}
                         </div>
                         <a href="#" class="tsd-widget menu no-caption" data-toggle="menu">Menu</a>
                     </div>
-                {{/ifCond}}
             </div>
         </div>
     </div>

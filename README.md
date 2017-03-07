@@ -1,4 +1,5 @@
 # AwayJS Static Docs Generator
+[![Build Status](https://travis-ci.org/awayjs/docs.svg?branch=dev)](https://travis-ci.org/awayjs/docs)
 
 This project produces a static documentation site for the AwayJS software API.
 AwayJS is written in Typescript and the documentation is generated using Typedoc,

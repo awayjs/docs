@@ -49,6 +49,6 @@
     "minimist": "^1.2.0",
     "rimraf": "^2.6.1",
     "typedoc": "^0.5.7",
-    "typescript": "^2.2.1"
+    "typescript": "2.2.0-dev.20161123"
   }
 }

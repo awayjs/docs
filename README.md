@@ -1,4 +1,4 @@
-# AwayJS Static Docs Generator
+# AwayJS Documentation
 [![Build Status](https://travis-ci.org/awayjs/docs.svg?branch=dev)](https://travis-ci.org/awayjs/docs)
 
 This project produces a static documentation site for the AwayJS software API.

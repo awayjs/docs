@@ -19,9 +19,6 @@ pwd
 echo "ls -la"
 ls -la
 
-ls scripts/deploy_key.enc
-exit 0
-
 # Save some useful information
 REPO=`git config remote.origin.url`
 SSH_REPO=${REPO/https:\/\/github.com\//git@github.com:}

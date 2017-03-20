@@ -91,7 +91,7 @@
         <h3>Hierarchy</h3>
         <ul class="tsd-hierarchy">
         <li>
-                <a href="GL_RenderableBase.html" class="tsd-signature-type">GL_RenderableBase</a>
+                <span class="tsd-signature-type">GL_RenderableBase</span>
         </li>
 </ul>
 
@@ -119,15 +119,17 @@
                         <li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="GL_SkyboxRenderable.html#_asset" class="tsd-kind-icon">_asset</a></li>
                         <li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="GL_SkyboxRenderable.html#_count" class="tsd-kind-icon">_count</a></li>
                         <li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="GL_SkyboxRenderable.html#_invalid" class="tsd-kind-icon">_invalid</a></li>
+                        <li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="GL_SkyboxRenderable.html#_materialGroup" class="tsd-kind-icon">_material<wbr>Group</a></li>
                         <li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="GL_SkyboxRenderable.html#_offset" class="tsd-kind-icon">_offset</a></li>
                         <li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="GL_SkyboxRenderable.html#_pool" class="tsd-kind-icon">_pool</a></li>
-                        <li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="GL_SkyboxRenderable.html#_renderer" class="tsd-kind-icon">_renderer</a></li>
                         <li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="GL_SkyboxRenderable.html#_stage" class="tsd-kind-icon">_stage</a></li>
                         <li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="GL_SkyboxRenderable.html#cascaded" class="tsd-kind-icon">cascaded</a></li>
+                        <li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="GL_SkyboxRenderable.html#elementsGL" class="tsd-kind-icon">elementsGL</a></li>
                         <li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="GL_SkyboxRenderable.html#id" class="tsd-kind-icon">id</a></li>
                         <li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="GL_SkyboxRenderable.html#images" class="tsd-kind-icon">images</a></li>
                         <li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="GL_SkyboxRenderable.html#maskId" class="tsd-kind-icon">mask<wbr>Id</a></li>
                         <li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="GL_SkyboxRenderable.html#masksConfig" class="tsd-kind-icon">masks<wbr>Config</a></li>
+                        <li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="GL_SkyboxRenderable.html#materialGL" class="tsd-kind-icon">materialGL</a></li>
                         <li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="GL_SkyboxRenderable.html#materialID" class="tsd-kind-icon">materialID</a></li>
                         <li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="GL_SkyboxRenderable.html#next" class="tsd-kind-icon">next</a></li>
                         <li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="GL_SkyboxRenderable.html#renderOrderId" class="tsd-kind-icon">render<wbr>Order<wbr>Id</a></li>
@@ -137,13 +139,6 @@
                         <li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="GL_SkyboxRenderable.html#sourceEntity" class="tsd-kind-icon">source<wbr>Entity</a></li>
                         <li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="GL_SkyboxRenderable.html#uvMatrix" class="tsd-kind-icon">uv<wbr>Matrix</a></li>
                         <li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="GL_SkyboxRenderable.html#zIndex" class="tsd-kind-icon">z<wbr>Index</a></li>
-                    </ul>
-                </section>
-                <section class="tsd-index-section tsd-is-inherited">
-                    <h3>Accessors</h3>
-                    <ul class="tsd-index-list">
-                        <li class="tsd-kind-get-signature tsd-parent-kind-class tsd-is-inherited"><a href="GL_SkyboxRenderable.html#elementsGL" class="tsd-kind-icon">elementsGL</a></li>
-                        <li class="tsd-kind-get-signature tsd-parent-kind-class tsd-is-inherited"><a href="GL_SkyboxRenderable.html#materialGL" class="tsd-kind-icon">materialGL</a></li>
                     </ul>
                 </section>
                 <section class="tsd-index-section ">
@@ -173,15 +168,15 @@
         <h3>constructor</h3>
 
         <ul class="tsd-signatures tsd-kind-constructor tsd-parent-kind-class tsd-is-overwrite">
-        <li class="tsd-signature tsd-kind-icon">new GL_<wbr><wbr>Skybox<wbr>Renderable<span class="tsd-signature-symbol">(</span>skybox<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Skybox</span>, entity<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">IEntity</span>, renderer<span class="tsd-signature-symbol">: </span><a href="RendererBase.html" class="tsd-signature-type">RendererBase</a>, pool<span class="tsd-signature-symbol">: </span><a href="RenderablePool.html" class="tsd-signature-type">RenderablePool</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="GL_SkyboxRenderable.html" class="tsd-signature-type">GL_SkyboxRenderable</a></li>
+        <li class="tsd-signature tsd-kind-icon">new GL_<wbr><wbr>Skybox<wbr>Renderable<span class="tsd-signature-symbol">(</span>skybox<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Skybox</span>, renderablePool<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">RenderablePool</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="GL_SkyboxRenderable.html" class="tsd-signature-type">GL_SkyboxRenderable</a></li>
 </ul>
 
 <ul class="tsd-descriptions">
         <li class="tsd-description">
                 <aside class="tsd-sources">
-        <p>Overwrites <a href="GL_RenderableBase.html">GL_RenderableBase</a>.<a href="GL_RenderableBase.html#constructor">constructor</a></p>
+        <p>Overwrites GL_RenderableBase.__constructor</p>
         <ul>
-                    <li>Defined in renderables/GL_SkyboxRenderable.ts:29</li>
+                    <li>Defined in renderables/GL_SkyboxRenderable.ts:26</li>
         </ul>
 </aside>
         <div class="tsd-comment tsd-typography">
@@ -205,17 +200,7 @@
 
             </li>
             <li>
-                <h5>entity: <span class="tsd-signature-type">IEntity</span></h5>
-
-                
-            </li>
-            <li>
-                <h5>renderer: <a href="RendererBase.html" class="tsd-signature-type">RendererBase</a></h5>
-
-                
-            </li>
-            <li>
-                <h5>pool: <a href="RenderablePool.html" class="tsd-signature-type">RenderablePool</a></h5>
+                <h5>renderablePool: <span class="tsd-signature-type">RenderablePool</span></h5>
 
                 
             </li>
@@ -238,9 +223,9 @@
         <div class="tsd-signature tsd-kind-icon">JOINT_<wbr>INDEX_<wbr>FORMAT<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
 
 <aside class="tsd-sources">
-        <p>Inherited from <a href="GL_RenderableBase.html">GL_RenderableBase</a>.<a href="GL_RenderableBase.html#JOINT_INDEX_FORMAT">JOINT_INDEX_FORMAT</a></p>
+        <p>Inherited from GL_RenderableBase.JOINT_INDEX_FORMAT</p>
         <ul>
-                    <li>Defined in renderables/GL_RenderableBase.ts:31</li>
+                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/stage/dist/lib/renderables/GL_RenderableBase.d.ts:23</li>
         </ul>
 </aside>
 
@@ -254,9 +239,9 @@
         <div class="tsd-signature tsd-kind-icon">JOINT_<wbr>WEIGHT_<wbr>FORMAT<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
 
 <aside class="tsd-sources">
-        <p>Inherited from <a href="GL_RenderableBase.html">GL_RenderableBase</a>.<a href="GL_RenderableBase.html#JOINT_WEIGHT_FORMAT">JOINT_WEIGHT_FORMAT</a></p>
+        <p>Inherited from GL_RenderableBase.JOINT_WEIGHT_FORMAT</p>
         <ul>
-                    <li>Defined in renderables/GL_RenderableBase.ts:32</li>
+                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/stage/dist/lib/renderables/GL_RenderableBase.d.ts:24</li>
         </ul>
 </aside>
 
@@ -286,9 +271,9 @@
         <div class="tsd-signature tsd-kind-icon">_count<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
 
 <aside class="tsd-sources">
-        <p>Inherited from <a href="GL_RenderableBase.html">GL_RenderableBase</a>.<a href="GL_RenderableBase.html#_count">_count</a></p>
+        <p>Inherited from GL_RenderableBase._count</p>
         <ul>
-                    <li>Defined in renderables/GL_RenderableBase.ts:23</li>
+                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/stage/dist/lib/renderables/GL_RenderableBase.d.ts:17</li>
         </ul>
 </aside>
 
@@ -312,15 +297,31 @@
 
 </section>
             <section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-inherited">
+    <a name="_materialGroup" class="tsd-anchor"></a>
+        <h3>_material<wbr>Group</h3>
+
+        <div class="tsd-signature tsd-kind-icon">_material<wbr>Group<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">MaterialGroupBase</span></div>
+
+<aside class="tsd-sources">
+        <p>Inherited from GL_RenderableBase._materialGroup</p>
+        <ul>
+                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/stage/dist/lib/renderables/GL_RenderableBase.d.ts:28</li>
+        </ul>
+</aside>
+
+    
+
+</section>
+            <section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-inherited">
     <a name="_offset" class="tsd-anchor"></a>
         <h3>_offset</h3>
 
         <div class="tsd-signature tsd-kind-icon">_offset<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
 
 <aside class="tsd-sources">
-        <p>Inherited from <a href="GL_RenderableBase.html">GL_RenderableBase</a>.<a href="GL_RenderableBase.html#_offset">_offset</a></p>
+        <p>Inherited from GL_RenderableBase._offset</p>
         <ul>
-                    <li>Defined in renderables/GL_RenderableBase.ts:24</li>
+                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/stage/dist/lib/renderables/GL_RenderableBase.d.ts:18</li>
         </ul>
 </aside>
 
@@ -344,31 +345,15 @@
 
 </section>
             <section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-inherited">
-    <a name="_renderer" class="tsd-anchor"></a>
-        <h3>_renderer</h3>
-
-        <div class="tsd-signature tsd-kind-icon">_renderer<span class="tsd-signature-symbol">:</span> <a href="RendererBase.html" class="tsd-signature-type">RendererBase</a></div>
-
-<aside class="tsd-sources">
-        <p>Inherited from <a href="GL_RenderableBase.html">GL_RenderableBase</a>.<a href="GL_RenderableBase.html#_renderer">_renderer</a></p>
-        <ul>
-                    <li>Defined in renderables/GL_RenderableBase.ts:37</li>
-        </ul>
-</aside>
-
-    
-
-</section>
-            <section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-inherited">
     <a name="_stage" class="tsd-anchor"></a>
         <h3>_stage</h3>
 
         <div class="tsd-signature tsd-kind-icon">_stage<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">Stage</span></div>
 
 <aside class="tsd-sources">
-        <p>Inherited from <a href="GL_RenderableBase.html">GL_RenderableBase</a>.<a href="GL_RenderableBase.html#_stage">_stage</a></p>
+        <p>Inherited from GL_RenderableBase._stage</p>
         <ul>
-                    <li>Defined in renderables/GL_RenderableBase.ts:39</li>
+                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/stage/dist/lib/renderables/GL_RenderableBase.d.ts:29</li>
         </ul>
 </aside>
 
@@ -382,9 +367,25 @@
         <div class="tsd-signature tsd-kind-icon">cascaded<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span></div>
 
 <aside class="tsd-sources">
-        <p>Inherited from <a href="GL_RenderableBase.html">GL_RenderableBase</a>.<a href="GL_RenderableBase.html#cascaded">cascaded</a></p>
+        <p>Inherited from GL_RenderableBase.cascaded</p>
         <ul>
-                    <li>Defined in renderables/GL_RenderableBase.ts:76</li>
+                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/stage/dist/lib/renderables/GL_RenderableBase.d.ts:58</li>
+        </ul>
+</aside>
+
+    
+
+</section>
+            <section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-inherited">
+    <a name="elementsGL" class="tsd-anchor"></a>
+        <h3>elementsGL</h3>
+
+        <div class="tsd-signature tsd-kind-icon">elementsGL<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">GL_ElementsBase</span></div>
+
+<aside class="tsd-sources">
+        <p>Inherited from GL_RenderableBase.elementsGL</p>
+        <ul>
+                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/stage/dist/lib/renderables/GL_RenderableBase.d.ts:74</li>
         </ul>
 </aside>
 
@@ -398,9 +399,9 @@
         <div class="tsd-signature tsd-kind-icon">id<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
 
 <aside class="tsd-sources">
-        <p>Inherited from <a href="GL_RenderableBase.html">GL_RenderableBase</a>.<a href="GL_RenderableBase.html#id">id</a></p>
+        <p>Inherited from GL_RenderableBase.id</p>
         <ul>
-                    <li>Defined in renderables/GL_RenderableBase.ts:46</li>
+                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/stage/dist/lib/renderables/GL_RenderableBase.d.ts:34</li>
         </ul>
 </aside>
 
@@ -414,9 +415,9 @@
         <div class="tsd-signature tsd-kind-icon">images<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">Array</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">GL_ImageBase</span><span class="tsd-signature-symbol">&gt;</span></div>
 
 <aside class="tsd-sources">
-        <p>Inherited from <a href="GL_RenderableBase.html">GL_RenderableBase</a>.<a href="GL_RenderableBase.html#images">images</a></p>
+        <p>Inherited from GL_RenderableBase.images</p>
         <ul>
-                    <li>Defined in renderables/GL_RenderableBase.ts:95</li>
+                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/stage/dist/lib/renderables/GL_RenderableBase.d.ts:72</li>
         </ul>
 </aside>
 
@@ -430,9 +431,9 @@
         <div class="tsd-signature tsd-kind-icon">mask<wbr>Id<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
 
 <aside class="tsd-sources">
-        <p>Inherited from <a href="GL_RenderableBase.html">GL_RenderableBase</a>.<a href="GL_RenderableBase.html#maskId">maskId</a></p>
+        <p>Inherited from GL_RenderableBase.maskId</p>
         <ul>
-                    <li>Defined in renderables/GL_RenderableBase.ts:66</li>
+                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/stage/dist/lib/renderables/GL_RenderableBase.d.ts:50</li>
         </ul>
 </aside>
 
@@ -446,9 +447,25 @@
         <div class="tsd-signature tsd-kind-icon">masks<wbr>Config<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">Array</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">Array</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">&gt;</span></div>
 
 <aside class="tsd-sources">
-        <p>Inherited from <a href="GL_RenderableBase.html">GL_RenderableBase</a>.<a href="GL_RenderableBase.html#masksConfig">masksConfig</a></p>
+        <p>Inherited from GL_RenderableBase.masksConfig</p>
         <ul>
-                    <li>Defined in renderables/GL_RenderableBase.ts:71</li>
+                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/stage/dist/lib/renderables/GL_RenderableBase.d.ts:54</li>
+        </ul>
+</aside>
+
+    
+
+</section>
+            <section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-inherited">
+    <a name="materialGL" class="tsd-anchor"></a>
+        <h3>materialGL</h3>
+
+        <div class="tsd-signature tsd-kind-icon">materialGL<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">GL_MaterialBase</span></div>
+
+<aside class="tsd-sources">
+        <p>Inherited from GL_RenderableBase.materialGL</p>
+        <ul>
+                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/stage/dist/lib/renderables/GL_RenderableBase.d.ts:75</li>
         </ul>
 </aside>
 
@@ -462,9 +479,9 @@
         <div class="tsd-signature tsd-kind-icon">materialID<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
 
 <aside class="tsd-sources">
-        <p>Inherited from <a href="GL_RenderableBase.html">GL_RenderableBase</a>.<a href="GL_RenderableBase.html#materialID">materialID</a></p>
+        <p>Inherited from GL_RenderableBase.materialID</p>
         <ul>
-                    <li>Defined in renderables/GL_RenderableBase.ts:51</li>
+                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/stage/dist/lib/renderables/GL_RenderableBase.d.ts:38</li>
         </ul>
 </aside>
 
@@ -475,12 +492,12 @@
     <a name="next" class="tsd-anchor"></a>
         <h3>next</h3>
 
-        <div class="tsd-signature tsd-kind-icon">next<span class="tsd-signature-symbol">:</span> <a href="GL_RenderableBase.html" class="tsd-signature-type">GL_RenderableBase</a></div>
+        <div class="tsd-signature tsd-kind-icon">next<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">GL_RenderableBase</span></div>
 
 <aside class="tsd-sources">
-        <p>Inherited from <a href="GL_RenderableBase.html">GL_RenderableBase</a>.<a href="GL_RenderableBase.html#next">next</a></p>
+        <p>Inherited from GL_RenderableBase.next</p>
         <ul>
-                    <li>Defined in renderables/GL_RenderableBase.ts:44</li>
+                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/stage/dist/lib/renderables/GL_RenderableBase.d.ts:33</li>
         </ul>
 </aside>
 
@@ -494,9 +511,9 @@
         <div class="tsd-signature tsd-kind-icon">render<wbr>Order<wbr>Id<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
 
 <aside class="tsd-sources">
-        <p>Inherited from <a href="GL_RenderableBase.html">GL_RenderableBase</a>.<a href="GL_RenderableBase.html#renderOrderId">renderOrderId</a></p>
+        <p>Inherited from GL_RenderableBase.renderOrderId</p>
         <ul>
-                    <li>Defined in renderables/GL_RenderableBase.ts:56</li>
+                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/stage/dist/lib/renderables/GL_RenderableBase.d.ts:42</li>
         </ul>
 </aside>
 
@@ -510,9 +527,9 @@
         <div class="tsd-signature tsd-kind-icon">render<wbr>Scene<wbr>Transform<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">Matrix3D</span></div>
 
 <aside class="tsd-sources">
-        <p>Inherited from <a href="GL_RenderableBase.html">GL_RenderableBase</a>.<a href="GL_RenderableBase.html#renderSceneTransform">renderSceneTransform</a></p>
+        <p>Inherited from GL_RenderableBase.renderSceneTransform</p>
         <ul>
-                    <li>Defined in renderables/GL_RenderableBase.ts:81</li>
+                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/stage/dist/lib/renderables/GL_RenderableBase.d.ts:62</li>
         </ul>
 </aside>
 
@@ -526,9 +543,9 @@
         <div class="tsd-signature tsd-kind-icon">renderable<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">IRenderable</span></div>
 
 <aside class="tsd-sources">
-        <p>Inherited from <a href="GL_RenderableBase.html">GL_RenderableBase</a>.<a href="GL_RenderableBase.html#renderable">renderable</a></p>
+        <p>Inherited from GL_RenderableBase.renderable</p>
         <ul>
-                    <li>Defined in renderables/GL_RenderableBase.ts:91</li>
+                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/stage/dist/lib/renderables/GL_RenderableBase.d.ts:70</li>
         </ul>
 </aside>
 
@@ -542,9 +559,9 @@
         <div class="tsd-signature tsd-kind-icon">samplers<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">Array</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">GL_SamplerBase</span><span class="tsd-signature-symbol">&gt;</span></div>
 
 <aside class="tsd-sources">
-        <p>Inherited from <a href="GL_RenderableBase.html">GL_RenderableBase</a>.<a href="GL_RenderableBase.html#samplers">samplers</a></p>
+        <p>Inherited from GL_RenderableBase.samplers</p>
         <ul>
-                    <li>Defined in renderables/GL_RenderableBase.ts:97</li>
+                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/stage/dist/lib/renderables/GL_RenderableBase.d.ts:73</li>
         </ul>
 </aside>
 
@@ -558,9 +575,9 @@
         <div class="tsd-signature tsd-kind-icon">source<wbr>Entity<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">IEntity</span></div>
 
 <aside class="tsd-sources">
-        <p>Inherited from <a href="GL_RenderableBase.html">GL_RenderableBase</a>.<a href="GL_RenderableBase.html#sourceEntity">sourceEntity</a></p>
+        <p>Inherited from GL_RenderableBase.sourceEntity</p>
         <ul>
-                    <li>Defined in renderables/GL_RenderableBase.ts:86</li>
+                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/stage/dist/lib/renderables/GL_RenderableBase.d.ts:66</li>
         </ul>
 </aside>
 
@@ -574,9 +591,9 @@
         <div class="tsd-signature tsd-kind-icon">uv<wbr>Matrix<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">Matrix</span></div>
 
 <aside class="tsd-sources">
-        <p>Inherited from <a href="GL_RenderableBase.html">GL_RenderableBase</a>.<a href="GL_RenderableBase.html#uvMatrix">uvMatrix</a></p>
+        <p>Inherited from GL_RenderableBase.uvMatrix</p>
         <ul>
-                    <li>Defined in renderables/GL_RenderableBase.ts:93</li>
+                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/stage/dist/lib/renderables/GL_RenderableBase.d.ts:71</li>
         </ul>
 </aside>
 
@@ -590,70 +607,13 @@
         <div class="tsd-signature tsd-kind-icon">z<wbr>Index<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
 
 <aside class="tsd-sources">
-        <p>Inherited from <a href="GL_RenderableBase.html">GL_RenderableBase</a>.<a href="GL_RenderableBase.html#zIndex">zIndex</a></p>
+        <p>Inherited from GL_RenderableBase.zIndex</p>
         <ul>
-                    <li>Defined in renderables/GL_RenderableBase.ts:61</li>
+                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/stage/dist/lib/renderables/GL_RenderableBase.d.ts:46</li>
         </ul>
 </aside>
 
     
-
-</section>
-</section>
-        <section class="tsd-panel-group tsd-member-group tsd-is-inherited">
-    <h2>Accessors</h2>
-            <section class="tsd-panel tsd-member tsd-kind-get-signature tsd-parent-kind-class tsd-is-inherited">
-    <a name="elementsGL" class="tsd-anchor"></a>
-        <h3>elementsGL</h3>
-
-
-        <ul class="tsd-signatures tsd-kind-get-signature tsd-parent-kind-class tsd-is-inherited">
-            <li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">get</span> <span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="GL_ElementsBase.html" class="tsd-signature-type">GL_ElementsBase</a></li>
-</ul>
-
-<ul class="tsd-descriptions">
-            <li class="tsd-description">
-                    <aside class="tsd-sources">
-        <p>Inherited from <a href="GL_RenderableBase.html">GL_RenderableBase</a>.<a href="GL_RenderableBase.html#elementsGL">elementsGL</a></p>
-        <ul>
-                    <li>Defined in renderables/GL_RenderableBase.ts:99</li>
-        </ul>
-</aside>
-
-
-
-    <h4 class="tsd-returns-title">Returns <a href="GL_ElementsBase.html" class="tsd-signature-type">GL_ElementsBase</a></h4>
-
-
-            </li>
-</ul>
-
-</section>
-            <section class="tsd-panel tsd-member tsd-kind-get-signature tsd-parent-kind-class tsd-is-inherited">
-    <a name="materialGL" class="tsd-anchor"></a>
-        <h3>materialGL</h3>
-
-
-        <ul class="tsd-signatures tsd-kind-get-signature tsd-parent-kind-class tsd-is-inherited">
-            <li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">get</span> <span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="GL_MaterialBase.html" class="tsd-signature-type">GL_MaterialBase</a></li>
-</ul>
-
-<ul class="tsd-descriptions">
-            <li class="tsd-description">
-                    <aside class="tsd-sources">
-        <p>Inherited from <a href="GL_RenderableBase.html">GL_RenderableBase</a>.<a href="GL_RenderableBase.html#materialGL">materialGL</a></p>
-        <ul>
-                    <li>Defined in renderables/GL_RenderableBase.ts:107</li>
-        </ul>
-</aside>
-
-
-
-    <h4 class="tsd-returns-title">Returns <a href="GL_MaterialBase.html" class="tsd-signature-type">GL_MaterialBase</a></h4>
-
-
-            </li>
-</ul>
 
 </section>
 </section>
@@ -664,15 +624,15 @@
         <h3><span class="tsd-flag ts-flagPrivate">Private</span> _i<wbr>Render</h3>
 
         <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-inherited tsd-is-private">
-        <li class="tsd-signature tsd-kind-icon">_i<wbr>Render<span class="tsd-signature-symbol">(</span>pass<span class="tsd-signature-symbol">: </span><a href="../interfaces/IPass.html" class="tsd-signature-type">IPass</a>, projection<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">ProjectionBase</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+        <li class="tsd-signature tsd-kind-icon">_i<wbr>Render<span class="tsd-signature-symbol">(</span>pass<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">IPass</span>, projection<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">ProjectionBase</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
 </ul>
 
 <ul class="tsd-descriptions">
         <li class="tsd-description">
                 <aside class="tsd-sources">
-        <p>Inherited from <a href="GL_RenderableBase.html">GL_RenderableBase</a>.<a href="GL_RenderableBase.html#_iRender">_iRender</a></p>
+        <p>Inherited from GL_RenderableBase._iRender</p>
         <ul>
-                    <li>Defined in renderables/GL_RenderableBase.ts:191</li>
+                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/stage/dist/lib/renderables/GL_RenderableBase.d.ts:94</li>
         </ul>
 </aside>
         <div class="tsd-comment tsd-typography">
@@ -686,7 +646,7 @@
     <h4 class="tsd-parameters-title">Parameters</h4>
     <ul class="tsd-parameters">
             <li>
-                <h5>pass: <a href="../interfaces/IPass.html" class="tsd-signature-type">IPass</a></h5>
+                <h5>pass: <span class="tsd-signature-type">IPass</span></h5>
 
                 
             </li>
@@ -715,9 +675,9 @@
 <ul class="tsd-descriptions">
         <li class="tsd-description">
                 <aside class="tsd-sources">
-        <p>Overwrites <a href="GL_RenderableBase.html">GL_RenderableBase</a>.<a href="GL_RenderableBase.html#_pGetElements">_pGetElements</a></p>
+        <p>Overwrites GL_RenderableBase._pGetElements</p>
         <ul>
-                    <li>Defined in renderables/GL_SkyboxRenderable.ts:50</li>
+                    <li>Defined in renderables/GL_SkyboxRenderable.ts:47</li>
         </ul>
 </aside>
         <div class="tsd-comment tsd-typography">
@@ -741,21 +701,21 @@
         <h3>_p<wbr>Get<wbr>Material</h3>
 
         <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-overwrite">
-        <li class="tsd-signature tsd-kind-icon">_p<wbr>Get<wbr>Material<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="GL_MaterialBase.html" class="tsd-signature-type">GL_MaterialBase</a></li>
+        <li class="tsd-signature tsd-kind-icon">_p<wbr>Get<wbr>Material<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">GL_MaterialBase</span></li>
 </ul>
 
 <ul class="tsd-descriptions">
         <li class="tsd-description">
                 <aside class="tsd-sources">
-        <p>Overwrites <a href="GL_RenderableBase.html">GL_RenderableBase</a>.<a href="GL_RenderableBase.html#_pGetMaterial">_pGetMaterial</a></p>
+        <p>Overwrites GL_RenderableBase._pGetMaterial</p>
         <ul>
-                    <li>Defined in renderables/GL_SkyboxRenderable.ts:67</li>
+                    <li>Defined in renderables/GL_SkyboxRenderable.ts:64</li>
         </ul>
 </aside>
 
 
 
-    <h4 class="tsd-returns-title">Returns <a href="GL_MaterialBase.html" class="tsd-signature-type">GL_MaterialBase</a></h4>
+    <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">GL_MaterialBase</span></h4>
 
 
         </li>
@@ -767,15 +727,15 @@
         <h3>_set<wbr>Render<wbr>State</h3>
 
         <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
-        <li class="tsd-signature tsd-kind-icon">_set<wbr>Render<wbr>State<span class="tsd-signature-symbol">(</span>pass<span class="tsd-signature-symbol">: </span><a href="../interfaces/IPass.html" class="tsd-signature-type">IPass</a>, projection<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">ProjectionBase</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+        <li class="tsd-signature tsd-kind-icon">_set<wbr>Render<wbr>State<span class="tsd-signature-symbol">(</span>pass<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">IPass</span>, projection<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">ProjectionBase</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
 </ul>
 
 <ul class="tsd-descriptions">
         <li class="tsd-description">
                 <aside class="tsd-sources">
-        <p>Inherited from <a href="GL_RenderableBase.html">GL_RenderableBase</a>.<a href="GL_RenderableBase.html#_setRenderState">_setRenderState</a></p>
+        <p>Inherited from GL_RenderableBase._setRenderState</p>
         <ul>
-                    <li>Defined in renderables/GL_RenderableBase.ts:198</li>
+                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/stage/dist/lib/renderables/GL_RenderableBase.d.ts:95</li>
         </ul>
 </aside>
 
@@ -783,7 +743,7 @@
     <h4 class="tsd-parameters-title">Parameters</h4>
     <ul class="tsd-parameters">
             <li>
-                <h5>pass: <a href="../interfaces/IPass.html" class="tsd-signature-type">IPass</a></h5>
+                <h5>pass: <span class="tsd-signature-type">IPass</span></h5>
 
                 
             </li>
@@ -1009,10 +969,10 @@
 <ul class="tsd-descriptions">
         <li class="tsd-description">
                 <aside class="tsd-sources">
-        <p>Inherited from <a href="GL_RenderableBase.html">GL_RenderableBase</a>.<a href="GL_RenderableBase.html#onClear">onClear</a></p>
+        <p>Inherited from GL_RenderableBase.onClear</p>
         <p>Overwrites AbstractionBase.onClear</p>
         <ul>
-                    <li>Defined in renderables/GL_RenderableBase.ts:141</li>
+                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/stage/dist/lib/renderables/GL_RenderableBase.d.ts:84</li>
         </ul>
 </aside>
 
@@ -1078,9 +1038,9 @@
 <ul class="tsd-descriptions">
         <li class="tsd-description">
                 <aside class="tsd-sources">
-        <p>Inherited from <a href="GL_RenderableBase.html">GL_RenderableBase</a>.<a href="GL_RenderableBase.html#onInvalidateElements">onInvalidateElements</a></p>
+        <p>Inherited from GL_RenderableBase.onInvalidateElements</p>
         <ul>
-                    <li>Defined in renderables/GL_RenderableBase.ts:166</li>
+                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/stage/dist/lib/renderables/GL_RenderableBase.d.ts:85</li>
         </ul>
 </aside>
 
@@ -1182,14 +1142,14 @@
         <h3><span class="tsd-flag ts-flagStatic">Static</span> _i<wbr>Include<wbr>Dependencies</h3>
 
         <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-static">
-        <li class="tsd-signature tsd-kind-icon">_i<wbr>Include<wbr>Dependencies<span class="tsd-signature-symbol">(</span>shader<span class="tsd-signature-symbol">: </span><a href="ShaderBase.html" class="tsd-signature-type">ShaderBase</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+        <li class="tsd-signature tsd-kind-icon">_i<wbr>Include<wbr>Dependencies<span class="tsd-signature-symbol">(</span>shader<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">ShaderBase</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
 </ul>
 
 <ul class="tsd-descriptions">
         <li class="tsd-description">
                 <aside class="tsd-sources">
         <ul>
-                    <li>Defined in renderables/GL_SkyboxRenderable.ts:72</li>
+                    <li>Defined in renderables/GL_SkyboxRenderable.ts:69</li>
         </ul>
 </aside>
 
@@ -1197,7 +1157,7 @@
     <h4 class="tsd-parameters-title">Parameters</h4>
     <ul class="tsd-parameters">
             <li>
-                <h5>shader: <a href="ShaderBase.html" class="tsd-signature-type">ShaderBase</a></h5>
+                <h5>shader: <span class="tsd-signature-type">ShaderBase</span></h5>
 
                 
             </li>
@@ -1226,37 +1186,16 @@
     <a href="AnimationElements.html" class="tsd-kind-icon">Animation<wbr>Elements</a>
 </li>
                         <li class=" tsd-kind-class">
-    <a href="AnimationRegisterData.html" class="tsd-kind-icon">Animation<wbr>Register<wbr>Data</a>
-</li>
-                        <li class=" tsd-kind-class">
-    <a href="AnimationSetBase.html" class="tsd-kind-icon">Animation<wbr>Set<wbr>Base</a>
-</li>
-                        <li class=" tsd-kind-class">
-    <a href="AnimationSetError.html" class="tsd-kind-icon">Animation<wbr>Set<wbr>Error</a>
-</li>
-                        <li class=" tsd-kind-class">
     <a href="AnimationStateBase.html" class="tsd-kind-icon">Animation<wbr>State<wbr>Base</a>
 </li>
                         <li class=" tsd-kind-class">
     <a href="AnimationStateEvent.html" class="tsd-kind-icon">Animation<wbr>State<wbr>Event</a>
 </li>
                         <li class=" tsd-kind-class">
-    <a href="AnimatorBase.html" class="tsd-kind-icon">Animator<wbr>Base</a>
-</li>
-                        <li class=" tsd-kind-class">
-    <a href="AnimatorEvent.html" class="tsd-kind-icon">Animator<wbr>Event</a>
-</li>
-                        <li class=" tsd-kind-class">
-    <a href="BasicMaterialPass.html" class="tsd-kind-icon">Basic<wbr>Material<wbr>Pass</a>
-</li>
-                        <li class=" tsd-kind-class">
     <a href="BlurFilter3D.html" class="tsd-kind-icon">Blur<wbr>Filter3D</a>
 </li>
                         <li class=" tsd-kind-class">
     <a href="ColorSegmentPoint.html" class="tsd-kind-icon">Color<wbr>Segment<wbr>Point</a>
-</li>
-                        <li class=" tsd-kind-class">
-    <a href="CompilerBase.html" class="tsd-kind-icon">Compiler<wbr>Base</a>
 </li>
                         <li class=" tsd-kind-class">
     <a href="CompositeFilter3D.html" class="tsd-kind-icon">Composite<wbr>Filter3D</a>
@@ -1269,6 +1208,9 @@
 </li>
                         <li class=" tsd-kind-class">
     <a href="CrossfadeTransitionState.html" class="tsd-kind-icon">Crossfade<wbr>Transition<wbr>State</a>
+</li>
+                        <li class=" tsd-kind-class">
+    <a href="DefaultMaterialGroup.html" class="tsd-kind-icon">Default<wbr>Material<wbr>Group</a>
 </li>
                         <li class=" tsd-kind-class">
     <a href="DefaultRenderer.html" class="tsd-kind-icon">Default<wbr>Renderer</a>
@@ -1304,9 +1246,6 @@
     <a href="Filter3DVBlurTask.html" class="tsd-kind-icon">Filter3DVBlur<wbr>Task</a>
 </li>
                         <li class=" tsd-kind-class">
-    <a href="GL_BasicMaterial.html" class="tsd-kind-icon">GL_<wbr><wbr>Basic<wbr>Material</a>
-</li>
-                        <li class=" tsd-kind-class">
     <a href="GL_BillboardRenderable.html" class="tsd-kind-icon">GL_<wbr><wbr>Billboard<wbr>Renderable</a>
 </li>
                         <li class=" tsd-kind-class">
@@ -1316,31 +1255,10 @@
     <a href="GL_DistanceMaterial.html" class="tsd-kind-icon">GL_<wbr><wbr>Distance<wbr>Material</a>
 </li>
                         <li class=" tsd-kind-class">
-    <a href="GL_ElementsBase.html" class="tsd-kind-icon">GL_<wbr><wbr>Elements<wbr>Base</a>
-</li>
-                        <li class=" tsd-kind-class">
     <a href="GL_LineElements.html" class="tsd-kind-icon">GL_<wbr><wbr>Line<wbr>Elements</a>
 </li>
                         <li class=" tsd-kind-class">
     <a href="GL_LineSegmentRenderable.html" class="tsd-kind-icon">GL_<wbr><wbr>Line<wbr>Segment<wbr>Renderable</a>
-</li>
-                        <li class=" tsd-kind-class">
-    <a href="GL_MaterialBase.html" class="tsd-kind-icon">GL_<wbr><wbr>Material<wbr>Base</a>
-</li>
-                        <li class=" tsd-kind-class">
-    <a href="GL_MaterialPassBase.html" class="tsd-kind-icon">GL_<wbr><wbr>Material<wbr>Pass<wbr>Base</a>
-</li>
-                        <li class=" tsd-kind-class">
-    <a href="GL_RenderableBase.html" class="tsd-kind-icon">GL_<wbr><wbr>Renderable<wbr>Base</a>
-</li>
-                        <li class=" tsd-kind-class">
-    <a href="GL_ShapeRenderable.html" class="tsd-kind-icon">GL_<wbr><wbr>Shape<wbr>Renderable</a>
-</li>
-                        <li class=" tsd-kind-class">
-    <a href="GL_Single2DTexture.html" class="tsd-kind-icon">GL_<wbr><wbr>Single2DTexture</a>
-</li>
-                        <li class=" tsd-kind-class">
-    <a href="GL_SingleCubeTexture.html" class="tsd-kind-icon">GL_<wbr><wbr>Single<wbr>Cube<wbr>Texture</a>
 </li>
                         <li class=" tsd-kind-class">
     <a href="GL_SkyboxElements.html" class="tsd-kind-icon">GL_<wbr><wbr>Skybox<wbr>Elements</a>
@@ -1352,12 +1270,6 @@
     <a href="GL_SkyboxRenderable.html" class="tsd-kind-icon">GL_<wbr><wbr>Skybox<wbr>Renderable</a>
 </li>
                         <li class=" tsd-kind-class">
-    <a href="GL_TextureBase.html" class="tsd-kind-icon">GL_<wbr><wbr>Texture<wbr>Base</a>
-</li>
-                        <li class=" tsd-kind-class">
-    <a href="GL_TriangleElements.html" class="tsd-kind-icon">GL_<wbr><wbr>Triangle<wbr>Elements</a>
-</li>
-                        <li class=" tsd-kind-class">
     <a href="JointPose.html" class="tsd-kind-icon">Joint<wbr>Pose</a>
 </li>
                         <li class=" tsd-kind-class">
@@ -1365,9 +1277,6 @@
 </li>
                         <li class=" tsd-kind-class">
     <a href="LightingShader.html" class="tsd-kind-icon">Lighting<wbr>Shader</a>
-</li>
-                        <li class=" tsd-kind-class">
-    <a href="MaterialPool.html" class="tsd-kind-icon">Material<wbr>Pool</a>
 </li>
                         <li class=" tsd-kind-class">
     <a href="ParticleAccelerationNode.html" class="tsd-kind-icon">Particle<wbr>Acceleration<wbr>Node</a>
@@ -1505,19 +1414,10 @@
     <a href="ParticleVelocityState.html" class="tsd-kind-icon">Particle<wbr>Velocity<wbr>State</a>
 </li>
                         <li class=" tsd-kind-class">
-    <a href="PassBase.html" class="tsd-kind-icon">Pass<wbr>Base</a>
-</li>
-                        <li class=" tsd-kind-class">
-    <a href="PassEvent.html" class="tsd-kind-icon">Pass<wbr>Event</a>
-</li>
-                        <li class=" tsd-kind-class">
     <a href="RTTBufferManager.html" class="tsd-kind-icon">RTTBuffer<wbr>Manager</a>
 </li>
                         <li class=" tsd-kind-class">
     <a href="RTTEvent.html" class="tsd-kind-icon">RTTEvent</a>
-</li>
-                        <li class=" tsd-kind-class">
-    <a href="RegisterPool.html" class="tsd-kind-icon">Register<wbr>Pool</a>
 </li>
                         <li class=" tsd-kind-class">
     <a href="RenderableMergeSort.html" class="tsd-kind-icon">Renderable<wbr>Merge<wbr>Sort</a>
@@ -1526,25 +1426,10 @@
     <a href="RenderableNullSort.html" class="tsd-kind-icon">Renderable<wbr>Null<wbr>Sort</a>
 </li>
                         <li class=" tsd-kind-class">
-    <a href="RenderablePool.html" class="tsd-kind-icon">Renderable<wbr>Pool</a>
-</li>
-                        <li class=" tsd-kind-class">
     <a href="RendererBase.html" class="tsd-kind-icon">Renderer<wbr>Base</a>
 </li>
                         <li class=" tsd-kind-class">
     <a href="RendererEvent.html" class="tsd-kind-icon">Renderer<wbr>Event</a>
-</li>
-                        <li class=" tsd-kind-class">
-    <a href="ShaderBase.html" class="tsd-kind-icon">Shader<wbr>Base</a>
-</li>
-                        <li class=" tsd-kind-class">
-    <a href="ShaderRegisterCache.html" class="tsd-kind-icon">Shader<wbr>Register<wbr>Cache</a>
-</li>
-                        <li class=" tsd-kind-class">
-    <a href="ShaderRegisterData.html" class="tsd-kind-icon">Shader<wbr>Register<wbr>Data</a>
-</li>
-                        <li class=" tsd-kind-class">
-    <a href="ShaderRegisterElement.html" class="tsd-kind-icon">Shader<wbr>Register<wbr>Element</a>
 </li>
                         <li class=" tsd-kind-class">
     <a href="ShadingMethodEvent.html" class="tsd-kind-icon">Shading<wbr>Method<wbr>Event</a>
@@ -1610,28 +1495,13 @@
     <a href="VertexClipState.html" class="tsd-kind-icon">Vertex<wbr>Clip<wbr>State</a>
 </li>
                         <li class=" tsd-kind-interface">
-    <a href="../interfaces/IAnimationState.html" class="tsd-kind-icon">IAnimation<wbr>State</a>
-</li>
-                        <li class=" tsd-kind-interface">
     <a href="../interfaces/IAnimationTransition.html" class="tsd-kind-icon">IAnimation<wbr>Transition</a>
-</li>
-                        <li class=" tsd-kind-interface">
-    <a href="../interfaces/IElementsClassGL.html" class="tsd-kind-icon">IElements<wbr>ClassGL</a>
 </li>
                         <li class=" tsd-kind-interface">
     <a href="../interfaces/IEntitySorter.html" class="tsd-kind-icon">IEntity<wbr>Sorter</a>
 </li>
                         <li class=" tsd-kind-interface">
     <a href="../interfaces/ILightingPass.html" class="tsd-kind-icon">ILighting<wbr>Pass</a>
-</li>
-                        <li class=" tsd-kind-interface">
-    <a href="../interfaces/IMaterialClassGL.html" class="tsd-kind-icon">IMaterial<wbr>ClassGL</a>
-</li>
-                        <li class=" tsd-kind-interface">
-    <a href="../interfaces/IPass.html" class="tsd-kind-icon">IPass</a>
-</li>
-                        <li class=" tsd-kind-interface">
-    <a href="../interfaces/IRenderableClassGL.html" class="tsd-kind-icon">IRenderable<wbr>ClassGL</a>
 </li>
                         <li class=" tsd-kind-interface">
     <a href="../interfaces/ISkeletonAnimationState.html" class="tsd-kind-icon">ISkeleton<wbr>Animation<wbr>State</a>

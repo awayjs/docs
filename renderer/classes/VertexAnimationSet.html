@@ -95,7 +95,7 @@
         <h3>Hierarchy</h3>
         <ul class="tsd-hierarchy">
         <li>
-                <a href="AnimationSetBase.html" class="tsd-signature-type">AnimationSetBase</a>
+                <span class="tsd-signature-type">AnimationSetBase</span>
         </li>
 </ul>
 
@@ -126,11 +126,15 @@
                 <section class="tsd-index-section tsd-is-inherited">
                     <h3>Properties</h3>
                     <ul class="tsd-index-list">
+                        <li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="VertexAnimationSet.html#animationNames" class="tsd-kind-icon">animation<wbr>Names</a></li>
+                        <li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="VertexAnimationSet.html#animations" class="tsd-kind-icon">animations</a></li>
                         <li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="VertexAnimationSet.html#assetFullPath" class="tsd-kind-icon">asset<wbr>Full<wbr>Path</a></li>
                         <li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="VertexAnimationSet.html#assetNamespace" class="tsd-kind-icon">asset<wbr>Namespace</a></li>
+                        <li class="tsd-kind-property tsd-parent-kind-class tsd-is-overwrite tsd-is-inherited"><a href="VertexAnimationSet.html#assetType" class="tsd-kind-icon">asset<wbr>Type</a></li>
                         <li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="VertexAnimationSet.html#id" class="tsd-kind-icon">id</a></li>
                         <li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="VertexAnimationSet.html#name" class="tsd-kind-icon">name</a></li>
                         <li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="VertexAnimationSet.html#originalName" class="tsd-kind-icon">original<wbr>Name</a></li>
+                        <li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="VertexAnimationSet.html#usesCPU" class="tsd-kind-icon">usesCPU</a></li>
                         <li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited tsd-is-static"><a href="VertexAnimationSet.html#DEFAULT_NAMESPACE" class="tsd-kind-icon">DEFAULT_<wbr>NAMESPACE</a></li>
                         <li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited tsd-is-static"><a href="VertexAnimationSet.html#ID_COUNT" class="tsd-kind-icon">ID_<wbr>COUNT</a></li>
                         <li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited tsd-is-static"><a href="VertexAnimationSet.html#assetType" class="tsd-kind-icon">asset<wbr>Type</a></li>
@@ -139,12 +143,8 @@
                 <section class="tsd-index-section ">
                     <h3>Accessors</h3>
                     <ul class="tsd-index-list">
-                        <li class="tsd-kind-get-signature tsd-parent-kind-class tsd-is-inherited"><a href="VertexAnimationSet.html#animationNames" class="tsd-kind-icon">animation<wbr>Names</a></li>
-                        <li class="tsd-kind-get-signature tsd-parent-kind-class tsd-is-inherited"><a href="VertexAnimationSet.html#animations" class="tsd-kind-icon">animations</a></li>
-                        <li class="tsd-kind-get-signature tsd-parent-kind-class tsd-is-overwrite tsd-is-inherited"><a href="VertexAnimationSet.html#assetType" class="tsd-kind-icon">asset<wbr>Type</a></li>
                         <li class="tsd-kind-get-signature tsd-parent-kind-class"><a href="VertexAnimationSet.html#blendMode" class="tsd-kind-icon">blend<wbr>Mode</a></li>
                         <li class="tsd-kind-get-signature tsd-parent-kind-class"><a href="VertexAnimationSet.html#numPoses" class="tsd-kind-icon">num<wbr>Poses</a></li>
-                        <li class="tsd-kind-get-signature tsd-parent-kind-class tsd-is-inherited"><a href="VertexAnimationSet.html#usesCPU" class="tsd-kind-icon">usesCPU</a></li>
                     </ul>
                 </section>
                 <section class="tsd-index-section ">
@@ -188,9 +188,9 @@
 <ul class="tsd-descriptions">
         <li class="tsd-description">
                 <aside class="tsd-sources">
-        <p>Overwrites <a href="AnimationSetBase.html">AnimationSetBase</a>.<a href="AnimationSetBase.html#constructor">constructor</a></p>
+        <p>Overwrites AnimationSetBase.__constructor</p>
         <ul>
-                    <li>Defined in animators/VertexAnimationSet.ts:39</li>
+                    <li>Defined in animators/VertexAnimationSet.ts:33</li>
         </ul>
 </aside>
         <div class="tsd-comment tsd-typography">
@@ -243,6 +243,50 @@
         <section class="tsd-panel-group tsd-member-group tsd-is-inherited">
     <h2>Properties</h2>
             <section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-inherited">
+    <a name="animationNames" class="tsd-anchor"></a>
+        <h3>animation<wbr>Names</h3>
+
+        <div class="tsd-signature tsd-kind-icon">animation<wbr>Names<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">Array</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">&gt;</span></div>
+
+<aside class="tsd-sources">
+        <p>Inherited from AnimationSetBase.animationNames</p>
+        <ul>
+                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/stage/dist/lib/animators/AnimationSetBase.d.ts:68</li>
+        </ul>
+</aside>
+        <div class="tsd-comment tsd-typography">
+                <div class="lead">
+                    <p>Returns a vector of animation state objects that make up the contents of the animation data set.</p>
+
+                </div>
+        </div>
+
+    
+
+</section>
+            <section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-inherited">
+    <a name="animations" class="tsd-anchor"></a>
+        <h3>animations</h3>
+
+        <div class="tsd-signature tsd-kind-icon">animations<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">Array</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">AnimationNodeBase</span><span class="tsd-signature-symbol">&gt;</span></div>
+
+<aside class="tsd-sources">
+        <p>Inherited from AnimationSetBase.animations</p>
+        <ul>
+                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/stage/dist/lib/animators/AnimationSetBase.d.ts:64</li>
+        </ul>
+</aside>
+        <div class="tsd-comment tsd-typography">
+                <div class="lead">
+                    <p>Returns a vector of animation state objects that make up the contents of the animation data set.</p>
+
+                </div>
+        </div>
+
+    
+
+</section>
+            <section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-inherited">
     <a name="assetFullPath" class="tsd-anchor"></a>
         <h3>asset<wbr>Full<wbr>Path</h3>
 
@@ -270,6 +314,29 @@
                     <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/core/dist/lib/library/AssetBase.d.ts:37</li>
         </ul>
 </aside>
+
+    
+
+</section>
+            <section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-overwrite tsd-is-inherited">
+    <a name="assetType" class="tsd-anchor"></a>
+        <h3>asset<wbr>Type</h3>
+
+        <div class="tsd-signature tsd-kind-icon">asset<wbr>Type<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
+
+<aside class="tsd-sources">
+        <p>Inherited from AnimationSetBase.assetType</p>
+        <p>Overwrites AssetBase.assetType</p>
+        <ul>
+                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/stage/dist/lib/animators/AnimationSetBase.d.ts:60</li>
+        </ul>
+</aside>
+        <div class="tsd-comment tsd-typography">
+                <dl class="tsd-comment-tags">
+                        <dt>inheritdoc</dt>
+                        <dd></dd>
+                </dl>
+        </div>
 
     
 
@@ -336,6 +403,30 @@ have changed due to of a name conflict.</p>
     
 
 </section>
+            <section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-inherited">
+    <a name="usesCPU" class="tsd-anchor"></a>
+        <h3>usesCPU</h3>
+
+        <div class="tsd-signature tsd-kind-icon">usesCPU<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span></div>
+
+<aside class="tsd-sources">
+        <p>Inherited from AnimationSetBase.usesCPU</p>
+        <ul>
+                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/stage/dist/lib/animators/AnimationSetBase.d.ts:32</li>
+        </ul>
+</aside>
+        <div class="tsd-comment tsd-typography">
+                <div class="lead">
+                    <p>Indicates whether the properties of the animation data contained within the set combined with
+the vertex registers already in use on shading materials allows the animation data to utilise
+GPU calls.</p>
+
+                </div>
+        </div>
+
+    
+
+</section>
             <section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-inherited tsd-is-static">
     <a name="DEFAULT_NAMESPACE" class="tsd-anchor"></a>
         <h3><span class="tsd-flag ts-flagStatic">Static</span> DEFAULT_<wbr>NAMESPACE</h3>
@@ -375,9 +466,9 @@ have changed due to of a name conflict.</p>
         <div class="tsd-signature tsd-kind-icon">asset<wbr>Type<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
 
 <aside class="tsd-sources">
-        <p>Inherited from <a href="AnimationSetBase.html">AnimationSetBase</a>.<a href="AnimationSetBase.html#assetType">assetType</a></p>
+        <p>Inherited from AnimationSetBase.assetType</p>
         <ul>
-                    <li>Defined in animators/AnimationSetBase.ts:18</li>
+                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/stage/dist/lib/animators/AnimationSetBase.d.ts:13</li>
         </ul>
 </aside>
 
@@ -387,106 +478,6 @@ have changed due to of a name conflict.</p>
 </section>
         <section class="tsd-panel-group tsd-member-group ">
     <h2>Accessors</h2>
-            <section class="tsd-panel tsd-member tsd-kind-get-signature tsd-parent-kind-class tsd-is-inherited">
-    <a name="animationNames" class="tsd-anchor"></a>
-        <h3>animation<wbr>Names</h3>
-
-
-        <ul class="tsd-signatures tsd-kind-get-signature tsd-parent-kind-class tsd-is-inherited">
-            <li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">get</span> <span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Array</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">&gt;</span></li>
-</ul>
-
-<ul class="tsd-descriptions">
-            <li class="tsd-description">
-                    <aside class="tsd-sources">
-        <p>Inherited from <a href="AnimationSetBase.html">AnimationSetBase</a>.<a href="AnimationSetBase.html#animationNames">animationNames</a></p>
-        <ul>
-                    <li>Defined in animators/AnimationSetBase.ts:128</li>
-        </ul>
-</aside>
-        <div class="tsd-comment tsd-typography">
-                <div class="lead">
-                    <p>Returns a vector of animation state objects that make up the contents of the animation data set.</p>
-
-                </div>
-        </div>
-
-
-
-    <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Array</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">&gt;</span></h4>
-
-
-            </li>
-</ul>
-
-</section>
-            <section class="tsd-panel tsd-member tsd-kind-get-signature tsd-parent-kind-class tsd-is-inherited">
-    <a name="animations" class="tsd-anchor"></a>
-        <h3>animations</h3>
-
-
-        <ul class="tsd-signatures tsd-kind-get-signature tsd-parent-kind-class tsd-is-inherited">
-            <li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">get</span> <span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Array</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">AnimationNodeBase</span><span class="tsd-signature-symbol">&gt;</span></li>
-</ul>
-
-<ul class="tsd-descriptions">
-            <li class="tsd-description">
-                    <aside class="tsd-sources">
-        <p>Inherited from <a href="AnimationSetBase.html">AnimationSetBase</a>.<a href="AnimationSetBase.html#animations">animations</a></p>
-        <ul>
-                    <li>Defined in animators/AnimationSetBase.ts:120</li>
-        </ul>
-</aside>
-        <div class="tsd-comment tsd-typography">
-                <div class="lead">
-                    <p>Returns a vector of animation state objects that make up the contents of the animation data set.</p>
-
-                </div>
-        </div>
-
-
-
-    <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Array</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">AnimationNodeBase</span><span class="tsd-signature-symbol">&gt;</span></h4>
-
-
-            </li>
-</ul>
-
-</section>
-            <section class="tsd-panel tsd-member tsd-kind-get-signature tsd-parent-kind-class tsd-is-overwrite tsd-is-inherited">
-    <a name="assetType" class="tsd-anchor"></a>
-        <h3>asset<wbr>Type</h3>
-
-
-        <ul class="tsd-signatures tsd-kind-get-signature tsd-parent-kind-class tsd-is-overwrite tsd-is-inherited">
-            <li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">get</span> <span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span></li>
-</ul>
-
-<ul class="tsd-descriptions">
-            <li class="tsd-description">
-                    <aside class="tsd-sources">
-        <p>Inherited from <a href="AnimationSetBase.html">AnimationSetBase</a>.<a href="AnimationSetBase.html#assetType">assetType</a></p>
-        <p>Overwrites AssetBase.assetType</p>
-        <ul>
-                    <li>Defined in animators/AnimationSetBase.ts:112</li>
-        </ul>
-</aside>
-        <div class="tsd-comment tsd-typography">
-                <dl class="tsd-comment-tags">
-                        <dt>inheritdoc</dt>
-                        <dd></dd>
-                </dl>
-        </div>
-
-
-
-    <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">string</span></h4>
-
-
-            </li>
-</ul>
-
-</section>
             <section class="tsd-panel tsd-member tsd-kind-get-signature tsd-parent-kind-class">
     <a name="blendMode" class="tsd-anchor"></a>
         <h3>blend<wbr>Mode</h3>
@@ -500,7 +491,7 @@ have changed due to of a name conflict.</p>
             <li class="tsd-description">
                     <aside class="tsd-sources">
         <ul>
-                    <li>Defined in animators/VertexAnimationSet.ts:36</li>
+                    <li>Defined in animators/VertexAnimationSet.ts:30</li>
         </ul>
 </aside>
         <div class="tsd-comment tsd-typography">
@@ -532,7 +523,7 @@ have changed due to of a name conflict.</p>
             <li class="tsd-description">
                     <aside class="tsd-sources">
         <ul>
-                    <li>Defined in animators/VertexAnimationSet.ts:28</li>
+                    <li>Defined in animators/VertexAnimationSet.ts:22</li>
         </ul>
 </aside>
         <div class="tsd-comment tsd-typography">
@@ -545,41 +536,6 @@ have changed due to of a name conflict.</p>
 
 
     <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">number</span></h4>
-
-
-            </li>
-</ul>
-
-</section>
-            <section class="tsd-panel tsd-member tsd-kind-get-signature tsd-parent-kind-class tsd-is-inherited">
-    <a name="usesCPU" class="tsd-anchor"></a>
-        <h3>usesCPU</h3>
-
-
-        <ul class="tsd-signatures tsd-kind-get-signature tsd-parent-kind-class tsd-is-inherited">
-            <li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">get</span> <span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">boolean</span></li>
-</ul>
-
-<ul class="tsd-descriptions">
-            <li class="tsd-description">
-                    <aside class="tsd-sources">
-        <p>Inherited from <a href="AnimationSetBase.html">AnimationSetBase</a>.<a href="AnimationSetBase.html#usesCPU">usesCPU</a></p>
-        <ul>
-                    <li>Defined in animators/AnimationSetBase.ts:55</li>
-        </ul>
-</aside>
-        <div class="tsd-comment tsd-typography">
-                <div class="lead">
-                    <p>Indicates whether the properties of the animation data contained within the set combined with
-the vertex registers already in use on shading materials allows the animation data to utilise
-GPU calls.</p>
-
-                </div>
-        </div>
-
-
-
-    <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">boolean</span></h4>
 
 
             </li>
@@ -600,9 +556,9 @@ GPU calls.</p>
 <ul class="tsd-descriptions">
         <li class="tsd-description">
                 <aside class="tsd-sources">
-        <p>Inherited from <a href="AnimationSetBase.html">AnimationSetBase</a>.<a href="AnimationSetBase.html#_pFindTempReg">_pFindTempReg</a></p>
+        <p>Inherited from AnimationSetBase._pFindTempReg</p>
         <ul>
-                    <li>Defined in animators/AnimationSetBase.ts:37</li>
+                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/stage/dist/lib/animators/AnimationSetBase.d.ts:26</li>
         </ul>
 </aside>
         <div class="tsd-comment tsd-typography">
@@ -625,7 +581,7 @@ GPU calls.</p>
 
             </li>
             <li>
-                <h5><span class="tsd-flag ts-flagDefault value">Default value</span> excludeAnother: <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> =&nbsp;null</span></h5>
+                <h5><span class="tsd-flag ts-flagOptional">Optional</span> excludeAnother: <span class="tsd-signature-type">string</span></h5>
 
                         <div class="tsd-comment tsd-typography">
                 <p>An additional register that&#39;s not free.</p>
@@ -655,9 +611,9 @@ GPU calls.</p>
 <ul class="tsd-descriptions">
         <li class="tsd-description">
                 <aside class="tsd-sources">
-        <p>Inherited from <a href="AnimationSetBase.html">AnimationSetBase</a>.<a href="AnimationSetBase.html#addAnimation">addAnimation</a></p>
+        <p>Inherited from AnimationSetBase.addAnimation</p>
         <ul>
-                    <li>Defined in animators/AnimationSetBase.ts:159</li>
+                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/stage/dist/lib/animators/AnimationSetBase.d.ts:87</li>
         </ul>
 </aside>
         <div class="tsd-comment tsd-typography">
@@ -810,9 +766,9 @@ GPU calls.</p>
 <ul class="tsd-descriptions">
         <li class="tsd-description">
                 <aside class="tsd-sources">
-        <p>Inherited from <a href="AnimationSetBase.html">AnimationSetBase</a>.<a href="AnimationSetBase.html#cancelGPUCompatibility">cancelGPUCompatibility</a></p>
+        <p>Inherited from AnimationSetBase.cancelGPUCompatibility</p>
         <ul>
-                    <li>Defined in animators/AnimationSetBase.ts:71</li>
+                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/stage/dist/lib/animators/AnimationSetBase.d.ts:40</li>
         </ul>
 </aside>
 
@@ -907,10 +863,10 @@ GPU calls.</p>
 <ul class="tsd-descriptions">
         <li class="tsd-description">
                 <aside class="tsd-sources">
-        <p>Inherited from <a href="AnimationSetBase.html">AnimationSetBase</a>.<a href="AnimationSetBase.html#dispose">dispose</a></p>
+        <p>Inherited from AnimationSetBase.dispose</p>
         <p>Overwrites AssetBase.dispose</p>
         <ul>
-                    <li>Defined in animators/AnimationSetBase.ts:174</li>
+                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/stage/dist/lib/animators/AnimationSetBase.d.ts:91</li>
         </ul>
 </aside>
         <div class="tsd-comment tsd-typography">
@@ -934,15 +890,15 @@ GPU calls.</p>
         <h3>doneAGALCode</h3>
 
         <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-overwrite">
-        <li class="tsd-signature tsd-kind-icon">doneAGALCode<span class="tsd-signature-symbol">(</span>shader<span class="tsd-signature-symbol">: </span><a href="ShaderBase.html" class="tsd-signature-type">ShaderBase</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+        <li class="tsd-signature tsd-kind-icon">doneAGALCode<span class="tsd-signature-symbol">(</span>shader<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">ShaderBase</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
 </ul>
 
 <ul class="tsd-descriptions">
         <li class="tsd-description">
                 <aside class="tsd-sources">
-        <p>Overwrites <a href="AnimationSetBase.html">AnimationSetBase</a>.<a href="AnimationSetBase.html#doneAGALCode">doneAGALCode</a></p>
+        <p>Overwrites AnimationSetBase.doneAGALCode</p>
         <ul>
-                    <li>Defined in animators/VertexAnimationSet.ts:100</li>
+                    <li>Defined in animators/VertexAnimationSet.ts:94</li>
         </ul>
 </aside>
         <div class="tsd-comment tsd-typography">
@@ -956,7 +912,7 @@ GPU calls.</p>
     <h4 class="tsd-parameters-title">Parameters</h4>
     <ul class="tsd-parameters">
             <li>
-                <h5>shader: <a href="ShaderBase.html" class="tsd-signature-type">ShaderBase</a></h5>
+                <h5>shader: <span class="tsd-signature-type">ShaderBase</span></h5>
 
                 
             </li>
@@ -974,15 +930,15 @@ GPU calls.</p>
         <h3>getAGALFragment<wbr>Code</h3>
 
         <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-overwrite">
-        <li class="tsd-signature tsd-kind-icon">getAGALFragment<wbr>Code<span class="tsd-signature-symbol">(</span>shader<span class="tsd-signature-symbol">: </span><a href="ShaderBase.html" class="tsd-signature-type">ShaderBase</a>, registerCache<span class="tsd-signature-symbol">: </span><a href="ShaderRegisterCache.html" class="tsd-signature-type">ShaderRegisterCache</a>, shadedTarget<span class="tsd-signature-symbol">: </span><a href="ShaderRegisterElement.html" class="tsd-signature-type">ShaderRegisterElement</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span></li>
+        <li class="tsd-signature tsd-kind-icon">getAGALFragment<wbr>Code<span class="tsd-signature-symbol">(</span>shader<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">ShaderBase</span>, registerCache<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">ShaderRegisterCache</span>, shadedTarget<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">ShaderRegisterElement</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span></li>
 </ul>
 
 <ul class="tsd-descriptions">
         <li class="tsd-description">
                 <aside class="tsd-sources">
-        <p>Overwrites <a href="AnimationSetBase.html">AnimationSetBase</a>.<a href="AnimationSetBase.html#getAGALFragmentCode">getAGALFragmentCode</a></p>
+        <p>Overwrites AnimationSetBase.getAGALFragmentCode</p>
         <ul>
-                    <li>Defined in animators/VertexAnimationSet.ts:84</li>
+                    <li>Defined in animators/VertexAnimationSet.ts:78</li>
         </ul>
 </aside>
         <div class="tsd-comment tsd-typography">
@@ -996,17 +952,17 @@ GPU calls.</p>
     <h4 class="tsd-parameters-title">Parameters</h4>
     <ul class="tsd-parameters">
             <li>
-                <h5>shader: <a href="ShaderBase.html" class="tsd-signature-type">ShaderBase</a></h5>
+                <h5>shader: <span class="tsd-signature-type">ShaderBase</span></h5>
 
                 
             </li>
             <li>
-                <h5>registerCache: <a href="ShaderRegisterCache.html" class="tsd-signature-type">ShaderRegisterCache</a></h5>
+                <h5>registerCache: <span class="tsd-signature-type">ShaderRegisterCache</span></h5>
 
                 
             </li>
             <li>
-                <h5>shadedTarget: <a href="ShaderRegisterElement.html" class="tsd-signature-type">ShaderRegisterElement</a></h5>
+                <h5>shadedTarget: <span class="tsd-signature-type">ShaderRegisterElement</span></h5>
 
                 
             </li>
@@ -1024,15 +980,15 @@ GPU calls.</p>
         <h3>getAGALUVCode</h3>
 
         <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-overwrite">
-        <li class="tsd-signature tsd-kind-icon">getAGALUVCode<span class="tsd-signature-symbol">(</span>shader<span class="tsd-signature-symbol">: </span><a href="ShaderBase.html" class="tsd-signature-type">ShaderBase</a>, registerCache<span class="tsd-signature-symbol">: </span><a href="ShaderRegisterCache.html" class="tsd-signature-type">ShaderRegisterCache</a>, sharedRegisters<span class="tsd-signature-symbol">: </span><a href="ShaderRegisterData.html" class="tsd-signature-type">ShaderRegisterData</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span></li>
+        <li class="tsd-signature tsd-kind-icon">getAGALUVCode<span class="tsd-signature-symbol">(</span>shader<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">ShaderBase</span>, registerCache<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">ShaderRegisterCache</span>, sharedRegisters<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">ShaderRegisterData</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span></li>
 </ul>
 
 <ul class="tsd-descriptions">
         <li class="tsd-description">
                 <aside class="tsd-sources">
-        <p>Overwrites <a href="AnimationSetBase.html">AnimationSetBase</a>.<a href="AnimationSetBase.html#getAGALUVCode">getAGALUVCode</a></p>
+        <p>Overwrites AnimationSetBase.getAGALUVCode</p>
         <ul>
-                    <li>Defined in animators/VertexAnimationSet.ts:92</li>
+                    <li>Defined in animators/VertexAnimationSet.ts:86</li>
         </ul>
 </aside>
         <div class="tsd-comment tsd-typography">
@@ -1046,17 +1002,17 @@ GPU calls.</p>
     <h4 class="tsd-parameters-title">Parameters</h4>
     <ul class="tsd-parameters">
             <li>
-                <h5>shader: <a href="ShaderBase.html" class="tsd-signature-type">ShaderBase</a></h5>
+                <h5>shader: <span class="tsd-signature-type">ShaderBase</span></h5>
 
                 
             </li>
             <li>
-                <h5>registerCache: <a href="ShaderRegisterCache.html" class="tsd-signature-type">ShaderRegisterCache</a></h5>
+                <h5>registerCache: <span class="tsd-signature-type">ShaderRegisterCache</span></h5>
 
                 
             </li>
             <li>
-                <h5>sharedRegisters: <a href="ShaderRegisterData.html" class="tsd-signature-type">ShaderRegisterData</a></h5>
+                <h5>sharedRegisters: <span class="tsd-signature-type">ShaderRegisterData</span></h5>
 
                 
             </li>
@@ -1074,15 +1030,15 @@ GPU calls.</p>
         <h3>getAGALVertex<wbr>Code</h3>
 
         <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-overwrite">
-        <li class="tsd-signature tsd-kind-icon">getAGALVertex<wbr>Code<span class="tsd-signature-symbol">(</span>shader<span class="tsd-signature-symbol">: </span><a href="ShaderBase.html" class="tsd-signature-type">ShaderBase</a>, registerCache<span class="tsd-signature-symbol">: </span><a href="ShaderRegisterCache.html" class="tsd-signature-type">ShaderRegisterCache</a>, sharedRegisters<span class="tsd-signature-symbol">: </span><a href="ShaderRegisterData.html" class="tsd-signature-type">ShaderRegisterData</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span></li>
+        <li class="tsd-signature tsd-kind-icon">getAGALVertex<wbr>Code<span class="tsd-signature-symbol">(</span>shader<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">ShaderBase</span>, registerCache<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">ShaderRegisterCache</span>, sharedRegisters<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">ShaderRegisterData</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span></li>
 </ul>
 
 <ul class="tsd-descriptions">
         <li class="tsd-description">
                 <aside class="tsd-sources">
-        <p>Overwrites <a href="AnimationSetBase.html">AnimationSetBase</a>.<a href="AnimationSetBase.html#getAGALVertexCode">getAGALVertexCode</a></p>
+        <p>Overwrites AnimationSetBase.getAGALVertexCode</p>
         <ul>
-                    <li>Defined in animators/VertexAnimationSet.ts:67</li>
+                    <li>Defined in animators/VertexAnimationSet.ts:61</li>
         </ul>
 </aside>
         <div class="tsd-comment tsd-typography">
@@ -1096,17 +1052,17 @@ GPU calls.</p>
     <h4 class="tsd-parameters-title">Parameters</h4>
     <ul class="tsd-parameters">
             <li>
-                <h5>shader: <a href="ShaderBase.html" class="tsd-signature-type">ShaderBase</a></h5>
+                <h5>shader: <span class="tsd-signature-type">ShaderBase</span></h5>
 
                 
             </li>
             <li>
-                <h5>registerCache: <a href="ShaderRegisterCache.html" class="tsd-signature-type">ShaderRegisterCache</a></h5>
+                <h5>registerCache: <span class="tsd-signature-type">ShaderRegisterCache</span></h5>
 
                 
             </li>
             <li>
-                <h5>sharedRegisters: <a href="ShaderRegisterData.html" class="tsd-signature-type">ShaderRegisterData</a></h5>
+                <h5>sharedRegisters: <span class="tsd-signature-type">ShaderRegisterData</span></h5>
 
                 
             </li>
@@ -1130,9 +1086,9 @@ GPU calls.</p>
 <ul class="tsd-descriptions">
         <li class="tsd-description">
                 <aside class="tsd-sources">
-        <p>Inherited from <a href="AnimationSetBase.html">AnimationSetBase</a>.<a href="AnimationSetBase.html#getAnimation">getAnimation</a></p>
+        <p>Inherited from AnimationSetBase.getAnimation</p>
         <ul>
-                    <li>Defined in animators/AnimationSetBase.ts:148</li>
+                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/stage/dist/lib/animators/AnimationSetBase.d.ts:80</li>
         </ul>
 </aside>
         <div class="tsd-comment tsd-typography">
@@ -1170,9 +1126,9 @@ GPU calls.</p>
 <ul class="tsd-descriptions">
         <li class="tsd-description">
                 <aside class="tsd-sources">
-        <p>Inherited from <a href="AnimationSetBase.html">AnimationSetBase</a>.<a href="AnimationSetBase.html#hasAnimation">hasAnimation</a></p>
+        <p>Inherited from AnimationSetBase.hasAnimation</p>
         <ul>
-                    <li>Defined in animators/AnimationSetBase.ts:138</li>
+                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/stage/dist/lib/animators/AnimationSetBase.d.ts:74</li>
         </ul>
 </aside>
         <div class="tsd-comment tsd-typography">
@@ -1466,9 +1422,9 @@ GPU calls.</p>
 <ul class="tsd-descriptions">
         <li class="tsd-description">
                 <aside class="tsd-sources">
-        <p>Inherited from <a href="AnimationSetBase.html">AnimationSetBase</a>.<a href="AnimationSetBase.html#resetGPUCompatibility">resetGPUCompatibility</a></p>
+        <p>Inherited from AnimationSetBase.resetGPUCompatibility</p>
         <ul>
-                    <li>Defined in animators/AnimationSetBase.ts:66</li>
+                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/stage/dist/lib/animators/AnimationSetBase.d.ts:39</li>
         </ul>
 </aside>
         <div class="tsd-comment tsd-typography">
@@ -1504,37 +1460,16 @@ is available for running GPU-based animation code.</p>
     <a href="AnimationElements.html" class="tsd-kind-icon">Animation<wbr>Elements</a>
 </li>
                         <li class=" tsd-kind-class">
-    <a href="AnimationRegisterData.html" class="tsd-kind-icon">Animation<wbr>Register<wbr>Data</a>
-</li>
-                        <li class=" tsd-kind-class">
-    <a href="AnimationSetBase.html" class="tsd-kind-icon">Animation<wbr>Set<wbr>Base</a>
-</li>
-                        <li class=" tsd-kind-class">
-    <a href="AnimationSetError.html" class="tsd-kind-icon">Animation<wbr>Set<wbr>Error</a>
-</li>
-                        <li class=" tsd-kind-class">
     <a href="AnimationStateBase.html" class="tsd-kind-icon">Animation<wbr>State<wbr>Base</a>
 </li>
                         <li class=" tsd-kind-class">
     <a href="AnimationStateEvent.html" class="tsd-kind-icon">Animation<wbr>State<wbr>Event</a>
 </li>
                         <li class=" tsd-kind-class">
-    <a href="AnimatorBase.html" class="tsd-kind-icon">Animator<wbr>Base</a>
-</li>
-                        <li class=" tsd-kind-class">
-    <a href="AnimatorEvent.html" class="tsd-kind-icon">Animator<wbr>Event</a>
-</li>
-                        <li class=" tsd-kind-class">
-    <a href="BasicMaterialPass.html" class="tsd-kind-icon">Basic<wbr>Material<wbr>Pass</a>
-</li>
-                        <li class=" tsd-kind-class">
     <a href="BlurFilter3D.html" class="tsd-kind-icon">Blur<wbr>Filter3D</a>
 </li>
                         <li class=" tsd-kind-class">
     <a href="ColorSegmentPoint.html" class="tsd-kind-icon">Color<wbr>Segment<wbr>Point</a>
-</li>
-                        <li class=" tsd-kind-class">
-    <a href="CompilerBase.html" class="tsd-kind-icon">Compiler<wbr>Base</a>
 </li>
                         <li class=" tsd-kind-class">
     <a href="CompositeFilter3D.html" class="tsd-kind-icon">Composite<wbr>Filter3D</a>
@@ -1547,6 +1482,9 @@ is available for running GPU-based animation code.</p>
 </li>
                         <li class=" tsd-kind-class">
     <a href="CrossfadeTransitionState.html" class="tsd-kind-icon">Crossfade<wbr>Transition<wbr>State</a>
+</li>
+                        <li class=" tsd-kind-class">
+    <a href="DefaultMaterialGroup.html" class="tsd-kind-icon">Default<wbr>Material<wbr>Group</a>
 </li>
                         <li class=" tsd-kind-class">
     <a href="DefaultRenderer.html" class="tsd-kind-icon">Default<wbr>Renderer</a>
@@ -1582,9 +1520,6 @@ is available for running GPU-based animation code.</p>
     <a href="Filter3DVBlurTask.html" class="tsd-kind-icon">Filter3DVBlur<wbr>Task</a>
 </li>
                         <li class=" tsd-kind-class">
-    <a href="GL_BasicMaterial.html" class="tsd-kind-icon">GL_<wbr><wbr>Basic<wbr>Material</a>
-</li>
-                        <li class=" tsd-kind-class">
     <a href="GL_BillboardRenderable.html" class="tsd-kind-icon">GL_<wbr><wbr>Billboard<wbr>Renderable</a>
 </li>
                         <li class=" tsd-kind-class">
@@ -1594,31 +1529,10 @@ is available for running GPU-based animation code.</p>
     <a href="GL_DistanceMaterial.html" class="tsd-kind-icon">GL_<wbr><wbr>Distance<wbr>Material</a>
 </li>
                         <li class=" tsd-kind-class">
-    <a href="GL_ElementsBase.html" class="tsd-kind-icon">GL_<wbr><wbr>Elements<wbr>Base</a>
-</li>
-                        <li class=" tsd-kind-class">
     <a href="GL_LineElements.html" class="tsd-kind-icon">GL_<wbr><wbr>Line<wbr>Elements</a>
 </li>
                         <li class=" tsd-kind-class">
     <a href="GL_LineSegmentRenderable.html" class="tsd-kind-icon">GL_<wbr><wbr>Line<wbr>Segment<wbr>Renderable</a>
-</li>
-                        <li class=" tsd-kind-class">
-    <a href="GL_MaterialBase.html" class="tsd-kind-icon">GL_<wbr><wbr>Material<wbr>Base</a>
-</li>
-                        <li class=" tsd-kind-class">
-    <a href="GL_MaterialPassBase.html" class="tsd-kind-icon">GL_<wbr><wbr>Material<wbr>Pass<wbr>Base</a>
-</li>
-                        <li class=" tsd-kind-class">
-    <a href="GL_RenderableBase.html" class="tsd-kind-icon">GL_<wbr><wbr>Renderable<wbr>Base</a>
-</li>
-                        <li class=" tsd-kind-class">
-    <a href="GL_ShapeRenderable.html" class="tsd-kind-icon">GL_<wbr><wbr>Shape<wbr>Renderable</a>
-</li>
-                        <li class=" tsd-kind-class">
-    <a href="GL_Single2DTexture.html" class="tsd-kind-icon">GL_<wbr><wbr>Single2DTexture</a>
-</li>
-                        <li class=" tsd-kind-class">
-    <a href="GL_SingleCubeTexture.html" class="tsd-kind-icon">GL_<wbr><wbr>Single<wbr>Cube<wbr>Texture</a>
 </li>
                         <li class=" tsd-kind-class">
     <a href="GL_SkyboxElements.html" class="tsd-kind-icon">GL_<wbr><wbr>Skybox<wbr>Elements</a>
@@ -1630,12 +1544,6 @@ is available for running GPU-based animation code.</p>
     <a href="GL_SkyboxRenderable.html" class="tsd-kind-icon">GL_<wbr><wbr>Skybox<wbr>Renderable</a>
 </li>
                         <li class=" tsd-kind-class">
-    <a href="GL_TextureBase.html" class="tsd-kind-icon">GL_<wbr><wbr>Texture<wbr>Base</a>
-</li>
-                        <li class=" tsd-kind-class">
-    <a href="GL_TriangleElements.html" class="tsd-kind-icon">GL_<wbr><wbr>Triangle<wbr>Elements</a>
-</li>
-                        <li class=" tsd-kind-class">
     <a href="JointPose.html" class="tsd-kind-icon">Joint<wbr>Pose</a>
 </li>
                         <li class=" tsd-kind-class">
@@ -1643,9 +1551,6 @@ is available for running GPU-based animation code.</p>
 </li>
                         <li class=" tsd-kind-class">
     <a href="LightingShader.html" class="tsd-kind-icon">Lighting<wbr>Shader</a>
-</li>
-                        <li class=" tsd-kind-class">
-    <a href="MaterialPool.html" class="tsd-kind-icon">Material<wbr>Pool</a>
 </li>
                         <li class=" tsd-kind-class">
     <a href="ParticleAccelerationNode.html" class="tsd-kind-icon">Particle<wbr>Acceleration<wbr>Node</a>
@@ -1783,19 +1688,10 @@ is available for running GPU-based animation code.</p>
     <a href="ParticleVelocityState.html" class="tsd-kind-icon">Particle<wbr>Velocity<wbr>State</a>
 </li>
                         <li class=" tsd-kind-class">
-    <a href="PassBase.html" class="tsd-kind-icon">Pass<wbr>Base</a>
-</li>
-                        <li class=" tsd-kind-class">
-    <a href="PassEvent.html" class="tsd-kind-icon">Pass<wbr>Event</a>
-</li>
-                        <li class=" tsd-kind-class">
     <a href="RTTBufferManager.html" class="tsd-kind-icon">RTTBuffer<wbr>Manager</a>
 </li>
                         <li class=" tsd-kind-class">
     <a href="RTTEvent.html" class="tsd-kind-icon">RTTEvent</a>
-</li>
-                        <li class=" tsd-kind-class">
-    <a href="RegisterPool.html" class="tsd-kind-icon">Register<wbr>Pool</a>
 </li>
                         <li class=" tsd-kind-class">
     <a href="RenderableMergeSort.html" class="tsd-kind-icon">Renderable<wbr>Merge<wbr>Sort</a>
@@ -1804,25 +1700,10 @@ is available for running GPU-based animation code.</p>
     <a href="RenderableNullSort.html" class="tsd-kind-icon">Renderable<wbr>Null<wbr>Sort</a>
 </li>
                         <li class=" tsd-kind-class">
-    <a href="RenderablePool.html" class="tsd-kind-icon">Renderable<wbr>Pool</a>
-</li>
-                        <li class=" tsd-kind-class">
     <a href="RendererBase.html" class="tsd-kind-icon">Renderer<wbr>Base</a>
 </li>
                         <li class=" tsd-kind-class">
     <a href="RendererEvent.html" class="tsd-kind-icon">Renderer<wbr>Event</a>
-</li>
-                        <li class=" tsd-kind-class">
-    <a href="ShaderBase.html" class="tsd-kind-icon">Shader<wbr>Base</a>
-</li>
-                        <li class=" tsd-kind-class">
-    <a href="ShaderRegisterCache.html" class="tsd-kind-icon">Shader<wbr>Register<wbr>Cache</a>
-</li>
-                        <li class=" tsd-kind-class">
-    <a href="ShaderRegisterData.html" class="tsd-kind-icon">Shader<wbr>Register<wbr>Data</a>
-</li>
-                        <li class=" tsd-kind-class">
-    <a href="ShaderRegisterElement.html" class="tsd-kind-icon">Shader<wbr>Register<wbr>Element</a>
 </li>
                         <li class=" tsd-kind-class">
     <a href="ShadingMethodEvent.html" class="tsd-kind-icon">Shading<wbr>Method<wbr>Event</a>
@@ -1888,28 +1769,13 @@ is available for running GPU-based animation code.</p>
     <a href="VertexClipState.html" class="tsd-kind-icon">Vertex<wbr>Clip<wbr>State</a>
 </li>
                         <li class=" tsd-kind-interface">
-    <a href="../interfaces/IAnimationState.html" class="tsd-kind-icon">IAnimation<wbr>State</a>
-</li>
-                        <li class=" tsd-kind-interface">
     <a href="../interfaces/IAnimationTransition.html" class="tsd-kind-icon">IAnimation<wbr>Transition</a>
-</li>
-                        <li class=" tsd-kind-interface">
-    <a href="../interfaces/IElementsClassGL.html" class="tsd-kind-icon">IElements<wbr>ClassGL</a>
 </li>
                         <li class=" tsd-kind-interface">
     <a href="../interfaces/IEntitySorter.html" class="tsd-kind-icon">IEntity<wbr>Sorter</a>
 </li>
                         <li class=" tsd-kind-interface">
     <a href="../interfaces/ILightingPass.html" class="tsd-kind-icon">ILighting<wbr>Pass</a>
-</li>
-                        <li class=" tsd-kind-interface">
-    <a href="../interfaces/IMaterialClassGL.html" class="tsd-kind-icon">IMaterial<wbr>ClassGL</a>
-</li>
-                        <li class=" tsd-kind-interface">
-    <a href="../interfaces/IPass.html" class="tsd-kind-icon">IPass</a>
-</li>
-                        <li class=" tsd-kind-interface">
-    <a href="../interfaces/IRenderableClassGL.html" class="tsd-kind-icon">IRenderable<wbr>ClassGL</a>
 </li>
                         <li class=" tsd-kind-interface">
     <a href="../interfaces/ISkeletonAnimationState.html" class="tsd-kind-icon">ISkeleton<wbr>Animation<wbr>State</a>

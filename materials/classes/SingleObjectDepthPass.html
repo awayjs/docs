@@ -174,7 +174,7 @@ of view from a light.</p>
         <h3>constructor</h3>
 
         <ul class="tsd-signatures tsd-kind-constructor tsd-parent-kind-class tsd-is-overwrite">
-        <li class="tsd-signature tsd-kind-icon">new <wbr>Single<wbr>Object<wbr>Depth<wbr>Pass<span class="tsd-signature-symbol">(</span>render<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">GL_MaterialBase</span>, renderOwner<span class="tsd-signature-symbol">: </span><a href="MethodMaterial.html" class="tsd-signature-type">MethodMaterial</a>, elementsClass<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">IElementsClassGL</span>, stage<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Stage</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="SingleObjectDepthPass.html" class="tsd-signature-type">SingleObjectDepthPass</a></li>
+        <li class="tsd-signature tsd-kind-icon">new <wbr>Single<wbr>Object<wbr>Depth<wbr>Pass<span class="tsd-signature-symbol">(</span>render<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">GL_MaterialBase</span>, material<span class="tsd-signature-symbol">: </span><a href="MethodMaterial.html" class="tsd-signature-type">MethodMaterial</a>, materialPool<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">MaterialPool</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="SingleObjectDepthPass.html" class="tsd-signature-type">SingleObjectDepthPass</a></li>
 </ul>
 
 <ul class="tsd-descriptions">
@@ -182,7 +182,7 @@ of view from a light.</p>
                 <aside class="tsd-sources">
         <p>Overwrites PassBase.__constructor</p>
         <ul>
-                    <li>Defined in surfaces/passes/SingleObjectDepthPass.ts:51</li>
+                    <li>Defined in surfaces/passes/SingleObjectDepthPass.ts:49</li>
         </ul>
 </aside>
         <div class="tsd-comment tsd-typography">
@@ -201,17 +201,12 @@ of view from a light.</p>
                 
             </li>
             <li>
-                <h5>renderOwner: <a href="MethodMaterial.html" class="tsd-signature-type">MethodMaterial</a></h5>
+                <h5>material: <a href="MethodMaterial.html" class="tsd-signature-type">MethodMaterial</a></h5>
 
                 
             </li>
             <li>
-                <h5>elementsClass: <span class="tsd-signature-type">IElementsClassGL</span></h5>
-
-                
-            </li>
-            <li>
-                <h5>stage: <span class="tsd-signature-type">Stage</span></h5>
+                <h5>materialPool: <span class="tsd-signature-type">MaterialPool</span></h5>
 
                 
             </li>
@@ -236,7 +231,7 @@ of view from a light.</p>
 <aside class="tsd-sources">
         <p>Inherited from PassBase._elementsClass</p>
         <ul>
-                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/renderer/dist/lib/materials/passes/PassBase.d.ts:19</li>
+                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/stage/dist/lib/materials/passes/PassBase.d.ts:20</li>
         </ul>
 </aside>
 
@@ -252,7 +247,7 @@ of view from a light.</p>
 <aside class="tsd-sources">
         <p>Inherited from PassBase._material</p>
         <ul>
-                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/renderer/dist/lib/materials/passes/PassBase.d.ts:18</li>
+                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/stage/dist/lib/materials/passes/PassBase.d.ts:19</li>
         </ul>
 </aside>
 
@@ -268,7 +263,7 @@ of view from a light.</p>
 <aside class="tsd-sources">
         <p>Inherited from PassBase._render</p>
         <ul>
-                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/renderer/dist/lib/materials/passes/PassBase.d.ts:17</li>
+                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/stage/dist/lib/materials/passes/PassBase.d.ts:18</li>
         </ul>
 </aside>
 
@@ -284,7 +279,7 @@ of view from a light.</p>
 <aside class="tsd-sources">
         <p>Inherited from PassBase._shader</p>
         <ul>
-                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/renderer/dist/lib/materials/passes/PassBase.d.ts:21</li>
+                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/stage/dist/lib/materials/passes/PassBase.d.ts:22</li>
         </ul>
 </aside>
 
@@ -300,7 +295,7 @@ of view from a light.</p>
 <aside class="tsd-sources">
         <p>Inherited from PassBase._stage</p>
         <ul>
-                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/renderer/dist/lib/materials/passes/PassBase.d.ts:20</li>
+                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/stage/dist/lib/materials/passes/PassBase.d.ts:21</li>
         </ul>
 </aside>
 
@@ -316,7 +311,7 @@ of view from a light.</p>
 <aside class="tsd-sources">
         <p>Inherited from PassBase.animationSet</p>
         <ul>
-                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/renderer/dist/lib/materials/passes/PassBase.d.ts:25</li>
+                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/stage/dist/lib/materials/passes/PassBase.d.ts:26</li>
         </ul>
 </aside>
 
@@ -332,7 +327,7 @@ of view from a light.</p>
 <aside class="tsd-sources">
         <p>Inherited from PassBase.forceSeparateMVP</p>
         <ul>
-                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/renderer/dist/lib/materials/passes/PassBase.d.ts:35</li>
+                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/stage/dist/lib/materials/passes/PassBase.d.ts:36</li>
         </ul>
 </aside>
         <div class="tsd-comment tsd-typography">
@@ -356,7 +351,7 @@ projection code.</p>
 <aside class="tsd-sources">
         <p>Inherited from PassBase.preserveAlpha</p>
         <ul>
-                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/renderer/dist/lib/materials/passes/PassBase.d.ts:29</li>
+                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/stage/dist/lib/materials/passes/PassBase.d.ts:30</li>
         </ul>
 </aside>
         <div class="tsd-comment tsd-typography">
@@ -378,7 +373,7 @@ projection code.</p>
 <aside class="tsd-sources">
         <p>Inherited from PassBase.shader</p>
         <ul>
-                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/renderer/dist/lib/materials/passes/PassBase.d.ts:24</li>
+                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/stage/dist/lib/materials/passes/PassBase.d.ts:25</li>
         </ul>
 </aside>
 
@@ -402,7 +397,7 @@ projection code.</p>
             <li class="tsd-description">
                     <aside class="tsd-sources">
         <ul>
-                    <li>Defined in surfaces/passes/SingleObjectDepthPass.ts:43</li>
+                    <li>Defined in surfaces/passes/SingleObjectDepthPass.ts:41</li>
         </ul>
 </aside>
         <div class="tsd-comment tsd-typography">
@@ -421,7 +416,7 @@ projection code.</p>
             <li class="tsd-description">
                     <aside class="tsd-sources">
         <ul>
-                    <li>Defined in surfaces/passes/SingleObjectDepthPass.ts:48</li>
+                    <li>Defined in surfaces/passes/SingleObjectDepthPass.ts:46</li>
         </ul>
 </aside>
         <div class="tsd-comment tsd-typography">
@@ -462,7 +457,7 @@ projection code.</p>
             <li class="tsd-description">
                     <aside class="tsd-sources">
         <ul>
-                    <li>Defined in surfaces/passes/SingleObjectDepthPass.ts:30</li>
+                    <li>Defined in surfaces/passes/SingleObjectDepthPass.ts:28</li>
         </ul>
 </aside>
         <div class="tsd-comment tsd-typography">
@@ -481,7 +476,7 @@ projection code.</p>
             <li class="tsd-description">
                     <aside class="tsd-sources">
         <ul>
-                    <li>Defined in surfaces/passes/SingleObjectDepthPass.ts:35</li>
+                    <li>Defined in surfaces/passes/SingleObjectDepthPass.ts:33</li>
         </ul>
 </aside>
         <div class="tsd-comment tsd-typography">
@@ -524,7 +519,7 @@ projection code.</p>
                 <aside class="tsd-sources">
         <p>Overwrites PassBase._iActivate</p>
         <ul>
-                    <li>Defined in surfaces/passes/SingleObjectDepthPass.ts:199</li>
+                    <li>Defined in surfaces/passes/SingleObjectDepthPass.ts:197</li>
         </ul>
 </aside>
         <div class="tsd-comment tsd-typography">
@@ -564,7 +559,7 @@ projection code.</p>
                 <aside class="tsd-sources">
         <p>Inherited from PassBase._iDeactivate</p>
         <ul>
-                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/renderer/dist/lib/materials/passes/PassBase.d.ts:76</li>
+                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/stage/dist/lib/materials/passes/PassBase.d.ts:77</li>
         </ul>
 </aside>
         <div class="tsd-comment tsd-typography">
@@ -595,7 +590,7 @@ projection code.</p>
         <li class="tsd-description">
                 <aside class="tsd-sources">
         <ul>
-                    <li>Defined in surfaces/passes/SingleObjectDepthPass.ts:144</li>
+                    <li>Defined in surfaces/passes/SingleObjectDepthPass.ts:142</li>
         </ul>
 </aside>
         <div class="tsd-comment tsd-typography">
@@ -641,7 +636,7 @@ projection code.</p>
                 <aside class="tsd-sources">
         <p>Overwrites PassBase._iGetFragmentCode</p>
         <ul>
-                    <li>Defined in surfaces/passes/SingleObjectDepthPass.ts:124</li>
+                    <li>Defined in surfaces/passes/SingleObjectDepthPass.ts:122</li>
         </ul>
 </aside>
         <div class="tsd-comment tsd-typography">
@@ -691,7 +686,7 @@ projection code.</p>
                 <aside class="tsd-sources">
         <p>Inherited from PassBase._iGetNormalFragmentCode</p>
         <ul>
-                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/renderer/dist/lib/materials/passes/PassBase.d.ts:84</li>
+                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/stage/dist/lib/materials/passes/PassBase.d.ts:85</li>
         </ul>
 </aside>
 
@@ -735,7 +730,7 @@ projection code.</p>
                 <aside class="tsd-sources">
         <p>Inherited from PassBase._iGetNormalVertexCode</p>
         <ul>
-                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/renderer/dist/lib/materials/passes/PassBase.d.ts:83</li>
+                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/stage/dist/lib/materials/passes/PassBase.d.ts:84</li>
         </ul>
 </aside>
 
@@ -779,7 +774,7 @@ projection code.</p>
                 <aside class="tsd-sources">
         <p>Inherited from PassBase._iGetPreLightingFragmentCode</p>
         <ul>
-                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/renderer/dist/lib/materials/passes/PassBase.d.ts:80</li>
+                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/stage/dist/lib/materials/passes/PassBase.d.ts:81</li>
         </ul>
 </aside>
 
@@ -823,7 +818,7 @@ projection code.</p>
                 <aside class="tsd-sources">
         <p>Inherited from PassBase._iGetPreLightingVertexCode</p>
         <ul>
-                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/renderer/dist/lib/materials/passes/PassBase.d.ts:79</li>
+                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/stage/dist/lib/materials/passes/PassBase.d.ts:80</li>
         </ul>
 </aside>
 
@@ -866,7 +861,7 @@ projection code.</p>
         <li class="tsd-description">
                 <aside class="tsd-sources">
         <ul>
-                    <li>Defined in surfaces/passes/SingleObjectDepthPass.ts:154</li>
+                    <li>Defined in surfaces/passes/SingleObjectDepthPass.ts:152</li>
         </ul>
 </aside>
         <div class="tsd-comment tsd-typography">
@@ -912,7 +907,7 @@ projection code.</p>
                 <aside class="tsd-sources">
         <p>Overwrites PassBase._iGetVertexCode</p>
         <ul>
-                    <li>Defined in surfaces/passes/SingleObjectDepthPass.ts:104</li>
+                    <li>Defined in surfaces/passes/SingleObjectDepthPass.ts:102</li>
         </ul>
 </aside>
         <div class="tsd-comment tsd-typography">
@@ -944,7 +939,7 @@ projection code.</p>
                 <aside class="tsd-sources">
         <p>Inherited from PassBase._iIncludeDependencies</p>
         <ul>
-                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/renderer/dist/lib/materials/passes/PassBase.d.ts:77</li>
+                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/stage/dist/lib/materials/passes/PassBase.d.ts:78</li>
         </ul>
 </aside>
 
@@ -978,7 +973,7 @@ projection code.</p>
                 <aside class="tsd-sources">
         <p>Inherited from PassBase._iInitConstantData</p>
         <ul>
-                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/renderer/dist/lib/materials/passes/PassBase.d.ts:78</li>
+                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/stage/dist/lib/materials/passes/PassBase.d.ts:79</li>
         </ul>
 </aside>
 
@@ -1011,7 +1006,7 @@ projection code.</p>
         <li class="tsd-description">
                 <aside class="tsd-sources">
         <ul>
-                    <li>Defined in surfaces/passes/SingleObjectDepthPass.ts:162</li>
+                    <li>Defined in surfaces/passes/SingleObjectDepthPass.ts:160</li>
         </ul>
 </aside>
         <div class="tsd-comment tsd-typography">
@@ -1056,7 +1051,7 @@ projection code.</p>
                 <aside class="tsd-sources">
         <p>Inherited from PassBase._setRenderState</p>
         <ul>
-                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/renderer/dist/lib/materials/passes/PassBase.d.ts:61</li>
+                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/stage/dist/lib/materials/passes/PassBase.d.ts:62</li>
         </ul>
 </aside>
         <div class="tsd-comment tsd-typography">
@@ -1230,7 +1225,7 @@ projection code.</p>
                 <aside class="tsd-sources">
         <p>Overwrites PassBase.dispose</p>
         <ul>
-                    <li>Defined in surfaces/passes/SingleObjectDepthPass.ts:73</li>
+                    <li>Defined in surfaces/passes/SingleObjectDepthPass.ts:71</li>
         </ul>
 </aside>
         <div class="tsd-comment tsd-typography">
@@ -1262,7 +1257,7 @@ projection code.</p>
                 <aside class="tsd-sources">
         <p>Inherited from PassBase.getImageIndex</p>
         <ul>
-                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/renderer/dist/lib/materials/passes/PassBase.d.ts:40</li>
+                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/stage/dist/lib/materials/passes/PassBase.d.ts:41</li>
         </ul>
 </aside>
 
@@ -1377,7 +1372,7 @@ projection code.</p>
                 <aside class="tsd-sources">
         <p>Inherited from PassBase.invalidate</p>
         <ul>
-                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/renderer/dist/lib/materials/passes/PassBase.d.ts:44</li>
+                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/stage/dist/lib/materials/passes/PassBase.d.ts:45</li>
         </ul>
 </aside>
         <div class="tsd-comment tsd-typography">

@@ -213,7 +213,7 @@ using material methods to define their appearance.</p>
         <h3>constructor</h3>
 
         <ul class="tsd-signatures tsd-kind-constructor tsd-parent-kind-class tsd-is-overwrite">
-        <li class="tsd-signature tsd-kind-icon">new <wbr>Method<wbr>Pass<span class="tsd-signature-symbol">(</span>mode<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span>, render<span class="tsd-signature-symbol">: </span><a href="GL_MethodMaterial.html" class="tsd-signature-type">GL_MethodMaterial</a>, renderOwner<span class="tsd-signature-symbol">: </span><a href="MethodMaterial.html" class="tsd-signature-type">MethodMaterial</a>, elementsClass<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">IElementsClassGL</span>, stage<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Stage</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="MethodPass.html" class="tsd-signature-type">MethodPass</a></li>
+        <li class="tsd-signature tsd-kind-icon">new <wbr>Method<wbr>Pass<span class="tsd-signature-symbol">(</span>mode<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span>, render<span class="tsd-signature-symbol">: </span><a href="GL_MethodMaterial.html" class="tsd-signature-type">GL_MethodMaterial</a>, material<span class="tsd-signature-symbol">: </span><a href="MethodMaterial.html" class="tsd-signature-type">MethodMaterial</a>, materialPool<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">MaterialPool</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="MethodPass.html" class="tsd-signature-type">MethodPass</a></li>
 </ul>
 
 <ul class="tsd-descriptions">
@@ -245,17 +245,18 @@ using material methods to define their appearance.</p>
                 
             </li>
             <li>
-                <h5>renderOwner: <a href="MethodMaterial.html" class="tsd-signature-type">MethodMaterial</a></h5>
+                <h5>material: <a href="MethodMaterial.html" class="tsd-signature-type">MethodMaterial</a></h5>
 
-                
+                        <div class="tsd-comment tsd-typography">
+                <div class="lead">
+                    <p>The material to which this pass belongs.</p>
+
+                </div>
+        </div>
+
             </li>
             <li>
-                <h5>elementsClass: <span class="tsd-signature-type">IElementsClassGL</span></h5>
-
-                
-            </li>
-            <li>
-                <h5>stage: <span class="tsd-signature-type">Stage</span></h5>
+                <h5>materialPool: <span class="tsd-signature-type">MaterialPool</span></h5>
 
                 
             </li>
@@ -280,7 +281,7 @@ using material methods to define their appearance.</p>
 <aside class="tsd-sources">
         <p>Inherited from PassBase._elementsClass</p>
         <ul>
-                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/renderer/dist/lib/materials/passes/PassBase.d.ts:19</li>
+                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/stage/dist/lib/materials/passes/PassBase.d.ts:20</li>
         </ul>
 </aside>
 
@@ -401,7 +402,7 @@ using material methods to define their appearance.</p>
 <aside class="tsd-sources">
         <p>Inherited from PassBase._material</p>
         <ul>
-                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/renderer/dist/lib/materials/passes/PassBase.d.ts:18</li>
+                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/stage/dist/lib/materials/passes/PassBase.d.ts:19</li>
         </ul>
 </aside>
 
@@ -432,7 +433,7 @@ using material methods to define their appearance.</p>
 <aside class="tsd-sources">
         <p>Inherited from PassBase._render</p>
         <ul>
-                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/renderer/dist/lib/materials/passes/PassBase.d.ts:17</li>
+                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/stage/dist/lib/materials/passes/PassBase.d.ts:18</li>
         </ul>
 </aside>
 
@@ -448,7 +449,7 @@ using material methods to define their appearance.</p>
 <aside class="tsd-sources">
         <p>Inherited from PassBase._shader</p>
         <ul>
-                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/renderer/dist/lib/materials/passes/PassBase.d.ts:21</li>
+                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/stage/dist/lib/materials/passes/PassBase.d.ts:22</li>
         </ul>
 </aside>
 
@@ -464,7 +465,7 @@ using material methods to define their appearance.</p>
 <aside class="tsd-sources">
         <p>Inherited from PassBase._stage</p>
         <ul>
-                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/renderer/dist/lib/materials/passes/PassBase.d.ts:20</li>
+                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/stage/dist/lib/materials/passes/PassBase.d.ts:21</li>
         </ul>
 </aside>
 
@@ -480,7 +481,7 @@ using material methods to define their appearance.</p>
 <aside class="tsd-sources">
         <p>Inherited from PassBase.animationSet</p>
         <ul>
-                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/renderer/dist/lib/materials/passes/PassBase.d.ts:25</li>
+                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/stage/dist/lib/materials/passes/PassBase.d.ts:26</li>
         </ul>
 </aside>
 
@@ -511,7 +512,7 @@ using material methods to define their appearance.</p>
 <aside class="tsd-sources">
         <p>Inherited from PassBase.forceSeparateMVP</p>
         <ul>
-                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/renderer/dist/lib/materials/passes/PassBase.d.ts:35</li>
+                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/stage/dist/lib/materials/passes/PassBase.d.ts:36</li>
         </ul>
 </aside>
         <div class="tsd-comment tsd-typography">
@@ -610,7 +611,7 @@ projection code.</p>
 <aside class="tsd-sources">
         <p>Inherited from PassBase.preserveAlpha</p>
         <ul>
-                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/renderer/dist/lib/materials/passes/PassBase.d.ts:29</li>
+                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/stage/dist/lib/materials/passes/PassBase.d.ts:30</li>
         </ul>
 </aside>
         <div class="tsd-comment tsd-typography">
@@ -632,7 +633,7 @@ projection code.</p>
 <aside class="tsd-sources">
         <p>Inherited from PassBase.shader</p>
         <ul>
-                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/renderer/dist/lib/materials/passes/PassBase.d.ts:24</li>
+                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/stage/dist/lib/materials/passes/PassBase.d.ts:25</li>
         </ul>
 </aside>
 
@@ -2542,7 +2543,7 @@ etc. The method will be applied to the result of the methods with a lower index.
                 <aside class="tsd-sources">
         <p>Inherited from PassBase.getImageIndex</p>
         <ul>
-                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/renderer/dist/lib/materials/passes/PassBase.d.ts:40</li>
+                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/stage/dist/lib/materials/passes/PassBase.d.ts:41</li>
         </ul>
 </aside>
 
@@ -2702,7 +2703,7 @@ etc. The method will be applied to the result of the methods with a lower index.
                 <aside class="tsd-sources">
         <p>Inherited from PassBase.invalidate</p>
         <ul>
-                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/renderer/dist/lib/materials/passes/PassBase.d.ts:44</li>
+                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/stage/dist/lib/materials/passes/PassBase.d.ts:45</li>
         </ul>
 </aside>
         <div class="tsd-comment tsd-typography">

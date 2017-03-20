@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>AnimatorEvent | renderer</title>
+    <title>DefaultMaterialGroup | renderer</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="../../assets/css/main.css">
@@ -29,7 +29,7 @@
                             
     <!--<li>-->
         <!---->
-            <!--<a href="AnimatorEvent.html">AnimatorEvent</a>-->
+            <!--<a href="DefaultMaterialGroup.html">DefaultMaterialGroup</a>-->
         <!---->
     <!--</li>-->
 
@@ -66,7 +66,7 @@
     <!-- Page title: only show in leafs -->
         <div class="tsd-page-title">
             <div class="container">
-                <h1>Class AnimatorEvent</h1>
+                <h1>Class DefaultMaterialGroup</h1>
             </div>
         </div>
 </header>
@@ -78,10 +78,11 @@
         <div class="col-8 col-content">
                     <section class="tsd-panel tsd-comment">
                     <div class="tsd-comment tsd-typography">
-                <div class="lead">
-                    <p>Dispatched to notify changes in an animator&#39;s state.</p>
-
-                </div>
+                <dl class="tsd-comment-tags">
+                        <dt>class</dt>
+                        <dd><p>away.pool.DefaultMaterialGroup</p>
+</dd>
+                </dl>
         </div>
         </section>
 
@@ -90,7 +91,7 @@
         <h3>Hierarchy</h3>
         <ul class="tsd-hierarchy">
         <li>
-                <span class="tsd-signature-type">EventBase</span>
+                <span class="tsd-signature-type">MaterialGroupBase</span>
         </li>
 </ul>
 
@@ -107,29 +108,22 @@
                 <section class="tsd-index-section ">
                     <h3>Constructors</h3>
                     <ul class="tsd-index-list">
-                        <li class="tsd-kind-constructor tsd-parent-kind-class tsd-is-overwrite"><a href="AnimatorEvent.html#constructor" class="tsd-kind-icon">constructor</a></li>
+                        <li class="tsd-kind-constructor tsd-parent-kind-class tsd-is-overwrite"><a href="DefaultMaterialGroup.html#constructor" class="tsd-kind-icon">constructor</a></li>
                     </ul>
                 </section>
-                <section class="tsd-index-section ">
+                <section class="tsd-index-section tsd-is-inherited">
                     <h3>Properties</h3>
                     <ul class="tsd-index-list">
-                        <li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="AnimatorEvent.html#target" class="tsd-kind-icon">target</a></li>
-                        <li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="AnimatorEvent.html#type" class="tsd-kind-icon">type</a></li>
-                        <li class="tsd-kind-property tsd-parent-kind-class tsd-is-static"><a href="AnimatorEvent.html#CYCLE_COMPLETE" class="tsd-kind-icon">CYCLE_<wbr>COMPLETE</a></li>
-                        <li class="tsd-kind-property tsd-parent-kind-class tsd-is-static"><a href="AnimatorEvent.html#START" class="tsd-kind-icon">START</a></li>
-                        <li class="tsd-kind-property tsd-parent-kind-class tsd-is-static"><a href="AnimatorEvent.html#STOP" class="tsd-kind-icon">STOP</a></li>
-                    </ul>
-                </section>
-                <section class="tsd-index-section ">
-                    <h3>Accessors</h3>
-                    <ul class="tsd-index-list">
-                        <li class="tsd-kind-get-signature tsd-parent-kind-class"><a href="AnimatorEvent.html#animator" class="tsd-kind-icon">animator</a></li>
+                        <li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="DefaultMaterialGroup.html#abstractionClassPool" class="tsd-kind-icon">abstraction<wbr>Class<wbr>Pool</a></li>
+                        <li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="DefaultMaterialGroup.html#stage" class="tsd-kind-icon">stage</a></li>
                     </ul>
                 </section>
                 <section class="tsd-index-section ">
                     <h3>Methods</h3>
                     <ul class="tsd-index-list">
-                        <li class="tsd-kind-method tsd-parent-kind-class tsd-is-overwrite"><a href="AnimatorEvent.html#clone" class="tsd-kind-icon">clone</a></li>
+                        <li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="DefaultMaterialGroup.html#getMaterialPool" class="tsd-kind-icon">get<wbr>Material<wbr>Pool</a></li>
+                        <li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="DefaultMaterialGroup.html#getRenderablePool" class="tsd-kind-icon">get<wbr>Renderable<wbr>Pool</a></li>
+                        <li class="tsd-kind-method tsd-parent-kind-class tsd-is-static"><a href="DefaultMaterialGroup.html#registerAbstraction" class="tsd-kind-icon">register<wbr>Abstraction</a></li>
                     </ul>
                 </section>
         </div>
@@ -142,52 +136,29 @@
         <h3>constructor</h3>
 
         <ul class="tsd-signatures tsd-kind-constructor tsd-parent-kind-class tsd-is-overwrite">
-        <li class="tsd-signature tsd-kind-icon">new <wbr>Animator<wbr>Event<span class="tsd-signature-symbol">(</span>type<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span>, animator<span class="tsd-signature-symbol">: </span><a href="AnimatorBase.html" class="tsd-signature-type">AnimatorBase</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="AnimatorEvent.html" class="tsd-signature-type">AnimatorEvent</a></li>
+        <li class="tsd-signature tsd-kind-icon">new <wbr>Default<wbr>Material<wbr>Group<span class="tsd-signature-symbol">(</span>stage<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Stage</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="DefaultMaterialGroup.html" class="tsd-signature-type">DefaultMaterialGroup</a></li>
 </ul>
 
 <ul class="tsd-descriptions">
         <li class="tsd-description">
                 <aside class="tsd-sources">
-        <p>Overwrites EventBase.__constructor</p>
+        <p>Overwrites MaterialGroupBase.__constructor</p>
         <ul>
-                    <li>Defined in events/AnimatorEvent.ts:25</li>
+                    <li>Defined in materials/DefaultMaterialGroup.ts:16</li>
         </ul>
 </aside>
-        <div class="tsd-comment tsd-typography">
-                <div class="lead">
-                    <p>Create a new <code>AnimatorEvent</code> object.</p>
-
-                </div>
-        </div>
 
 
     <h4 class="tsd-parameters-title">Parameters</h4>
     <ul class="tsd-parameters">
             <li>
-                <h5>type: <span class="tsd-signature-type">string</span></h5>
+                <h5>stage: <span class="tsd-signature-type">Stage</span></h5>
 
-                        <div class="tsd-comment tsd-typography">
-                <div class="lead">
-                    <p>The event type.</p>
-
-                </div>
-        </div>
-
-            </li>
-            <li>
-                <h5>animator: <a href="AnimatorBase.html" class="tsd-signature-type">AnimatorBase</a></h5>
-
-                        <div class="tsd-comment tsd-typography">
-                <div class="lead">
-                    <p>The animator object that is the subject of this event.</p>
-
-                </div>
-        </div>
-
+                
             </li>
     </ul>
 
-    <h4 class="tsd-returns-title">Returns <a href="AnimatorEvent.html" class="tsd-signature-type">AnimatorEvent</a></h4>
+    <h4 class="tsd-returns-title">Returns <a href="DefaultMaterialGroup.html" class="tsd-signature-type">DefaultMaterialGroup</a></h4>
 
 
         </li>
@@ -195,191 +166,145 @@
 
 </section>
 </section>
-        <section class="tsd-panel-group tsd-member-group ">
+        <section class="tsd-panel-group tsd-member-group tsd-is-inherited">
     <h2>Properties</h2>
             <section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-inherited">
-    <a name="target" class="tsd-anchor"></a>
-        <h3>target</h3>
+    <a name="abstractionClassPool" class="tsd-anchor"></a>
+        <h3>abstraction<wbr>Class<wbr>Pool</h3>
 
-        <div class="tsd-signature tsd-kind-icon">target<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">any</span></div>
+        <div class="tsd-signature tsd-kind-icon">abstraction<wbr>Class<wbr>Pool<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">Object</span></div>
 
 <aside class="tsd-sources">
-        <p>Inherited from EventBase.target</p>
+        <p>Inherited from MaterialGroupBase.abstractionClassPool</p>
         <ul>
-                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/core/dist/lib/events/EventBase.d.ts:13</li>
+                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/stage/dist/lib/materials/MaterialGroupBase.d.ts:15</li>
         </ul>
 </aside>
-        <div class="tsd-comment tsd-typography">
-                <div class="lead">
-                    <p>Reference to target object</p>
-
-                </div>
-                <dl class="tsd-comment-tags">
-                        <dt>property</dt>
-                        <dd><p>target</p>
-</dd>
-                        <dt>type</dt>
-                        <dd><p>Object</p>
-</dd>
-                </dl>
-        </div>
 
     
 
 </section>
             <section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-inherited">
-    <a name="type" class="tsd-anchor"></a>
-        <h3>type</h3>
+    <a name="stage" class="tsd-anchor"></a>
+        <h3>stage</h3>
 
-        <div class="tsd-signature tsd-kind-icon">type<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
-
-<aside class="tsd-sources">
-        <p>Inherited from EventBase.type</p>
-        <ul>
-                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/core/dist/lib/events/EventBase.d.ts:7</li>
-        </ul>
-</aside>
-        <div class="tsd-comment tsd-typography">
-                <div class="lead">
-                    <p>Type of event</p>
-
-                </div>
-                <dl class="tsd-comment-tags">
-                        <dt>property</dt>
-                        <dd><p>type</p>
-</dd>
-                        <dt>type</dt>
-                        <dd><p>String</p>
-</dd>
-                </dl>
-        </div>
-
-    
-
-</section>
-            <section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-static">
-    <a name="CYCLE_COMPLETE" class="tsd-anchor"></a>
-        <h3><span class="tsd-flag ts-flagStatic">Static</span> CYCLE_<wbr>COMPLETE</h3>
-
-        <div class="tsd-signature tsd-kind-icon">CYCLE_<wbr>COMPLETE<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
+        <div class="tsd-signature tsd-kind-icon">stage<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">Stage</span></div>
 
 <aside class="tsd-sources">
+        <p>Inherited from MaterialGroupBase.stage</p>
         <ul>
-                    <li>Defined in events/AnimatorEvent.ts:23</li>
+                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/stage/dist/lib/materials/MaterialGroupBase.d.ts:14</li>
         </ul>
 </aside>
-        <div class="tsd-comment tsd-typography">
-                <div class="lead">
-                    <p>Defines the value of the type property of a cycle complete event object.</p>
-
-                </div>
-        </div>
 
     
-
-</section>
-            <section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-static">
-    <a name="START" class="tsd-anchor"></a>
-        <h3><span class="tsd-flag ts-flagStatic">Static</span> START</h3>
-
-        <div class="tsd-signature tsd-kind-icon">START<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
-
-<aside class="tsd-sources">
-        <ul>
-                    <li>Defined in events/AnimatorEvent.ts:13</li>
-        </ul>
-</aside>
-        <div class="tsd-comment tsd-typography">
-                <div class="lead">
-                    <p>Defines the value of the type property of a start event object.</p>
-
-                </div>
-        </div>
-
-    
-
-</section>
-            <section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-static">
-    <a name="STOP" class="tsd-anchor"></a>
-        <h3><span class="tsd-flag ts-flagStatic">Static</span> STOP</h3>
-
-        <div class="tsd-signature tsd-kind-icon">STOP<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
-
-<aside class="tsd-sources">
-        <ul>
-                    <li>Defined in events/AnimatorEvent.ts:18</li>
-        </ul>
-</aside>
-        <div class="tsd-comment tsd-typography">
-                <div class="lead">
-                    <p>Defines the value of the type property of a stop event object.</p>
-
-                </div>
-        </div>
-
-    
-
-</section>
-</section>
-        <section class="tsd-panel-group tsd-member-group ">
-    <h2>Accessors</h2>
-            <section class="tsd-panel tsd-member tsd-kind-get-signature tsd-parent-kind-class">
-    <a name="animator" class="tsd-anchor"></a>
-        <h3>animator</h3>
-
-
-        <ul class="tsd-signatures tsd-kind-get-signature tsd-parent-kind-class">
-            <li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">get</span> <span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="AnimatorBase.html" class="tsd-signature-type">AnimatorBase</a></li>
-</ul>
-
-<ul class="tsd-descriptions">
-            <li class="tsd-description">
-                    <aside class="tsd-sources">
-        <ul>
-                    <li>Defined in events/AnimatorEvent.ts:39</li>
-        </ul>
-</aside>
-
-
-
-    <h4 class="tsd-returns-title">Returns <a href="AnimatorBase.html" class="tsd-signature-type">AnimatorBase</a></h4>
-
-
-            </li>
-</ul>
 
 </section>
 </section>
         <section class="tsd-panel-group tsd-member-group ">
     <h2>Methods</h2>
-            <section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-overwrite">
-    <a name="clone" class="tsd-anchor"></a>
-        <h3>clone</h3>
+            <section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+    <a name="getMaterialPool" class="tsd-anchor"></a>
+        <h3>get<wbr>Material<wbr>Pool</h3>
 
-        <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-overwrite">
-        <li class="tsd-signature tsd-kind-icon">clone<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="AnimatorEvent.html" class="tsd-signature-type">AnimatorEvent</a></li>
+        <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+        <li class="tsd-signature tsd-kind-icon">get<wbr>Material<wbr>Pool<span class="tsd-signature-symbol">(</span>elements<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">GL_ElementsBase</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">MaterialPool</span></li>
 </ul>
 
 <ul class="tsd-descriptions">
         <li class="tsd-description">
                 <aside class="tsd-sources">
-        <p>Overwrites EventBase.clone</p>
+        <p>Inherited from MaterialGroupBase.getMaterialPool</p>
         <ul>
-                    <li>Defined in events/AnimatorEvent.ts:49</li>
+                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/stage/dist/lib/materials/MaterialGroupBase.d.ts:22</li>
+        </ul>
+</aside>
+
+
+    <h4 class="tsd-parameters-title">Parameters</h4>
+    <ul class="tsd-parameters">
+            <li>
+                <h5>elements: <span class="tsd-signature-type">GL_ElementsBase</span></h5>
+
+                
+            </li>
+    </ul>
+
+    <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">MaterialPool</span></h4>
+
+
+        </li>
+</ul>    
+
+</section>
+            <section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+    <a name="getRenderablePool" class="tsd-anchor"></a>
+        <h3>get<wbr>Renderable<wbr>Pool</h3>
+
+        <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+        <li class="tsd-signature tsd-kind-icon">get<wbr>Renderable<wbr>Pool<span class="tsd-signature-symbol">(</span>entity<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">IEntity</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">RenderablePool</span></li>
+</ul>
+
+<ul class="tsd-descriptions">
+        <li class="tsd-description">
+                <aside class="tsd-sources">
+        <p>Inherited from MaterialGroupBase.getRenderablePool</p>
+        <ul>
+                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/stage/dist/lib/materials/MaterialGroupBase.d.ts:23</li>
+        </ul>
+</aside>
+
+
+    <h4 class="tsd-parameters-title">Parameters</h4>
+    <ul class="tsd-parameters">
+            <li>
+                <h5>entity: <span class="tsd-signature-type">IEntity</span></h5>
+
+                
+            </li>
+    </ul>
+
+    <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">RenderablePool</span></h4>
+
+
+        </li>
+</ul>    
+
+</section>
+            <section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-static">
+    <a name="registerAbstraction" class="tsd-anchor"></a>
+        <h3><span class="tsd-flag ts-flagStatic">Static</span> register<wbr>Abstraction</h3>
+
+        <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-static">
+        <li class="tsd-signature tsd-kind-icon">register<wbr>Abstraction<span class="tsd-signature-symbol">(</span>materialClassGL<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">IMaterialClassGL</span>, assetClass<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">IAssetClass</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+</ul>
+
+<ul class="tsd-descriptions">
+        <li class="tsd-description">
+                <aside class="tsd-sources">
+        <ul>
+                    <li>Defined in materials/DefaultMaterialGroup.ts:27</li>
         </ul>
 </aside>
         <div class="tsd-comment tsd-typography">
-                <div class="lead">
-                    <p>Clones the event.</p>
-
-                </div>
         </div>
 
 
+    <h4 class="tsd-parameters-title">Parameters</h4>
+    <ul class="tsd-parameters">
+            <li>
+                <h5>materialClassGL: <span class="tsd-signature-type">IMaterialClassGL</span></h5>
 
-    <h4 class="tsd-returns-title">Returns <a href="AnimatorEvent.html" class="tsd-signature-type">AnimatorEvent</a></h4>
+                
+            </li>
+            <li>
+                <h5>assetClass: <span class="tsd-signature-type">IAssetClass</span></h5>
 
-        <p>An exact duplicate of the current event object.</p>
+                
+            </li>
+    </ul>
+
+    <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
 
 
         </li>
@@ -402,37 +327,16 @@
     <a href="AnimationElements.html" class="tsd-kind-icon">Animation<wbr>Elements</a>
 </li>
                         <li class=" tsd-kind-class">
-    <a href="AnimationRegisterData.html" class="tsd-kind-icon">Animation<wbr>Register<wbr>Data</a>
-</li>
-                        <li class=" tsd-kind-class">
-    <a href="AnimationSetBase.html" class="tsd-kind-icon">Animation<wbr>Set<wbr>Base</a>
-</li>
-                        <li class=" tsd-kind-class">
-    <a href="AnimationSetError.html" class="tsd-kind-icon">Animation<wbr>Set<wbr>Error</a>
-</li>
-                        <li class=" tsd-kind-class">
     <a href="AnimationStateBase.html" class="tsd-kind-icon">Animation<wbr>State<wbr>Base</a>
 </li>
                         <li class=" tsd-kind-class">
     <a href="AnimationStateEvent.html" class="tsd-kind-icon">Animation<wbr>State<wbr>Event</a>
 </li>
                         <li class=" tsd-kind-class">
-    <a href="AnimatorBase.html" class="tsd-kind-icon">Animator<wbr>Base</a>
-</li>
-                        <li class=" tsd-kind-class">
-    <a href="AnimatorEvent.html" class="tsd-kind-icon">Animator<wbr>Event</a>
-</li>
-                        <li class=" tsd-kind-class">
-    <a href="BasicMaterialPass.html" class="tsd-kind-icon">Basic<wbr>Material<wbr>Pass</a>
-</li>
-                        <li class=" tsd-kind-class">
     <a href="BlurFilter3D.html" class="tsd-kind-icon">Blur<wbr>Filter3D</a>
 </li>
                         <li class=" tsd-kind-class">
     <a href="ColorSegmentPoint.html" class="tsd-kind-icon">Color<wbr>Segment<wbr>Point</a>
-</li>
-                        <li class=" tsd-kind-class">
-    <a href="CompilerBase.html" class="tsd-kind-icon">Compiler<wbr>Base</a>
 </li>
                         <li class=" tsd-kind-class">
     <a href="CompositeFilter3D.html" class="tsd-kind-icon">Composite<wbr>Filter3D</a>
@@ -445,6 +349,9 @@
 </li>
                         <li class=" tsd-kind-class">
     <a href="CrossfadeTransitionState.html" class="tsd-kind-icon">Crossfade<wbr>Transition<wbr>State</a>
+</li>
+                        <li class=" tsd-kind-class">
+    <a href="DefaultMaterialGroup.html" class="tsd-kind-icon">Default<wbr>Material<wbr>Group</a>
 </li>
                         <li class=" tsd-kind-class">
     <a href="DefaultRenderer.html" class="tsd-kind-icon">Default<wbr>Renderer</a>
@@ -480,9 +387,6 @@
     <a href="Filter3DVBlurTask.html" class="tsd-kind-icon">Filter3DVBlur<wbr>Task</a>
 </li>
                         <li class=" tsd-kind-class">
-    <a href="GL_BasicMaterial.html" class="tsd-kind-icon">GL_<wbr><wbr>Basic<wbr>Material</a>
-</li>
-                        <li class=" tsd-kind-class">
     <a href="GL_BillboardRenderable.html" class="tsd-kind-icon">GL_<wbr><wbr>Billboard<wbr>Renderable</a>
 </li>
                         <li class=" tsd-kind-class">
@@ -492,31 +396,10 @@
     <a href="GL_DistanceMaterial.html" class="tsd-kind-icon">GL_<wbr><wbr>Distance<wbr>Material</a>
 </li>
                         <li class=" tsd-kind-class">
-    <a href="GL_ElementsBase.html" class="tsd-kind-icon">GL_<wbr><wbr>Elements<wbr>Base</a>
-</li>
-                        <li class=" tsd-kind-class">
     <a href="GL_LineElements.html" class="tsd-kind-icon">GL_<wbr><wbr>Line<wbr>Elements</a>
 </li>
                         <li class=" tsd-kind-class">
     <a href="GL_LineSegmentRenderable.html" class="tsd-kind-icon">GL_<wbr><wbr>Line<wbr>Segment<wbr>Renderable</a>
-</li>
-                        <li class=" tsd-kind-class">
-    <a href="GL_MaterialBase.html" class="tsd-kind-icon">GL_<wbr><wbr>Material<wbr>Base</a>
-</li>
-                        <li class=" tsd-kind-class">
-    <a href="GL_MaterialPassBase.html" class="tsd-kind-icon">GL_<wbr><wbr>Material<wbr>Pass<wbr>Base</a>
-</li>
-                        <li class=" tsd-kind-class">
-    <a href="GL_RenderableBase.html" class="tsd-kind-icon">GL_<wbr><wbr>Renderable<wbr>Base</a>
-</li>
-                        <li class=" tsd-kind-class">
-    <a href="GL_ShapeRenderable.html" class="tsd-kind-icon">GL_<wbr><wbr>Shape<wbr>Renderable</a>
-</li>
-                        <li class=" tsd-kind-class">
-    <a href="GL_Single2DTexture.html" class="tsd-kind-icon">GL_<wbr><wbr>Single2DTexture</a>
-</li>
-                        <li class=" tsd-kind-class">
-    <a href="GL_SingleCubeTexture.html" class="tsd-kind-icon">GL_<wbr><wbr>Single<wbr>Cube<wbr>Texture</a>
 </li>
                         <li class=" tsd-kind-class">
     <a href="GL_SkyboxElements.html" class="tsd-kind-icon">GL_<wbr><wbr>Skybox<wbr>Elements</a>
@@ -528,12 +411,6 @@
     <a href="GL_SkyboxRenderable.html" class="tsd-kind-icon">GL_<wbr><wbr>Skybox<wbr>Renderable</a>
 </li>
                         <li class=" tsd-kind-class">
-    <a href="GL_TextureBase.html" class="tsd-kind-icon">GL_<wbr><wbr>Texture<wbr>Base</a>
-</li>
-                        <li class=" tsd-kind-class">
-    <a href="GL_TriangleElements.html" class="tsd-kind-icon">GL_<wbr><wbr>Triangle<wbr>Elements</a>
-</li>
-                        <li class=" tsd-kind-class">
     <a href="JointPose.html" class="tsd-kind-icon">Joint<wbr>Pose</a>
 </li>
                         <li class=" tsd-kind-class">
@@ -541,9 +418,6 @@
 </li>
                         <li class=" tsd-kind-class">
     <a href="LightingShader.html" class="tsd-kind-icon">Lighting<wbr>Shader</a>
-</li>
-                        <li class=" tsd-kind-class">
-    <a href="MaterialPool.html" class="tsd-kind-icon">Material<wbr>Pool</a>
 </li>
                         <li class=" tsd-kind-class">
     <a href="ParticleAccelerationNode.html" class="tsd-kind-icon">Particle<wbr>Acceleration<wbr>Node</a>
@@ -681,19 +555,10 @@
     <a href="ParticleVelocityState.html" class="tsd-kind-icon">Particle<wbr>Velocity<wbr>State</a>
 </li>
                         <li class=" tsd-kind-class">
-    <a href="PassBase.html" class="tsd-kind-icon">Pass<wbr>Base</a>
-</li>
-                        <li class=" tsd-kind-class">
-    <a href="PassEvent.html" class="tsd-kind-icon">Pass<wbr>Event</a>
-</li>
-                        <li class=" tsd-kind-class">
     <a href="RTTBufferManager.html" class="tsd-kind-icon">RTTBuffer<wbr>Manager</a>
 </li>
                         <li class=" tsd-kind-class">
     <a href="RTTEvent.html" class="tsd-kind-icon">RTTEvent</a>
-</li>
-                        <li class=" tsd-kind-class">
-    <a href="RegisterPool.html" class="tsd-kind-icon">Register<wbr>Pool</a>
 </li>
                         <li class=" tsd-kind-class">
     <a href="RenderableMergeSort.html" class="tsd-kind-icon">Renderable<wbr>Merge<wbr>Sort</a>
@@ -702,25 +567,10 @@
     <a href="RenderableNullSort.html" class="tsd-kind-icon">Renderable<wbr>Null<wbr>Sort</a>
 </li>
                         <li class=" tsd-kind-class">
-    <a href="RenderablePool.html" class="tsd-kind-icon">Renderable<wbr>Pool</a>
-</li>
-                        <li class=" tsd-kind-class">
     <a href="RendererBase.html" class="tsd-kind-icon">Renderer<wbr>Base</a>
 </li>
                         <li class=" tsd-kind-class">
     <a href="RendererEvent.html" class="tsd-kind-icon">Renderer<wbr>Event</a>
-</li>
-                        <li class=" tsd-kind-class">
-    <a href="ShaderBase.html" class="tsd-kind-icon">Shader<wbr>Base</a>
-</li>
-                        <li class=" tsd-kind-class">
-    <a href="ShaderRegisterCache.html" class="tsd-kind-icon">Shader<wbr>Register<wbr>Cache</a>
-</li>
-                        <li class=" tsd-kind-class">
-    <a href="ShaderRegisterData.html" class="tsd-kind-icon">Shader<wbr>Register<wbr>Data</a>
-</li>
-                        <li class=" tsd-kind-class">
-    <a href="ShaderRegisterElement.html" class="tsd-kind-icon">Shader<wbr>Register<wbr>Element</a>
 </li>
                         <li class=" tsd-kind-class">
     <a href="ShadingMethodEvent.html" class="tsd-kind-icon">Shading<wbr>Method<wbr>Event</a>
@@ -786,28 +636,13 @@
     <a href="VertexClipState.html" class="tsd-kind-icon">Vertex<wbr>Clip<wbr>State</a>
 </li>
                         <li class=" tsd-kind-interface">
-    <a href="../interfaces/IAnimationState.html" class="tsd-kind-icon">IAnimation<wbr>State</a>
-</li>
-                        <li class=" tsd-kind-interface">
     <a href="../interfaces/IAnimationTransition.html" class="tsd-kind-icon">IAnimation<wbr>Transition</a>
-</li>
-                        <li class=" tsd-kind-interface">
-    <a href="../interfaces/IElementsClassGL.html" class="tsd-kind-icon">IElements<wbr>ClassGL</a>
 </li>
                         <li class=" tsd-kind-interface">
     <a href="../interfaces/IEntitySorter.html" class="tsd-kind-icon">IEntity<wbr>Sorter</a>
 </li>
                         <li class=" tsd-kind-interface">
     <a href="../interfaces/ILightingPass.html" class="tsd-kind-icon">ILighting<wbr>Pass</a>
-</li>
-                        <li class=" tsd-kind-interface">
-    <a href="../interfaces/IMaterialClassGL.html" class="tsd-kind-icon">IMaterial<wbr>ClassGL</a>
-</li>
-                        <li class=" tsd-kind-interface">
-    <a href="../interfaces/IPass.html" class="tsd-kind-icon">IPass</a>
-</li>
-                        <li class=" tsd-kind-interface">
-    <a href="../interfaces/IRenderableClassGL.html" class="tsd-kind-icon">IRenderable<wbr>ClassGL</a>
 </li>
                         <li class=" tsd-kind-interface">
     <a href="../interfaces/ISkeletonAnimationState.html" class="tsd-kind-icon">ISkeleton<wbr>Animation<wbr>State</a>

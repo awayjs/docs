@@ -88,12 +88,6 @@
 
     </section>
 
-    <section class="tsd-panel">
-        <h3>Implements</h3>
-        <ul class="tsd-hierarchy">
-                <li><a href="../interfaces/IProjection.html" class="tsd-signature-type">IProjection</a></li>
-        </ul>
-    </section>
 
 
 
@@ -111,7 +105,6 @@
                 <section class="tsd-index-section tsd-is-inherited tsd-is-private-protected">
                     <h3>Properties</h3>
                     <ul class="tsd-index-list">
-                        <li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited tsd-is-protected"><a href="ObliqueNearPlaneProjection.html#_aspectRatio" class="tsd-kind-icon">_aspect<wbr>Ratio</a></li>
                         <li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited tsd-is-protected"><a href="ObliqueNearPlaneProjection.html#_coordinateSystem" class="tsd-kind-icon">_coordinate<wbr>System</a></li>
                         <li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited tsd-is-protected"><a href="ObliqueNearPlaneProjection.html#_far" class="tsd-kind-icon">_far</a></li>
                         <li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited tsd-is-protected"><a href="ObliqueNearPlaneProjection.html#_frustumCorners" class="tsd-kind-icon">_frustum<wbr>Corners</a></li>
@@ -121,6 +114,7 @@
                         <li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited tsd-is-protected"><a href="ObliqueNearPlaneProjection.html#_near" class="tsd-kind-icon">_near</a></li>
                         <li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited tsd-is-protected"><a href="ObliqueNearPlaneProjection.html#_originX" class="tsd-kind-icon">_originX</a></li>
                         <li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited tsd-is-protected"><a href="ObliqueNearPlaneProjection.html#_originY" class="tsd-kind-icon">_originY</a></li>
+                        <li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited tsd-is-protected"><a href="ObliqueNearPlaneProjection.html#_propertiesDirty" class="tsd-kind-icon">_properties<wbr>Dirty</a></li>
                         <li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited tsd-is-protected"><a href="ObliqueNearPlaneProjection.html#_stageRect" class="tsd-kind-icon">_stage<wbr>Rect</a></li>
                         <li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited tsd-is-protected"><a href="ObliqueNearPlaneProjection.html#_transform" class="tsd-kind-icon">_transform</a></li>
                         <li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited tsd-is-protected"><a href="ObliqueNearPlaneProjection.html#_viewMatrix3D" class="tsd-kind-icon">_view<wbr>Matrix3D</a></li>
@@ -130,12 +124,11 @@
                 <section class="tsd-index-section ">
                     <h3>Accessors</h3>
                     <ul class="tsd-index-list">
-                        <li class="tsd-kind-accessor tsd-parent-kind-class tsd-is-overwrite"><a href="ObliqueNearPlaneProjection.html#aspectRatio" class="tsd-kind-icon">aspect<wbr>Ratio</a></li>
                         <li class="tsd-kind-set-signature tsd-parent-kind-class"><a href="ObliqueNearPlaneProjection.html#baseProjection" class="tsd-kind-icon">base<wbr>Projection</a></li>
                         <li class="tsd-kind-accessor tsd-parent-kind-class tsd-is-inherited"><a href="ObliqueNearPlaneProjection.html#coordinateSystem" class="tsd-kind-icon">coordinate<wbr>System</a></li>
                         <li class="tsd-kind-accessor tsd-parent-kind-class tsd-is-overwrite"><a href="ObliqueNearPlaneProjection.html#far" class="tsd-kind-icon">far</a></li>
                         <li class="tsd-kind-get-signature tsd-parent-kind-class tsd-is-overwrite"><a href="ObliqueNearPlaneProjection.html#frustumCorners" class="tsd-kind-icon">frustum<wbr>Corners</a></li>
-                        <li class="tsd-kind-get-signature tsd-parent-kind-class tsd-is-inherited"><a href="ObliqueNearPlaneProjection.html#frustumMatrix3D" class="tsd-kind-icon">frustum<wbr>Matrix3D</a></li>
+                        <li class="tsd-kind-accessor tsd-parent-kind-class tsd-is-inherited"><a href="ObliqueNearPlaneProjection.html#frustumMatrix3D" class="tsd-kind-icon">frustum<wbr>Matrix3D</a></li>
                         <li class="tsd-kind-get-signature tsd-parent-kind-class tsd-is-inherited"><a href="ObliqueNearPlaneProjection.html#frustumPlanes" class="tsd-kind-icon">frustum<wbr>Planes</a></li>
                         <li class="tsd-kind-get-signature tsd-parent-kind-class tsd-is-inherited"><a href="ObliqueNearPlaneProjection.html#inverseViewMatrix3D" class="tsd-kind-icon">inverse<wbr>View<wbr>Matrix3D</a></li>
                         <li class="tsd-kind-accessor tsd-parent-kind-class tsd-is-overwrite"><a href="ObliqueNearPlaneProjection.html#near" class="tsd-kind-icon">near</a></li>
@@ -151,6 +144,7 @@
                     <ul class="tsd-index-list">
                         <li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited tsd-is-protected"><a href="ObliqueNearPlaneProjection.html#_invalidateFrustumMatrix3D" class="tsd-kind-icon">_invalidate<wbr>Frustum<wbr>Matrix3D</a></li>
                         <li class="tsd-kind-method tsd-parent-kind-class tsd-is-overwrite"><a href="ObliqueNearPlaneProjection.html#_updateFrustumMatrix3D" class="tsd-kind-icon">_update<wbr>Frustum<wbr>Matrix3D</a></li>
+                        <li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited tsd-is-protected"><a href="ObliqueNearPlaneProjection.html#_updateProperties" class="tsd-kind-icon">_update<wbr>Properties</a></li>
                         <li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="ObliqueNearPlaneProjection.html#addEventListener" class="tsd-kind-icon">add<wbr>Event<wbr>Listener</a></li>
                         <li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="ObliqueNearPlaneProjection.html#clone" class="tsd-kind-icon">clone</a></li>
                         <li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="ObliqueNearPlaneProjection.html#dispatchEvent" class="tsd-kind-icon">dispatch<wbr>Event</a></li>
@@ -172,7 +166,7 @@
         <h3>constructor</h3>
 
         <ul class="tsd-signatures tsd-kind-constructor tsd-parent-kind-class tsd-is-overwrite">
-        <li class="tsd-signature tsd-kind-icon">new <wbr>Oblique<wbr>Near<wbr>Plane<wbr>Projection<span class="tsd-signature-symbol">(</span>baseProjection<span class="tsd-signature-symbol">: </span><a href="../interfaces/IProjection.html" class="tsd-signature-type">IProjection</a>, plane<span class="tsd-signature-symbol">: </span><a href="Plane3D.html" class="tsd-signature-type">Plane3D</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="ObliqueNearPlaneProjection.html" class="tsd-signature-type">ObliqueNearPlaneProjection</a></li>
+        <li class="tsd-signature tsd-kind-icon">new <wbr>Oblique<wbr>Near<wbr>Plane<wbr>Projection<span class="tsd-signature-symbol">(</span>baseProjection<span class="tsd-signature-symbol">: </span><a href="ProjectionBase.html" class="tsd-signature-type">ProjectionBase</a>, plane<span class="tsd-signature-symbol">: </span><a href="Plane3D.html" class="tsd-signature-type">Plane3D</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="ObliqueNearPlaneProjection.html" class="tsd-signature-type">ObliqueNearPlaneProjection</a></li>
 </ul>
 
 <ul class="tsd-descriptions">
@@ -180,7 +174,7 @@
                 <aside class="tsd-sources">
         <p>Overwrites <a href="ProjectionBase.html">ProjectionBase</a>.<a href="ProjectionBase.html#constructor">constructor</a></p>
         <ul>
-                    <li>Defined in projections/ObliqueNearPlaneProjection.ts:13</li>
+                    <li>Defined in projections/ObliqueNearPlaneProjection.ts:12</li>
         </ul>
 </aside>
 
@@ -188,7 +182,7 @@
     <h4 class="tsd-parameters-title">Parameters</h4>
     <ul class="tsd-parameters">
             <li>
-                <h5>baseProjection: <a href="../interfaces/IProjection.html" class="tsd-signature-type">IProjection</a></h5>
+                <h5>baseProjection: <a href="ProjectionBase.html" class="tsd-signature-type">ProjectionBase</a></h5>
 
                 
             </li>
@@ -210,22 +204,6 @@
         <section class="tsd-panel-group tsd-member-group tsd-is-inherited tsd-is-private-protected">
     <h2>Properties</h2>
             <section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-inherited tsd-is-protected">
-    <a name="_aspectRatio" class="tsd-anchor"></a>
-        <h3><span class="tsd-flag ts-flagProtected">Protected</span> _aspect<wbr>Ratio</h3>
-
-        <div class="tsd-signature tsd-kind-icon">_aspect<wbr>Ratio<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
-
-<aside class="tsd-sources">
-        <p>Inherited from <a href="ProjectionBase.html">ProjectionBase</a>.<a href="ProjectionBase.html#_aspectRatio">_aspectRatio</a></p>
-        <ul>
-                    <li>Defined in projections/ProjectionBase.ts:23</li>
-        </ul>
-</aside>
-
-    
-
-</section>
-            <section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-inherited tsd-is-protected">
     <a name="_coordinateSystem" class="tsd-anchor"></a>
         <h3><span class="tsd-flag ts-flagProtected">Protected</span> _coordinate<wbr>System</h3>
 
@@ -234,7 +212,7 @@
 <aside class="tsd-sources">
         <p>Inherited from <a href="ProjectionBase.html">ProjectionBase</a>.<a href="ProjectionBase.html#_coordinateSystem">_coordinateSystem</a></p>
         <ul>
-                    <li>Defined in projections/ProjectionBase.ts:26</li>
+                    <li>Defined in projections/ProjectionBase.ts:24</li>
         </ul>
 </aside>
 
@@ -250,7 +228,7 @@
 <aside class="tsd-sources">
         <p>Inherited from <a href="ProjectionBase.html">ProjectionBase</a>.<a href="ProjectionBase.html#_far">_far</a></p>
         <ul>
-                    <li>Defined in projections/ProjectionBase.ts:22</li>
+                    <li>Defined in projections/ProjectionBase.ts:21</li>
         </ul>
 </aside>
 
@@ -266,7 +244,7 @@
 <aside class="tsd-sources">
         <p>Inherited from <a href="ProjectionBase.html">ProjectionBase</a>.<a href="ProjectionBase.html#_frustumCorners">_frustumCorners</a></p>
         <ul>
-                    <li>Defined in projections/ProjectionBase.ts:24</li>
+                    <li>Defined in projections/ProjectionBase.ts:22</li>
         </ul>
 </aside>
 
@@ -282,7 +260,7 @@
 <aside class="tsd-sources">
         <p>Inherited from <a href="ProjectionBase.html">ProjectionBase</a>.<a href="ProjectionBase.html#_frustumMatrix3D">_frustumMatrix3D</a></p>
         <ul>
-                    <li>Defined in projections/ProjectionBase.ts:18</li>
+                    <li>Defined in projections/ProjectionBase.ts:17</li>
         </ul>
 </aside>
 
@@ -298,7 +276,7 @@
 <aside class="tsd-sources">
         <p>Inherited from <a href="ProjectionBase.html">ProjectionBase</a>.<a href="ProjectionBase.html#_frustumMatrix3DDirty">_frustumMatrix3DDirty</a></p>
         <ul>
-                    <li>Defined in projections/ProjectionBase.ts:32</li>
+                    <li>Defined in projections/ProjectionBase.ts:31</li>
         </ul>
 </aside>
 
@@ -314,7 +292,7 @@
 <aside class="tsd-sources">
         <p>Inherited from <a href="ProjectionBase.html">ProjectionBase</a>.<a href="ProjectionBase.html#_inverseViewMatrix3D">_inverseViewMatrix3D</a></p>
         <ul>
-                    <li>Defined in projections/ProjectionBase.ts:17</li>
+                    <li>Defined in projections/ProjectionBase.ts:16</li>
         </ul>
 </aside>
 
@@ -330,7 +308,7 @@
 <aside class="tsd-sources">
         <p>Inherited from <a href="ProjectionBase.html">ProjectionBase</a>.<a href="ProjectionBase.html#_near">_near</a></p>
         <ul>
-                    <li>Defined in projections/ProjectionBase.ts:21</li>
+                    <li>Defined in projections/ProjectionBase.ts:20</li>
         </ul>
 </aside>
 
@@ -346,7 +324,7 @@
 <aside class="tsd-sources">
         <p>Inherited from <a href="ProjectionBase.html">ProjectionBase</a>.<a href="ProjectionBase.html#_originX">_originX</a></p>
         <ul>
-                    <li>Defined in projections/ProjectionBase.ts:27</li>
+                    <li>Defined in projections/ProjectionBase.ts:25</li>
         </ul>
 </aside>
 
@@ -361,6 +339,22 @@
 
 <aside class="tsd-sources">
         <p>Inherited from <a href="ProjectionBase.html">ProjectionBase</a>.<a href="ProjectionBase.html#_originY">_originY</a></p>
+        <ul>
+                    <li>Defined in projections/ProjectionBase.ts:26</li>
+        </ul>
+</aside>
+
+    
+
+</section>
+            <section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-inherited tsd-is-protected">
+    <a name="_propertiesDirty" class="tsd-anchor"></a>
+        <h3><span class="tsd-flag ts-flagProtected">Protected</span> _properties<wbr>Dirty</h3>
+
+        <div class="tsd-signature tsd-kind-icon">_properties<wbr>Dirty<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span></div>
+
+<aside class="tsd-sources">
+        <p>Inherited from <a href="ProjectionBase.html">ProjectionBase</a>.<a href="ProjectionBase.html#_propertiesDirty">_propertiesDirty</a></p>
         <ul>
                     <li>Defined in projections/ProjectionBase.ts:28</li>
         </ul>
@@ -378,7 +372,7 @@
 <aside class="tsd-sources">
         <p>Inherited from <a href="ProjectionBase.html">ProjectionBase</a>.<a href="ProjectionBase.html#_stageRect">_stageRect</a></p>
         <ul>
-                    <li>Defined in projections/ProjectionBase.ts:20</li>
+                    <li>Defined in projections/ProjectionBase.ts:19</li>
         </ul>
 </aside>
 
@@ -394,7 +388,7 @@
 <aside class="tsd-sources">
         <p>Inherited from <a href="ProjectionBase.html">ProjectionBase</a>.<a href="ProjectionBase.html#_transform">_transform</a></p>
         <ul>
-                    <li>Defined in projections/ProjectionBase.ts:25</li>
+                    <li>Defined in projections/ProjectionBase.ts:23</li>
         </ul>
 </aside>
 
@@ -410,7 +404,7 @@
 <aside class="tsd-sources">
         <p>Inherited from <a href="ProjectionBase.html">ProjectionBase</a>.<a href="ProjectionBase.html#_viewMatrix3D">_viewMatrix3D</a></p>
         <ul>
-                    <li>Defined in projections/ProjectionBase.ts:16</li>
+                    <li>Defined in projections/ProjectionBase.ts:15</li>
         </ul>
 </aside>
 
@@ -426,7 +420,7 @@
 <aside class="tsd-sources">
         <p>Inherited from <a href="ProjectionBase.html">ProjectionBase</a>.<a href="ProjectionBase.html#_viewRect">_viewRect</a></p>
         <ul>
-                    <li>Defined in projections/ProjectionBase.ts:19</li>
+                    <li>Defined in projections/ProjectionBase.ts:18</li>
         </ul>
 </aside>
 
@@ -436,70 +430,20 @@
 </section>
         <section class="tsd-panel-group tsd-member-group ">
     <h2>Accessors</h2>
-            <section class="tsd-panel tsd-member tsd-kind-accessor tsd-parent-kind-class tsd-is-overwrite">
-    <a name="aspectRatio" class="tsd-anchor"></a>
-        <h3>aspect<wbr>Ratio</h3>
-
-
-        <ul class="tsd-signatures tsd-kind-accessor tsd-parent-kind-class tsd-is-overwrite">
-            <li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">get</span> <span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span></li>
-            <li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">set</span> <span class="tsd-signature-symbol">(</span>value<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
-</ul>
-
-<ul class="tsd-descriptions">
-            <li class="tsd-description">
-                    <aside class="tsd-sources">
-        <p>Overwrites <a href="ProjectionBase.html">ProjectionBase</a>.<a href="ProjectionBase.html#aspectRatio">aspectRatio</a></p>
-        <ul>
-                    <li>Defined in projections/ObliqueNearPlaneProjection.ts:56</li>
-        </ul>
-</aside>
-
-
-
-    <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">number</span></h4>
-
-
-            </li>
-            <li class="tsd-description">
-                    <aside class="tsd-sources">
-        <p>Overwrites <a href="ProjectionBase.html">ProjectionBase</a>.<a href="ProjectionBase.html#aspectRatio">aspectRatio</a></p>
-        <ul>
-                    <li>Defined in projections/ObliqueNearPlaneProjection.ts:62</li>
-        </ul>
-</aside>
-
-
-    <h4 class="tsd-parameters-title">Parameters</h4>
-    <ul class="tsd-parameters">
-            <li>
-                <h5>value: <span class="tsd-signature-type">number</span></h5>
-
-                
-            </li>
-    </ul>
-
-    <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
-
-
-            </li>
-</ul>
-
-</section>
             <section class="tsd-panel tsd-member tsd-kind-set-signature tsd-parent-kind-class">
     <a name="baseProjection" class="tsd-anchor"></a>
         <h3>base<wbr>Projection</h3>
 
 
         <ul class="tsd-signatures tsd-kind-set-signature tsd-parent-kind-class">
-            <li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">set</span> <span class="tsd-signature-symbol">(</span>value<span class="tsd-signature-symbol">: </span><a href="../interfaces/IProjection.html" class="tsd-signature-type">IProjection</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+            <li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">set</span> <span class="tsd-signature-symbol">(</span>value<span class="tsd-signature-symbol">: </span><a href="ProjectionBase.html" class="tsd-signature-type">ProjectionBase</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
 </ul>
 
 <ul class="tsd-descriptions">
             <li class="tsd-description">
                     <aside class="tsd-sources">
         <ul>
-                    <li>Defined in projections/ObliqueNearPlaneProjection.ts:79</li>
+                    <li>Defined in projections/ObliqueNearPlaneProjection.ts:66</li>
         </ul>
 </aside>
 
@@ -507,7 +451,7 @@
     <h4 class="tsd-parameters-title">Parameters</h4>
     <ul class="tsd-parameters">
             <li>
-                <h5>value: <a href="../interfaces/IProjection.html" class="tsd-signature-type">IProjection</a></h5>
+                <h5>value: <a href="ProjectionBase.html" class="tsd-signature-type">ProjectionBase</a></h5>
 
                 
             </li>
@@ -535,7 +479,7 @@
                     <aside class="tsd-sources">
         <p>Inherited from <a href="ProjectionBase.html">ProjectionBase</a>.<a href="ProjectionBase.html#coordinateSystem">coordinateSystem</a></p>
         <ul>
-                    <li>Defined in projections/ProjectionBase.ts:85</li>
+                    <li>Defined in projections/ProjectionBase.ts:69</li>
         </ul>
 </aside>
         <div class="tsd-comment tsd-typography">
@@ -555,7 +499,7 @@
                     <aside class="tsd-sources">
         <p>Inherited from <a href="ProjectionBase.html">ProjectionBase</a>.<a href="ProjectionBase.html#coordinateSystem">coordinateSystem</a></p>
         <ul>
-                    <li>Defined in projections/ProjectionBase.ts:90</li>
+                    <li>Defined in projections/ProjectionBase.ts:74</li>
         </ul>
 </aside>
         <div class="tsd-comment tsd-typography">
@@ -597,7 +541,7 @@
                     <aside class="tsd-sources">
         <p>Overwrites <a href="ProjectionBase.html">ProjectionBase</a>.<a href="ProjectionBase.html#far">far</a></p>
         <ul>
-                    <li>Defined in projections/ObliqueNearPlaneProjection.ts:44</li>
+                    <li>Defined in projections/ObliqueNearPlaneProjection.ts:43</li>
         </ul>
 </aside>
 
@@ -611,7 +555,7 @@
                     <aside class="tsd-sources">
         <p>Overwrites <a href="ProjectionBase.html">ProjectionBase</a>.<a href="ProjectionBase.html#far">far</a></p>
         <ul>
-                    <li>Defined in projections/ObliqueNearPlaneProjection.ts:50</li>
+                    <li>Defined in projections/ObliqueNearPlaneProjection.ts:49</li>
         </ul>
 </aside>
 
@@ -646,7 +590,7 @@
                     <aside class="tsd-sources">
         <p>Overwrites <a href="ProjectionBase.html">ProjectionBase</a>.<a href="ProjectionBase.html#frustumCorners">frustumCorners</a></p>
         <ul>
-                    <li>Defined in projections/ObliqueNearPlaneProjection.ts:26</li>
+                    <li>Defined in projections/ObliqueNearPlaneProjection.ts:25</li>
         </ul>
 </aside>
 
@@ -659,13 +603,14 @@
 </ul>
 
 </section>
-            <section class="tsd-panel tsd-member tsd-kind-get-signature tsd-parent-kind-class tsd-is-inherited">
+            <section class="tsd-panel tsd-member tsd-kind-accessor tsd-parent-kind-class tsd-is-inherited">
     <a name="frustumMatrix3D" class="tsd-anchor"></a>
         <h3>frustum<wbr>Matrix3D</h3>
 
 
-        <ul class="tsd-signatures tsd-kind-get-signature tsd-parent-kind-class tsd-is-inherited">
+        <ul class="tsd-signatures tsd-kind-accessor tsd-parent-kind-class tsd-is-inherited">
             <li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">get</span> <span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="Matrix3D.html" class="tsd-signature-type">Matrix3D</a></li>
+            <li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">set</span> <span class="tsd-signature-symbol">(</span>value<span class="tsd-signature-symbol">: </span><a href="Matrix3D.html" class="tsd-signature-type">Matrix3D</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
 </ul>
 
 <ul class="tsd-descriptions">
@@ -673,7 +618,7 @@
                     <aside class="tsd-sources">
         <p>Inherited from <a href="ProjectionBase.html">ProjectionBase</a>.<a href="ProjectionBase.html#frustumMatrix3D">frustumMatrix3D</a></p>
         <ul>
-                    <li>Defined in projections/ProjectionBase.ts:113</li>
+                    <li>Defined in projections/ProjectionBase.ts:97</li>
         </ul>
 </aside>
         <div class="tsd-comment tsd-typography">
@@ -682,6 +627,29 @@
 
 
     <h4 class="tsd-returns-title">Returns <a href="Matrix3D.html" class="tsd-signature-type">Matrix3D</a></h4>
+
+        
+
+            </li>
+            <li class="tsd-description">
+                    <aside class="tsd-sources">
+        <p>Inherited from <a href="ProjectionBase.html">ProjectionBase</a>.<a href="ProjectionBase.html#frustumMatrix3D">frustumMatrix3D</a></p>
+        <ul>
+                    <li>Defined in projections/ProjectionBase.ts:105</li>
+        </ul>
+</aside>
+
+
+    <h4 class="tsd-parameters-title">Parameters</h4>
+    <ul class="tsd-parameters">
+            <li>
+                <h5>value: <a href="Matrix3D.html" class="tsd-signature-type">Matrix3D</a></h5>
+
+                
+            </li>
+    </ul>
+
+    <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
 
         
 
@@ -703,7 +671,7 @@
                     <aside class="tsd-sources">
         <p>Inherited from <a href="ProjectionBase.html">ProjectionBase</a>.<a href="ProjectionBase.html#frustumPlanes">frustumPlanes</a></p>
         <ul>
-                    <li>Defined in projections/ProjectionBase.ts:291</li>
+                    <li>Defined in projections/ProjectionBase.ts:309</li>
         </ul>
 </aside>
 
@@ -730,7 +698,7 @@
                     <aside class="tsd-sources">
         <p>Inherited from <a href="ProjectionBase.html">ProjectionBase</a>.<a href="ProjectionBase.html#inverseViewMatrix3D">inverseViewMatrix3D</a></p>
         <ul>
-                    <li>Defined in projections/ProjectionBase.ts:229</li>
+                    <li>Defined in projections/ProjectionBase.ts:233</li>
         </ul>
 </aside>
 
@@ -758,7 +726,7 @@
                     <aside class="tsd-sources">
         <p>Overwrites <a href="ProjectionBase.html">ProjectionBase</a>.<a href="ProjectionBase.html#near">near</a></p>
         <ul>
-                    <li>Defined in projections/ObliqueNearPlaneProjection.ts:32</li>
+                    <li>Defined in projections/ObliqueNearPlaneProjection.ts:31</li>
         </ul>
 </aside>
 
@@ -772,7 +740,7 @@
                     <aside class="tsd-sources">
         <p>Overwrites <a href="ProjectionBase.html">ProjectionBase</a>.<a href="ProjectionBase.html#near">near</a></p>
         <ul>
-                    <li>Defined in projections/ObliqueNearPlaneProjection.ts:38</li>
+                    <li>Defined in projections/ObliqueNearPlaneProjection.ts:37</li>
         </ul>
 </aside>
 
@@ -808,7 +776,7 @@
                     <aside class="tsd-sources">
         <p>Inherited from <a href="ProjectionBase.html">ProjectionBase</a>.<a href="ProjectionBase.html#originX">originX</a></p>
         <ul>
-                    <li>Defined in projections/ProjectionBase.ts:144</li>
+                    <li>Defined in projections/ProjectionBase.ts:139</li>
         </ul>
 </aside>
         <div class="tsd-comment tsd-typography">
@@ -825,7 +793,7 @@
                     <aside class="tsd-sources">
         <p>Inherited from <a href="ProjectionBase.html">ProjectionBase</a>.<a href="ProjectionBase.html#originX">originX</a></p>
         <ul>
-                    <li>Defined in projections/ProjectionBase.ts:149</li>
+                    <li>Defined in projections/ProjectionBase.ts:147</li>
         </ul>
 </aside>
 
@@ -862,7 +830,7 @@
                     <aside class="tsd-sources">
         <p>Inherited from <a href="ProjectionBase.html">ProjectionBase</a>.<a href="ProjectionBase.html#originY">originY</a></p>
         <ul>
-                    <li>Defined in projections/ProjectionBase.ts:163</li>
+                    <li>Defined in projections/ProjectionBase.ts:161</li>
         </ul>
 </aside>
         <div class="tsd-comment tsd-typography">
@@ -879,7 +847,7 @@
                     <aside class="tsd-sources">
         <p>Inherited from <a href="ProjectionBase.html">ProjectionBase</a>.<a href="ProjectionBase.html#originY">originY</a></p>
         <ul>
-                    <li>Defined in projections/ProjectionBase.ts:168</li>
+                    <li>Defined in projections/ProjectionBase.ts:169</li>
         </ul>
 </aside>
 
@@ -915,7 +883,7 @@
             <li class="tsd-description">
                     <aside class="tsd-sources">
         <ul>
-                    <li>Defined in projections/ObliqueNearPlaneProjection.ts:67</li>
+                    <li>Defined in projections/ObliqueNearPlaneProjection.ts:54</li>
         </ul>
 </aside>
 
@@ -928,7 +896,7 @@
             <li class="tsd-description">
                     <aside class="tsd-sources">
         <ul>
-                    <li>Defined in projections/ObliqueNearPlaneProjection.ts:72</li>
+                    <li>Defined in projections/ObliqueNearPlaneProjection.ts:59</li>
         </ul>
 </aside>
 
@@ -964,7 +932,7 @@
                     <aside class="tsd-sources">
         <p>Inherited from <a href="ProjectionBase.html">ProjectionBase</a>.<a href="ProjectionBase.html#transform">transform</a></p>
         <ul>
-                    <li>Defined in projections/ProjectionBase.ts:46</li>
+                    <li>Defined in projections/ProjectionBase.ts:45</li>
         </ul>
 </aside>
 
@@ -978,7 +946,7 @@
                     <aside class="tsd-sources">
         <p>Inherited from <a href="ProjectionBase.html">ProjectionBase</a>.<a href="ProjectionBase.html#transform">transform</a></p>
         <ul>
-                    <li>Defined in projections/ProjectionBase.ts:51</li>
+                    <li>Defined in projections/ProjectionBase.ts:50</li>
         </ul>
 </aside>
 
@@ -1013,7 +981,7 @@
                     <aside class="tsd-sources">
         <p>Inherited from <a href="ProjectionBase.html">ProjectionBase</a>.<a href="ProjectionBase.html#viewMatrix3D">viewMatrix3D</a></p>
         <ul>
-                    <li>Defined in projections/ProjectionBase.ts:213</li>
+                    <li>Defined in projections/ProjectionBase.ts:217</li>
         </ul>
 </aside>
 
@@ -1042,7 +1010,7 @@
                 <aside class="tsd-sources">
         <p>Inherited from <a href="ProjectionBase.html">ProjectionBase</a>.<a href="ProjectionBase.html#_invalidateFrustumMatrix3D">_invalidateFrustumMatrix3D</a></p>
         <ul>
-                    <li>Defined in projections/ProjectionBase.ts:259</li>
+                    <li>Defined in projections/ProjectionBase.ts:268</li>
         </ul>
 </aside>
 
@@ -1068,7 +1036,33 @@
                 <aside class="tsd-sources">
         <p>Overwrites <a href="ProjectionBase.html">ProjectionBase</a>.<a href="ProjectionBase.html#_updateFrustumMatrix3D">_updateFrustumMatrix3D</a></p>
         <ul>
-                    <li>Defined in projections/ObliqueNearPlaneProjection.ts:98</li>
+                    <li>Defined in projections/ObliqueNearPlaneProjection.ts:85</li>
+        </ul>
+</aside>
+
+
+
+    <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+
+
+        </li>
+</ul>    
+
+</section>
+            <section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-inherited tsd-is-protected">
+    <a name="_updateProperties" class="tsd-anchor"></a>
+        <h3><span class="tsd-flag ts-flagProtected">Protected</span> _update<wbr>Properties</h3>
+
+        <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-inherited tsd-is-protected">
+        <li class="tsd-signature tsd-kind-icon">_update<wbr>Properties<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+</ul>
+
+<ul class="tsd-descriptions">
+        <li class="tsd-description">
+                <aside class="tsd-sources">
+        <p>Inherited from <a href="ProjectionBase.html">ProjectionBase</a>.<a href="ProjectionBase.html#_updateProperties">_updateProperties</a></p>
+        <ul>
+                    <li>Defined in projections/ProjectionBase.ts:303</li>
         </ul>
 </aside>
 
@@ -1170,7 +1164,7 @@
                 <aside class="tsd-sources">
         <p>Inherited from <a href="ProjectionBase.html">ProjectionBase</a>.<a href="ProjectionBase.html#clone">clone</a></p>
         <ul>
-                    <li>Defined in projections/ProjectionBase.ts:245</li>
+                    <li>Defined in projections/ProjectionBase.ts:249</li>
         </ul>
 </aside>
 
@@ -1194,7 +1188,6 @@
 <ul class="tsd-descriptions">
         <li class="tsd-description">
                 <aside class="tsd-sources">
-        <p>Implementation of <a href="../interfaces/IProjection.html">IProjection</a>.<a href="../interfaces/IProjection.html#dispatchEvent">dispatchEvent</a></p>
         <p>Inherited from <a href="EventDispatcher.html">EventDispatcher</a>.<a href="EventDispatcher.html#dispatchEvent">dispatchEvent</a></p>
         <ul>
                     <li>Defined in events/EventDispatcher.ts:58</li>
@@ -1316,10 +1309,9 @@
 <ul class="tsd-descriptions">
         <li class="tsd-description">
                 <aside class="tsd-sources">
-        <p>Implementation of <a href="../interfaces/IProjection.html">IProjection</a>.<a href="../interfaces/IProjection.html#project">project</a></p>
         <p>Inherited from <a href="ProjectionBase.html">ProjectionBase</a>.<a href="ProjectionBase.html#project">project</a></p>
         <ul>
-                    <li>Defined in projections/ProjectionBase.ts:200</li>
+                    <li>Defined in projections/ProjectionBase.ts:204</li>
         </ul>
 </aside>
 
@@ -1427,10 +1419,9 @@
 <ul class="tsd-descriptions">
         <li class="tsd-description">
                 <aside class="tsd-sources">
-        <p>Implementation of <a href="../interfaces/IProjection.html">IProjection</a>.<a href="../interfaces/IProjection.html#setStageRect">setStageRect</a></p>
         <p>Inherited from <a href="ProjectionBase.html">ProjectionBase</a>.<a href="ProjectionBase.html#setStageRect">setStageRect</a></p>
         <ul>
-                    <li>Defined in projections/ProjectionBase.ts:276</li>
+                    <li>Defined in projections/ProjectionBase.ts:288</li>
         </ul>
 </aside>
 
@@ -1477,10 +1468,9 @@
 <ul class="tsd-descriptions">
         <li class="tsd-description">
                 <aside class="tsd-sources">
-        <p>Implementation of <a href="../interfaces/IProjection.html">IProjection</a>.<a href="../interfaces/IProjection.html#setViewRect">setViewRect</a></p>
         <p>Inherited from <a href="ProjectionBase.html">ProjectionBase</a>.<a href="ProjectionBase.html#setViewRect">setViewRect</a></p>
         <ul>
-                    <li>Defined in projections/ProjectionBase.ts:266</li>
+                    <li>Defined in projections/ProjectionBase.ts:278</li>
         </ul>
 </aside>
 
@@ -1527,10 +1517,9 @@
 <ul class="tsd-descriptions">
         <li class="tsd-description">
                 <aside class="tsd-sources">
-        <p>Implementation of <a href="../interfaces/IProjection.html">IProjection</a>.<a href="../interfaces/IProjection.html#unproject">unproject</a></p>
         <p>Inherited from <a href="ProjectionBase.html">ProjectionBase</a>.<a href="ProjectionBase.html#unproject">unproject</a></p>
         <ul>
-                    <li>Defined in projections/ProjectionBase.ts:240</li>
+                    <li>Defined in projections/ProjectionBase.ts:244</li>
         </ul>
 </aside>
 
@@ -1680,9 +1669,6 @@
 </li>
                         <li class=" tsd-kind-class">
     <a href="Float4Attributes.html" class="tsd-kind-icon">Float4<wbr>Attributes</a>
-</li>
-                        <li class=" tsd-kind-class">
-    <a href="FreeMatrixProjection.html" class="tsd-kind-icon">Free<wbr>Matrix<wbr>Projection</a>
 </li>
                         <li class=" tsd-kind-class">
     <a href="IDUtil.html" class="tsd-kind-icon">IDUtil</a>
@@ -1860,9 +1846,6 @@
 </li>
                         <li class=" tsd-kind-interface">
     <a href="../interfaces/IEventDispatcher.html" class="tsd-kind-icon">IEvent<wbr>Dispatcher</a>
-</li>
-                        <li class=" tsd-kind-interface">
-    <a href="../interfaces/IProjection.html" class="tsd-kind-icon">IProjection</a>
 </li>
                         <li class=" tsd-kind-event">
     <a href="../globals.html#LoaderInfo" class="tsd-kind-icon">Loader<wbr>Info</a>

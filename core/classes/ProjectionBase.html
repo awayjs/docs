@@ -88,12 +88,6 @@
 
     </section>
 
-    <section class="tsd-panel">
-        <h3>Implements</h3>
-        <ul class="tsd-hierarchy">
-                <li><a href="../interfaces/IProjection.html" class="tsd-signature-type">IProjection</a></li>
-        </ul>
-    </section>
 
 
 
@@ -111,7 +105,6 @@
                 <section class="tsd-index-section tsd-is-private-protected">
                     <h3>Properties</h3>
                     <ul class="tsd-index-list">
-                        <li class="tsd-kind-property tsd-parent-kind-class tsd-is-protected"><a href="ProjectionBase.html#_aspectRatio" class="tsd-kind-icon">_aspect<wbr>Ratio</a></li>
                         <li class="tsd-kind-property tsd-parent-kind-class tsd-is-protected"><a href="ProjectionBase.html#_coordinateSystem" class="tsd-kind-icon">_coordinate<wbr>System</a></li>
                         <li class="tsd-kind-property tsd-parent-kind-class tsd-is-protected"><a href="ProjectionBase.html#_far" class="tsd-kind-icon">_far</a></li>
                         <li class="tsd-kind-property tsd-parent-kind-class tsd-is-protected"><a href="ProjectionBase.html#_frustumCorners" class="tsd-kind-icon">_frustum<wbr>Corners</a></li>
@@ -121,6 +114,7 @@
                         <li class="tsd-kind-property tsd-parent-kind-class tsd-is-protected"><a href="ProjectionBase.html#_near" class="tsd-kind-icon">_near</a></li>
                         <li class="tsd-kind-property tsd-parent-kind-class tsd-is-protected"><a href="ProjectionBase.html#_originX" class="tsd-kind-icon">_originX</a></li>
                         <li class="tsd-kind-property tsd-parent-kind-class tsd-is-protected"><a href="ProjectionBase.html#_originY" class="tsd-kind-icon">_originY</a></li>
+                        <li class="tsd-kind-property tsd-parent-kind-class tsd-is-protected"><a href="ProjectionBase.html#_propertiesDirty" class="tsd-kind-icon">_properties<wbr>Dirty</a></li>
                         <li class="tsd-kind-property tsd-parent-kind-class tsd-is-protected"><a href="ProjectionBase.html#_stageRect" class="tsd-kind-icon">_stage<wbr>Rect</a></li>
                         <li class="tsd-kind-property tsd-parent-kind-class tsd-is-protected"><a href="ProjectionBase.html#_transform" class="tsd-kind-icon">_transform</a></li>
                         <li class="tsd-kind-property tsd-parent-kind-class tsd-is-protected"><a href="ProjectionBase.html#_viewMatrix3D" class="tsd-kind-icon">_view<wbr>Matrix3D</a></li>
@@ -130,11 +124,10 @@
                 <section class="tsd-index-section ">
                     <h3>Accessors</h3>
                     <ul class="tsd-index-list">
-                        <li class="tsd-kind-accessor tsd-parent-kind-class"><a href="ProjectionBase.html#aspectRatio" class="tsd-kind-icon">aspect<wbr>Ratio</a></li>
                         <li class="tsd-kind-accessor tsd-parent-kind-class"><a href="ProjectionBase.html#coordinateSystem" class="tsd-kind-icon">coordinate<wbr>System</a></li>
                         <li class="tsd-kind-accessor tsd-parent-kind-class"><a href="ProjectionBase.html#far" class="tsd-kind-icon">far</a></li>
                         <li class="tsd-kind-get-signature tsd-parent-kind-class"><a href="ProjectionBase.html#frustumCorners" class="tsd-kind-icon">frustum<wbr>Corners</a></li>
-                        <li class="tsd-kind-get-signature tsd-parent-kind-class"><a href="ProjectionBase.html#frustumMatrix3D" class="tsd-kind-icon">frustum<wbr>Matrix3D</a></li>
+                        <li class="tsd-kind-accessor tsd-parent-kind-class"><a href="ProjectionBase.html#frustumMatrix3D" class="tsd-kind-icon">frustum<wbr>Matrix3D</a></li>
                         <li class="tsd-kind-get-signature tsd-parent-kind-class"><a href="ProjectionBase.html#frustumPlanes" class="tsd-kind-icon">frustum<wbr>Planes</a></li>
                         <li class="tsd-kind-get-signature tsd-parent-kind-class"><a href="ProjectionBase.html#inverseViewMatrix3D" class="tsd-kind-icon">inverse<wbr>View<wbr>Matrix3D</a></li>
                         <li class="tsd-kind-accessor tsd-parent-kind-class"><a href="ProjectionBase.html#near" class="tsd-kind-icon">near</a></li>
@@ -149,6 +142,7 @@
                     <ul class="tsd-index-list">
                         <li class="tsd-kind-method tsd-parent-kind-class tsd-is-protected"><a href="ProjectionBase.html#_invalidateFrustumMatrix3D" class="tsd-kind-icon">_invalidate<wbr>Frustum<wbr>Matrix3D</a></li>
                         <li class="tsd-kind-method tsd-parent-kind-class tsd-is-protected"><a href="ProjectionBase.html#_updateFrustumMatrix3D" class="tsd-kind-icon">_update<wbr>Frustum<wbr>Matrix3D</a></li>
+                        <li class="tsd-kind-method tsd-parent-kind-class tsd-is-protected"><a href="ProjectionBase.html#_updateProperties" class="tsd-kind-icon">_update<wbr>Properties</a></li>
                         <li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="ProjectionBase.html#addEventListener" class="tsd-kind-icon">add<wbr>Event<wbr>Listener</a></li>
                         <li class="tsd-kind-method tsd-parent-kind-class"><a href="ProjectionBase.html#clone" class="tsd-kind-icon">clone</a></li>
                         <li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="ProjectionBase.html#dispatchEvent" class="tsd-kind-icon">dispatch<wbr>Event</a></li>
@@ -178,7 +172,7 @@
                 <aside class="tsd-sources">
         <p>Overwrites <a href="EventDispatcher.html">EventDispatcher</a>.<a href="EventDispatcher.html#constructor">constructor</a></p>
         <ul>
-                    <li>Defined in projections/ProjectionBase.ts:35</li>
+                    <li>Defined in projections/ProjectionBase.ts:34</li>
         </ul>
 </aside>
 
@@ -203,21 +197,6 @@
         <section class="tsd-panel-group tsd-member-group tsd-is-private-protected">
     <h2>Properties</h2>
             <section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-protected">
-    <a name="_aspectRatio" class="tsd-anchor"></a>
-        <h3><span class="tsd-flag ts-flagProtected">Protected</span> _aspect<wbr>Ratio</h3>
-
-        <div class="tsd-signature tsd-kind-icon">_aspect<wbr>Ratio<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
-
-<aside class="tsd-sources">
-        <ul>
-                    <li>Defined in projections/ProjectionBase.ts:23</li>
-        </ul>
-</aside>
-
-    
-
-</section>
-            <section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-protected">
     <a name="_coordinateSystem" class="tsd-anchor"></a>
         <h3><span class="tsd-flag ts-flagProtected">Protected</span> _coordinate<wbr>System</h3>
 
@@ -225,7 +204,7 @@
 
 <aside class="tsd-sources">
         <ul>
-                    <li>Defined in projections/ProjectionBase.ts:26</li>
+                    <li>Defined in projections/ProjectionBase.ts:24</li>
         </ul>
 </aside>
 
@@ -240,7 +219,7 @@
 
 <aside class="tsd-sources">
         <ul>
-                    <li>Defined in projections/ProjectionBase.ts:22</li>
+                    <li>Defined in projections/ProjectionBase.ts:21</li>
         </ul>
 </aside>
 
@@ -255,7 +234,7 @@
 
 <aside class="tsd-sources">
         <ul>
-                    <li>Defined in projections/ProjectionBase.ts:24</li>
+                    <li>Defined in projections/ProjectionBase.ts:22</li>
         </ul>
 </aside>
 
@@ -270,7 +249,7 @@
 
 <aside class="tsd-sources">
         <ul>
-                    <li>Defined in projections/ProjectionBase.ts:18</li>
+                    <li>Defined in projections/ProjectionBase.ts:17</li>
         </ul>
 </aside>
 
@@ -285,7 +264,7 @@
 
 <aside class="tsd-sources">
         <ul>
-                    <li>Defined in projections/ProjectionBase.ts:32</li>
+                    <li>Defined in projections/ProjectionBase.ts:31</li>
         </ul>
 </aside>
 
@@ -300,7 +279,7 @@
 
 <aside class="tsd-sources">
         <ul>
-                    <li>Defined in projections/ProjectionBase.ts:17</li>
+                    <li>Defined in projections/ProjectionBase.ts:16</li>
         </ul>
 </aside>
 
@@ -315,7 +294,7 @@
 
 <aside class="tsd-sources">
         <ul>
-                    <li>Defined in projections/ProjectionBase.ts:21</li>
+                    <li>Defined in projections/ProjectionBase.ts:20</li>
         </ul>
 </aside>
 
@@ -330,7 +309,7 @@
 
 <aside class="tsd-sources">
         <ul>
-                    <li>Defined in projections/ProjectionBase.ts:27</li>
+                    <li>Defined in projections/ProjectionBase.ts:25</li>
         </ul>
 </aside>
 
@@ -342,6 +321,21 @@
         <h3><span class="tsd-flag ts-flagProtected">Protected</span> _originY</h3>
 
         <div class="tsd-signature tsd-kind-icon">_originY<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
+
+<aside class="tsd-sources">
+        <ul>
+                    <li>Defined in projections/ProjectionBase.ts:26</li>
+        </ul>
+</aside>
+
+    
+
+</section>
+            <section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-protected">
+    <a name="_propertiesDirty" class="tsd-anchor"></a>
+        <h3><span class="tsd-flag ts-flagProtected">Protected</span> _properties<wbr>Dirty</h3>
+
+        <div class="tsd-signature tsd-kind-icon">_properties<wbr>Dirty<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span></div>
 
 <aside class="tsd-sources">
         <ul>
@@ -360,7 +354,7 @@
 
 <aside class="tsd-sources">
         <ul>
-                    <li>Defined in projections/ProjectionBase.ts:20</li>
+                    <li>Defined in projections/ProjectionBase.ts:19</li>
         </ul>
 </aside>
 
@@ -375,7 +369,7 @@
 
 <aside class="tsd-sources">
         <ul>
-                    <li>Defined in projections/ProjectionBase.ts:25</li>
+                    <li>Defined in projections/ProjectionBase.ts:23</li>
         </ul>
 </aside>
 
@@ -390,7 +384,7 @@
 
 <aside class="tsd-sources">
         <ul>
-                    <li>Defined in projections/ProjectionBase.ts:16</li>
+                    <li>Defined in projections/ProjectionBase.ts:15</li>
         </ul>
 </aside>
 
@@ -405,7 +399,7 @@
 
 <aside class="tsd-sources">
         <ul>
-                    <li>Defined in projections/ProjectionBase.ts:19</li>
+                    <li>Defined in projections/ProjectionBase.ts:18</li>
         </ul>
 </aside>
 
@@ -415,54 +409,6 @@
 </section>
         <section class="tsd-panel-group tsd-member-group ">
     <h2>Accessors</h2>
-            <section class="tsd-panel tsd-member tsd-kind-accessor tsd-parent-kind-class">
-    <a name="aspectRatio" class="tsd-anchor"></a>
-        <h3>aspect<wbr>Ratio</h3>
-
-
-        <ul class="tsd-signatures tsd-kind-accessor tsd-parent-kind-class">
-            <li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">get</span> <span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span></li>
-            <li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">set</span> <span class="tsd-signature-symbol">(</span>value<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
-</ul>
-
-<ul class="tsd-descriptions">
-            <li class="tsd-description">
-                    <aside class="tsd-sources">
-        <ul>
-                    <li>Defined in projections/ProjectionBase.ts:67</li>
-        </ul>
-</aside>
-
-
-
-    <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">number</span></h4>
-
-
-            </li>
-            <li class="tsd-description">
-                    <aside class="tsd-sources">
-        <ul>
-                    <li>Defined in projections/ProjectionBase.ts:72</li>
-        </ul>
-</aside>
-
-
-    <h4 class="tsd-parameters-title">Parameters</h4>
-    <ul class="tsd-parameters">
-            <li>
-                <h5>value: <span class="tsd-signature-type">number</span></h5>
-
-                
-            </li>
-    </ul>
-
-    <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
-
-
-            </li>
-</ul>
-
-</section>
             <section class="tsd-panel tsd-member tsd-kind-accessor tsd-parent-kind-class">
     <a name="coordinateSystem" class="tsd-anchor"></a>
         <h3>coordinate<wbr>System</h3>
@@ -477,7 +423,7 @@
             <li class="tsd-description">
                     <aside class="tsd-sources">
         <ul>
-                    <li>Defined in projections/ProjectionBase.ts:85</li>
+                    <li>Defined in projections/ProjectionBase.ts:69</li>
         </ul>
 </aside>
         <div class="tsd-comment tsd-typography">
@@ -496,7 +442,7 @@
             <li class="tsd-description">
                     <aside class="tsd-sources">
         <ul>
-                    <li>Defined in projections/ProjectionBase.ts:90</li>
+                    <li>Defined in projections/ProjectionBase.ts:74</li>
         </ul>
 </aside>
         <div class="tsd-comment tsd-typography">
@@ -537,7 +483,7 @@
             <li class="tsd-description">
                     <aside class="tsd-sources">
         <ul>
-                    <li>Defined in projections/ProjectionBase.ts:182</li>
+                    <li>Defined in projections/ProjectionBase.ts:183</li>
         </ul>
 </aside>
         <div class="tsd-comment tsd-typography">
@@ -553,7 +499,7 @@
             <li class="tsd-description">
                     <aside class="tsd-sources">
         <ul>
-                    <li>Defined in projections/ProjectionBase.ts:187</li>
+                    <li>Defined in projections/ProjectionBase.ts:191</li>
         </ul>
 </aside>
 
@@ -588,7 +534,7 @@
             <li class="tsd-description">
                     <aside class="tsd-sources">
         <ul>
-                    <li>Defined in projections/ProjectionBase.ts:104</li>
+                    <li>Defined in projections/ProjectionBase.ts:88</li>
         </ul>
 </aside>
         <div class="tsd-comment tsd-typography">
@@ -604,20 +550,21 @@
 </ul>
 
 </section>
-            <section class="tsd-panel tsd-member tsd-kind-get-signature tsd-parent-kind-class">
+            <section class="tsd-panel tsd-member tsd-kind-accessor tsd-parent-kind-class">
     <a name="frustumMatrix3D" class="tsd-anchor"></a>
         <h3>frustum<wbr>Matrix3D</h3>
 
 
-        <ul class="tsd-signatures tsd-kind-get-signature tsd-parent-kind-class">
+        <ul class="tsd-signatures tsd-kind-accessor tsd-parent-kind-class">
             <li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">get</span> <span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="Matrix3D.html" class="tsd-signature-type">Matrix3D</a></li>
+            <li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">set</span> <span class="tsd-signature-symbol">(</span>value<span class="tsd-signature-symbol">: </span><a href="Matrix3D.html" class="tsd-signature-type">Matrix3D</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
 </ul>
 
 <ul class="tsd-descriptions">
             <li class="tsd-description">
                     <aside class="tsd-sources">
         <ul>
-                    <li>Defined in projections/ProjectionBase.ts:113</li>
+                    <li>Defined in projections/ProjectionBase.ts:97</li>
         </ul>
 </aside>
         <div class="tsd-comment tsd-typography">
@@ -626,6 +573,28 @@
 
 
     <h4 class="tsd-returns-title">Returns <a href="Matrix3D.html" class="tsd-signature-type">Matrix3D</a></h4>
+
+        
+
+            </li>
+            <li class="tsd-description">
+                    <aside class="tsd-sources">
+        <ul>
+                    <li>Defined in projections/ProjectionBase.ts:105</li>
+        </ul>
+</aside>
+
+
+    <h4 class="tsd-parameters-title">Parameters</h4>
+    <ul class="tsd-parameters">
+            <li>
+                <h5>value: <a href="Matrix3D.html" class="tsd-signature-type">Matrix3D</a></h5>
+
+                
+            </li>
+    </ul>
+
+    <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
 
         
 
@@ -646,7 +615,7 @@
             <li class="tsd-description">
                     <aside class="tsd-sources">
         <ul>
-                    <li>Defined in projections/ProjectionBase.ts:291</li>
+                    <li>Defined in projections/ProjectionBase.ts:309</li>
         </ul>
 </aside>
 
@@ -672,7 +641,7 @@
             <li class="tsd-description">
                     <aside class="tsd-sources">
         <ul>
-                    <li>Defined in projections/ProjectionBase.ts:229</li>
+                    <li>Defined in projections/ProjectionBase.ts:233</li>
         </ul>
 </aside>
 
@@ -699,7 +668,7 @@
             <li class="tsd-description">
                     <aside class="tsd-sources">
         <ul>
-                    <li>Defined in projections/ProjectionBase.ts:125</li>
+                    <li>Defined in projections/ProjectionBase.ts:117</li>
         </ul>
 </aside>
         <div class="tsd-comment tsd-typography">
@@ -715,7 +684,7 @@
             <li class="tsd-description">
                     <aside class="tsd-sources">
         <ul>
-                    <li>Defined in projections/ProjectionBase.ts:130</li>
+                    <li>Defined in projections/ProjectionBase.ts:125</li>
         </ul>
 </aside>
 
@@ -751,7 +720,7 @@
             <li class="tsd-description">
                     <aside class="tsd-sources">
         <ul>
-                    <li>Defined in projections/ProjectionBase.ts:144</li>
+                    <li>Defined in projections/ProjectionBase.ts:139</li>
         </ul>
 </aside>
         <div class="tsd-comment tsd-typography">
@@ -767,7 +736,7 @@
             <li class="tsd-description">
                     <aside class="tsd-sources">
         <ul>
-                    <li>Defined in projections/ProjectionBase.ts:149</li>
+                    <li>Defined in projections/ProjectionBase.ts:147</li>
         </ul>
 </aside>
 
@@ -803,7 +772,7 @@
             <li class="tsd-description">
                     <aside class="tsd-sources">
         <ul>
-                    <li>Defined in projections/ProjectionBase.ts:163</li>
+                    <li>Defined in projections/ProjectionBase.ts:161</li>
         </ul>
 </aside>
         <div class="tsd-comment tsd-typography">
@@ -819,7 +788,7 @@
             <li class="tsd-description">
                     <aside class="tsd-sources">
         <ul>
-                    <li>Defined in projections/ProjectionBase.ts:168</li>
+                    <li>Defined in projections/ProjectionBase.ts:169</li>
         </ul>
 </aside>
 
@@ -855,7 +824,7 @@
             <li class="tsd-description">
                     <aside class="tsd-sources">
         <ul>
-                    <li>Defined in projections/ProjectionBase.ts:46</li>
+                    <li>Defined in projections/ProjectionBase.ts:45</li>
         </ul>
 </aside>
 
@@ -868,7 +837,7 @@
             <li class="tsd-description">
                     <aside class="tsd-sources">
         <ul>
-                    <li>Defined in projections/ProjectionBase.ts:51</li>
+                    <li>Defined in projections/ProjectionBase.ts:50</li>
         </ul>
 </aside>
 
@@ -902,7 +871,7 @@
             <li class="tsd-description">
                     <aside class="tsd-sources">
         <ul>
-                    <li>Defined in projections/ProjectionBase.ts:213</li>
+                    <li>Defined in projections/ProjectionBase.ts:217</li>
         </ul>
 </aside>
 
@@ -930,7 +899,7 @@
         <li class="tsd-description">
                 <aside class="tsd-sources">
         <ul>
-                    <li>Defined in projections/ProjectionBase.ts:259</li>
+                    <li>Defined in projections/ProjectionBase.ts:268</li>
         </ul>
 </aside>
 
@@ -955,7 +924,32 @@
         <li class="tsd-description">
                 <aside class="tsd-sources">
         <ul>
-                    <li>Defined in projections/ProjectionBase.ts:286</li>
+                    <li>Defined in projections/ProjectionBase.ts:298</li>
+        </ul>
+</aside>
+
+
+
+    <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+
+
+        </li>
+</ul>    
+
+</section>
+            <section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-protected">
+    <a name="_updateProperties" class="tsd-anchor"></a>
+        <h3><span class="tsd-flag ts-flagProtected">Protected</span> _update<wbr>Properties</h3>
+
+        <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-protected">
+        <li class="tsd-signature tsd-kind-icon">_update<wbr>Properties<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+</ul>
+
+<ul class="tsd-descriptions">
+        <li class="tsd-description">
+                <aside class="tsd-sources">
+        <ul>
+                    <li>Defined in projections/ProjectionBase.ts:303</li>
         </ul>
 </aside>
 
@@ -1056,7 +1050,7 @@
         <li class="tsd-description">
                 <aside class="tsd-sources">
         <ul>
-                    <li>Defined in projections/ProjectionBase.ts:245</li>
+                    <li>Defined in projections/ProjectionBase.ts:249</li>
         </ul>
 </aside>
 
@@ -1080,7 +1074,6 @@
 <ul class="tsd-descriptions">
         <li class="tsd-description">
                 <aside class="tsd-sources">
-        <p>Implementation of <a href="../interfaces/IProjection.html">IProjection</a>.<a href="../interfaces/IProjection.html#dispatchEvent">dispatchEvent</a></p>
         <p>Inherited from <a href="EventDispatcher.html">EventDispatcher</a>.<a href="EventDispatcher.html#dispatchEvent">dispatchEvent</a></p>
         <ul>
                     <li>Defined in events/EventDispatcher.ts:58</li>
@@ -1202,9 +1195,8 @@
 <ul class="tsd-descriptions">
         <li class="tsd-description">
                 <aside class="tsd-sources">
-        <p>Implementation of <a href="../interfaces/IProjection.html">IProjection</a>.<a href="../interfaces/IProjection.html#project">project</a></p>
         <ul>
-                    <li>Defined in projections/ProjectionBase.ts:200</li>
+                    <li>Defined in projections/ProjectionBase.ts:204</li>
         </ul>
 </aside>
 
@@ -1312,9 +1304,8 @@
 <ul class="tsd-descriptions">
         <li class="tsd-description">
                 <aside class="tsd-sources">
-        <p>Implementation of <a href="../interfaces/IProjection.html">IProjection</a>.<a href="../interfaces/IProjection.html#setStageRect">setStageRect</a></p>
         <ul>
-                    <li>Defined in projections/ProjectionBase.ts:276</li>
+                    <li>Defined in projections/ProjectionBase.ts:288</li>
         </ul>
 </aside>
 
@@ -1361,9 +1352,8 @@
 <ul class="tsd-descriptions">
         <li class="tsd-description">
                 <aside class="tsd-sources">
-        <p>Implementation of <a href="../interfaces/IProjection.html">IProjection</a>.<a href="../interfaces/IProjection.html#setViewRect">setViewRect</a></p>
         <ul>
-                    <li>Defined in projections/ProjectionBase.ts:266</li>
+                    <li>Defined in projections/ProjectionBase.ts:278</li>
         </ul>
 </aside>
 
@@ -1410,9 +1400,8 @@
 <ul class="tsd-descriptions">
         <li class="tsd-description">
                 <aside class="tsd-sources">
-        <p>Implementation of <a href="../interfaces/IProjection.html">IProjection</a>.<a href="../interfaces/IProjection.html#unproject">unproject</a></p>
         <ul>
-                    <li>Defined in projections/ProjectionBase.ts:240</li>
+                    <li>Defined in projections/ProjectionBase.ts:244</li>
         </ul>
 </aside>
 
@@ -1562,9 +1551,6 @@
 </li>
                         <li class=" tsd-kind-class">
     <a href="Float4Attributes.html" class="tsd-kind-icon">Float4<wbr>Attributes</a>
-</li>
-                        <li class=" tsd-kind-class">
-    <a href="FreeMatrixProjection.html" class="tsd-kind-icon">Free<wbr>Matrix<wbr>Projection</a>
 </li>
                         <li class=" tsd-kind-class">
     <a href="IDUtil.html" class="tsd-kind-icon">IDUtil</a>
@@ -1742,9 +1728,6 @@
 </li>
                         <li class=" tsd-kind-interface">
     <a href="../interfaces/IEventDispatcher.html" class="tsd-kind-icon">IEvent<wbr>Dispatcher</a>
-</li>
-                        <li class=" tsd-kind-interface">
-    <a href="../interfaces/IProjection.html" class="tsd-kind-icon">IProjection</a>
 </li>
                         <li class=" tsd-kind-event">
     <a href="../globals.html#LoaderInfo" class="tsd-kind-icon">Loader<wbr>Info</a>

@@ -165,6 +165,7 @@ each time a method has been compiled into the shader.</p>
                         <li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="LightingShader.html#outputsColors" class="tsd-kind-icon">outputs<wbr>Colors</a></li>
                         <li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="LightingShader.html#outputsNormals" class="tsd-kind-icon">outputs<wbr>Normals</a></li>
                         <li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="LightingShader.html#outputsTangentNormals" class="tsd-kind-icon">outputs<wbr>Tangent<wbr>Normals</a></li>
+                        <li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="LightingShader.html#pass" class="tsd-kind-icon">pass</a></li>
                         <li class="tsd-kind-property tsd-parent-kind-class"><a href="LightingShader.html#probeWeightsIndex" class="tsd-kind-icon">probe<wbr>Weights<wbr>Index</a></li>
                         <li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="LightingShader.html#profile" class="tsd-kind-icon">profile</a></li>
                         <li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="LightingShader.html#programData" class="tsd-kind-icon">program<wbr>Data</a></li>
@@ -333,7 +334,7 @@ each time a method has been compiled into the shader.</p>
 <aside class="tsd-sources">
         <p>Inherited from ShaderBase._stage</p>
         <ul>
-                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/stage/dist/lib/shaders/ShaderBase.d.ts:29</li>
+                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/stage/dist/lib/shaders/ShaderBase.d.ts:28</li>
         </ul>
 </aside>
 
@@ -997,6 +998,22 @@ the global position is used as a temporary value (fe to calculate the view direc
 
                 </div>
         </div>
+
+    
+
+</section>
+            <section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-inherited">
+    <a name="pass" class="tsd-anchor"></a>
+        <h3>pass</h3>
+
+        <div class="tsd-signature tsd-kind-icon">pass<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">IPass</span></div>
+
+<aside class="tsd-sources">
+        <p>Inherited from ShaderBase.pass</p>
+        <ul>
+                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/stage/dist/lib/shaders/ShaderBase.d.ts:40</li>
+        </ul>
+</aside>
 
     
 
@@ -1834,7 +1851,7 @@ dependencies exist and normals are being output.</p>
 <aside class="tsd-sources">
         <p>Inherited from ShaderBase._abstractionClassPool</p>
         <ul>
-                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/stage/dist/lib/shaders/ShaderBase.d.ts:25</li>
+                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/stage/dist/lib/shaders/ShaderBase.d.ts:24</li>
         </ul>
 </aside>
 
@@ -2096,7 +2113,7 @@ dependencies exist and normals are being output.</p>
         <h3>get<wbr>Abstraction</h3>
 
         <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
-        <li class="tsd-signature tsd-kind-icon">get<wbr>Abstraction<span class="tsd-signature-symbol">(</span>texture<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">TextureBase</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">GL_TextureBase</span></li>
+        <li class="tsd-signature tsd-kind-icon">get<wbr>Abstraction<span class="tsd-signature-symbol">(</span>asset<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">AssetBase</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">AbstractionBase</span></li>
 </ul>
 
 <ul class="tsd-descriptions">
@@ -2112,13 +2129,13 @@ dependencies exist and normals are being output.</p>
     <h4 class="tsd-parameters-title">Parameters</h4>
     <ul class="tsd-parameters">
             <li>
-                <h5>texture: <span class="tsd-signature-type">TextureBase</span></h5>
+                <h5>asset: <span class="tsd-signature-type">AssetBase</span></h5>
 
                 
             </li>
     </ul>
 
-    <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">GL_TextureBase</span></h4>
+    <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">AbstractionBase</span></h4>
 
 
         </li>

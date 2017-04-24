@@ -122,7 +122,6 @@ a render call per required renderable.</p>
                     <ul class="tsd-index-list">
                         <li class="tsd-kind-property tsd-parent-kind-class"><a href="PassBase.html#_elementsClass" class="tsd-kind-icon">_elements<wbr>Class</a></li>
                         <li class="tsd-kind-property tsd-parent-kind-class"><a href="PassBase.html#_material" class="tsd-kind-icon">_material</a></li>
-                        <li class="tsd-kind-property tsd-parent-kind-class"><a href="PassBase.html#_render" class="tsd-kind-icon">_render</a></li>
                         <li class="tsd-kind-property tsd-parent-kind-class"><a href="PassBase.html#_shader" class="tsd-kind-icon">_shader</a></li>
                         <li class="tsd-kind-property tsd-parent-kind-class"><a href="PassBase.html#_stage" class="tsd-kind-icon">_stage</a></li>
                     </ul>
@@ -132,8 +131,11 @@ a render call per required renderable.</p>
                     <ul class="tsd-index-list">
                         <li class="tsd-kind-get-signature tsd-parent-kind-class"><a href="PassBase.html#animationSet" class="tsd-kind-icon">animation<wbr>Set</a></li>
                         <li class="tsd-kind-accessor tsd-parent-kind-class"><a href="PassBase.html#forceSeparateMVP" class="tsd-kind-icon">force<wbr>SeparateMVP</a></li>
+                        <li class="tsd-kind-get-signature tsd-parent-kind-class"><a href="PassBase.html#images" class="tsd-kind-icon">images</a></li>
                         <li class="tsd-kind-accessor tsd-parent-kind-class"><a href="PassBase.html#preserveAlpha" class="tsd-kind-icon">preserve<wbr>Alpha</a></li>
+                        <li class="tsd-kind-get-signature tsd-parent-kind-class"><a href="PassBase.html#samplers" class="tsd-kind-icon">samplers</a></li>
                         <li class="tsd-kind-get-signature tsd-parent-kind-class"><a href="PassBase.html#shader" class="tsd-kind-icon">shader</a></li>
+                        <li class="tsd-kind-get-signature tsd-parent-kind-class"><a href="PassBase.html#style" class="tsd-kind-icon">style</a></li>
                     </ul>
                 </section>
                 <section class="tsd-index-section ">
@@ -169,7 +171,7 @@ a render call per required renderable.</p>
         <h3>constructor</h3>
 
         <ul class="tsd-signatures tsd-kind-constructor tsd-parent-kind-class tsd-is-overwrite">
-        <li class="tsd-signature tsd-kind-icon">new <wbr>Pass<wbr>Base<span class="tsd-signature-symbol">(</span>render<span class="tsd-signature-symbol">: </span><a href="GL_MaterialBase.html" class="tsd-signature-type">GL_MaterialBase</a>, material<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">IMaterial</span>, materialPool<span class="tsd-signature-symbol">: </span><a href="MaterialPool.html" class="tsd-signature-type">MaterialPool</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="PassBase.html" class="tsd-signature-type">PassBase</a></li>
+        <li class="tsd-signature tsd-kind-icon">new <wbr>Pass<wbr>Base<span class="tsd-signature-symbol">(</span>material<span class="tsd-signature-symbol">: </span><a href="GL_MaterialBase.html" class="tsd-signature-type">GL_MaterialBase</a>, materialPool<span class="tsd-signature-symbol">: </span><a href="MaterialPool.html" class="tsd-signature-type">MaterialPool</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="PassBase.html" class="tsd-signature-type">PassBase</a></li>
 </ul>
 
 <ul class="tsd-descriptions">
@@ -177,7 +179,7 @@ a render call per required renderable.</p>
                 <aside class="tsd-sources">
         <p>Overwrites EventDispatcher.__constructor</p>
         <ul>
-                    <li>Defined in materials/passes/PassBase.ts:81</li>
+                    <li>Defined in materials/passes/PassBase.ts:97</li>
         </ul>
 </aside>
         <div class="tsd-comment tsd-typography">
@@ -191,12 +193,7 @@ a render call per required renderable.</p>
     <h4 class="tsd-parameters-title">Parameters</h4>
     <ul class="tsd-parameters">
             <li>
-                <h5>render: <a href="GL_MaterialBase.html" class="tsd-signature-type">GL_MaterialBase</a></h5>
-
-                
-            </li>
-            <li>
-                <h5>material: <span class="tsd-signature-type">IMaterial</span></h5>
+                <h5>material: <a href="GL_MaterialBase.html" class="tsd-signature-type">GL_MaterialBase</a></h5>
 
                 
             </li>
@@ -225,7 +222,7 @@ a render call per required renderable.</p>
 
 <aside class="tsd-sources">
         <ul>
-                    <li>Defined in materials/passes/PassBase.ts:27</li>
+                    <li>Defined in materials/passes/PassBase.ts:28</li>
         </ul>
 </aside>
 
@@ -236,26 +233,11 @@ a render call per required renderable.</p>
     <a name="_material" class="tsd-anchor"></a>
         <h3>_material</h3>
 
-        <div class="tsd-signature tsd-kind-icon">_material<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">IMaterial</span></div>
+        <div class="tsd-signature tsd-kind-icon">_material<span class="tsd-signature-symbol">:</span> <a href="GL_MaterialBase.html" class="tsd-signature-type">GL_MaterialBase</a></div>
 
 <aside class="tsd-sources">
         <ul>
-                    <li>Defined in materials/passes/PassBase.ts:26</li>
-        </ul>
-</aside>
-
-    
-
-</section>
-            <section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
-    <a name="_render" class="tsd-anchor"></a>
-        <h3>_render</h3>
-
-        <div class="tsd-signature tsd-kind-icon">_render<span class="tsd-signature-symbol">:</span> <a href="GL_MaterialBase.html" class="tsd-signature-type">GL_MaterialBase</a></div>
-
-<aside class="tsd-sources">
-        <ul>
-                    <li>Defined in materials/passes/PassBase.ts:25</li>
+                    <li>Defined in materials/passes/PassBase.ts:27</li>
         </ul>
 </aside>
 
@@ -270,7 +252,7 @@ a render call per required renderable.</p>
 
 <aside class="tsd-sources">
         <ul>
-                    <li>Defined in materials/passes/PassBase.ts:30</li>
+                    <li>Defined in materials/passes/PassBase.ts:31</li>
         </ul>
 </aside>
 
@@ -285,7 +267,7 @@ a render call per required renderable.</p>
 
 <aside class="tsd-sources">
         <ul>
-                    <li>Defined in materials/passes/PassBase.ts:28</li>
+                    <li>Defined in materials/passes/PassBase.ts:29</li>
         </ul>
 </aside>
 
@@ -308,7 +290,7 @@ a render call per required renderable.</p>
             <li class="tsd-description">
                     <aside class="tsd-sources">
         <ul>
-                    <li>Defined in materials/passes/PassBase.ts:40</li>
+                    <li>Defined in materials/passes/PassBase.ts:56</li>
         </ul>
 </aside>
 
@@ -335,7 +317,7 @@ a render call per required renderable.</p>
             <li class="tsd-description">
                     <aside class="tsd-sources">
         <ul>
-                    <li>Defined in materials/passes/PassBase.ts:68</li>
+                    <li>Defined in materials/passes/PassBase.ts:84</li>
         </ul>
 </aside>
         <div class="tsd-comment tsd-typography">
@@ -356,7 +338,7 @@ projection code.</p>
             <li class="tsd-description">
                     <aside class="tsd-sources">
         <ul>
-                    <li>Defined in materials/passes/PassBase.ts:73</li>
+                    <li>Defined in materials/passes/PassBase.ts:89</li>
         </ul>
 </aside>
         <div class="tsd-comment tsd-typography">
@@ -385,6 +367,32 @@ projection code.</p>
 </ul>
 
 </section>
+            <section class="tsd-panel tsd-member tsd-kind-get-signature tsd-parent-kind-class">
+    <a name="images" class="tsd-anchor"></a>
+        <h3>images</h3>
+
+
+        <ul class="tsd-signatures tsd-kind-get-signature tsd-parent-kind-class">
+            <li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">get</span> <span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Array</span><span class="tsd-signature-symbol">&lt;</span><a href="GL_ImageBase.html" class="tsd-signature-type">GL_ImageBase</a><span class="tsd-signature-symbol">&gt;</span></li>
+</ul>
+
+<ul class="tsd-descriptions">
+            <li class="tsd-description">
+                    <aside class="tsd-sources">
+        <ul>
+                    <li>Defined in materials/passes/PassBase.ts:46</li>
+        </ul>
+</aside>
+
+
+
+    <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Array</span><span class="tsd-signature-symbol">&lt;</span><a href="GL_ImageBase.html" class="tsd-signature-type">GL_ImageBase</a><span class="tsd-signature-symbol">&gt;</span></h4>
+
+
+            </li>
+</ul>
+
+</section>
             <section class="tsd-panel tsd-member tsd-kind-accessor tsd-parent-kind-class">
     <a name="preserveAlpha" class="tsd-anchor"></a>
         <h3>preserve<wbr>Alpha</h3>
@@ -399,7 +407,7 @@ projection code.</p>
             <li class="tsd-description">
                     <aside class="tsd-sources">
         <ul>
-                    <li>Defined in materials/passes/PassBase.ts:48</li>
+                    <li>Defined in materials/passes/PassBase.ts:64</li>
         </ul>
 </aside>
         <div class="tsd-comment tsd-typography">
@@ -418,7 +426,7 @@ projection code.</p>
             <li class="tsd-description">
                     <aside class="tsd-sources">
         <ul>
-                    <li>Defined in materials/passes/PassBase.ts:53</li>
+                    <li>Defined in materials/passes/PassBase.ts:69</li>
         </ul>
 </aside>
         <div class="tsd-comment tsd-typography">
@@ -446,6 +454,32 @@ projection code.</p>
 
 </section>
             <section class="tsd-panel tsd-member tsd-kind-get-signature tsd-parent-kind-class">
+    <a name="samplers" class="tsd-anchor"></a>
+        <h3>samplers</h3>
+
+
+        <ul class="tsd-signatures tsd-kind-get-signature tsd-parent-kind-class">
+            <li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">get</span> <span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Array</span><span class="tsd-signature-symbol">&lt;</span><a href="GL_SamplerBase.html" class="tsd-signature-type">GL_SamplerBase</a><span class="tsd-signature-symbol">&gt;</span></li>
+</ul>
+
+<ul class="tsd-descriptions">
+            <li class="tsd-description">
+                    <aside class="tsd-sources">
+        <ul>
+                    <li>Defined in materials/passes/PassBase.ts:41</li>
+        </ul>
+</aside>
+
+
+
+    <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Array</span><span class="tsd-signature-symbol">&lt;</span><a href="GL_SamplerBase.html" class="tsd-signature-type">GL_SamplerBase</a><span class="tsd-signature-symbol">&gt;</span></h4>
+
+
+            </li>
+</ul>
+
+</section>
+            <section class="tsd-panel tsd-member tsd-kind-get-signature tsd-parent-kind-class">
     <a name="shader" class="tsd-anchor"></a>
         <h3>shader</h3>
 
@@ -458,13 +492,39 @@ projection code.</p>
             <li class="tsd-description">
                     <aside class="tsd-sources">
         <ul>
-                    <li>Defined in materials/passes/PassBase.ts:35</li>
+                    <li>Defined in materials/passes/PassBase.ts:36</li>
         </ul>
 </aside>
 
 
 
     <h4 class="tsd-returns-title">Returns <a href="ShaderBase.html" class="tsd-signature-type">ShaderBase</a></h4>
+
+
+            </li>
+</ul>
+
+</section>
+            <section class="tsd-panel tsd-member tsd-kind-get-signature tsd-parent-kind-class">
+    <a name="style" class="tsd-anchor"></a>
+        <h3>style</h3>
+
+
+        <ul class="tsd-signatures tsd-kind-get-signature tsd-parent-kind-class">
+            <li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">get</span> <span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Style</span></li>
+</ul>
+
+<ul class="tsd-descriptions">
+            <li class="tsd-description">
+                    <aside class="tsd-sources">
+        <ul>
+                    <li>Defined in materials/passes/PassBase.ts:51</li>
+        </ul>
+</aside>
+
+
+
+    <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Style</span></h4>
 
 
             </li>
@@ -487,7 +547,7 @@ projection code.</p>
                 <aside class="tsd-sources">
         <p>Implementation of <a href="../interfaces/IPass.html">IPass</a>.<a href="../interfaces/IPass.html#_iActivate">_iActivate</a></p>
         <ul>
-                    <li>Defined in materials/passes/PassBase.ts:151</li>
+                    <li>Defined in materials/passes/PassBase.ts:165</li>
         </ul>
 </aside>
         <div class="tsd-comment tsd-typography">
@@ -528,7 +588,7 @@ calling pass. Before activating a pass, the previously used pass needs to be dea
                 <aside class="tsd-sources">
         <p>Implementation of <a href="../interfaces/IPass.html">IPass</a>.<a href="../interfaces/IPass.html#_iDeactivate">_iDeactivate</a></p>
         <ul>
-                    <li>Defined in materials/passes/PassBase.ts:162</li>
+                    <li>Defined in materials/passes/PassBase.ts:176</li>
         </ul>
 </aside>
         <div class="tsd-comment tsd-typography">
@@ -560,7 +620,7 @@ calling pass. Before activating a pass, the previously used pass needs to be dea
                 <aside class="tsd-sources">
         <p>Implementation of <a href="../interfaces/IPass.html">IPass</a>.<a href="../interfaces/IPass.html#_iGetFragmentCode">_iGetFragmentCode</a></p>
         <ul>
-                    <li>Defined in materials/passes/PassBase.ts:196</li>
+                    <li>Defined in materials/passes/PassBase.ts:210</li>
         </ul>
 </aside>
 
@@ -604,7 +664,7 @@ calling pass. Before activating a pass, the previously used pass needs to be dea
                 <aside class="tsd-sources">
         <p>Implementation of <a href="../interfaces/IPass.html">IPass</a>.<a href="../interfaces/IPass.html#_iGetNormalFragmentCode">_iGetNormalFragmentCode</a></p>
         <ul>
-                    <li>Defined in materials/passes/PassBase.ts:206</li>
+                    <li>Defined in materials/passes/PassBase.ts:220</li>
         </ul>
 </aside>
 
@@ -648,7 +708,7 @@ calling pass. Before activating a pass, the previously used pass needs to be dea
                 <aside class="tsd-sources">
         <p>Implementation of <a href="../interfaces/IPass.html">IPass</a>.<a href="../interfaces/IPass.html#_iGetNormalVertexCode">_iGetNormalVertexCode</a></p>
         <ul>
-                    <li>Defined in materials/passes/PassBase.ts:201</li>
+                    <li>Defined in materials/passes/PassBase.ts:215</li>
         </ul>
 </aside>
 
@@ -692,7 +752,7 @@ calling pass. Before activating a pass, the previously used pass needs to be dea
                 <aside class="tsd-sources">
         <p>Implementation of <a href="../interfaces/IPass.html">IPass</a>.<a href="../interfaces/IPass.html#_iGetPreLightingFragmentCode">_iGetPreLightingFragmentCode</a></p>
         <ul>
-                    <li>Defined in materials/passes/PassBase.ts:186</li>
+                    <li>Defined in materials/passes/PassBase.ts:200</li>
         </ul>
 </aside>
 
@@ -736,7 +796,7 @@ calling pass. Before activating a pass, the previously used pass needs to be dea
                 <aside class="tsd-sources">
         <p>Implementation of <a href="../interfaces/IPass.html">IPass</a>.<a href="../interfaces/IPass.html#_iGetPreLightingVertexCode">_iGetPreLightingVertexCode</a></p>
         <ul>
-                    <li>Defined in materials/passes/PassBase.ts:181</li>
+                    <li>Defined in materials/passes/PassBase.ts:195</li>
         </ul>
 </aside>
 
@@ -780,7 +840,7 @@ calling pass. Before activating a pass, the previously used pass needs to be dea
                 <aside class="tsd-sources">
         <p>Implementation of <a href="../interfaces/IPass.html">IPass</a>.<a href="../interfaces/IPass.html#_iGetVertexCode">_iGetVertexCode</a></p>
         <ul>
-                    <li>Defined in materials/passes/PassBase.ts:191</li>
+                    <li>Defined in materials/passes/PassBase.ts:205</li>
         </ul>
 </aside>
 
@@ -824,7 +884,7 @@ calling pass. Before activating a pass, the previously used pass needs to be dea
                 <aside class="tsd-sources">
         <p>Implementation of <a href="../interfaces/IPass.html">IPass</a>.<a href="../interfaces/IPass.html#_iIncludeDependencies">_iIncludeDependencies</a></p>
         <ul>
-                    <li>Defined in materials/passes/PassBase.ts:167</li>
+                    <li>Defined in materials/passes/PassBase.ts:181</li>
         </ul>
 </aside>
 
@@ -858,7 +918,7 @@ calling pass. Before activating a pass, the previously used pass needs to be dea
                 <aside class="tsd-sources">
         <p>Implementation of <a href="../interfaces/IPass.html">IPass</a>.<a href="../interfaces/IPass.html#_iInitConstantData">_iInitConstantData</a></p>
         <ul>
-                    <li>Defined in materials/passes/PassBase.ts:176</li>
+                    <li>Defined in materials/passes/PassBase.ts:190</li>
         </ul>
 </aside>
 
@@ -892,7 +952,7 @@ calling pass. Before activating a pass, the previously used pass needs to be dea
                 <aside class="tsd-sources">
         <p>Implementation of <a href="../interfaces/IPass.html">IPass</a>.<a href="../interfaces/IPass.html#_setRenderState">_setRenderState</a></p>
         <ul>
-                    <li>Defined in materials/passes/PassBase.ts:139</li>
+                    <li>Defined in materials/passes/PassBase.ts:153</li>
         </ul>
 </aside>
         <div class="tsd-comment tsd-typography">
@@ -1067,7 +1127,7 @@ calling pass. Before activating a pass, the previously used pass needs to be dea
                 <aside class="tsd-sources">
         <p>Implementation of <a href="../interfaces/IPass.html">IPass</a>.<a href="../interfaces/IPass.html#dispose">dispose</a></p>
         <ul>
-                    <li>Defined in materials/passes/PassBase.ts:115</li>
+                    <li>Defined in materials/passes/PassBase.ts:130</li>
         </ul>
 </aside>
         <div class="tsd-comment tsd-typography">
@@ -1099,7 +1159,7 @@ calling pass. Before activating a pass, the previously used pass needs to be dea
                 <aside class="tsd-sources">
         <p>Implementation of <a href="../interfaces/IPass.html">IPass</a>.<a href="../interfaces/IPass.html#getImageIndex">getImageIndex</a></p>
         <ul>
-                    <li>Defined in materials/passes/PassBase.ts:96</li>
+                    <li>Defined in materials/passes/PassBase.ts:111</li>
         </ul>
 </aside>
 
@@ -1214,7 +1274,7 @@ calling pass. Before activating a pass, the previously used pass needs to be dea
                 <aside class="tsd-sources">
         <p>Implementation of <a href="../interfaces/IPass.html">IPass</a>.<a href="../interfaces/IPass.html#invalidate">invalidate</a></p>
         <ul>
-                    <li>Defined in materials/passes/PassBase.ts:104</li>
+                    <li>Defined in materials/passes/PassBase.ts:119</li>
         </ul>
 </aside>
         <div class="tsd-comment tsd-typography">

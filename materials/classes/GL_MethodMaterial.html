@@ -135,6 +135,15 @@ using material methods to define their appearance.</p>
                     </ul>
                 </section>
                 <section class="tsd-index-section ">
+                    <h3>Accessors</h3>
+                    <ul class="tsd-index-list">
+                        <li class="tsd-kind-get-signature tsd-parent-kind-class"><a href="GL_MethodMaterial.html#diffuseLightSources" class="tsd-kind-icon">diffuse<wbr>Light<wbr>Sources</a></li>
+                        <li class="tsd-kind-get-signature tsd-parent-kind-class"><a href="GL_MethodMaterial.html#enableLightFallOff" class="tsd-kind-icon">enable<wbr>Light<wbr>Fall<wbr>Off</a></li>
+                        <li class="tsd-kind-get-signature tsd-parent-kind-class"><a href="GL_MethodMaterial.html#lightPicker" class="tsd-kind-icon">light<wbr>Picker</a></li>
+                        <li class="tsd-kind-get-signature tsd-parent-kind-class"><a href="GL_MethodMaterial.html#specularLightSources" class="tsd-kind-icon">specular<wbr>Light<wbr>Sources</a></li>
+                    </ul>
+                </section>
+                <section class="tsd-index-section ">
                     <h3>Methods</h3>
                     <ul class="tsd-index-list">
                         <li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="GL_MethodMaterial.html#_iIncludeDependencies" class="tsd-kind-icon">_i<wbr>Include<wbr>Dependencies</a></li>
@@ -171,7 +180,7 @@ using material methods to define their appearance.</p>
                 <aside class="tsd-sources">
         <p>Overwrites GL_MaterialBase.__constructor</p>
         <ul>
-                    <li>Defined in surfaces/GL_MethodMaterial.ts:42</li>
+                    <li>Defined in surfaces/GL_MethodMaterial.ts:79</li>
         </ul>
 </aside>
         <div class="tsd-comment tsd-typography">
@@ -508,6 +517,144 @@ using material methods to define their appearance.</p>
 </section>
 </section>
         <section class="tsd-panel-group tsd-member-group ">
+    <h2>Accessors</h2>
+            <section class="tsd-panel tsd-member tsd-kind-get-signature tsd-parent-kind-class">
+    <a name="diffuseLightSources" class="tsd-anchor"></a>
+        <h3>diffuse<wbr>Light<wbr>Sources</h3>
+
+
+        <ul class="tsd-signatures tsd-kind-get-signature tsd-parent-kind-class">
+            <li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">get</span> <span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span></li>
+</ul>
+
+<ul class="tsd-descriptions">
+            <li class="tsd-description">
+                    <aside class="tsd-sources">
+        <ul>
+                    <li>Defined in surfaces/GL_MethodMaterial.ts:65</li>
+        </ul>
+</aside>
+        <div class="tsd-comment tsd-typography">
+                <div class="lead">
+                    <p>Define which light source types to use for diffuse reflections. This allows choosing between regular lights
+and/or light probes for diffuse reflections.</p>
+
+                </div>
+                <dl class="tsd-comment-tags">
+                        <dt>see</dt>
+                        <dd><p>away3d.materials.LightSources</p>
+</dd>
+                </dl>
+        </div>
+
+
+
+    <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">number</span></h4>
+
+
+            </li>
+</ul>
+
+</section>
+            <section class="tsd-panel tsd-member tsd-kind-get-signature tsd-parent-kind-class">
+    <a name="enableLightFallOff" class="tsd-anchor"></a>
+        <h3>enable<wbr>Light<wbr>Fall<wbr>Off</h3>
+
+
+        <ul class="tsd-signatures tsd-kind-get-signature tsd-parent-kind-class">
+            <li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">get</span> <span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">boolean</span></li>
+</ul>
+
+<ul class="tsd-descriptions">
+            <li class="tsd-description">
+                    <aside class="tsd-sources">
+        <ul>
+                    <li>Defined in surfaces/GL_MethodMaterial.ts:54</li>
+        </ul>
+</aside>
+        <div class="tsd-comment tsd-typography">
+                <div class="lead">
+                    <p>Whether or not to use fallOff and radius properties for lights. This can be used to improve performance and
+compatibility for constrained mode.</p>
+
+                </div>
+        </div>
+
+
+
+    <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">boolean</span></h4>
+
+
+            </li>
+</ul>
+
+</section>
+            <section class="tsd-panel tsd-member tsd-kind-get-signature tsd-parent-kind-class">
+    <a name="lightPicker" class="tsd-anchor"></a>
+        <h3>light<wbr>Picker</h3>
+
+
+        <ul class="tsd-signatures tsd-kind-get-signature tsd-parent-kind-class">
+            <li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">get</span> <span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">LightPickerBase</span></li>
+</ul>
+
+<ul class="tsd-descriptions">
+            <li class="tsd-description">
+                    <aside class="tsd-sources">
+        <ul>
+                    <li>Defined in surfaces/GL_MethodMaterial.ts:45</li>
+        </ul>
+</aside>
+
+
+
+    <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">LightPickerBase</span></h4>
+
+
+            </li>
+</ul>
+
+</section>
+            <section class="tsd-panel tsd-member tsd-kind-get-signature tsd-parent-kind-class">
+    <a name="specularLightSources" class="tsd-anchor"></a>
+        <h3>specular<wbr>Light<wbr>Sources</h3>
+
+
+        <ul class="tsd-signatures tsd-kind-get-signature tsd-parent-kind-class">
+            <li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">get</span> <span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span></li>
+</ul>
+
+<ul class="tsd-descriptions">
+            <li class="tsd-description">
+                    <aside class="tsd-sources">
+        <ul>
+                    <li>Defined in surfaces/GL_MethodMaterial.ts:76</li>
+        </ul>
+</aside>
+        <div class="tsd-comment tsd-typography">
+                <div class="lead">
+                    <p>Define which light source types to use for specular reflections. This allows choosing between regular lights
+and/or light probes for specular reflections.</p>
+
+                </div>
+                <dl class="tsd-comment-tags">
+                        <dt>see</dt>
+                        <dd><p>away3d.materials.LightSources</p>
+</dd>
+                </dl>
+        </div>
+
+
+
+    <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">number</span></h4>
+
+
+            </li>
+</ul>
+
+</section>
+</section>
+        <section class="tsd-panel-group tsd-member-group ">
     <h2>Methods</h2>
             <section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
     <a name="_iIncludeDependencies" class="tsd-anchor"></a>
@@ -675,7 +822,7 @@ using material methods to define their appearance.</p>
                 <aside class="tsd-sources">
         <p>Overwrites GL_MaterialBase._pUpdateRender</p>
         <ul>
-                    <li>Defined in surfaces/GL_MethodMaterial.ts:60</li>
+                    <li>Defined in surfaces/GL_MethodMaterial.ts:97</li>
         </ul>
 </aside>
         <div class="tsd-comment tsd-typography">
@@ -943,7 +1090,7 @@ using material methods to define their appearance.</p>
                 <aside class="tsd-sources">
         <p>Overwrites GL_MaterialBase.onClear</p>
         <ul>
-                    <li>Defined in surfaces/GL_MethodMaterial.ts:300</li>
+                    <li>Defined in surfaces/GL_MethodMaterial.ts:337</li>
         </ul>
 </aside>
         <div class="tsd-comment tsd-typography">
@@ -1156,13 +1303,37 @@ using material methods to define their appearance.</p>
             <nav class="tsd-navigation secondary menu-sticky">
                 <ul class="before-current">
                         <li class=" tsd-kind-class">
+    <a href="AmbientBasicChunk.html" class="tsd-kind-icon">Ambient<wbr>Basic<wbr>Chunk</a>
+</li>
+                        <li class=" tsd-kind-class">
     <a href="AmbientBasicMethod.html" class="tsd-kind-icon">Ambient<wbr>Basic<wbr>Method</a>
+</li>
+                        <li class=" tsd-kind-class">
+    <a href="AmbientDepthChunk.html" class="tsd-kind-icon">Ambient<wbr>Depth<wbr>Chunk</a>
+</li>
+                        <li class=" tsd-kind-class">
+    <a href="AmbientDepthMethod.html" class="tsd-kind-icon">Ambient<wbr>Depth<wbr>Method</a>
 </li>
                         <li class=" tsd-kind-class">
     <a href="AmbientEnvMapMethod.html" class="tsd-kind-icon">Ambient<wbr>Env<wbr>Map<wbr>Method</a>
 </li>
                         <li class=" tsd-kind-class">
+    <a href="ChunkVO.html" class="tsd-kind-icon">ChunkVO</a>
+</li>
+                        <li class=" tsd-kind-class">
+    <a href="CompositeChunkBase.html" class="tsd-kind-icon">Composite<wbr>Chunk<wbr>Base</a>
+</li>
+                        <li class=" tsd-kind-class">
+    <a href="CompositeMethodBase.html" class="tsd-kind-icon">Composite<wbr>Method<wbr>Base</a>
+</li>
+                        <li class=" tsd-kind-class">
+    <a href="DiffuseBasicChunk.html" class="tsd-kind-icon">Diffuse<wbr>Basic<wbr>Chunk</a>
+</li>
+                        <li class=" tsd-kind-class">
     <a href="DiffuseBasicMethod.html" class="tsd-kind-icon">Diffuse<wbr>Basic<wbr>Method</a>
+</li>
+                        <li class=" tsd-kind-class">
+    <a href="DiffuseCelChunk.html" class="tsd-kind-icon">Diffuse<wbr>Cel<wbr>Chunk</a>
 </li>
                         <li class=" tsd-kind-class">
     <a href="DiffuseCelMethod.html" class="tsd-kind-icon">Diffuse<wbr>Cel<wbr>Method</a>
@@ -1171,49 +1342,79 @@ using material methods to define their appearance.</p>
     <a href="DiffuseCompositeMethod.html" class="tsd-kind-icon">Diffuse<wbr>Composite<wbr>Method</a>
 </li>
                         <li class=" tsd-kind-class">
-    <a href="DiffuseDepthMethod.html" class="tsd-kind-icon">Diffuse<wbr>Depth<wbr>Method</a>
+    <a href="DiffuseGradientChunk.html" class="tsd-kind-icon">Diffuse<wbr>Gradient<wbr>Chunk</a>
 </li>
                         <li class=" tsd-kind-class">
     <a href="DiffuseGradientMethod.html" class="tsd-kind-icon">Diffuse<wbr>Gradient<wbr>Method</a>
 </li>
                         <li class=" tsd-kind-class">
+    <a href="DiffuseLightMapChunk.html" class="tsd-kind-icon">Diffuse<wbr>Light<wbr>Map<wbr>Chunk</a>
+</li>
+                        <li class=" tsd-kind-class">
     <a href="DiffuseLightMapMethod.html" class="tsd-kind-icon">Diffuse<wbr>Light<wbr>Map<wbr>Method</a>
 </li>
                         <li class=" tsd-kind-class">
-    <a href="DiffuseSubSurfaceMethod.html" class="tsd-kind-icon">Diffuse<wbr>Sub<wbr>Surface<wbr>Method</a>
+    <a href="DiffuseWrapChunk.html" class="tsd-kind-icon">Diffuse<wbr>Wrap<wbr>Chunk</a>
 </li>
                         <li class=" tsd-kind-class">
     <a href="DiffuseWrapMethod.html" class="tsd-kind-icon">Diffuse<wbr>Wrap<wbr>Method</a>
 </li>
                         <li class=" tsd-kind-class">
+    <a href="EffectAlphaMaskChunk.html" class="tsd-kind-icon">Effect<wbr>Alpha<wbr>Mask<wbr>Chunk</a>
+</li>
+                        <li class=" tsd-kind-class">
     <a href="EffectAlphaMaskMethod.html" class="tsd-kind-icon">Effect<wbr>Alpha<wbr>Mask<wbr>Method</a>
+</li>
+                        <li class=" tsd-kind-class">
+    <a href="EffectColorMatrixChunk.html" class="tsd-kind-icon">Effect<wbr>Color<wbr>Matrix<wbr>Chunk</a>
 </li>
                         <li class=" tsd-kind-class">
     <a href="EffectColorMatrixMethod.html" class="tsd-kind-icon">Effect<wbr>Color<wbr>Matrix<wbr>Method</a>
 </li>
                         <li class=" tsd-kind-class">
+    <a href="EffectColorTransformChunk.html" class="tsd-kind-icon">Effect<wbr>Color<wbr>Transform<wbr>Chunk</a>
+</li>
+                        <li class=" tsd-kind-class">
     <a href="EffectColorTransformMethod.html" class="tsd-kind-icon">Effect<wbr>Color<wbr>Transform<wbr>Method</a>
+</li>
+                        <li class=" tsd-kind-class">
+    <a href="EffectEnvMapChunk.html" class="tsd-kind-icon">Effect<wbr>Env<wbr>Map<wbr>Chunk</a>
 </li>
                         <li class=" tsd-kind-class">
     <a href="EffectEnvMapMethod.html" class="tsd-kind-icon">Effect<wbr>Env<wbr>Map<wbr>Method</a>
 </li>
                         <li class=" tsd-kind-class">
+    <a href="EffectFogChunk.html" class="tsd-kind-icon">Effect<wbr>Fog<wbr>Chunk</a>
+</li>
+                        <li class=" tsd-kind-class">
     <a href="EffectFogMethod.html" class="tsd-kind-icon">Effect<wbr>Fog<wbr>Method</a>
+</li>
+                        <li class=" tsd-kind-class">
+    <a href="EffectFresnelEnvMapChunk.html" class="tsd-kind-icon">Effect<wbr>Fresnel<wbr>Env<wbr>Map<wbr>Chunk</a>
 </li>
                         <li class=" tsd-kind-class">
     <a href="EffectFresnelEnvMapMethod.html" class="tsd-kind-icon">Effect<wbr>Fresnel<wbr>Env<wbr>Map<wbr>Method</a>
 </li>
                         <li class=" tsd-kind-class">
+    <a href="EffectLightMapChunk.html" class="tsd-kind-icon">Effect<wbr>Light<wbr>Map<wbr>Chunk</a>
+</li>
+                        <li class=" tsd-kind-class">
     <a href="EffectLightMapMethod.html" class="tsd-kind-icon">Effect<wbr>Light<wbr>Map<wbr>Method</a>
 </li>
                         <li class=" tsd-kind-class">
-    <a href="EffectMethodBase.html" class="tsd-kind-icon">Effect<wbr>Method<wbr>Base</a>
+    <a href="EffectProjectiveTextureChunk.html" class="tsd-kind-icon">Effect<wbr>Projective<wbr>Texture<wbr>Chunk</a>
 </li>
                         <li class=" tsd-kind-class">
     <a href="EffectProjectiveTextureMethod.html" class="tsd-kind-icon">Effect<wbr>Projective<wbr>Texture<wbr>Method</a>
 </li>
                         <li class=" tsd-kind-class">
+    <a href="EffectRefractionEnvMapChunk.html" class="tsd-kind-icon">Effect<wbr>Refraction<wbr>Env<wbr>Map<wbr>Chunk</a>
+</li>
+                        <li class=" tsd-kind-class">
     <a href="EffectRefractionEnvMapMethod.html" class="tsd-kind-icon">Effect<wbr>Refraction<wbr>Env<wbr>Map<wbr>Method</a>
+</li>
+                        <li class=" tsd-kind-class">
+    <a href="EffectRimLightChunk.html" class="tsd-kind-icon">Effect<wbr>Rim<wbr>Light<wbr>Chunk</a>
 </li>
                         <li class=" tsd-kind-class">
     <a href="EffectRimLightMethod.html" class="tsd-kind-icon">Effect<wbr>Rim<wbr>Light<wbr>Method</a>
@@ -1222,7 +1423,7 @@ using material methods to define their appearance.</p>
     <a href="GL_MethodMaterial.html" class="tsd-kind-icon">GL_<wbr><wbr>Method<wbr>Material</a>
 </li>
                         <li class=" tsd-kind-class">
-    <a href="LightingMethodBase.html" class="tsd-kind-icon">Lighting<wbr>Method<wbr>Base</a>
+    <a href="LightingCompositeChunk.html" class="tsd-kind-icon">Lighting<wbr>Composite<wbr>Chunk</a>
 </li>
                         <li class=" tsd-kind-class">
     <a href="MethodMaterial.html" class="tsd-kind-icon">Method<wbr>Material</a>
@@ -1237,52 +1438,88 @@ using material methods to define their appearance.</p>
     <a href="MethodPassMode.html" class="tsd-kind-icon">Method<wbr>Pass<wbr>Mode</a>
 </li>
                         <li class=" tsd-kind-class">
-    <a href="MethodVO.html" class="tsd-kind-icon">MethodVO</a>
+    <a href="NormalBasicChunk.html" class="tsd-kind-icon">Normal<wbr>Basic<wbr>Chunk</a>
 </li>
                         <li class=" tsd-kind-class">
     <a href="NormalBasicMethod.html" class="tsd-kind-icon">Normal<wbr>Basic<wbr>Method</a>
 </li>
                         <li class=" tsd-kind-class">
+    <a href="NormalHeightMapChunk.html" class="tsd-kind-icon">Normal<wbr>Height<wbr>Map<wbr>Chunk</a>
+</li>
+                        <li class=" tsd-kind-class">
     <a href="NormalHeightMapMethod.html" class="tsd-kind-icon">Normal<wbr>Height<wbr>Map<wbr>Method</a>
+</li>
+                        <li class=" tsd-kind-class">
+    <a href="NormalSimpleWaterChunk.html" class="tsd-kind-icon">Normal<wbr>Simple<wbr>Water<wbr>Chunk</a>
 </li>
                         <li class=" tsd-kind-class">
     <a href="NormalSimpleWaterMethod.html" class="tsd-kind-icon">Normal<wbr>Simple<wbr>Water<wbr>Method</a>
 </li>
                         <li class=" tsd-kind-class">
+    <a href="ShaderChunkBase.html" class="tsd-kind-icon">Shader<wbr>Chunk<wbr>Base</a>
+</li>
+                        <li class=" tsd-kind-class">
     <a href="ShadingMethodBase.html" class="tsd-kind-icon">Shading<wbr>Method<wbr>Base</a>
+</li>
+                        <li class=" tsd-kind-class">
+    <a href="ShadowCascadeChunk.html" class="tsd-kind-icon">Shadow<wbr>Cascade<wbr>Chunk</a>
 </li>
                         <li class=" tsd-kind-class">
     <a href="ShadowCascadeMethod.html" class="tsd-kind-icon">Shadow<wbr>Cascade<wbr>Method</a>
 </li>
                         <li class=" tsd-kind-class">
+    <a href="ShadowChunkBase.html" class="tsd-kind-icon">Shadow<wbr>Chunk<wbr>Base</a>
+</li>
+                        <li class=" tsd-kind-class">
+    <a href="ShadowCompositeMethod.html" class="tsd-kind-icon">Shadow<wbr>Composite<wbr>Method</a>
+</li>
+                        <li class=" tsd-kind-class">
+    <a href="ShadowDitheredChunk.html" class="tsd-kind-icon">Shadow<wbr>Dithered<wbr>Chunk</a>
+</li>
+                        <li class=" tsd-kind-class">
     <a href="ShadowDitheredMethod.html" class="tsd-kind-icon">Shadow<wbr>Dithered<wbr>Method</a>
+</li>
+                        <li class=" tsd-kind-class">
+    <a href="ShadowFilteredChunk.html" class="tsd-kind-icon">Shadow<wbr>Filtered<wbr>Chunk</a>
 </li>
                         <li class=" tsd-kind-class">
     <a href="ShadowFilteredMethod.html" class="tsd-kind-icon">Shadow<wbr>Filtered<wbr>Method</a>
 </li>
                         <li class=" tsd-kind-class">
-    <a href="ShadowHardMethod.html" class="tsd-kind-icon">Shadow<wbr>Hard<wbr>Method</a>
+    <a href="ShadowHardChunk.html" class="tsd-kind-icon">Shadow<wbr>Hard<wbr>Chunk</a>
 </li>
                         <li class=" tsd-kind-class">
-    <a href="ShadowMapMethodBase.html" class="tsd-kind-icon">Shadow<wbr>Map<wbr>Method<wbr>Base</a>
+    <a href="ShadowHardMethod.html" class="tsd-kind-icon">Shadow<wbr>Hard<wbr>Method</a>
 </li>
                         <li class=" tsd-kind-class">
     <a href="ShadowMethodBase.html" class="tsd-kind-icon">Shadow<wbr>Method<wbr>Base</a>
 </li>
                         <li class=" tsd-kind-class">
+    <a href="ShadowNearChunk.html" class="tsd-kind-icon">Shadow<wbr>Near<wbr>Chunk</a>
+</li>
+                        <li class=" tsd-kind-class">
     <a href="ShadowNearMethod.html" class="tsd-kind-icon">Shadow<wbr>Near<wbr>Method</a>
+</li>
+                        <li class=" tsd-kind-class">
+    <a href="ShadowSoftChunk.html" class="tsd-kind-icon">Shadow<wbr>Soft<wbr>Chunk</a>
 </li>
                         <li class=" tsd-kind-class">
     <a href="ShadowSoftMethod.html" class="tsd-kind-icon">Shadow<wbr>Soft<wbr>Method</a>
 </li>
                         <li class=" tsd-kind-class">
-    <a href="SingleObjectDepthPass.html" class="tsd-kind-icon">Single<wbr>Object<wbr>Depth<wbr>Pass</a>
+    <a href="SpecularAnisotropicChunk.html" class="tsd-kind-icon">Specular<wbr>Anisotropic<wbr>Chunk</a>
 </li>
                         <li class=" tsd-kind-class">
     <a href="SpecularAnisotropicMethod.html" class="tsd-kind-icon">Specular<wbr>Anisotropic<wbr>Method</a>
 </li>
                         <li class=" tsd-kind-class">
+    <a href="SpecularBasicChunk.html" class="tsd-kind-icon">Specular<wbr>Basic<wbr>Chunk</a>
+</li>
+                        <li class=" tsd-kind-class">
     <a href="SpecularBasicMethod.html" class="tsd-kind-icon">Specular<wbr>Basic<wbr>Method</a>
+</li>
+                        <li class=" tsd-kind-class">
+    <a href="SpecularCelChunk.html" class="tsd-kind-icon">Specular<wbr>Cel<wbr>Chunk</a>
 </li>
                         <li class=" tsd-kind-class">
     <a href="SpecularCelMethod.html" class="tsd-kind-icon">Specular<wbr>Cel<wbr>Method</a>
@@ -1291,10 +1528,22 @@ using material methods to define their appearance.</p>
     <a href="SpecularCompositeMethod.html" class="tsd-kind-icon">Specular<wbr>Composite<wbr>Method</a>
 </li>
                         <li class=" tsd-kind-class">
+    <a href="SpecularFresnelChunk.html" class="tsd-kind-icon">Specular<wbr>Fresnel<wbr>Chunk</a>
+</li>
+                        <li class=" tsd-kind-class">
     <a href="SpecularFresnelMethod.html" class="tsd-kind-icon">Specular<wbr>Fresnel<wbr>Method</a>
 </li>
                         <li class=" tsd-kind-class">
+    <a href="SpecularPhongChunk.html" class="tsd-kind-icon">Specular<wbr>Phong<wbr>Chunk</a>
+</li>
+                        <li class=" tsd-kind-class">
     <a href="SpecularPhongMethod.html" class="tsd-kind-icon">Specular<wbr>Phong<wbr>Method</a>
+</li>
+                        <li class=" tsd-kind-interface">
+    <a href="../interfaces/ILightingChunk.html" class="tsd-kind-icon">ILighting<wbr>Chunk</a>
+</li>
+                        <li class=" tsd-kind-interface">
+    <a href="../interfaces/IShaderChunk.html" class="tsd-kind-icon">IShader<wbr>Chunk</a>
 </li>
                 </ul>
             </nav>

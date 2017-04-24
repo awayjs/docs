@@ -141,16 +141,15 @@ a render call per required renderable.</p>
                 <section class="tsd-index-section ">
                     <h3>Methods</h3>
                     <ul class="tsd-index-list">
-                        <li class="tsd-kind-method tsd-parent-kind-class tsd-is-private"><a href="PassBase.html#_iActivate" class="tsd-kind-icon">_i<wbr>Activate</a></li>
-                        <li class="tsd-kind-method tsd-parent-kind-class tsd-is-private"><a href="PassBase.html#_iDeactivate" class="tsd-kind-icon">_i<wbr>Deactivate</a></li>
-                        <li class="tsd-kind-method tsd-parent-kind-class"><a href="PassBase.html#_iGetFragmentCode" class="tsd-kind-icon">_i<wbr>Get<wbr>Fragment<wbr>Code</a></li>
-                        <li class="tsd-kind-method tsd-parent-kind-class"><a href="PassBase.html#_iGetNormalFragmentCode" class="tsd-kind-icon">_i<wbr>Get<wbr>Normal<wbr>Fragment<wbr>Code</a></li>
-                        <li class="tsd-kind-method tsd-parent-kind-class"><a href="PassBase.html#_iGetNormalVertexCode" class="tsd-kind-icon">_i<wbr>Get<wbr>Normal<wbr>Vertex<wbr>Code</a></li>
-                        <li class="tsd-kind-method tsd-parent-kind-class"><a href="PassBase.html#_iGetPreLightingFragmentCode" class="tsd-kind-icon">_i<wbr>Get<wbr>Pre<wbr>Lighting<wbr>Fragment<wbr>Code</a></li>
-                        <li class="tsd-kind-method tsd-parent-kind-class"><a href="PassBase.html#_iGetPreLightingVertexCode" class="tsd-kind-icon">_i<wbr>Get<wbr>Pre<wbr>Lighting<wbr>Vertex<wbr>Code</a></li>
-                        <li class="tsd-kind-method tsd-parent-kind-class"><a href="PassBase.html#_iGetVertexCode" class="tsd-kind-icon">_i<wbr>Get<wbr>Vertex<wbr>Code</a></li>
-                        <li class="tsd-kind-method tsd-parent-kind-class"><a href="PassBase.html#_iIncludeDependencies" class="tsd-kind-icon">_i<wbr>Include<wbr>Dependencies</a></li>
-                        <li class="tsd-kind-method tsd-parent-kind-class"><a href="PassBase.html#_iInitConstantData" class="tsd-kind-icon">_i<wbr>Init<wbr>Constant<wbr>Data</a></li>
+                        <li class="tsd-kind-method tsd-parent-kind-class tsd-is-private"><a href="PassBase.html#_activate" class="tsd-kind-icon">_activate</a></li>
+                        <li class="tsd-kind-method tsd-parent-kind-class tsd-is-private"><a href="PassBase.html#_deactivate" class="tsd-kind-icon">_deactivate</a></li>
+                        <li class="tsd-kind-method tsd-parent-kind-class"><a href="PassBase.html#_getFragmentCode" class="tsd-kind-icon">_get<wbr>Fragment<wbr>Code</a></li>
+                        <li class="tsd-kind-method tsd-parent-kind-class"><a href="PassBase.html#_getNormalFragmentCode" class="tsd-kind-icon">_get<wbr>Normal<wbr>Fragment<wbr>Code</a></li>
+                        <li class="tsd-kind-method tsd-parent-kind-class"><a href="PassBase.html#_getNormalVertexCode" class="tsd-kind-icon">_get<wbr>Normal<wbr>Vertex<wbr>Code</a></li>
+                        <li class="tsd-kind-method tsd-parent-kind-class"><a href="PassBase.html#_getPostAnimationFragmentCode" class="tsd-kind-icon">_get<wbr>Post<wbr>Animation<wbr>Fragment<wbr>Code</a></li>
+                        <li class="tsd-kind-method tsd-parent-kind-class"><a href="PassBase.html#_getVertexCode" class="tsd-kind-icon">_get<wbr>Vertex<wbr>Code</a></li>
+                        <li class="tsd-kind-method tsd-parent-kind-class"><a href="PassBase.html#_includeDependencies" class="tsd-kind-icon">_include<wbr>Dependencies</a></li>
+                        <li class="tsd-kind-method tsd-parent-kind-class"><a href="PassBase.html#_initConstantData" class="tsd-kind-icon">_init<wbr>Constant<wbr>Data</a></li>
                         <li class="tsd-kind-method tsd-parent-kind-class"><a href="PassBase.html#_setRenderState" class="tsd-kind-icon">_set<wbr>Render<wbr>State</a></li>
                         <li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="PassBase.html#addEventListener" class="tsd-kind-icon">add<wbr>Event<wbr>Listener</a></li>
                         <li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="PassBase.html#dispatchEvent" class="tsd-kind-icon">dispatch<wbr>Event</a></li>
@@ -535,17 +534,17 @@ projection code.</p>
         <section class="tsd-panel-group tsd-member-group ">
     <h2>Methods</h2>
             <section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-private">
-    <a name="_iActivate" class="tsd-anchor"></a>
-        <h3><span class="tsd-flag ts-flagPrivate">Private</span> _i<wbr>Activate</h3>
+    <a name="_activate" class="tsd-anchor"></a>
+        <h3><span class="tsd-flag ts-flagPrivate">Private</span> _activate</h3>
 
         <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-private">
-        <li class="tsd-signature tsd-kind-icon">_i<wbr>Activate<span class="tsd-signature-symbol">(</span>projection<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">ProjectionBase</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+        <li class="tsd-signature tsd-kind-icon">_activate<span class="tsd-signature-symbol">(</span>projection<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">ProjectionBase</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
 </ul>
 
 <ul class="tsd-descriptions">
         <li class="tsd-description">
                 <aside class="tsd-sources">
-        <p>Implementation of <a href="../interfaces/IPass.html">IPass</a>.<a href="../interfaces/IPass.html#_iActivate">_iActivate</a></p>
+        <p>Implementation of <a href="../interfaces/IPass.html">IPass</a>.<a href="../interfaces/IPass.html#_activate">_activate</a></p>
         <ul>
                     <li>Defined in materials/passes/PassBase.ts:165</li>
         </ul>
@@ -576,17 +575,17 @@ calling pass. Before activating a pass, the previously used pass needs to be dea
 
 </section>
             <section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-private">
-    <a name="_iDeactivate" class="tsd-anchor"></a>
-        <h3><span class="tsd-flag ts-flagPrivate">Private</span> _i<wbr>Deactivate</h3>
+    <a name="_deactivate" class="tsd-anchor"></a>
+        <h3><span class="tsd-flag ts-flagPrivate">Private</span> _deactivate</h3>
 
         <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-private">
-        <li class="tsd-signature tsd-kind-icon">_i<wbr>Deactivate<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+        <li class="tsd-signature tsd-kind-icon">_deactivate<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
 </ul>
 
 <ul class="tsd-descriptions">
         <li class="tsd-description">
                 <aside class="tsd-sources">
-        <p>Implementation of <a href="../interfaces/IPass.html">IPass</a>.<a href="../interfaces/IPass.html#_iDeactivate">_iDeactivate</a></p>
+        <p>Implementation of <a href="../interfaces/IPass.html">IPass</a>.<a href="../interfaces/IPass.html#_deactivate">_deactivate</a></p>
         <ul>
                     <li>Defined in materials/passes/PassBase.ts:176</li>
         </ul>
@@ -608,149 +607,17 @@ calling pass. Before activating a pass, the previously used pass needs to be dea
 
 </section>
             <section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
-    <a name="_iGetFragmentCode" class="tsd-anchor"></a>
-        <h3>_i<wbr>Get<wbr>Fragment<wbr>Code</h3>
+    <a name="_getFragmentCode" class="tsd-anchor"></a>
+        <h3>_get<wbr>Fragment<wbr>Code</h3>
 
         <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
-        <li class="tsd-signature tsd-kind-icon">_i<wbr>Get<wbr>Fragment<wbr>Code<span class="tsd-signature-symbol">(</span>shader<span class="tsd-signature-symbol">: </span><a href="ShaderBase.html" class="tsd-signature-type">ShaderBase</a>, registerCache<span class="tsd-signature-symbol">: </span><a href="ShaderRegisterCache.html" class="tsd-signature-type">ShaderRegisterCache</a>, sharedRegisters<span class="tsd-signature-symbol">: </span><a href="ShaderRegisterData.html" class="tsd-signature-type">ShaderRegisterData</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span></li>
+        <li class="tsd-signature tsd-kind-icon">_get<wbr>Fragment<wbr>Code<span class="tsd-signature-symbol">(</span>registerCache<span class="tsd-signature-symbol">: </span><a href="ShaderRegisterCache.html" class="tsd-signature-type">ShaderRegisterCache</a>, sharedRegisters<span class="tsd-signature-symbol">: </span><a href="ShaderRegisterData.html" class="tsd-signature-type">ShaderRegisterData</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span></li>
 </ul>
 
 <ul class="tsd-descriptions">
         <li class="tsd-description">
                 <aside class="tsd-sources">
-        <p>Implementation of <a href="../interfaces/IPass.html">IPass</a>.<a href="../interfaces/IPass.html#_iGetFragmentCode">_iGetFragmentCode</a></p>
-        <ul>
-                    <li>Defined in materials/passes/PassBase.ts:210</li>
-        </ul>
-</aside>
-
-
-    <h4 class="tsd-parameters-title">Parameters</h4>
-    <ul class="tsd-parameters">
-            <li>
-                <h5>shader: <a href="ShaderBase.html" class="tsd-signature-type">ShaderBase</a></h5>
-
-                
-            </li>
-            <li>
-                <h5>registerCache: <a href="ShaderRegisterCache.html" class="tsd-signature-type">ShaderRegisterCache</a></h5>
-
-                
-            </li>
-            <li>
-                <h5>sharedRegisters: <a href="ShaderRegisterData.html" class="tsd-signature-type">ShaderRegisterData</a></h5>
-
-                
-            </li>
-    </ul>
-
-    <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">string</span></h4>
-
-
-        </li>
-</ul>    
-
-</section>
-            <section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
-    <a name="_iGetNormalFragmentCode" class="tsd-anchor"></a>
-        <h3>_i<wbr>Get<wbr>Normal<wbr>Fragment<wbr>Code</h3>
-
-        <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
-        <li class="tsd-signature tsd-kind-icon">_i<wbr>Get<wbr>Normal<wbr>Fragment<wbr>Code<span class="tsd-signature-symbol">(</span>shader<span class="tsd-signature-symbol">: </span><a href="ShaderBase.html" class="tsd-signature-type">ShaderBase</a>, registerCache<span class="tsd-signature-symbol">: </span><a href="ShaderRegisterCache.html" class="tsd-signature-type">ShaderRegisterCache</a>, sharedRegisters<span class="tsd-signature-symbol">: </span><a href="ShaderRegisterData.html" class="tsd-signature-type">ShaderRegisterData</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span></li>
-</ul>
-
-<ul class="tsd-descriptions">
-        <li class="tsd-description">
-                <aside class="tsd-sources">
-        <p>Implementation of <a href="../interfaces/IPass.html">IPass</a>.<a href="../interfaces/IPass.html#_iGetNormalFragmentCode">_iGetNormalFragmentCode</a></p>
-        <ul>
-                    <li>Defined in materials/passes/PassBase.ts:220</li>
-        </ul>
-</aside>
-
-
-    <h4 class="tsd-parameters-title">Parameters</h4>
-    <ul class="tsd-parameters">
-            <li>
-                <h5>shader: <a href="ShaderBase.html" class="tsd-signature-type">ShaderBase</a></h5>
-
-                
-            </li>
-            <li>
-                <h5>registerCache: <a href="ShaderRegisterCache.html" class="tsd-signature-type">ShaderRegisterCache</a></h5>
-
-                
-            </li>
-            <li>
-                <h5>sharedRegisters: <a href="ShaderRegisterData.html" class="tsd-signature-type">ShaderRegisterData</a></h5>
-
-                
-            </li>
-    </ul>
-
-    <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">string</span></h4>
-
-
-        </li>
-</ul>    
-
-</section>
-            <section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
-    <a name="_iGetNormalVertexCode" class="tsd-anchor"></a>
-        <h3>_i<wbr>Get<wbr>Normal<wbr>Vertex<wbr>Code</h3>
-
-        <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
-        <li class="tsd-signature tsd-kind-icon">_i<wbr>Get<wbr>Normal<wbr>Vertex<wbr>Code<span class="tsd-signature-symbol">(</span>shader<span class="tsd-signature-symbol">: </span><a href="ShaderBase.html" class="tsd-signature-type">ShaderBase</a>, registerCache<span class="tsd-signature-symbol">: </span><a href="ShaderRegisterCache.html" class="tsd-signature-type">ShaderRegisterCache</a>, sharedRegisters<span class="tsd-signature-symbol">: </span><a href="ShaderRegisterData.html" class="tsd-signature-type">ShaderRegisterData</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span></li>
-</ul>
-
-<ul class="tsd-descriptions">
-        <li class="tsd-description">
-                <aside class="tsd-sources">
-        <p>Implementation of <a href="../interfaces/IPass.html">IPass</a>.<a href="../interfaces/IPass.html#_iGetNormalVertexCode">_iGetNormalVertexCode</a></p>
-        <ul>
-                    <li>Defined in materials/passes/PassBase.ts:215</li>
-        </ul>
-</aside>
-
-
-    <h4 class="tsd-parameters-title">Parameters</h4>
-    <ul class="tsd-parameters">
-            <li>
-                <h5>shader: <a href="ShaderBase.html" class="tsd-signature-type">ShaderBase</a></h5>
-
-                
-            </li>
-            <li>
-                <h5>registerCache: <a href="ShaderRegisterCache.html" class="tsd-signature-type">ShaderRegisterCache</a></h5>
-
-                
-            </li>
-            <li>
-                <h5>sharedRegisters: <a href="ShaderRegisterData.html" class="tsd-signature-type">ShaderRegisterData</a></h5>
-
-                
-            </li>
-    </ul>
-
-    <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">string</span></h4>
-
-
-        </li>
-</ul>    
-
-</section>
-            <section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
-    <a name="_iGetPreLightingFragmentCode" class="tsd-anchor"></a>
-        <h3>_i<wbr>Get<wbr>Pre<wbr>Lighting<wbr>Fragment<wbr>Code</h3>
-
-        <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
-        <li class="tsd-signature tsd-kind-icon">_i<wbr>Get<wbr>Pre<wbr>Lighting<wbr>Fragment<wbr>Code<span class="tsd-signature-symbol">(</span>shader<span class="tsd-signature-symbol">: </span><a href="ShaderBase.html" class="tsd-signature-type">ShaderBase</a>, registerCache<span class="tsd-signature-symbol">: </span><a href="ShaderRegisterCache.html" class="tsd-signature-type">ShaderRegisterCache</a>, sharedRegisters<span class="tsd-signature-symbol">: </span><a href="ShaderRegisterData.html" class="tsd-signature-type">ShaderRegisterData</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span></li>
-</ul>
-
-<ul class="tsd-descriptions">
-        <li class="tsd-description">
-                <aside class="tsd-sources">
-        <p>Implementation of <a href="../interfaces/IPass.html">IPass</a>.<a href="../interfaces/IPass.html#_iGetPreLightingFragmentCode">_iGetPreLightingFragmentCode</a></p>
+        <p>Implementation of <a href="../interfaces/IPass.html">IPass</a>.<a href="../interfaces/IPass.html#_getFragmentCode">_getFragmentCode</a></p>
         <ul>
                     <li>Defined in materials/passes/PassBase.ts:200</li>
         </ul>
@@ -760,11 +627,6 @@ calling pass. Before activating a pass, the previously used pass needs to be dea
     <h4 class="tsd-parameters-title">Parameters</h4>
     <ul class="tsd-parameters">
             <li>
-                <h5>shader: <a href="ShaderBase.html" class="tsd-signature-type">ShaderBase</a></h5>
-
-                
-            </li>
-            <li>
                 <h5>registerCache: <a href="ShaderRegisterCache.html" class="tsd-signature-type">ShaderRegisterCache</a></h5>
 
                 
@@ -784,19 +646,19 @@ calling pass. Before activating a pass, the previously used pass needs to be dea
 
 </section>
             <section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
-    <a name="_iGetPreLightingVertexCode" class="tsd-anchor"></a>
-        <h3>_i<wbr>Get<wbr>Pre<wbr>Lighting<wbr>Vertex<wbr>Code</h3>
+    <a name="_getNormalFragmentCode" class="tsd-anchor"></a>
+        <h3>_get<wbr>Normal<wbr>Fragment<wbr>Code</h3>
 
         <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
-        <li class="tsd-signature tsd-kind-icon">_i<wbr>Get<wbr>Pre<wbr>Lighting<wbr>Vertex<wbr>Code<span class="tsd-signature-symbol">(</span>shader<span class="tsd-signature-symbol">: </span><a href="ShaderBase.html" class="tsd-signature-type">ShaderBase</a>, registerCache<span class="tsd-signature-symbol">: </span><a href="ShaderRegisterCache.html" class="tsd-signature-type">ShaderRegisterCache</a>, sharedRegisters<span class="tsd-signature-symbol">: </span><a href="ShaderRegisterData.html" class="tsd-signature-type">ShaderRegisterData</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span></li>
+        <li class="tsd-signature tsd-kind-icon">_get<wbr>Normal<wbr>Fragment<wbr>Code<span class="tsd-signature-symbol">(</span>registerCache<span class="tsd-signature-symbol">: </span><a href="ShaderRegisterCache.html" class="tsd-signature-type">ShaderRegisterCache</a>, sharedRegisters<span class="tsd-signature-symbol">: </span><a href="ShaderRegisterData.html" class="tsd-signature-type">ShaderRegisterData</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span></li>
 </ul>
 
 <ul class="tsd-descriptions">
         <li class="tsd-description">
                 <aside class="tsd-sources">
-        <p>Implementation of <a href="../interfaces/IPass.html">IPass</a>.<a href="../interfaces/IPass.html#_iGetPreLightingVertexCode">_iGetPreLightingVertexCode</a></p>
+        <p>Implementation of <a href="../interfaces/IPass.html">IPass</a>.<a href="../interfaces/IPass.html#_getNormalFragmentCode">_getNormalFragmentCode</a></p>
         <ul>
-                    <li>Defined in materials/passes/PassBase.ts:195</li>
+                    <li>Defined in materials/passes/PassBase.ts:215</li>
         </ul>
 </aside>
 
@@ -804,10 +666,44 @@ calling pass. Before activating a pass, the previously used pass needs to be dea
     <h4 class="tsd-parameters-title">Parameters</h4>
     <ul class="tsd-parameters">
             <li>
-                <h5>shader: <a href="ShaderBase.html" class="tsd-signature-type">ShaderBase</a></h5>
+                <h5>registerCache: <a href="ShaderRegisterCache.html" class="tsd-signature-type">ShaderRegisterCache</a></h5>
 
                 
             </li>
+            <li>
+                <h5>sharedRegisters: <a href="ShaderRegisterData.html" class="tsd-signature-type">ShaderRegisterData</a></h5>
+
+                
+            </li>
+    </ul>
+
+    <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">string</span></h4>
+
+
+        </li>
+</ul>    
+
+</section>
+            <section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+    <a name="_getNormalVertexCode" class="tsd-anchor"></a>
+        <h3>_get<wbr>Normal<wbr>Vertex<wbr>Code</h3>
+
+        <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+        <li class="tsd-signature tsd-kind-icon">_get<wbr>Normal<wbr>Vertex<wbr>Code<span class="tsd-signature-symbol">(</span>registerCache<span class="tsd-signature-symbol">: </span><a href="ShaderRegisterCache.html" class="tsd-signature-type">ShaderRegisterCache</a>, sharedRegisters<span class="tsd-signature-symbol">: </span><a href="ShaderRegisterData.html" class="tsd-signature-type">ShaderRegisterData</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span></li>
+</ul>
+
+<ul class="tsd-descriptions">
+        <li class="tsd-description">
+                <aside class="tsd-sources">
+        <p>Implementation of <a href="../interfaces/IPass.html">IPass</a>.<a href="../interfaces/IPass.html#_getNormalVertexCode">_getNormalVertexCode</a></p>
+        <ul>
+                    <li>Defined in materials/passes/PassBase.ts:210</li>
+        </ul>
+</aside>
+
+
+    <h4 class="tsd-parameters-title">Parameters</h4>
+    <ul class="tsd-parameters">
             <li>
                 <h5>registerCache: <a href="ShaderRegisterCache.html" class="tsd-signature-type">ShaderRegisterCache</a></h5>
 
@@ -828,17 +724,17 @@ calling pass. Before activating a pass, the previously used pass needs to be dea
 
 </section>
             <section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
-    <a name="_iGetVertexCode" class="tsd-anchor"></a>
-        <h3>_i<wbr>Get<wbr>Vertex<wbr>Code</h3>
+    <a name="_getPostAnimationFragmentCode" class="tsd-anchor"></a>
+        <h3>_get<wbr>Post<wbr>Animation<wbr>Fragment<wbr>Code</h3>
 
         <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
-        <li class="tsd-signature tsd-kind-icon">_i<wbr>Get<wbr>Vertex<wbr>Code<span class="tsd-signature-symbol">(</span>shader<span class="tsd-signature-symbol">: </span><a href="ShaderBase.html" class="tsd-signature-type">ShaderBase</a>, registerCache<span class="tsd-signature-symbol">: </span><a href="ShaderRegisterCache.html" class="tsd-signature-type">ShaderRegisterCache</a>, sharedRegisters<span class="tsd-signature-symbol">: </span><a href="ShaderRegisterData.html" class="tsd-signature-type">ShaderRegisterData</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span></li>
+        <li class="tsd-signature tsd-kind-icon">_get<wbr>Post<wbr>Animation<wbr>Fragment<wbr>Code<span class="tsd-signature-symbol">(</span>registerCache<span class="tsd-signature-symbol">: </span><a href="ShaderRegisterCache.html" class="tsd-signature-type">ShaderRegisterCache</a>, sharedRegisters<span class="tsd-signature-symbol">: </span><a href="ShaderRegisterData.html" class="tsd-signature-type">ShaderRegisterData</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span></li>
 </ul>
 
 <ul class="tsd-descriptions">
         <li class="tsd-description">
                 <aside class="tsd-sources">
-        <p>Implementation of <a href="../interfaces/IPass.html">IPass</a>.<a href="../interfaces/IPass.html#_iGetVertexCode">_iGetVertexCode</a></p>
+        <p>Implementation of <a href="../interfaces/IPass.html">IPass</a>.<a href="../interfaces/IPass.html#_getPostAnimationFragmentCode">_getPostAnimationFragmentCode</a></p>
         <ul>
                     <li>Defined in materials/passes/PassBase.ts:205</li>
         </ul>
@@ -848,10 +744,44 @@ calling pass. Before activating a pass, the previously used pass needs to be dea
     <h4 class="tsd-parameters-title">Parameters</h4>
     <ul class="tsd-parameters">
             <li>
-                <h5>shader: <a href="ShaderBase.html" class="tsd-signature-type">ShaderBase</a></h5>
+                <h5>registerCache: <a href="ShaderRegisterCache.html" class="tsd-signature-type">ShaderRegisterCache</a></h5>
 
                 
             </li>
+            <li>
+                <h5>sharedRegisters: <a href="ShaderRegisterData.html" class="tsd-signature-type">ShaderRegisterData</a></h5>
+
+                
+            </li>
+    </ul>
+
+    <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">string</span></h4>
+
+
+        </li>
+</ul>    
+
+</section>
+            <section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+    <a name="_getVertexCode" class="tsd-anchor"></a>
+        <h3>_get<wbr>Vertex<wbr>Code</h3>
+
+        <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+        <li class="tsd-signature tsd-kind-icon">_get<wbr>Vertex<wbr>Code<span class="tsd-signature-symbol">(</span>registerCache<span class="tsd-signature-symbol">: </span><a href="ShaderRegisterCache.html" class="tsd-signature-type">ShaderRegisterCache</a>, sharedRegisters<span class="tsd-signature-symbol">: </span><a href="ShaderRegisterData.html" class="tsd-signature-type">ShaderRegisterData</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span></li>
+</ul>
+
+<ul class="tsd-descriptions">
+        <li class="tsd-description">
+                <aside class="tsd-sources">
+        <p>Implementation of <a href="../interfaces/IPass.html">IPass</a>.<a href="../interfaces/IPass.html#_getVertexCode">_getVertexCode</a></p>
+        <ul>
+                    <li>Defined in materials/passes/PassBase.ts:195</li>
+        </ul>
+</aside>
+
+
+    <h4 class="tsd-parameters-title">Parameters</h4>
+    <ul class="tsd-parameters">
             <li>
                 <h5>registerCache: <a href="ShaderRegisterCache.html" class="tsd-signature-type">ShaderRegisterCache</a></h5>
 
@@ -872,17 +802,17 @@ calling pass. Before activating a pass, the previously used pass needs to be dea
 
 </section>
             <section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
-    <a name="_iIncludeDependencies" class="tsd-anchor"></a>
-        <h3>_i<wbr>Include<wbr>Dependencies</h3>
+    <a name="_includeDependencies" class="tsd-anchor"></a>
+        <h3>_include<wbr>Dependencies</h3>
 
         <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
-        <li class="tsd-signature tsd-kind-icon">_i<wbr>Include<wbr>Dependencies<span class="tsd-signature-symbol">(</span>shader<span class="tsd-signature-symbol">: </span><a href="ShaderBase.html" class="tsd-signature-type">ShaderBase</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+        <li class="tsd-signature tsd-kind-icon">_include<wbr>Dependencies<span class="tsd-signature-symbol">(</span>shader<span class="tsd-signature-symbol">: </span><a href="ShaderBase.html" class="tsd-signature-type">ShaderBase</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
 </ul>
 
 <ul class="tsd-descriptions">
         <li class="tsd-description">
                 <aside class="tsd-sources">
-        <p>Implementation of <a href="../interfaces/IPass.html">IPass</a>.<a href="../interfaces/IPass.html#_iIncludeDependencies">_iIncludeDependencies</a></p>
+        <p>Implementation of <a href="../interfaces/IPass.html">IPass</a>.<a href="../interfaces/IPass.html#_includeDependencies">_includeDependencies</a></p>
         <ul>
                     <li>Defined in materials/passes/PassBase.ts:181</li>
         </ul>
@@ -906,17 +836,17 @@ calling pass. Before activating a pass, the previously used pass needs to be dea
 
 </section>
             <section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
-    <a name="_iInitConstantData" class="tsd-anchor"></a>
-        <h3>_i<wbr>Init<wbr>Constant<wbr>Data</h3>
+    <a name="_initConstantData" class="tsd-anchor"></a>
+        <h3>_init<wbr>Constant<wbr>Data</h3>
 
         <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
-        <li class="tsd-signature tsd-kind-icon">_i<wbr>Init<wbr>Constant<wbr>Data<span class="tsd-signature-symbol">(</span>shader<span class="tsd-signature-symbol">: </span><a href="ShaderBase.html" class="tsd-signature-type">ShaderBase</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+        <li class="tsd-signature tsd-kind-icon">_init<wbr>Constant<wbr>Data<span class="tsd-signature-symbol">(</span>shader<span class="tsd-signature-symbol">: </span><a href="ShaderBase.html" class="tsd-signature-type">ShaderBase</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
 </ul>
 
 <ul class="tsd-descriptions">
         <li class="tsd-description">
                 <aside class="tsd-sources">
-        <p>Implementation of <a href="../interfaces/IPass.html">IPass</a>.<a href="../interfaces/IPass.html#_iInitConstantData">_iInitConstantData</a></p>
+        <p>Implementation of <a href="../interfaces/IPass.html">IPass</a>.<a href="../interfaces/IPass.html#_initConstantData">_initConstantData</a></p>
         <ul>
                     <li>Defined in materials/passes/PassBase.ts:190</li>
         </ul>

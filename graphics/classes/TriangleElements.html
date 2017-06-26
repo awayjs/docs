@@ -129,8 +129,12 @@
                         <li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="TriangleElements.html#assetNamespace" class="tsd-kind-icon">asset<wbr>Namespace</a></li>
                         <li class="tsd-kind-property tsd-parent-kind-class"><a href="TriangleElements.html#hitTestCache" class="tsd-kind-icon">hit<wbr>Test<wbr>Cache</a></li>
                         <li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="TriangleElements.html#id" class="tsd-kind-icon">id</a></li>
+                        <li class="tsd-kind-property tsd-parent-kind-class"><a href="TriangleElements.html#initialSlice9Positions" class="tsd-kind-icon">initial<wbr>Slice9<wbr>Positions</a></li>
                         <li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="TriangleElements.html#name" class="tsd-kind-icon">name</a></li>
                         <li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="TriangleElements.html#originalName" class="tsd-kind-icon">original<wbr>Name</a></li>
+                        <li class="tsd-kind-property tsd-parent-kind-class"><a href="TriangleElements.html#originalSlice9Size" class="tsd-kind-icon">original<wbr>Slice9<wbr>Size</a></li>
+                        <li class="tsd-kind-property tsd-parent-kind-class"><a href="TriangleElements.html#slice9Indices" class="tsd-kind-icon">slice9<wbr>Indices</a></li>
+                        <li class="tsd-kind-property tsd-parent-kind-class"><a href="TriangleElements.html#slice9offsets" class="tsd-kind-icon">slice9offsets</a></li>
                         <li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited tsd-is-static"><a href="TriangleElements.html#DEFAULT_NAMESPACE" class="tsd-kind-icon">DEFAULT_<wbr>NAMESPACE</a></li>
                         <li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited tsd-is-static"><a href="TriangleElements.html#ID_COUNT" class="tsd-kind-icon">ID_<wbr>COUNT</a></li>
                         <li class="tsd-kind-property tsd-parent-kind-class tsd-is-static"><a href="TriangleElements.html#assetType" class="tsd-kind-icon">asset<wbr>Type</a></li>
@@ -195,6 +199,7 @@
                         <li class="tsd-kind-method tsd-parent-kind-class"><a href="TriangleElements.html#setPositions" class="tsd-kind-icon">set<wbr>Positions</a></li>
                         <li class="tsd-kind-method tsd-parent-kind-class"><a href="TriangleElements.html#setTangents" class="tsd-kind-icon">set<wbr>Tangents</a></li>
                         <li class="tsd-kind-method tsd-parent-kind-class"><a href="TriangleElements.html#setUVs" class="tsd-kind-icon">setUVs</a></li>
+                        <li class="tsd-kind-method tsd-parent-kind-class"><a href="TriangleElements.html#updateSlice9" class="tsd-kind-icon">update<wbr>Slice9</a></li>
                     </ul>
                 </section>
         </div>
@@ -389,6 +394,21 @@
     
 
 </section>
+            <section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+    <a name="initialSlice9Positions" class="tsd-anchor"></a>
+        <h3>initial<wbr>Slice9<wbr>Positions</h3>
+
+        <div class="tsd-signature tsd-kind-icon">initial<wbr>Slice9<wbr>Positions<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">[]</span></div>
+
+<aside class="tsd-sources">
+        <ul>
+                    <li>Defined in elements/TriangleElements.ts:42</li>
+        </ul>
+</aside>
+
+    
+
+</section>
             <section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-inherited">
     <a name="name" class="tsd-anchor"></a>
         <h3>name</h3>
@@ -425,6 +445,51 @@ have changed due to of a name conflict.</p>
 
                 </div>
         </div>
+
+    
+
+</section>
+            <section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+    <a name="originalSlice9Size" class="tsd-anchor"></a>
+        <h3>original<wbr>Slice9<wbr>Size</h3>
+
+        <div class="tsd-signature tsd-kind-icon">original<wbr>Slice9<wbr>Size<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">Rectangle</span></div>
+
+<aside class="tsd-sources">
+        <ul>
+                    <li>Defined in elements/TriangleElements.ts:39</li>
+        </ul>
+</aside>
+
+    
+
+</section>
+            <section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+    <a name="slice9Indices" class="tsd-anchor"></a>
+        <h3>slice9<wbr>Indices</h3>
+
+        <div class="tsd-signature tsd-kind-icon">slice9<wbr>Indices<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">[]</span></div>
+
+<aside class="tsd-sources">
+        <ul>
+                    <li>Defined in elements/TriangleElements.ts:41</li>
+        </ul>
+</aside>
+
+    
+
+</section>
+            <section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+    <a name="slice9offsets" class="tsd-anchor"></a>
+        <h3>slice9offsets</h3>
+
+        <div class="tsd-signature tsd-kind-icon">slice9offsets<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">Rectangle</span></div>
+
+<aside class="tsd-sources">
+        <ul>
+                    <li>Defined in elements/TriangleElements.ts:40</li>
+        </ul>
+</aside>
 
     
 
@@ -508,7 +573,7 @@ have changed due to of a name conflict.</p>
                     <aside class="tsd-sources">
         <p>Overwrites AssetBase.assetType</p>
         <ul>
-                    <li>Defined in elements/TriangleElements.ts:39</li>
+                    <li>Defined in elements/TriangleElements.ts:48</li>
         </ul>
 </aside>
 
@@ -535,7 +600,7 @@ have changed due to of a name conflict.</p>
             <li class="tsd-description">
                     <aside class="tsd-sources">
         <ul>
-                    <li>Defined in elements/TriangleElements.ts:93</li>
+                    <li>Defined in elements/TriangleElements.ts:102</li>
         </ul>
 </aside>
         <div class="tsd-comment tsd-typography">
@@ -555,7 +620,7 @@ explicitly.</p>
             <li class="tsd-description">
                     <aside class="tsd-sources">
         <ul>
-                    <li>Defined in elements/TriangleElements.ts:98</li>
+                    <li>Defined in elements/TriangleElements.ts:107</li>
         </ul>
 </aside>
         <div class="tsd-comment tsd-typography">
@@ -597,7 +662,7 @@ explicitly.</p>
             <li class="tsd-description">
                     <aside class="tsd-sources">
         <ul>
-                    <li>Defined in elements/TriangleElements.ts:110</li>
+                    <li>Defined in elements/TriangleElements.ts:119</li>
         </ul>
 </aside>
         <div class="tsd-comment tsd-typography">
@@ -617,7 +682,7 @@ explicitly.</p>
             <li class="tsd-description">
                     <aside class="tsd-sources">
         <ul>
-                    <li>Defined in elements/TriangleElements.ts:115</li>
+                    <li>Defined in elements/TriangleElements.ts:124</li>
         </ul>
 </aside>
         <div class="tsd-comment tsd-typography">
@@ -685,7 +750,7 @@ explicitly.</p>
             <li class="tsd-description">
                     <aside class="tsd-sources">
         <ul>
-                    <li>Defined in elements/TriangleElements.ts:202</li>
+                    <li>Defined in elements/TriangleElements.ts:211</li>
         </ul>
 </aside>
 
@@ -711,7 +776,7 @@ explicitly.</p>
             <li class="tsd-description">
                     <aside class="tsd-sources">
         <ul>
-                    <li>Defined in elements/TriangleElements.ts:159</li>
+                    <li>Defined in elements/TriangleElements.ts:168</li>
         </ul>
 </aside>
         <div class="tsd-comment tsd-typography">
@@ -743,7 +808,7 @@ explicitly.</p>
             <li class="tsd-description">
                     <aside class="tsd-sources">
         <ul>
-                    <li>Defined in elements/TriangleElements.ts:170</li>
+                    <li>Defined in elements/TriangleElements.ts:179</li>
         </ul>
 </aside>
         <div class="tsd-comment tsd-typography">
@@ -808,7 +873,7 @@ explicitly.</p>
             <li class="tsd-description">
                     <aside class="tsd-sources">
         <ul>
-                    <li>Defined in elements/TriangleElements.ts:189</li>
+                    <li>Defined in elements/TriangleElements.ts:198</li>
         </ul>
 </aside>
 
@@ -834,7 +899,7 @@ explicitly.</p>
             <li class="tsd-description">
                     <aside class="tsd-sources">
         <ul>
-                    <li>Defined in elements/TriangleElements.ts:197</li>
+                    <li>Defined in elements/TriangleElements.ts:206</li>
         </ul>
 </aside>
 
@@ -861,7 +926,7 @@ explicitly.</p>
             <li class="tsd-description">
                     <aside class="tsd-sources">
         <ul>
-                    <li>Defined in elements/TriangleElements.ts:70</li>
+                    <li>Defined in elements/TriangleElements.ts:79</li>
         </ul>
 </aside>
 
@@ -874,7 +939,7 @@ explicitly.</p>
             <li class="tsd-description">
                     <aside class="tsd-sources">
         <ul>
-                    <li>Defined in elements/TriangleElements.ts:75</li>
+                    <li>Defined in elements/TriangleElements.ts:84</li>
         </ul>
 </aside>
 
@@ -908,7 +973,7 @@ explicitly.</p>
             <li class="tsd-description">
                     <aside class="tsd-sources">
         <ul>
-                    <li>Defined in elements/TriangleElements.ts:137</li>
+                    <li>Defined in elements/TriangleElements.ts:146</li>
         </ul>
 </aside>
 
@@ -994,7 +1059,7 @@ explicitly.</p>
             <li class="tsd-description">
                     <aside class="tsd-sources">
         <ul>
-                    <li>Defined in elements/TriangleElements.ts:126</li>
+                    <li>Defined in elements/TriangleElements.ts:135</li>
         </ul>
 </aside>
 
@@ -1020,7 +1085,7 @@ explicitly.</p>
             <li class="tsd-description">
                     <aside class="tsd-sources">
         <ul>
-                    <li>Defined in elements/TriangleElements.ts:148</li>
+                    <li>Defined in elements/TriangleElements.ts:157</li>
         </ul>
 </aside>
 
@@ -1047,7 +1112,7 @@ explicitly.</p>
                     <aside class="tsd-sources">
         <p>Overwrites <a href="ElementsBase.html">ElementsBase</a>.<a href="ElementsBase.html#traverseName">traverseName</a></p>
         <ul>
-                    <li>Defined in elements/TriangleElements.ts:44</li>
+                    <li>Defined in elements/TriangleElements.ts:53</li>
         </ul>
 </aside>
 
@@ -1074,7 +1139,7 @@ explicitly.</p>
             <li class="tsd-description">
                     <aside class="tsd-sources">
         <ul>
-                    <li>Defined in elements/TriangleElements.ts:54</li>
+                    <li>Defined in elements/TriangleElements.ts:63</li>
         </ul>
 </aside>
         <div class="tsd-comment tsd-typography">
@@ -1095,7 +1160,7 @@ skeleton animations that utilise more than one sprite object. Defaults to false.
             <li class="tsd-description">
                     <aside class="tsd-sources">
         <ul>
-                    <li>Defined in elements/TriangleElements.ts:59</li>
+                    <li>Defined in elements/TriangleElements.ts:68</li>
         </ul>
 </aside>
         <div class="tsd-comment tsd-typography">
@@ -1137,7 +1202,7 @@ skeleton animations that utilise more than one sprite object. Defaults to false.
             <li class="tsd-description">
                     <aside class="tsd-sources">
         <ul>
-                    <li>Defined in elements/TriangleElements.ts:181</li>
+                    <li>Defined in elements/TriangleElements.ts:190</li>
         </ul>
 </aside>
 
@@ -1242,7 +1307,7 @@ skeleton animations that utilise more than one sprite object. Defaults to false.
                 <aside class="tsd-sources">
         <p>Overwrites <a href="ElementsBase.html">ElementsBase</a>.<a href="ElementsBase.html#applyTransformation">applyTransformation</a></p>
         <ul>
-                    <li>Defined in elements/TriangleElements.ts:573</li>
+                    <li>Defined in elements/TriangleElements.ts:589</li>
         </ul>
 </aside>
 
@@ -1385,7 +1450,7 @@ skeleton animations that utilise more than one sprite object. Defaults to false.
                 <aside class="tsd-sources">
         <p>Overwrites <a href="ElementsBase.html">ElementsBase</a>.<a href="ElementsBase.html#clone">clone</a></p>
         <ul>
-                    <li>Defined in elements/TriangleElements.ts:549</li>
+                    <li>Defined in elements/TriangleElements.ts:565</li>
         </ul>
 </aside>
         <div class="tsd-comment tsd-typography">
@@ -1419,7 +1484,7 @@ skeleton animations that utilise more than one sprite object. Defaults to false.
                 <aside class="tsd-sources">
         <p>Overwrites <a href="ElementsBase.html">ElementsBase</a>.<a href="ElementsBase.html#copyTo">copyTo</a></p>
         <ul>
-                    <li>Defined in elements/TriangleElements.ts:511</li>
+                    <li>Defined in elements/TriangleElements.ts:520</li>
         </ul>
 </aside>
 
@@ -1498,7 +1563,7 @@ skeleton animations that utilise more than one sprite object. Defaults to false.
                 <aside class="tsd-sources">
         <p>Overwrites <a href="ElementsBase.html">ElementsBase</a>.<a href="ElementsBase.html#dispose">dispose</a></p>
         <ul>
-                    <li>Defined in elements/TriangleElements.ts:444</li>
+                    <li>Defined in elements/TriangleElements.ts:453</li>
         </ul>
 </aside>
 
@@ -1524,7 +1589,7 @@ skeleton animations that utilise more than one sprite object. Defaults to false.
                 <aside class="tsd-sources">
         <p>Overwrites <a href="ElementsBase.html">ElementsBase</a>.<a href="ElementsBase.html#getBoxBounds">getBoxBounds</a></p>
         <ul>
-                    <li>Defined in elements/TriangleElements.ts:207</li>
+                    <li>Defined in elements/TriangleElements.ts:216</li>
         </ul>
 </aside>
 
@@ -1628,7 +1693,7 @@ skeleton animations that utilise more than one sprite object. Defaults to false.
                 <aside class="tsd-sources">
         <p>Overwrites <a href="ElementsBase.html">ElementsBase</a>.<a href="ElementsBase.html#getSphereBounds">getSphereBounds</a></p>
         <ul>
-                    <li>Defined in elements/TriangleElements.ts:212</li>
+                    <li>Defined in elements/TriangleElements.ts:221</li>
         </ul>
 </aside>
 
@@ -1753,7 +1818,7 @@ skeleton animations that utilise more than one sprite object. Defaults to false.
                 <aside class="tsd-sources">
         <p>Overwrites <a href="ElementsBase.html">ElementsBase</a>.<a href="ElementsBase.html#hitTestPoint">hitTestPoint</a></p>
         <ul>
-                    <li>Defined in elements/TriangleElements.ts:217</li>
+                    <li>Defined in elements/TriangleElements.ts:226</li>
         </ul>
 </aside>
 
@@ -2062,7 +2127,7 @@ skeleton animations that utilise more than one sprite object. Defaults to false.
                 <aside class="tsd-sources">
         <p>Overwrites <a href="ElementsBase.html">ElementsBase</a>.<a href="ElementsBase.html#scale">scale</a></p>
         <ul>
-                    <li>Defined in elements/TriangleElements.ts:568</li>
+                    <li>Defined in elements/TriangleElements.ts:584</li>
         </ul>
 </aside>
         <div class="tsd-comment tsd-typography">
@@ -2116,7 +2181,7 @@ skeleton animations that utilise more than one sprite object. Defaults to false.
                 <aside class="tsd-sources">
         <p>Overwrites <a href="ElementsBase.html">ElementsBase</a>.<a href="ElementsBase.html#scaleUV">scaleUV</a></p>
         <ul>
-                    <li>Defined in elements/TriangleElements.ts:558</li>
+                    <li>Defined in elements/TriangleElements.ts:574</li>
         </ul>
 </aside>
 
@@ -2283,7 +2348,7 @@ skeleton animations that utilise more than one sprite object. Defaults to false.
                 <aside class="tsd-sources">
         <p>Overwrites <a href="ElementsBase.html">ElementsBase</a>.<a href="ElementsBase.html#setIndices">setIndices</a></p>
         <ul>
-                    <li>Defined in elements/TriangleElements.ts:494</li>
+                    <li>Defined in elements/TriangleElements.ts:503</li>
         </ul>
 </aside>
         <div class="tsd-comment tsd-typography">
@@ -2316,7 +2381,7 @@ skeleton animations that utilise more than one sprite object. Defaults to false.
                 <aside class="tsd-sources">
         <p>Overwrites <a href="ElementsBase.html">ElementsBase</a>.<a href="ElementsBase.html#setIndices">setIndices</a></p>
         <ul>
-                    <li>Defined in elements/TriangleElements.ts:495</li>
+                    <li>Defined in elements/TriangleElements.ts:504</li>
         </ul>
 </aside>
 
@@ -2343,7 +2408,7 @@ skeleton animations that utilise more than one sprite object. Defaults to false.
                 <aside class="tsd-sources">
         <p>Overwrites <a href="ElementsBase.html">ElementsBase</a>.<a href="ElementsBase.html#setIndices">setIndices</a></p>
         <ul>
-                    <li>Defined in elements/TriangleElements.ts:496</li>
+                    <li>Defined in elements/TriangleElements.ts:505</li>
         </ul>
 </aside>
 
@@ -2383,7 +2448,7 @@ skeleton animations that utilise more than one sprite object. Defaults to false.
         <li class="tsd-description">
                 <aside class="tsd-sources">
         <ul>
-                    <li>Defined in elements/TriangleElements.ts:360</li>
+                    <li>Defined in elements/TriangleElements.ts:369</li>
         </ul>
 </aside>
         <div class="tsd-comment tsd-typography">
@@ -2415,7 +2480,7 @@ skeleton animations that utilise more than one sprite object. Defaults to false.
         <li class="tsd-description">
                 <aside class="tsd-sources">
         <ul>
-                    <li>Defined in elements/TriangleElements.ts:361</li>
+                    <li>Defined in elements/TriangleElements.ts:370</li>
         </ul>
 </aside>
 
@@ -2441,7 +2506,7 @@ skeleton animations that utilise more than one sprite object. Defaults to false.
         <li class="tsd-description">
                 <aside class="tsd-sources">
         <ul>
-                    <li>Defined in elements/TriangleElements.ts:362</li>
+                    <li>Defined in elements/TriangleElements.ts:371</li>
         </ul>
 </aside>
 
@@ -2481,7 +2546,7 @@ skeleton animations that utilise more than one sprite object. Defaults to false.
         <li class="tsd-description">
                 <aside class="tsd-sources">
         <ul>
-                    <li>Defined in elements/TriangleElements.ts:413</li>
+                    <li>Defined in elements/TriangleElements.ts:422</li>
         </ul>
 </aside>
         <div class="tsd-comment tsd-typography">
@@ -2513,7 +2578,7 @@ skeleton animations that utilise more than one sprite object. Defaults to false.
         <li class="tsd-description">
                 <aside class="tsd-sources">
         <ul>
-                    <li>Defined in elements/TriangleElements.ts:414</li>
+                    <li>Defined in elements/TriangleElements.ts:423</li>
         </ul>
 </aside>
 
@@ -2539,7 +2604,7 @@ skeleton animations that utilise more than one sprite object. Defaults to false.
         <li class="tsd-description">
                 <aside class="tsd-sources">
         <ul>
-                    <li>Defined in elements/TriangleElements.ts:415</li>
+                    <li>Defined in elements/TriangleElements.ts:424</li>
         </ul>
 </aside>
 
@@ -2579,7 +2644,7 @@ skeleton animations that utilise more than one sprite object. Defaults to false.
         <li class="tsd-description">
                 <aside class="tsd-sources">
         <ul>
-                    <li>Defined in elements/TriangleElements.ts:262</li>
+                    <li>Defined in elements/TriangleElements.ts:271</li>
         </ul>
 </aside>
         <div class="tsd-comment tsd-typography">
@@ -2611,7 +2676,7 @@ skeleton animations that utilise more than one sprite object. Defaults to false.
         <li class="tsd-description">
                 <aside class="tsd-sources">
         <ul>
-                    <li>Defined in elements/TriangleElements.ts:263</li>
+                    <li>Defined in elements/TriangleElements.ts:272</li>
         </ul>
 </aside>
 
@@ -2637,7 +2702,7 @@ skeleton animations that utilise more than one sprite object. Defaults to false.
         <li class="tsd-description">
                 <aside class="tsd-sources">
         <ul>
-                    <li>Defined in elements/TriangleElements.ts:264</li>
+                    <li>Defined in elements/TriangleElements.ts:273</li>
         </ul>
 </aside>
 
@@ -2677,7 +2742,7 @@ skeleton animations that utilise more than one sprite object. Defaults to false.
         <li class="tsd-description">
                 <aside class="tsd-sources">
         <ul>
-                    <li>Defined in elements/TriangleElements.ts:225</li>
+                    <li>Defined in elements/TriangleElements.ts:234</li>
         </ul>
 </aside>
 
@@ -2703,7 +2768,7 @@ skeleton animations that utilise more than one sprite object. Defaults to false.
         <li class="tsd-description">
                 <aside class="tsd-sources">
         <ul>
-                    <li>Defined in elements/TriangleElements.ts:226</li>
+                    <li>Defined in elements/TriangleElements.ts:235</li>
         </ul>
 </aside>
 
@@ -2729,7 +2794,7 @@ skeleton animations that utilise more than one sprite object. Defaults to false.
         <li class="tsd-description">
                 <aside class="tsd-sources">
         <ul>
-                    <li>Defined in elements/TriangleElements.ts:227</li>
+                    <li>Defined in elements/TriangleElements.ts:236</li>
         </ul>
 </aside>
 
@@ -2769,7 +2834,7 @@ skeleton animations that utilise more than one sprite object. Defaults to false.
         <li class="tsd-description">
                 <aside class="tsd-sources">
         <ul>
-                    <li>Defined in elements/TriangleElements.ts:296</li>
+                    <li>Defined in elements/TriangleElements.ts:305</li>
         </ul>
 </aside>
         <div class="tsd-comment tsd-typography">
@@ -2801,7 +2866,7 @@ skeleton animations that utilise more than one sprite object. Defaults to false.
         <li class="tsd-description">
                 <aside class="tsd-sources">
         <ul>
-                    <li>Defined in elements/TriangleElements.ts:297</li>
+                    <li>Defined in elements/TriangleElements.ts:306</li>
         </ul>
 </aside>
 
@@ -2827,7 +2892,7 @@ skeleton animations that utilise more than one sprite object. Defaults to false.
         <li class="tsd-description">
                 <aside class="tsd-sources">
         <ul>
-                    <li>Defined in elements/TriangleElements.ts:298</li>
+                    <li>Defined in elements/TriangleElements.ts:307</li>
         </ul>
 </aside>
 
@@ -2867,7 +2932,7 @@ skeleton animations that utilise more than one sprite object. Defaults to false.
         <li class="tsd-description">
                 <aside class="tsd-sources">
         <ul>
-                    <li>Defined in elements/TriangleElements.ts:330</li>
+                    <li>Defined in elements/TriangleElements.ts:339</li>
         </ul>
 </aside>
         <div class="tsd-comment tsd-typography">
@@ -2899,7 +2964,7 @@ skeleton animations that utilise more than one sprite object. Defaults to false.
         <li class="tsd-description">
                 <aside class="tsd-sources">
         <ul>
-                    <li>Defined in elements/TriangleElements.ts:331</li>
+                    <li>Defined in elements/TriangleElements.ts:340</li>
         </ul>
 </aside>
 
@@ -2925,7 +2990,7 @@ skeleton animations that utilise more than one sprite object. Defaults to false.
         <li class="tsd-description">
                 <aside class="tsd-sources">
         <ul>
-                    <li>Defined in elements/TriangleElements.ts:332</li>
+                    <li>Defined in elements/TriangleElements.ts:341</li>
         </ul>
 </aside>
 
@@ -2945,6 +3010,44 @@ skeleton animations that utilise more than one sprite object. Defaults to false.
     </ul>
 
     <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">any</span></h4>
+
+
+        </li>
+</ul>    
+
+</section>
+            <section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+    <a name="updateSlice9" class="tsd-anchor"></a>
+        <h3>update<wbr>Slice9</h3>
+
+        <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+        <li class="tsd-signature tsd-kind-icon">update<wbr>Slice9<span class="tsd-signature-symbol">(</span>width<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span>, height<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+</ul>
+
+<ul class="tsd-descriptions">
+        <li class="tsd-description">
+                <aside class="tsd-sources">
+        <ul>
+                    <li>Defined in elements/TriangleElements.ts:44</li>
+        </ul>
+</aside>
+
+
+    <h4 class="tsd-parameters-title">Parameters</h4>
+    <ul class="tsd-parameters">
+            <li>
+                <h5>width: <span class="tsd-signature-type">number</span></h5>
+
+                
+            </li>
+            <li>
+                <h5>height: <span class="tsd-signature-type">number</span></h5>
+
+                
+            </li>
+    </ul>
+
+    <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
 
 
         </li>
@@ -3013,6 +3116,9 @@ skeleton animations that utilise more than one sprite object. Defaults to false.
 </li>
                         <li class=" tsd-kind-class">
     <a href="ExternalImage2D.html" class="tsd-kind-icon">External<wbr>Image2D</a>
+</li>
+                        <li class=" tsd-kind-class">
+    <a href="GradientFillStyle.html" class="tsd-kind-icon">Gradient<wbr>Fill<wbr>Style</a>
 </li>
                         <li class=" tsd-kind-class">
     <a href="GradientType.html" class="tsd-kind-icon">Gradient<wbr>Type</a>

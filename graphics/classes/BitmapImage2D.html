@@ -227,6 +227,7 @@ is 2,880 pixels in height and 2,880 in width.</p>
                         <li class="tsd-kind-method tsd-parent-kind-class"><a href="BitmapImage2D.html#setPixel" class="tsd-kind-icon">set<wbr>Pixel</a></li>
                         <li class="tsd-kind-method tsd-parent-kind-class"><a href="BitmapImage2D.html#setPixel32" class="tsd-kind-icon">set<wbr>Pixel32</a></li>
                         <li class="tsd-kind-method tsd-parent-kind-class"><a href="BitmapImage2D.html#setPixelData" class="tsd-kind-icon">set<wbr>Pixel<wbr>Data</a></li>
+                        <li class="tsd-kind-method tsd-parent-kind-class"><a href="BitmapImage2D.html#setPixelFromArray" class="tsd-kind-icon">set<wbr>Pixel<wbr>From<wbr>Array</a></li>
                         <li class="tsd-kind-method tsd-parent-kind-class"><a href="BitmapImage2D.html#setPixels" class="tsd-kind-icon">set<wbr>Pixels</a></li>
                         <li class="tsd-kind-method tsd-parent-kind-class"><a href="BitmapImage2D.html#unlock" class="tsd-kind-icon">unlock</a></li>
                     </ul>
@@ -889,7 +890,7 @@ the <code>transparent</code> property is <code>true</code>.</p>
                 <aside class="tsd-sources">
         <p>Overwrites <a href="Image2D.html">Image2D</a>.<a href="Image2D.html#_setSize">_setSize</a></p>
         <ul>
-                    <li>Defined in image/BitmapImage2D.ts:841</li>
+                    <li>Defined in image/BitmapImage2D.ts:863</li>
         </ul>
 </aside>
         <div class="tsd-comment tsd-typography">
@@ -1784,7 +1785,7 @@ BitmapImage2D object.</p>
         <li class="tsd-description">
                 <aside class="tsd-sources">
         <ul>
-                    <li>Defined in image/BitmapImage2D.ts:830</li>
+                    <li>Defined in image/BitmapImage2D.ts:852</li>
         </ul>
 </aside>
         <div class="tsd-comment tsd-typography">
@@ -1813,7 +1814,7 @@ BitmapImage2D object.</p>
                 <aside class="tsd-sources">
         <p>Overwrites <a href="Image2D.html">Image2D</a>.<a href="Image2D.html#getImageData">getImageData</a></p>
         <ul>
-                    <li>Defined in image/BitmapImage2D.ts:818</li>
+                    <li>Defined in image/BitmapImage2D.ts:840</li>
         </ul>
 </aside>
         <div class="tsd-comment tsd-typography">
@@ -2447,7 +2448,7 @@ updating until you finish making the pixel changes.</p>
         <li class="tsd-description">
                 <aside class="tsd-sources">
         <ul>
-                    <li>Defined in image/BitmapImage2D.ts:734</li>
+                    <li>Defined in image/BitmapImage2D.ts:756</li>
         </ul>
 </aside>
         <div class="tsd-comment tsd-typography">
@@ -2564,6 +2565,49 @@ updating until you finish making the pixel changes.</p>
 
 </section>
             <section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+    <a name="setPixelFromArray" class="tsd-anchor"></a>
+        <h3>set<wbr>Pixel<wbr>From<wbr>Array</h3>
+
+        <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+        <li class="tsd-signature tsd-kind-icon">set<wbr>Pixel<wbr>From<wbr>Array<span class="tsd-signature-symbol">(</span>x<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span>, y<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span>, colors<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+</ul>
+
+<ul class="tsd-descriptions">
+        <li class="tsd-description">
+                <aside class="tsd-sources">
+        <ul>
+                    <li>Defined in image/BitmapImage2D.ts:706</li>
+        </ul>
+</aside>
+
+
+    <h4 class="tsd-parameters-title">Parameters</h4>
+    <ul class="tsd-parameters">
+            <li>
+                <h5>x: <span class="tsd-signature-type">number</span></h5>
+
+                
+            </li>
+            <li>
+                <h5>y: <span class="tsd-signature-type">number</span></h5>
+
+                
+            </li>
+            <li>
+                <h5>colors: <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">[]</span></h5>
+
+                
+            </li>
+    </ul>
+
+    <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+
+
+        </li>
+</ul>    
+
+</section>
+            <section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
     <a name="setPixels" class="tsd-anchor"></a>
         <h3>set<wbr>Pixels</h3>
 
@@ -2575,7 +2619,7 @@ updating until you finish making the pixel changes.</p>
         <li class="tsd-description">
                 <aside class="tsd-sources">
         <ul>
-                    <li>Defined in image/BitmapImage2D.ts:773</li>
+                    <li>Defined in image/BitmapImage2D.ts:795</li>
         </ul>
 </aside>
         <div class="tsd-comment tsd-typography">
@@ -2640,7 +2684,7 @@ on the byte array before or after the pixels are read.</p>
         <li class="tsd-description">
                 <aside class="tsd-sources">
         <ul>
-                    <li>Defined in image/BitmapImage2D.ts:803</li>
+                    <li>Defined in image/BitmapImage2D.ts:825</li>
         </ul>
 </aside>
         <div class="tsd-comment tsd-typography">
@@ -2851,6 +2895,9 @@ method before and after numerous calls to the <code>setPixel()</code> or
 </li>
                         <li class=" tsd-kind-class">
     <a href="StyleEvent.html" class="tsd-kind-icon">Style<wbr>Event</a>
+</li>
+                        <li class=" tsd-kind-class">
+    <a href="TextureAtlas.html" class="tsd-kind-icon">Texture<wbr>Atlas</a>
 </li>
                         <li class=" tsd-kind-class">
     <a href="TextureAtlasParser.html" class="tsd-kind-icon">Texture<wbr>Atlas<wbr>Parser</a>

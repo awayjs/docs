@@ -166,7 +166,6 @@ property description.</p>
                         <li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="TextFormat.html#name" class="tsd-kind-icon">name</a></li>
                         <li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="TextFormat.html#originalName" class="tsd-kind-icon">original<wbr>Name</a></li>
                         <li class="tsd-kind-property tsd-parent-kind-class"><a href="TextFormat.html#rightMargin" class="tsd-kind-icon">right<wbr>Margin</a></li>
-                        <li class="tsd-kind-property tsd-parent-kind-class"><a href="TextFormat.html#size" class="tsd-kind-icon">size</a></li>
                         <li class="tsd-kind-property tsd-parent-kind-class"><a href="TextFormat.html#tabStops" class="tsd-kind-icon">tab<wbr>Stops</a></li>
                         <li class="tsd-kind-property tsd-parent-kind-class"><a href="TextFormat.html#underline" class="tsd-kind-icon">underline</a></li>
                         <li class="tsd-kind-property tsd-parent-kind-class"><a href="TextFormat.html#url" class="tsd-kind-icon">url</a></li>
@@ -180,6 +179,7 @@ property description.</p>
                     <h3>Accessors</h3>
                     <ul class="tsd-index-list">
                         <li class="tsd-kind-get-signature tsd-parent-kind-class tsd-is-overwrite"><a href="TextFormat.html#assetType" class="tsd-kind-icon">asset<wbr>Type</a></li>
+                        <li class="tsd-kind-accessor tsd-parent-kind-class"><a href="TextFormat.html#size" class="tsd-kind-icon">size</a></li>
                     </ul>
                 </section>
                 <section class="tsd-index-section tsd-is-inherited">
@@ -215,7 +215,7 @@ property description.</p>
                 <aside class="tsd-sources">
         <p>Overwrites AssetBase.__constructor</p>
         <ul>
-                    <li>Defined in text/TextFormat.ts:235</li>
+                    <li>Defined in text/TextFormat.ts:240</li>
         </ul>
 </aside>
         <div class="tsd-comment tsd-typography">
@@ -833,7 +833,7 @@ You can use decimal values such as <code>1.75</code>.</p>
 
 <aside class="tsd-sources">
         <ul>
-                    <li>Defined in text/TextFormat.ts:212</li>
+                    <li>Defined in text/TextFormat.ts:217</li>
         </ul>
 </aside>
         <div class="tsd-comment tsd-typography">
@@ -939,28 +939,6 @@ have changed due to of a name conflict.</p>
 
 </section>
             <section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
-    <a name="size" class="tsd-anchor"></a>
-        <h3>size</h3>
-
-        <div class="tsd-signature tsd-kind-icon">size<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
-
-<aside class="tsd-sources">
-        <ul>
-                    <li>Defined in text/TextFormat.ts:189</li>
-        </ul>
-</aside>
-        <div class="tsd-comment tsd-typography">
-                <div class="lead">
-                    <p>The size in pixels of text in this text format. The default value is
-<code>null</code>, which means that a size of 12 is used.</p>
-
-                </div>
-        </div>
-
-    
-
-</section>
-            <section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
     <a name="tabStops" class="tsd-anchor"></a>
         <h3>tab<wbr>Stops</h3>
 
@@ -968,7 +946,7 @@ have changed due to of a name conflict.</p>
 
 <aside class="tsd-sources">
         <ul>
-                    <li>Defined in text/TextFormat.ts:197</li>
+                    <li>Defined in text/TextFormat.ts:202</li>
         </ul>
 </aside>
         <div class="tsd-comment tsd-typography">
@@ -991,7 +969,7 @@ stop is specified in pixels. If custom tab stops are not specified
 
 <aside class="tsd-sources">
         <ul>
-                    <li>Defined in text/TextFormat.ts:223</li>
+                    <li>Defined in text/TextFormat.ts:228</li>
         </ul>
 </aside>
         <div class="tsd-comment tsd-typography">
@@ -1017,7 +995,7 @@ not used.</p>
 
 <aside class="tsd-sources">
         <ul>
-                    <li>Defined in text/TextFormat.ts:235</li>
+                    <li>Defined in text/TextFormat.ts:240</li>
         </ul>
 </aside>
         <div class="tsd-comment tsd-typography">
@@ -1122,13 +1100,61 @@ The lenght migth be 4 in future to support bitmap-fills and gradients, but for n
                     <aside class="tsd-sources">
         <p>Overwrites AssetBase.assetType</p>
         <ul>
-                    <li>Defined in text/TextFormat.ts:299</li>
+                    <li>Defined in text/TextFormat.ts:304</li>
         </ul>
 </aside>
 
 
 
     <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">string</span></h4>
+
+
+            </li>
+</ul>
+
+</section>
+            <section class="tsd-panel tsd-member tsd-kind-accessor tsd-parent-kind-class">
+    <a name="size" class="tsd-anchor"></a>
+        <h3>size</h3>
+
+
+        <ul class="tsd-signatures tsd-kind-accessor tsd-parent-kind-class">
+            <li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">get</span> <span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span></li>
+            <li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">set</span> <span class="tsd-signature-symbol">(</span>value<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+</ul>
+
+<ul class="tsd-descriptions">
+            <li class="tsd-description">
+                    <aside class="tsd-sources">
+        <ul>
+                    <li>Defined in text/TextFormat.ts:190</li>
+        </ul>
+</aside>
+
+
+
+    <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">number</span></h4>
+
+
+            </li>
+            <li class="tsd-description">
+                    <aside class="tsd-sources">
+        <ul>
+                    <li>Defined in text/TextFormat.ts:193</li>
+        </ul>
+</aside>
+
+
+    <h4 class="tsd-parameters-title">Parameters</h4>
+    <ul class="tsd-parameters">
+            <li>
+                <h5>value: <span class="tsd-signature-type">number</span></h5>
+
+                
+            </li>
+    </ul>
+
+    <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
 
 
             </li>

@@ -176,7 +176,7 @@
                         <li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="Scene.html#zOffset" class="tsd-kind-icon">z<wbr>Offset</a></li>
                         <li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited tsd-is-static"><a href="Scene.html#DEFAULT_NAMESPACE" class="tsd-kind-icon">DEFAULT_<wbr>NAMESPACE</a></li>
                         <li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited tsd-is-static"><a href="Scene.html#ID_COUNT" class="tsd-kind-icon">ID_<wbr>COUNT</a></li>
-                        <li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited tsd-is-static"><a href="Scene.html#assetType" class="tsd-kind-icon">asset<wbr>Type</a></li>
+                        <li class="tsd-kind-property tsd-parent-kind-class tsd-is-overwrite tsd-is-static"><a href="Scene.html#assetType" class="tsd-kind-icon">asset<wbr>Type</a></li>
                         <li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited tsd-is-static"><a href="Scene.html#traverseName" class="tsd-kind-icon">traverse<wbr>Name</a></li>
                     </ul>
                 </section>
@@ -187,7 +187,7 @@
                         <li class="tsd-kind-accessor tsd-parent-kind-class tsd-is-inherited"><a href="Scene.html#adapter" class="tsd-kind-icon">adapter</a></li>
                         <li class="tsd-kind-accessor tsd-parent-kind-class tsd-is-inherited"><a href="Scene.html#alpha" class="tsd-kind-icon">alpha</a></li>
                         <li class="tsd-kind-accessor tsd-parent-kind-class tsd-is-inherited"><a href="Scene.html#animator" class="tsd-kind-icon">animator</a></li>
-                        <li class="tsd-kind-get-signature tsd-parent-kind-class tsd-is-overwrite tsd-is-inherited"><a href="Scene.html#assetType" class="tsd-kind-icon">asset<wbr>Type</a></li>
+                        <li class="tsd-kind-get-signature tsd-parent-kind-class tsd-is-overwrite"><a href="Scene.html#assetType" class="tsd-kind-icon">asset<wbr>Type</a></li>
                         <li class="tsd-kind-accessor tsd-parent-kind-class tsd-is-inherited"><a href="Scene.html#boundsType" class="tsd-kind-icon">bounds<wbr>Type</a></li>
                         <li class="tsd-kind-accessor tsd-parent-kind-class tsd-is-inherited"><a href="Scene.html#debugVisible" class="tsd-kind-icon">debug<wbr>Visible</a></li>
                         <li class="tsd-kind-accessor tsd-parent-kind-class tsd-is-inherited"><a href="Scene.html#depth" class="tsd-kind-icon">depth</a></li>
@@ -253,6 +253,8 @@
                         <li class="tsd-kind-method tsd-parent-kind-class tsd-is-overwrite tsd-is-inherited"><a href="Scene.html#_iSetScene" class="tsd-kind-icon">_i<wbr>Set<wbr>Scene</a></li>
                         <li class="tsd-kind-method tsd-parent-kind-class"><a href="Scene.html#_iUnregisterObject" class="tsd-kind-icon">_i<wbr>Unregister<wbr>Object</a></li>
                         <li class="tsd-kind-method tsd-parent-kind-class"><a href="Scene.html#_iUnregisterView" class="tsd-kind-icon">_i<wbr>Unregister<wbr>View</a></li>
+                        <li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited tsd-is-protected"><a href="Scene.html#_invalidateChildren" class="tsd-kind-icon">_invalidate<wbr>Children</a></li>
+                        <li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited tsd-is-protected"><a href="Scene.html#_isEntityInternal" class="tsd-kind-icon">_is<wbr>Entity<wbr>Internal</a></li>
                         <li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="Scene.html#_onInvalidateProperties" class="tsd-kind-icon">_on<wbr>Invalidate<wbr>Properties</a></li>
                         <li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited tsd-is-protected"><a href="Scene.html#_onUpdateConcatenatedMatrix3D" class="tsd-kind-icon">_on<wbr>Update<wbr>Concatenated<wbr>Matrix3D</a></li>
                         <li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="Scene.html#_pInvalidateBounds" class="tsd-kind-icon">_p<wbr>Invalidate<wbr>Bounds</a></li>
@@ -333,7 +335,7 @@
                 <aside class="tsd-sources">
         <p>Overwrites <a href="DisplayObjectContainer.html">DisplayObjectContainer</a>.<a href="DisplayObjectContainer.html#constructor">constructor</a></p>
         <ul>
-                    <li>Defined in Scene.ts:15</li>
+                    <li>Defined in Scene.ts:26</li>
         </ul>
 </aside>
 
@@ -673,7 +675,7 @@ other display object container. </p>
 
 <aside class="tsd-sources">
         <ul>
-                    <li>Defined in Scene.ts:10</li>
+                    <li>Defined in Scene.ts:12</li>
         </ul>
 </aside>
 
@@ -1658,16 +1660,16 @@ Flex. Instead, use the
     
 
 </section>
-            <section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-inherited tsd-is-static">
+            <section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-overwrite tsd-is-static">
     <a name="assetType" class="tsd-anchor"></a>
         <h3><span class="tsd-flag ts-flagStatic">Static</span> asset<wbr>Type</h3>
 
         <div class="tsd-signature tsd-kind-icon">asset<wbr>Type<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
 
 <aside class="tsd-sources">
-        <p>Inherited from <a href="DisplayObjectContainer.html">DisplayObjectContainer</a>.<a href="DisplayObjectContainer.html#assetType">assetType</a></p>
+        <p>Overwrites <a href="DisplayObjectContainer.html">DisplayObjectContainer</a>.<a href="DisplayObjectContainer.html#assetType">assetType</a></p>
         <ul>
-                    <li>Defined in display/DisplayObjectContainer.ts:33</li>
+                    <li>Defined in Scene.ts:8</li>
         </ul>
 </aside>
 
@@ -1924,22 +1926,21 @@ even though they are invisible.</li>
 </ul>
 
 </section>
-            <section class="tsd-panel tsd-member tsd-kind-get-signature tsd-parent-kind-class tsd-is-overwrite tsd-is-inherited">
+            <section class="tsd-panel tsd-member tsd-kind-get-signature tsd-parent-kind-class tsd-is-overwrite">
     <a name="assetType" class="tsd-anchor"></a>
         <h3>asset<wbr>Type</h3>
 
 
-        <ul class="tsd-signatures tsd-kind-get-signature tsd-parent-kind-class tsd-is-overwrite tsd-is-inherited">
+        <ul class="tsd-signatures tsd-kind-get-signature tsd-parent-kind-class tsd-is-overwrite">
             <li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">get</span> <span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span></li>
 </ul>
 
 <ul class="tsd-descriptions">
             <li class="tsd-description">
                     <aside class="tsd-sources">
-        <p>Inherited from <a href="DisplayObjectContainer.html">DisplayObjectContainer</a>.<a href="DisplayObjectContainer.html#assetType">assetType</a></p>
-        <p>Overwrites AssetBase.assetType</p>
+        <p>Overwrites <a href="DisplayObjectContainer.html">DisplayObjectContainer</a>.<a href="DisplayObjectContainer.html#assetType">assetType</a></p>
         <ul>
-                    <li>Defined in display/DisplayObjectContainer.ts:44</li>
+                    <li>Defined in Scene.ts:23</li>
         </ul>
 </aside>
 
@@ -3034,7 +3035,7 @@ container.</p>
             <li class="tsd-description">
                     <aside class="tsd-sources">
         <ul>
-                    <li>Defined in Scene.ts:12</li>
+                    <li>Defined in Scene.ts:14</li>
         </ul>
 </aside>
 
@@ -4840,7 +4841,7 @@ y</del>cameraFocalLength/cameraRelativeZPosition)</code></p>
         <li class="tsd-description">
                 <aside class="tsd-sources">
         <ul>
-                    <li>Defined in Scene.ts:31</li>
+                    <li>Defined in Scene.ts:42</li>
         </ul>
 </aside>
         <div class="tsd-comment tsd-typography">
@@ -4879,7 +4880,7 @@ y</del>cameraFocalLength/cameraRelativeZPosition)</code></p>
         <li class="tsd-description">
                 <aside class="tsd-sources">
         <ul>
-                    <li>Defined in Scene.ts:55</li>
+                    <li>Defined in Scene.ts:66</li>
         </ul>
 </aside>
         <div class="tsd-comment tsd-typography">
@@ -4964,7 +4965,7 @@ y</del>cameraFocalLength/cameraRelativeZPosition)</code></p>
         <li class="tsd-description">
                 <aside class="tsd-sources">
         <ul>
-                    <li>Defined in Scene.ts:43</li>
+                    <li>Defined in Scene.ts:54</li>
         </ul>
 </aside>
         <div class="tsd-comment tsd-typography">
@@ -5003,7 +5004,7 @@ y</del>cameraFocalLength/cameraRelativeZPosition)</code></p>
         <li class="tsd-description">
                 <aside class="tsd-sources">
         <ul>
-                    <li>Defined in Scene.ts:67</li>
+                    <li>Defined in Scene.ts:78</li>
         </ul>
 </aside>
         <div class="tsd-comment tsd-typography">
@@ -5024,6 +5025,58 @@ y</del>cameraFocalLength/cameraRelativeZPosition)</code></p>
     </ul>
 
     <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+
+
+        </li>
+</ul>    
+
+</section>
+            <section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-inherited tsd-is-protected">
+    <a name="_invalidateChildren" class="tsd-anchor"></a>
+        <h3><span class="tsd-flag ts-flagProtected">Protected</span> _invalidate<wbr>Children</h3>
+
+        <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-inherited tsd-is-protected">
+        <li class="tsd-signature tsd-kind-icon">_invalidate<wbr>Children<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+</ul>
+
+<ul class="tsd-descriptions">
+        <li class="tsd-description">
+                <aside class="tsd-sources">
+        <p>Inherited from <a href="DisplayObjectContainer.html">DisplayObjectContainer</a>.<a href="DisplayObjectContainer.html#_invalidateChildren">_invalidateChildren</a></p>
+        <ul>
+                    <li>Defined in display/DisplayObjectContainer.ts:679</li>
+        </ul>
+</aside>
+
+
+
+    <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+
+
+        </li>
+</ul>    
+
+</section>
+            <section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-inherited tsd-is-protected">
+    <a name="_isEntityInternal" class="tsd-anchor"></a>
+        <h3><span class="tsd-flag ts-flagProtected">Protected</span> _is<wbr>Entity<wbr>Internal</h3>
+
+        <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-inherited tsd-is-protected">
+        <li class="tsd-signature tsd-kind-icon">_is<wbr>Entity<wbr>Internal<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">boolean</span></li>
+</ul>
+
+<ul class="tsd-descriptions">
+        <li class="tsd-description">
+                <aside class="tsd-sources">
+        <p>Inherited from <a href="DisplayObjectContainer.html">DisplayObjectContainer</a>.<a href="DisplayObjectContainer.html#_isEntityInternal">_isEntityInternal</a></p>
+        <ul>
+                    <li>Defined in display/DisplayObjectContainer.ts:674</li>
+        </ul>
+</aside>
+
+
+
+    <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">boolean</span></h4>
 
 
         </li>

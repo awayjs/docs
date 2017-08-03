@@ -1178,8 +1178,8 @@ following values: </p>
         <h3>copy<wbr>Pixels</h3>
 
         <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
-        <li class="tsd-signature tsd-kind-icon">copy<wbr>Pixels<span class="tsd-signature-symbol">(</span>side<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span>, source<span class="tsd-signature-symbol">: </span><a href="BitmapImage2D.html" class="tsd-signature-type">BitmapImage2D</a>, sourceRect<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Rectangle</span>, destRect<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Rectangle</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span></li>
-        <li class="tsd-signature tsd-kind-icon">copy<wbr>Pixels<span class="tsd-signature-symbol">(</span>side<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span>, source<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">HTMLImageElement</span>, sourceRect<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Rectangle</span>, destRect<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Rectangle</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span></li>
+        <li class="tsd-signature tsd-kind-icon">copy<wbr>Pixels<span class="tsd-signature-symbol">(</span>side<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span>, source<span class="tsd-signature-symbol">: </span><a href="BitmapImage2D.html" class="tsd-signature-type">BitmapImage2D</a>, sourceRect<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Rectangle</span>, destPoint<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Point</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span></li>
+        <li class="tsd-signature tsd-kind-icon">copy<wbr>Pixels<span class="tsd-signature-symbol">(</span>side<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span>, source<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">HTMLImageElement</span>, sourceRect<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Rectangle</span>, destPoint<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Point</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span></li>
 </ul>
 
 <ul class="tsd-descriptions">
@@ -1243,9 +1243,15 @@ transparent image. To copy pixels with the alpha channel data, set the
 
             </li>
             <li>
-                <h5>destRect: <span class="tsd-signature-type">Rectangle</span></h5>
+                <h5>destPoint: <span class="tsd-signature-type">Point</span></h5>
 
-                
+                        <div class="tsd-comment tsd-typography">
+                <p>The destination point that represents the
+                        upper-left corner of the rectangular area where
+                        the new pixels are placed.</p>
+
+        </div>
+
             </li>
     </ul>
 
@@ -1279,7 +1285,7 @@ transparent image. To copy pixels with the alpha channel data, set the
                 
             </li>
             <li>
-                <h5>destRect: <span class="tsd-signature-type">Rectangle</span></h5>
+                <h5>destPoint: <span class="tsd-signature-type">Point</span></h5>
 
                 
             </li>

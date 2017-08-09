@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>BitmapImageUtils | graphics</title>
+    <title>ImageEvent | graphics</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="../../assets/css/main.css">
@@ -29,7 +29,7 @@
                             
     <!--<li>-->
         <!---->
-            <!--<a href="BitmapImageUtils.html">BitmapImageUtils</a>-->
+            <!--<a href="ImageEvent.html">ImageEvent</a>-->
         <!---->
     <!--</li>-->
 
@@ -66,7 +66,7 @@
     <!-- Page title: only show in leafs -->
         <div class="tsd-page-title">
             <div class="container">
-                <h1>Class BitmapImageUtils</h1>
+                <h1>Class ImageEvent</h1>
             </div>
         </div>
 </header>
@@ -82,8 +82,7 @@
         <h3>Hierarchy</h3>
         <ul class="tsd-hierarchy">
         <li>
-                <span class="target">BitmapImageUtils</span>
-
+                <span class="tsd-signature-type">EventBase</span>
         </li>
 </ul>
 
@@ -98,171 +97,237 @@
     <section class="tsd-panel tsd-index-panel">
         <div class="tsd-index-content">
                 <section class="tsd-index-section ">
+                    <h3>Constructors</h3>
+                    <ul class="tsd-index-list">
+                        <li class="tsd-kind-constructor tsd-parent-kind-class tsd-is-overwrite"><a href="ImageEvent.html#constructor" class="tsd-kind-icon">constructor</a></li>
+                    </ul>
+                </section>
+                <section class="tsd-index-section ">
+                    <h3>Properties</h3>
+                    <ul class="tsd-index-list">
+                        <li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="ImageEvent.html#target" class="tsd-kind-icon">target</a></li>
+                        <li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="ImageEvent.html#type" class="tsd-kind-icon">type</a></li>
+                        <li class="tsd-kind-property tsd-parent-kind-class tsd-is-static"><a href="ImageEvent.html#INVALIDATE_MIPMAPS" class="tsd-kind-icon">INVALIDATE_<wbr>MIPMAPS</a></li>
+                    </ul>
+                </section>
+                <section class="tsd-index-section ">
+                    <h3>Accessors</h3>
+                    <ul class="tsd-index-list">
+                        <li class="tsd-kind-get-signature tsd-parent-kind-class"><a href="ImageEvent.html#image" class="tsd-kind-icon">image</a></li>
+                    </ul>
+                </section>
+                <section class="tsd-index-section tsd-is-inherited">
                     <h3>Methods</h3>
                     <ul class="tsd-index-list">
-                        <li class="tsd-kind-method tsd-parent-kind-class tsd-is-static"><a href="BitmapImageUtils.html#_copyPixels" class="tsd-kind-icon">_copy<wbr>Pixels</a></li>
-                        <li class="tsd-kind-method tsd-parent-kind-class tsd-is-static"><a href="BitmapImageUtils.html#_draw" class="tsd-kind-icon">_draw</a></li>
-                        <li class="tsd-kind-method tsd-parent-kind-class tsd-is-static"><a href="BitmapImageUtils.html#_fillRect" class="tsd-kind-icon">_fill<wbr>Rect</a></li>
+                        <li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="ImageEvent.html#clone" class="tsd-kind-icon">clone</a></li>
                     </ul>
                 </section>
         </div>
     </section>
 </section>
             <section class="tsd-panel-group tsd-member-group ">
+    <h2>Constructors</h2>
+            <section class="tsd-panel tsd-member tsd-kind-constructor tsd-parent-kind-class tsd-is-overwrite">
+    <a name="constructor" class="tsd-anchor"></a>
+        <h3>constructor</h3>
+
+        <ul class="tsd-signatures tsd-kind-constructor tsd-parent-kind-class tsd-is-overwrite">
+        <li class="tsd-signature tsd-kind-icon">new <wbr>Image<wbr>Event<span class="tsd-signature-symbol">(</span>type<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span>, image<span class="tsd-signature-symbol">: </span><a href="ImageBase.html" class="tsd-signature-type">ImageBase</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="ImageEvent.html" class="tsd-signature-type">ImageEvent</a></li>
+</ul>
+
+<ul class="tsd-descriptions">
+        <li class="tsd-description">
+                <aside class="tsd-sources">
+        <p>Overwrites EventBase.__constructor</p>
+        <ul>
+                    <li>Defined in events/ImageEvent.ts:12</li>
+        </ul>
+</aside>
+        <div class="tsd-comment tsd-typography">
+                <div class="lead">
+                    <p>Create a new ImageEvent</p>
+
+                </div>
+        </div>
+
+
+    <h4 class="tsd-parameters-title">Parameters</h4>
+    <ul class="tsd-parameters">
+            <li>
+                <h5>type: <span class="tsd-signature-type">string</span></h5>
+
+                        <div class="tsd-comment tsd-typography">
+                <div class="lead">
+                    <p>The event type.</p>
+
+                </div>
+        </div>
+
+            </li>
+            <li>
+                <h5>image: <a href="ImageBase.html" class="tsd-signature-type">ImageBase</a></h5>
+
+                        <div class="tsd-comment tsd-typography">
+                <div class="lead">
+                    <p>The instance of the image being updated.</p>
+
+                </div>
+        </div>
+
+            </li>
+    </ul>
+
+    <h4 class="tsd-returns-title">Returns <a href="ImageEvent.html" class="tsd-signature-type">ImageEvent</a></h4>
+
+
+        </li>
+</ul>    
+
+</section>
+</section>
+        <section class="tsd-panel-group tsd-member-group ">
+    <h2>Properties</h2>
+            <section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-inherited">
+    <a name="target" class="tsd-anchor"></a>
+        <h3>target</h3>
+
+        <div class="tsd-signature tsd-kind-icon">target<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">any</span></div>
+
+<aside class="tsd-sources">
+        <p>Inherited from EventBase.target</p>
+        <ul>
+                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/core/dist/lib/events/EventBase.d.ts:13</li>
+        </ul>
+</aside>
+        <div class="tsd-comment tsd-typography">
+                <div class="lead">
+                    <p>Reference to target object</p>
+
+                </div>
+                <dl class="tsd-comment-tags">
+                        <dt>property</dt>
+                        <dd><p>target</p>
+</dd>
+                        <dt>type</dt>
+                        <dd><p>Object</p>
+</dd>
+                </dl>
+        </div>
+
+    
+
+</section>
+            <section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-inherited">
+    <a name="type" class="tsd-anchor"></a>
+        <h3>type</h3>
+
+        <div class="tsd-signature tsd-kind-icon">type<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
+
+<aside class="tsd-sources">
+        <p>Inherited from EventBase.type</p>
+        <ul>
+                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/core/dist/lib/events/EventBase.d.ts:7</li>
+        </ul>
+</aside>
+        <div class="tsd-comment tsd-typography">
+                <div class="lead">
+                    <p>Type of event</p>
+
+                </div>
+                <dl class="tsd-comment-tags">
+                        <dt>property</dt>
+                        <dd><p>type</p>
+</dd>
+                        <dt>type</dt>
+                        <dd><p>String</p>
+</dd>
+                </dl>
+        </div>
+
+    
+
+</section>
+            <section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-static">
+    <a name="INVALIDATE_MIPMAPS" class="tsd-anchor"></a>
+        <h3><span class="tsd-flag ts-flagStatic">Static</span> INVALIDATE_<wbr>MIPMAPS</h3>
+
+        <div class="tsd-signature tsd-kind-icon">INVALIDATE_<wbr>MIPMAPS<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
+
+<aside class="tsd-sources">
+        <ul>
+                    <li>Defined in events/ImageEvent.ts:10</li>
+        </ul>
+</aside>
+
+    
+
+</section>
+</section>
+        <section class="tsd-panel-group tsd-member-group ">
+    <h2>Accessors</h2>
+            <section class="tsd-panel tsd-member tsd-kind-get-signature tsd-parent-kind-class">
+    <a name="image" class="tsd-anchor"></a>
+        <h3>image</h3>
+
+
+        <ul class="tsd-signatures tsd-kind-get-signature tsd-parent-kind-class">
+            <li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">get</span> <span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="ImageBase.html" class="tsd-signature-type">ImageBase</a></li>
+</ul>
+
+<ul class="tsd-descriptions">
+            <li class="tsd-description">
+                    <aside class="tsd-sources">
+        <ul>
+                    <li>Defined in events/ImageEvent.ts:29</li>
+        </ul>
+</aside>
+        <div class="tsd-comment tsd-typography">
+                <div class="lead">
+                    <p>The image of the material.</p>
+
+                </div>
+        </div>
+
+
+
+    <h4 class="tsd-returns-title">Returns <a href="ImageBase.html" class="tsd-signature-type">ImageBase</a></h4>
+
+
+            </li>
+</ul>
+
+</section>
+</section>
+        <section class="tsd-panel-group tsd-member-group tsd-is-inherited">
     <h2>Methods</h2>
-            <section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-static">
-    <a name="_copyPixels" class="tsd-anchor"></a>
-        <h3><span class="tsd-flag ts-flagStatic">Static</span> _copy<wbr>Pixels</h3>
+            <section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+    <a name="clone" class="tsd-anchor"></a>
+        <h3>clone</h3>
 
-        <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-static">
-        <li class="tsd-signature tsd-kind-icon">_copy<wbr>Pixels<span class="tsd-signature-symbol">(</span>context<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">CanvasRenderingContext2D</span>, bmpd<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">HTMLImageElement</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">HTMLCanvasElement</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">HTMLVideoElement</span>, sourceRect<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Rectangle</span>, destPoint<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Point</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+        <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+        <li class="tsd-signature tsd-kind-icon">clone<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">EventBase</span></li>
 </ul>
 
 <ul class="tsd-descriptions">
         <li class="tsd-description">
                 <aside class="tsd-sources">
+        <p>Inherited from EventBase.clone</p>
         <ul>
-                    <li>Defined in utils/BitmapImageUtils.ts:22</li>
+                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/core/dist/lib/events/EventBase.d.ts:19</li>
         </ul>
 </aside>
+        <div class="tsd-comment tsd-typography">
+                <div class="lead">
+                    <p>Clones the current event.</p>
+
+                </div>
+        </div>
 
 
-    <h4 class="tsd-parameters-title">Parameters</h4>
-    <ul class="tsd-parameters">
-            <li>
-                <h5>context: <span class="tsd-signature-type">CanvasRenderingContext2D</span></h5>
 
-                
-            </li>
-            <li>
-                <h5>bmpd: <span class="tsd-signature-type">HTMLImageElement</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">HTMLCanvasElement</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">HTMLVideoElement</span></h5>
+    <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">EventBase</span></h4>
 
-                
-            </li>
-            <li>
-                <h5>sourceRect: <span class="tsd-signature-type">Rectangle</span></h5>
-
-                
-            </li>
-            <li>
-                <h5>destPoint: <span class="tsd-signature-type">Point</span></h5>
-
-                
-            </li>
-    </ul>
-
-    <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
-
-
-        </li>
-</ul>    
-
-</section>
-            <section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-static">
-    <a name="_draw" class="tsd-anchor"></a>
-        <h3><span class="tsd-flag ts-flagStatic">Static</span> _draw</h3>
-
-        <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-static">
-        <li class="tsd-signature tsd-kind-icon">_draw<span class="tsd-signature-symbol">(</span>context<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">CanvasRenderingContext2D</span>, source<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span>, matrix<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Matrix</span>, colorTransform<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">ColorTransform</span>, blendMode<span class="tsd-signature-symbol">: </span><a href="BlendMode.html" class="tsd-signature-type">BlendMode</a>, clipRect<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Rectangle</span>, smoothing<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
-</ul>
-
-<ul class="tsd-descriptions">
-        <li class="tsd-description">
-                <aside class="tsd-sources">
-        <ul>
-                    <li>Defined in utils/BitmapImageUtils.ts:27</li>
-        </ul>
-</aside>
-
-
-    <h4 class="tsd-parameters-title">Parameters</h4>
-    <ul class="tsd-parameters">
-            <li>
-                <h5>context: <span class="tsd-signature-type">CanvasRenderingContext2D</span></h5>
-
-                
-            </li>
-            <li>
-                <h5>source: <span class="tsd-signature-type">any</span></h5>
-
-                
-            </li>
-            <li>
-                <h5>matrix: <span class="tsd-signature-type">Matrix</span></h5>
-
-                
-            </li>
-            <li>
-                <h5>colorTransform: <span class="tsd-signature-type">ColorTransform</span></h5>
-
-                
-            </li>
-            <li>
-                <h5>blendMode: <a href="BlendMode.html" class="tsd-signature-type">BlendMode</a></h5>
-
-                
-            </li>
-            <li>
-                <h5>clipRect: <span class="tsd-signature-type">Rectangle</span></h5>
-
-                
-            </li>
-            <li>
-                <h5>smoothing: <span class="tsd-signature-type">boolean</span></h5>
-
-                
-            </li>
-    </ul>
-
-    <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
-
-
-        </li>
-</ul>    
-
-</section>
-            <section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-static">
-    <a name="_fillRect" class="tsd-anchor"></a>
-        <h3><span class="tsd-flag ts-flagStatic">Static</span> _fill<wbr>Rect</h3>
-
-        <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-static">
-        <li class="tsd-signature tsd-kind-icon">_fill<wbr>Rect<span class="tsd-signature-symbol">(</span>context<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">CanvasRenderingContext2D</span>, rect<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Rectangle</span>, color<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span>, transparent<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
-</ul>
-
-<ul class="tsd-descriptions">
-        <li class="tsd-description">
-                <aside class="tsd-sources">
-        <ul>
-                    <li>Defined in utils/BitmapImageUtils.ts:7</li>
-        </ul>
-</aside>
-
-
-    <h4 class="tsd-parameters-title">Parameters</h4>
-    <ul class="tsd-parameters">
-            <li>
-                <h5>context: <span class="tsd-signature-type">CanvasRenderingContext2D</span></h5>
-
-                
-            </li>
-            <li>
-                <h5>rect: <span class="tsd-signature-type">Rectangle</span></h5>
-
-                
-            </li>
-            <li>
-                <h5>color: <span class="tsd-signature-type">number</span></h5>
-
-                
-            </li>
-            <li>
-                <h5>transparent: <span class="tsd-signature-type">boolean</span></h5>
-
-                
-            </li>
-    </ul>
-
-    <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+        <p>An exact duplicate of the current event.</p>
 
 
         </li>

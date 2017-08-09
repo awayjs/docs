@@ -132,6 +132,8 @@
                     <h3>Accessors</h3>
                     <ul class="tsd-index-list">
                         <li class="tsd-kind-get-signature tsd-parent-kind-class tsd-is-overwrite"><a href="ViewImage2D.html#assetType" class="tsd-kind-icon">asset<wbr>Type</a></li>
+                        <li class="tsd-kind-accessor tsd-parent-kind-class"><a href="ViewImage2D.html#fillColor" class="tsd-kind-icon">fill<wbr>Color</a></li>
+                        <li class="tsd-kind-accessor tsd-parent-kind-class"><a href="ViewImage2D.html#transparent" class="tsd-kind-icon">transparent</a></li>
                     </ul>
                 </section>
                 <section class="tsd-index-section ">
@@ -163,7 +165,7 @@
         <h3>constructor</h3>
 
         <ul class="tsd-signatures tsd-kind-constructor tsd-parent-kind-class tsd-is-overwrite">
-        <li class="tsd-signature tsd-kind-icon">new <wbr>View<wbr>Image2D<span class="tsd-signature-symbol">(</span>width<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span>, height<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span>, stage<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">Stage</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="ViewImage2D.html" class="tsd-signature-type">ViewImage2D</a></li>
+        <li class="tsd-signature tsd-kind-icon">new <wbr>View<wbr>Image2D<span class="tsd-signature-symbol">(</span>width<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span>, height<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span>, transparent<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">boolean</span>, fillColor<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">number</span>, stage<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">Stage</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="ViewImage2D.html" class="tsd-signature-type">ViewImage2D</a></li>
 </ul>
 
 <ul class="tsd-descriptions">
@@ -171,7 +173,7 @@
                 <aside class="tsd-sources">
         <p>Overwrites Image2D.__constructor</p>
         <ul>
-                    <li>Defined in image/ViewImage2D.ts:31</li>
+                    <li>Defined in image/ViewImage2D.ts:69</li>
         </ul>
 </aside>
         <div class="tsd-comment tsd-typography">
@@ -211,6 +213,38 @@ channel.</p>
                         <div class="tsd-comment tsd-typography">
                 <div class="lead">
                     <p>The height of the bitmap image in pixels.</p>
+
+                </div>
+        </div>
+
+            </li>
+            <li>
+                <h5><span class="tsd-flag ts-flagDefault value">Default value</span> transparent: <span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol"> =&nbsp;true</span></h5>
+
+                        <div class="tsd-comment tsd-typography">
+                <div class="lead">
+                    <p>Specifies whether the bitmap image supports per-pixel
+                   transparency. The default value is <code>true</code>
+                   (transparent). To create a fully transparent bitmap,
+                   set the value of the <code>transparent</code>
+                   parameter to <code>true</code> and the value of the
+                   <code>fillColor</code> parameter to 0x00000000(or to
+                   0). Setting the <code>transparent</code> property to
+                   <code>false</code> can result in minor improvements
+                   in rendering performance.</p>
+
+                </div>
+        </div>
+
+            </li>
+            <li>
+                <h5><span class="tsd-flag ts-flagDefault value">Default value</span> fillColor: <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> =&nbsp;4294967295</span></h5>
+
+                        <div class="tsd-comment tsd-typography">
+                <div class="lead">
+                    <p>A 32-bit ARGB color value that you use to fill the
+                   bitmap image area. The default value is
+                   0xFFFFFFFF(solid white).</p>
 
                 </div>
         </div>
@@ -540,7 +574,7 @@ width and height in pixels of the BitmapData object.</p>
                     <aside class="tsd-sources">
         <p>Overwrites Image2D.assetType</p>
         <ul>
-                    <li>Defined in image/ViewImage2D.ts:28</li>
+                    <li>Defined in image/ViewImage2D.ts:31</li>
         </ul>
 </aside>
         <div class="tsd-comment tsd-typography">
@@ -551,6 +585,124 @@ width and height in pixels of the BitmapData object.</p>
     <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">string</span></h4>
 
         
+
+            </li>
+</ul>
+
+</section>
+            <section class="tsd-panel tsd-member tsd-kind-accessor tsd-parent-kind-class">
+    <a name="fillColor" class="tsd-anchor"></a>
+        <h3>fill<wbr>Color</h3>
+
+
+        <ul class="tsd-signatures tsd-kind-accessor tsd-parent-kind-class">
+            <li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">get</span> <span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span></li>
+            <li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">set</span> <span class="tsd-signature-symbol">(</span>value<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+</ul>
+
+<ul class="tsd-descriptions">
+            <li class="tsd-description">
+                    <aside class="tsd-sources">
+        <ul>
+                    <li>Defined in image/ViewImage2D.ts:58</li>
+        </ul>
+</aside>
+
+
+
+    <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">number</span></h4>
+
+
+            </li>
+            <li class="tsd-description">
+                    <aside class="tsd-sources">
+        <ul>
+                    <li>Defined in image/ViewImage2D.ts:63</li>
+        </ul>
+</aside>
+
+
+    <h4 class="tsd-parameters-title">Parameters</h4>
+    <ul class="tsd-parameters">
+            <li>
+                <h5>value: <span class="tsd-signature-type">number</span></h5>
+
+                
+            </li>
+    </ul>
+
+    <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+
+
+            </li>
+</ul>
+
+</section>
+            <section class="tsd-panel tsd-member tsd-kind-accessor tsd-parent-kind-class">
+    <a name="transparent" class="tsd-anchor"></a>
+        <h3>transparent</h3>
+
+
+        <ul class="tsd-signatures tsd-kind-accessor tsd-parent-kind-class">
+            <li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">get</span> <span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">boolean</span></li>
+            <li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">set</span> <span class="tsd-signature-symbol">(</span>value<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+</ul>
+
+<ul class="tsd-descriptions">
+            <li class="tsd-description">
+                    <aside class="tsd-sources">
+        <ul>
+                    <li>Defined in image/ViewImage2D.ts:45</li>
+        </ul>
+</aside>
+        <div class="tsd-comment tsd-typography">
+                <div class="lead">
+                    <p>Defines whether the bitmap image supports per-pixel transparency. You can
+set this value only when you construct a BitmapImage2D object by passing in
+<code>true</code> for the <code>transparent</code> parameter of the
+constructor. Then, after you create a BitmapImage2D object, you can check
+whether it supports per-pixel transparency by determining if the value of
+the <code>transparent</code> property is <code>true</code>.</p>
+
+                </div>
+        </div>
+
+
+
+    <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">boolean</span></h4>
+
+
+            </li>
+            <li class="tsd-description">
+                    <aside class="tsd-sources">
+        <ul>
+                    <li>Defined in image/ViewImage2D.ts:50</li>
+        </ul>
+</aside>
+        <div class="tsd-comment tsd-typography">
+                <div class="lead">
+                    <p>Defines whether the bitmap image supports per-pixel transparency. You can
+set this value only when you construct a BitmapImage2D object by passing in
+<code>true</code> for the <code>transparent</code> parameter of the
+constructor. Then, after you create a BitmapImage2D object, you can check
+whether it supports per-pixel transparency by determining if the value of
+the <code>transparent</code> property is <code>true</code>.</p>
+
+                </div>
+        </div>
+
+
+    <h4 class="tsd-parameters-title">Parameters</h4>
+    <ul class="tsd-parameters">
+            <li>
+                <h5>value: <span class="tsd-signature-type">boolean</span></h5>
+
+                
+            </li>
+    </ul>
+
+    <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+
 
             </li>
 </ul>
@@ -572,7 +724,7 @@ width and height in pixels of the BitmapData object.</p>
                 <aside class="tsd-sources">
         <p>Overwrites Image2D._setSize</p>
         <ul>
-                    <li>Defined in image/ViewImage2D.ts:223</li>
+                    <li>Defined in image/ViewImage2D.ts:261</li>
         </ul>
 </aside>
         <div class="tsd-comment tsd-typography">
@@ -753,7 +905,7 @@ width and height in pixels of the BitmapData object.</p>
         <li class="tsd-description">
                 <aside class="tsd-sources">
         <ul>
-                    <li>Defined in image/ViewImage2D.ts:91</li>
+                    <li>Defined in image/ViewImage2D.ts:132</li>
         </ul>
 </aside>
         <div class="tsd-comment tsd-typography">
@@ -833,7 +985,7 @@ with an exact copy of the contained bitmap.</p>
                 <aside class="tsd-sources">
         <p>Overwrites AssetBase.dispose</p>
         <ul>
-                    <li>Defined in image/ViewImage2D.ts:117</li>
+                    <li>Defined in image/ViewImage2D.ts:158</li>
         </ul>
 </aside>
         <div class="tsd-comment tsd-typography">
@@ -880,7 +1032,7 @@ collected by the garbage collector.</p>
         <li class="tsd-description">
                 <aside class="tsd-sources">
         <ul>
-                    <li>Defined in image/ViewImage2D.ts:196</li>
+                    <li>Defined in image/ViewImage2D.ts:237</li>
         </ul>
 </aside>
         <div class="tsd-comment tsd-typography">

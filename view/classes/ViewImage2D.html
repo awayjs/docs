@@ -82,7 +82,7 @@
         <h3>Hierarchy</h3>
         <ul class="tsd-hierarchy">
         <li>
-                <span class="tsd-signature-type">Image2D</span>
+                <span class="tsd-signature-type">BitmapImage2D</span>
         </li>
 </ul>
 
@@ -111,8 +111,10 @@
                 <section class="tsd-index-section ">
                     <h3>Properties</h3>
                     <ul class="tsd-index-list">
+                        <li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited tsd-is-protected"><a href="ViewImage2D.html#_locked" class="tsd-kind-icon">_locked</a></li>
                         <li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="ViewImage2D.html#_pFormat" class="tsd-kind-icon">_p<wbr>Format</a></li>
                         <li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="ViewImage2D.html#_rect" class="tsd-kind-icon">_rect</a></li>
+                        <li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited tsd-is-protected"><a href="ViewImage2D.html#_transparent" class="tsd-kind-icon">_transparent</a></li>
                         <li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="ViewImage2D.html#assetFullPath" class="tsd-kind-icon">asset<wbr>Full<wbr>Path</a></li>
                         <li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="ViewImage2D.html#assetNamespace" class="tsd-kind-icon">asset<wbr>Namespace</a></li>
                         <li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="ViewImage2D.html#format" class="tsd-kind-icon">format</a></li>
@@ -122,6 +124,7 @@
                         <li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="ViewImage2D.html#originalName" class="tsd-kind-icon">original<wbr>Name</a></li>
                         <li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="ViewImage2D.html#powerOfTwo" class="tsd-kind-icon">power<wbr>OfTwo</a></li>
                         <li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="ViewImage2D.html#rect" class="tsd-kind-icon">rect</a></li>
+                        <li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="ViewImage2D.html#transparent" class="tsd-kind-icon">transparent</a></li>
                         <li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="ViewImage2D.html#width" class="tsd-kind-icon">width</a></li>
                         <li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited tsd-is-static"><a href="ViewImage2D.html#DEFAULT_NAMESPACE" class="tsd-kind-icon">DEFAULT_<wbr>NAMESPACE</a></li>
                         <li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited tsd-is-static"><a href="ViewImage2D.html#ID_COUNT" class="tsd-kind-icon">ID_<wbr>COUNT</a></li>
@@ -132,8 +135,6 @@
                     <h3>Accessors</h3>
                     <ul class="tsd-index-list">
                         <li class="tsd-kind-get-signature tsd-parent-kind-class tsd-is-overwrite"><a href="ViewImage2D.html#assetType" class="tsd-kind-icon">asset<wbr>Type</a></li>
-                        <li class="tsd-kind-accessor tsd-parent-kind-class"><a href="ViewImage2D.html#fillColor" class="tsd-kind-icon">fill<wbr>Color</a></li>
-                        <li class="tsd-kind-accessor tsd-parent-kind-class"><a href="ViewImage2D.html#transparent" class="tsd-kind-icon">transparent</a></li>
                     </ul>
                 </section>
                 <section class="tsd-index-section ">
@@ -143,17 +144,34 @@
                         <li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="ViewImage2D.html#addEventListener" class="tsd-kind-icon">add<wbr>Event<wbr>Listener</a></li>
                         <li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="ViewImage2D.html#assetPathEquals" class="tsd-kind-icon">asset<wbr>Path<wbr>Equals</a></li>
                         <li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="ViewImage2D.html#clear" class="tsd-kind-icon">clear</a></li>
-                        <li class="tsd-kind-method tsd-parent-kind-class"><a href="ViewImage2D.html#clone" class="tsd-kind-icon">clone</a></li>
+                        <li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="ViewImage2D.html#clone" class="tsd-kind-icon">clone</a></li>
+                        <li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="ViewImage2D.html#colorTransform" class="tsd-kind-icon">color<wbr>Transform</a></li>
+                        <li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="ViewImage2D.html#copyChannel" class="tsd-kind-icon">copy<wbr>Channel</a></li>
+                        <li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="ViewImage2D.html#copyPixels" class="tsd-kind-icon">copy<wbr>Pixels</a></li>
                         <li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="ViewImage2D.html#dispatchEvent" class="tsd-kind-icon">dispatch<wbr>Event</a></li>
                         <li class="tsd-kind-method tsd-parent-kind-class tsd-is-overwrite"><a href="ViewImage2D.html#dispose" class="tsd-kind-icon">dispose</a></li>
-                        <li class="tsd-kind-method tsd-parent-kind-class"><a href="ViewImage2D.html#draw" class="tsd-kind-icon">draw</a></li>
-                        <li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="ViewImage2D.html#getImageData" class="tsd-kind-icon">get<wbr>Image<wbr>Data</a></li>
+                        <li class="tsd-kind-method tsd-parent-kind-class tsd-is-overwrite"><a href="ViewImage2D.html#draw" class="tsd-kind-icon">draw</a></li>
+                        <li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="ViewImage2D.html#fillRect" class="tsd-kind-icon">fill<wbr>Rect</a></li>
+                        <li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="ViewImage2D.html#getCanvas" class="tsd-kind-icon">get<wbr>Canvas</a></li>
+                        <li class="tsd-kind-method tsd-parent-kind-class tsd-is-overwrite tsd-is-inherited"><a href="ViewImage2D.html#getImageData" class="tsd-kind-icon">get<wbr>Image<wbr>Data</a></li>
+                        <li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="ViewImage2D.html#getPixel" class="tsd-kind-icon">get<wbr>Pixel</a></li>
+                        <li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="ViewImage2D.html#getPixel32" class="tsd-kind-icon">get<wbr>Pixel32</a></li>
+                        <li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="ViewImage2D.html#getPixelData" class="tsd-kind-icon">get<wbr>Pixel<wbr>Data</a></li>
                         <li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="ViewImage2D.html#hasEventListener" class="tsd-kind-icon">has<wbr>Event<wbr>Listener</a></li>
                         <li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="ViewImage2D.html#invalidate" class="tsd-kind-icon">invalidate</a></li>
                         <li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="ViewImage2D.html#invalidateMipmaps" class="tsd-kind-icon">invalidate<wbr>Mipmaps</a></li>
                         <li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="ViewImage2D.html#isAsset" class="tsd-kind-icon">is<wbr>Asset</a></li>
+                        <li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="ViewImage2D.html#lock" class="tsd-kind-icon">lock</a></li>
+                        <li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="ViewImage2D.html#merge" class="tsd-kind-icon">merge</a></li>
                         <li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="ViewImage2D.html#removeEventListener" class="tsd-kind-icon">remove<wbr>Event<wbr>Listener</a></li>
                         <li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="ViewImage2D.html#resetAssetPath" class="tsd-kind-icon">reset<wbr>Asset<wbr>Path</a></li>
+                        <li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="ViewImage2D.html#setArray" class="tsd-kind-icon">set<wbr>Array</a></li>
+                        <li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="ViewImage2D.html#setPixel" class="tsd-kind-icon">set<wbr>Pixel</a></li>
+                        <li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="ViewImage2D.html#setPixel32" class="tsd-kind-icon">set<wbr>Pixel32</a></li>
+                        <li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="ViewImage2D.html#setPixelData" class="tsd-kind-icon">set<wbr>Pixel<wbr>Data</a></li>
+                        <li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="ViewImage2D.html#setPixelFromArray" class="tsd-kind-icon">set<wbr>Pixel<wbr>From<wbr>Array</a></li>
+                        <li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="ViewImage2D.html#setPixels" class="tsd-kind-icon">set<wbr>Pixels</a></li>
+                        <li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="ViewImage2D.html#unlock" class="tsd-kind-icon">unlock</a></li>
                     </ul>
                 </section>
         </div>
@@ -166,15 +184,15 @@
         <h3>constructor</h3>
 
         <ul class="tsd-signatures tsd-kind-constructor tsd-parent-kind-class tsd-is-overwrite">
-        <li class="tsd-signature tsd-kind-icon">new <wbr>View<wbr>Image2D<span class="tsd-signature-symbol">(</span>width<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span>, height<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span>, transparent<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">boolean</span>, fillColor<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">number</span>, stage<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">Stage</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="ViewImage2D.html" class="tsd-signature-type">ViewImage2D</a></li>
+        <li class="tsd-signature tsd-kind-icon">new <wbr>View<wbr>Image2D<span class="tsd-signature-symbol">(</span>width<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span>, height<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span>, transparent<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">boolean</span>, fillColor<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">number</span>, powerOfTwo<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">boolean</span>, stage<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">Stage</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="ViewImage2D.html" class="tsd-signature-type">ViewImage2D</a></li>
 </ul>
 
 <ul class="tsd-descriptions">
         <li class="tsd-description">
                 <aside class="tsd-sources">
-        <p>Overwrites Image2D.__constructor</p>
+        <p>Overwrites BitmapImage2D.__constructor</p>
         <ul>
-                    <li>Defined in image/ViewImage2D.ts:69</li>
+                    <li>Defined in image/ViewImage2D.ts:34</li>
         </ul>
 </aside>
         <div class="tsd-comment tsd-typography">
@@ -252,6 +270,11 @@ channel.</p>
 
             </li>
             <li>
+                <h5><span class="tsd-flag ts-flagDefault value">Default value</span> powerOfTwo: <span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol"> =&nbsp;true</span></h5>
+
+                
+            </li>
+            <li>
                 <h5><span class="tsd-flag ts-flagDefault value">Default value</span> stage: <span class="tsd-signature-type">Stage</span><span class="tsd-signature-symbol"> =&nbsp;null</span></h5>
 
                 
@@ -268,6 +291,22 @@ channel.</p>
 </section>
         <section class="tsd-panel-group tsd-member-group ">
     <h2>Properties</h2>
+            <section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-inherited tsd-is-protected">
+    <a name="_locked" class="tsd-anchor"></a>
+        <h3><span class="tsd-flag ts-flagProtected">Protected</span> _locked</h3>
+
+        <div class="tsd-signature tsd-kind-icon">_locked<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span></div>
+
+<aside class="tsd-sources">
+        <p>Inherited from BitmapImage2D._locked</p>
+        <ul>
+                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/graphics/dist/lib/image/BitmapImage2D.d.ts:67</li>
+        </ul>
+</aside>
+
+    
+
+</section>
             <section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-inherited">
     <a name="_pFormat" class="tsd-anchor"></a>
         <h3>_p<wbr>Format</h3>
@@ -294,6 +333,22 @@ channel.</p>
         <p>Inherited from Image2D._rect</p>
         <ul>
                     <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/graphics/dist/lib/image/Image2D.d.ts:5</li>
+        </ul>
+</aside>
+
+    
+
+</section>
+            <section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-inherited tsd-is-protected">
+    <a name="_transparent" class="tsd-anchor"></a>
+        <h3><span class="tsd-flag ts-flagProtected">Protected</span> _transparent</h3>
+
+        <div class="tsd-signature tsd-kind-icon">_transparent<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span></div>
+
+<aside class="tsd-sources">
+        <p>Inherited from BitmapImage2D._transparent</p>
+        <ul>
+                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/graphics/dist/lib/image/BitmapImage2D.d.ts:66</li>
         </ul>
 </aside>
 
@@ -489,6 +544,33 @@ width and height in pixels of the BitmapData object.</p>
 
 </section>
             <section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-inherited">
+    <a name="transparent" class="tsd-anchor"></a>
+        <h3>transparent</h3>
+
+        <div class="tsd-signature tsd-kind-icon">transparent<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span></div>
+
+<aside class="tsd-sources">
+        <p>Inherited from BitmapImage2D.transparent</p>
+        <ul>
+                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/graphics/dist/lib/image/BitmapImage2D.d.ts:81</li>
+        </ul>
+</aside>
+        <div class="tsd-comment tsd-typography">
+                <div class="lead">
+                    <p>Defines whether the bitmap image supports per-pixel transparency. You can
+set this value only when you construct a BitmapImage2D object by passing in
+<code>true</code> for the <code>transparent</code> parameter of the
+constructor. Then, after you create a BitmapImage2D object, you can check
+whether it supports per-pixel transparency by determining if the value of
+the <code>transparent</code> property is <code>true</code>.</p>
+
+                </div>
+        </div>
+
+    
+
+</section>
+            <section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-inherited">
     <a name="width" class="tsd-anchor"></a>
         <h3>width</h3>
 
@@ -549,7 +631,7 @@ width and height in pixels of the BitmapData object.</p>
         <div class="tsd-signature tsd-kind-icon">asset<wbr>Type<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
 
 <aside class="tsd-sources">
-        <p>Overwrites Image2D.assetType</p>
+        <p>Overwrites BitmapImage2D.assetType</p>
         <ul>
                     <li>Defined in image/ViewImage2D.ts:20</li>
         </ul>
@@ -573,7 +655,7 @@ width and height in pixels of the BitmapData object.</p>
 <ul class="tsd-descriptions">
             <li class="tsd-description">
                     <aside class="tsd-sources">
-        <p>Overwrites Image2D.assetType</p>
+        <p>Overwrites BitmapImage2D.assetType</p>
         <ul>
                     <li>Defined in image/ViewImage2D.ts:31</li>
         </ul>
@@ -586,124 +668,6 @@ width and height in pixels of the BitmapData object.</p>
     <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">string</span></h4>
 
         
-
-            </li>
-</ul>
-
-</section>
-            <section class="tsd-panel tsd-member tsd-kind-accessor tsd-parent-kind-class">
-    <a name="fillColor" class="tsd-anchor"></a>
-        <h3>fill<wbr>Color</h3>
-
-
-        <ul class="tsd-signatures tsd-kind-accessor tsd-parent-kind-class">
-            <li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">get</span> <span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span></li>
-            <li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">set</span> <span class="tsd-signature-symbol">(</span>value<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
-</ul>
-
-<ul class="tsd-descriptions">
-            <li class="tsd-description">
-                    <aside class="tsd-sources">
-        <ul>
-                    <li>Defined in image/ViewImage2D.ts:58</li>
-        </ul>
-</aside>
-
-
-
-    <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">number</span></h4>
-
-
-            </li>
-            <li class="tsd-description">
-                    <aside class="tsd-sources">
-        <ul>
-                    <li>Defined in image/ViewImage2D.ts:63</li>
-        </ul>
-</aside>
-
-
-    <h4 class="tsd-parameters-title">Parameters</h4>
-    <ul class="tsd-parameters">
-            <li>
-                <h5>value: <span class="tsd-signature-type">number</span></h5>
-
-                
-            </li>
-    </ul>
-
-    <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
-
-
-            </li>
-</ul>
-
-</section>
-            <section class="tsd-panel tsd-member tsd-kind-accessor tsd-parent-kind-class">
-    <a name="transparent" class="tsd-anchor"></a>
-        <h3>transparent</h3>
-
-
-        <ul class="tsd-signatures tsd-kind-accessor tsd-parent-kind-class">
-            <li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">get</span> <span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">boolean</span></li>
-            <li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">set</span> <span class="tsd-signature-symbol">(</span>value<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
-</ul>
-
-<ul class="tsd-descriptions">
-            <li class="tsd-description">
-                    <aside class="tsd-sources">
-        <ul>
-                    <li>Defined in image/ViewImage2D.ts:45</li>
-        </ul>
-</aside>
-        <div class="tsd-comment tsd-typography">
-                <div class="lead">
-                    <p>Defines whether the bitmap image supports per-pixel transparency. You can
-set this value only when you construct a BitmapImage2D object by passing in
-<code>true</code> for the <code>transparent</code> parameter of the
-constructor. Then, after you create a BitmapImage2D object, you can check
-whether it supports per-pixel transparency by determining if the value of
-the <code>transparent</code> property is <code>true</code>.</p>
-
-                </div>
-        </div>
-
-
-
-    <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">boolean</span></h4>
-
-
-            </li>
-            <li class="tsd-description">
-                    <aside class="tsd-sources">
-        <ul>
-                    <li>Defined in image/ViewImage2D.ts:50</li>
-        </ul>
-</aside>
-        <div class="tsd-comment tsd-typography">
-                <div class="lead">
-                    <p>Defines whether the bitmap image supports per-pixel transparency. You can
-set this value only when you construct a BitmapImage2D object by passing in
-<code>true</code> for the <code>transparent</code> parameter of the
-constructor. Then, after you create a BitmapImage2D object, you can check
-whether it supports per-pixel transparency by determining if the value of
-the <code>transparent</code> property is <code>true</code>.</p>
-
-                </div>
-        </div>
-
-
-    <h4 class="tsd-parameters-title">Parameters</h4>
-    <ul class="tsd-parameters">
-            <li>
-                <h5>value: <span class="tsd-signature-type">boolean</span></h5>
-
-                
-            </li>
-    </ul>
-
-    <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
-
 
             </li>
 </ul>
@@ -723,9 +687,9 @@ the <code>transparent</code> property is <code>true</code>.</p>
 <ul class="tsd-descriptions">
         <li class="tsd-description">
                 <aside class="tsd-sources">
-        <p>Overwrites Image2D._setSize</p>
+        <p>Overwrites BitmapImage2D._setSize</p>
         <ul>
-                    <li>Defined in image/ViewImage2D.ts:261</li>
+                    <li>Defined in image/ViewImage2D.ts:239</li>
         </ul>
 </aside>
         <div class="tsd-comment tsd-typography">
@@ -894,19 +858,20 @@ the <code>transparent</code> property is <code>true</code>.</p>
 </ul>    
 
 </section>
-            <section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+            <section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
     <a name="clone" class="tsd-anchor"></a>
         <h3>clone</h3>
 
-        <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
-        <li class="tsd-signature tsd-kind-icon">clone<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="ViewImage2D.html" class="tsd-signature-type">ViewImage2D</a></li>
+        <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+        <li class="tsd-signature tsd-kind-icon">clone<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">BitmapImage2D</span></li>
 </ul>
 
 <ul class="tsd-descriptions">
         <li class="tsd-description">
                 <aside class="tsd-sources">
+        <p>Inherited from BitmapImage2D.clone</p>
         <ul>
-                    <li>Defined in image/ViewImage2D.ts:132</li>
+                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/graphics/dist/lib/image/BitmapImage2D.d.ts:117</li>
         </ul>
 </aside>
         <div class="tsd-comment tsd-typography">
@@ -919,9 +884,296 @@ with an exact copy of the contained bitmap.</p>
 
 
 
-    <h4 class="tsd-returns-title">Returns <a href="ViewImage2D.html" class="tsd-signature-type">ViewImage2D</a></h4>
+    <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">BitmapImage2D</span></h4>
 
         <p>A new BitmapImage2D object that is identical to the original.</p>
+
+
+        </li>
+</ul>    
+
+</section>
+            <section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+    <a name="colorTransform" class="tsd-anchor"></a>
+        <h3>color<wbr>Transform</h3>
+
+        <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+        <li class="tsd-signature tsd-kind-icon">color<wbr>Transform<span class="tsd-signature-symbol">(</span>rect<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Rectangle</span>, colorTransform<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">ColorTransform</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+</ul>
+
+<ul class="tsd-descriptions">
+        <li class="tsd-description">
+                <aside class="tsd-sources">
+        <p>Inherited from BitmapImage2D.colorTransform</p>
+        <ul>
+                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/graphics/dist/lib/image/BitmapImage2D.d.ts:129</li>
+        </ul>
+</aside>
+        <div class="tsd-comment tsd-typography">
+                <div class="lead">
+                    <p>Adjusts the color values in a specified area of a bitmap image by using a
+<code>ColorTransform</code> object. If the rectangle matches the
+boundaries of the bitmap image, this method transforms the color values of
+the entire image.</p>
+
+                </div>
+        </div>
+
+
+    <h4 class="tsd-parameters-title">Parameters</h4>
+    <ul class="tsd-parameters">
+            <li>
+                <h5>rect: <span class="tsd-signature-type">Rectangle</span></h5>
+
+                        <div class="tsd-comment tsd-typography">
+                <p>A Rectangle object that defines the area of the
+                      image in which the ColorTransform object is applied.</p>
+
+        </div>
+
+            </li>
+            <li>
+                <h5>colorTransform: <span class="tsd-signature-type">ColorTransform</span></h5>
+
+                        <div class="tsd-comment tsd-typography">
+                <p>A ColorTransform object that describes the color
+                      transformation values to apply.</p>
+
+        </div>
+
+            </li>
+    </ul>
+
+    <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+
+
+        </li>
+</ul>    
+
+</section>
+            <section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+    <a name="copyChannel" class="tsd-anchor"></a>
+        <h3>copy<wbr>Channel</h3>
+
+        <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+        <li class="tsd-signature tsd-kind-icon">copy<wbr>Channel<span class="tsd-signature-symbol">(</span>sourceBitmap<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">BitmapImage2D</span>, sourceRect<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Rectangle</span>, destPoint<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Point</span>, sourceChannel<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span>, destChannel<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+</ul>
+
+<ul class="tsd-descriptions">
+        <li class="tsd-description">
+                <aside class="tsd-sources">
+        <p>Inherited from BitmapImage2D.copyChannel</p>
+        <ul>
+                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/graphics/dist/lib/image/BitmapImage2D.d.ts:173</li>
+        </ul>
+</aside>
+        <div class="tsd-comment tsd-typography">
+                <div class="lead">
+                    <p>Transfers data from one channel of another BitmapImage2D object or the
+current BitmapImage2D object into a channel of the current BitmapImage2D object.
+All of the data in the other channels in the destination BitmapImage2D object
+are preserved.</p>
+
+                </div>
+                <p>The source channel value and destination channel value can be one of
+following values: </p>
+
+<ul>
+  <li><code>BitmapImage2DChannel.RED</code></li>
+  <li><code>BitmapImage2DChannel.GREEN</code></li>
+  <li><code>BitmapImage2DChannel.BLUE</code></li>
+  <li><code>BitmapImage2DChannel.ALPHA</code></li>
+</ul>
+
+                <dl class="tsd-comment-tags">
+                        <dt>throws</dt>
+                        <dd><p>TypeError The sourceBitmapImage2D, sourceRect or destPoint are null.</p>
+</dd>
+                </dl>
+        </div>
+
+
+    <h4 class="tsd-parameters-title">Parameters</h4>
+    <ul class="tsd-parameters">
+            <li>
+                <h5>sourceBitmap: <span class="tsd-signature-type">BitmapImage2D</span></h5>
+
+                
+            </li>
+            <li>
+                <h5>sourceRect: <span class="tsd-signature-type">Rectangle</span></h5>
+
+                        <div class="tsd-comment tsd-typography">
+                <p>The source Rectangle object. To copy only channel
+                        data from a smaller area within the bitmap,
+                        specify a source rectangle that is smaller than
+                        the overall size of the BitmapImage2D object.</p>
+
+        </div>
+
+            </li>
+            <li>
+                <h5>destPoint: <span class="tsd-signature-type">Point</span></h5>
+
+                        <div class="tsd-comment tsd-typography">
+                <p>The destination Point object that represents the
+                        upper-left corner of the rectangular area where
+                        the new channel data is placed. To copy only
+                        channel data from one area to a different area in
+                        the destination image, specify a point other than
+                       (0,0).</p>
+
+        </div>
+
+            </li>
+            <li>
+                <h5>sourceChannel: <span class="tsd-signature-type">number</span></h5>
+
+                        <div class="tsd-comment tsd-typography">
+                <p>The source channel. Use a value from the
+                        BitmapImage2DChannel class
+                       (<code>BitmapImage2DChannel.RED</code>,
+                        <code>BitmapImage2DChannel.BLUE</code>,
+                        <code>BitmapImage2DChannel.GREEN</code>,
+                        <code>BitmapImage2DChannel.ALPHA</code>).</p>
+
+        </div>
+
+            </li>
+            <li>
+                <h5>destChannel: <span class="tsd-signature-type">number</span></h5>
+
+                        <div class="tsd-comment tsd-typography">
+                <p>The destination channel. Use a value from the
+                        BitmapImage2DChannel class
+                       (<code>BitmapImage2DChannel.RED</code>,
+                        <code>BitmapImage2DChannel.BLUE</code>,
+                        <code>BitmapImage2DChannel.GREEN</code>,
+                        <code>BitmapImage2DChannel.ALPHA</code>).</p>
+
+        </div>
+
+            </li>
+    </ul>
+
+    <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+
+
+        </li>
+</ul>    
+
+</section>
+            <section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+    <a name="copyPixels" class="tsd-anchor"></a>
+        <h3>copy<wbr>Pixels</h3>
+
+        <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+        <li class="tsd-signature tsd-kind-icon">copy<wbr>Pixels<span class="tsd-signature-symbol">(</span>source<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">BitmapImage2D</span>, sourceRect<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Rectangle</span>, destPoint<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Point</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span></li>
+        <li class="tsd-signature tsd-kind-icon">copy<wbr>Pixels<span class="tsd-signature-symbol">(</span>source<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">HTMLElement</span>, sourceRect<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Rectangle</span>, destPoint<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Point</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span></li>
+</ul>
+
+<ul class="tsd-descriptions">
+        <li class="tsd-description">
+                <aside class="tsd-sources">
+        <p>Inherited from BitmapImage2D.copyPixels</p>
+        <ul>
+                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/graphics/dist/lib/image/BitmapImage2D.d.ts:213</li>
+        </ul>
+</aside>
+        <div class="tsd-comment tsd-typography">
+                <div class="lead">
+                    <p>Provides a fast routine to perform pixel manipulation between images with
+no stretching, rotation, or color effects. This method copies a
+rectangular area of a source image to a rectangular area of the same size
+at the destination point of the destination BitmapImage2D object.</p>
+
+                </div>
+                <p>If you include the <code>alphaBitmap</code> and <code>alphaPoint</code>
+parameters, you can use a secondary image as an alpha source for the
+source image. If the source image has alpha data, both sets of alpha data
+are used to composite pixels from the source image to the destination
+image. The <code>alphaPoint</code> parameter is the point in the alpha
+image that corresponds to the upper-left corner of the source rectangle.
+Any pixels outside the intersection of the source image and alpha image
+are not copied to the destination image.</p>
+
+<p>The <code>mergeAlpha</code> property controls whether or not the alpha
+channel is used when a transparent image is copied onto another
+transparent image. To copy pixels with the alpha channel data, set the
+<code>mergeAlpha</code> property to <code>true</code>. By default, the
+<code>mergeAlpha</code> property is <code>false</code>.</p>
+
+                <dl class="tsd-comment-tags">
+                        <dt>throws</dt>
+                        <dd><p>TypeError The sourceBitmapImage2D, sourceRect, destPoint are null.</p>
+</dd>
+                </dl>
+        </div>
+
+
+    <h4 class="tsd-parameters-title">Parameters</h4>
+    <ul class="tsd-parameters">
+            <li>
+                <h5>source: <span class="tsd-signature-type">BitmapImage2D</span></h5>
+
+                
+            </li>
+            <li>
+                <h5>sourceRect: <span class="tsd-signature-type">Rectangle</span></h5>
+
+                        <div class="tsd-comment tsd-typography">
+                <p>A rectangle that defines the area of the source
+                        image to use as input.</p>
+
+        </div>
+
+            </li>
+            <li>
+                <h5>destPoint: <span class="tsd-signature-type">Point</span></h5>
+
+                        <div class="tsd-comment tsd-typography">
+                <p>The destination point that represents the
+                        upper-left corner of the rectangular area where
+                        the new pixels are placed.</p>
+
+        </div>
+
+            </li>
+    </ul>
+
+    <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">any</span></h4>
+
+
+        </li>
+        <li class="tsd-description">
+                <aside class="tsd-sources">
+        <p>Inherited from BitmapImage2D.copyPixels</p>
+        <ul>
+                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/graphics/dist/lib/image/BitmapImage2D.d.ts:214</li>
+        </ul>
+</aside>
+
+
+    <h4 class="tsd-parameters-title">Parameters</h4>
+    <ul class="tsd-parameters">
+            <li>
+                <h5>source: <span class="tsd-signature-type">HTMLElement</span></h5>
+
+                
+            </li>
+            <li>
+                <h5>sourceRect: <span class="tsd-signature-type">Rectangle</span></h5>
+
+                
+            </li>
+            <li>
+                <h5>destPoint: <span class="tsd-signature-type">Point</span></h5>
+
+                
+            </li>
+    </ul>
+
+    <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">any</span></h4>
 
 
         </li>
@@ -984,9 +1236,9 @@ with an exact copy of the contained bitmap.</p>
 <ul class="tsd-descriptions">
         <li class="tsd-description">
                 <aside class="tsd-sources">
-        <p>Overwrites AssetBase.dispose</p>
+        <p>Overwrites BitmapImage2D.dispose</p>
         <ul>
-                    <li>Defined in image/ViewImage2D.ts:158</li>
+                    <li>Defined in image/ViewImage2D.ts:116</li>
         </ul>
 </aside>
         <div class="tsd-comment tsd-typography">
@@ -1021,19 +1273,23 @@ collected by the garbage collector.</p>
 </ul>    
 
 </section>
-            <section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+            <section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-overwrite">
     <a name="draw" class="tsd-anchor"></a>
         <h3>draw</h3>
 
-        <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
-        <li class="tsd-signature tsd-kind-icon">draw<span class="tsd-signature-symbol">(</span>source<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">DisplayObject</span>, matrix<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">Matrix</span>, colorTransform<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">ColorTransform</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+        <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-overwrite">
+        <li class="tsd-signature tsd-kind-icon">draw<span class="tsd-signature-symbol">(</span>source<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">DisplayObject</span>, matrix<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">Matrix</span>, colorTransform<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">ColorTransform</span>, blendMode<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">BlendMode</span>, clipRect<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">Rectangle</span>, smoothing<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span></li>
+        <li class="tsd-signature tsd-kind-icon">draw<span class="tsd-signature-symbol">(</span>source<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">BitmapImage2D</span>, matrix<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">Matrix</span>, colorTransform<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">ColorTransform</span>, blendMode<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">BlendMode</span>, clipRect<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">Rectangle</span>, smoothing<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span></li>
+        <li class="tsd-signature tsd-kind-icon">draw<span class="tsd-signature-symbol">(</span>source<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">HTMLElement</span>, matrix<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">Matrix</span>, colorTransform<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">ColorTransform</span>, blendMode<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">BlendMode</span>, clipRect<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">Rectangle</span>, smoothing<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span></li>
+        <li class="tsd-signature tsd-kind-icon">draw<span class="tsd-signature-symbol">(</span>source<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Uint8Array</span>, matrix<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">Matrix</span>, colorTransform<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">ColorTransform</span>, blendMode<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">BlendMode</span>, clipRect<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">Rectangle</span>, smoothing<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span></li>
 </ul>
 
 <ul class="tsd-descriptions">
         <li class="tsd-description">
                 <aside class="tsd-sources">
+        <p>Overwrites BitmapImage2D.draw</p>
         <ul>
-                    <li>Defined in image/ViewImage2D.ts:237</li>
+                    <li>Defined in image/ViewImage2D.ts:195</li>
         </ul>
 </aside>
         <div class="tsd-comment tsd-typography">
@@ -1092,7 +1348,7 @@ BitmapImage2D object.</p>
 
             </li>
             <li>
-                <h5><span class="tsd-flag ts-flagDefault value">Default value</span> matrix: <span class="tsd-signature-type">Matrix</span><span class="tsd-signature-symbol"> =&nbsp;null</span></h5>
+                <h5><span class="tsd-flag ts-flagOptional">Optional</span> matrix: <span class="tsd-signature-type">Matrix</span></h5>
 
                         <div class="tsd-comment tsd-typography">
                 <p>A Matrix object used to scale, rotate, or translate
@@ -1106,7 +1362,7 @@ BitmapImage2D object.</p>
 
             </li>
             <li>
-                <h5><span class="tsd-flag ts-flagDefault value">Default value</span> colorTransform: <span class="tsd-signature-type">ColorTransform</span><span class="tsd-signature-symbol"> =&nbsp;null</span></h5>
+                <h5><span class="tsd-flag ts-flagOptional">Optional</span> colorTransform: <span class="tsd-signature-type">ColorTransform</span></h5>
 
                         <div class="tsd-comment tsd-typography">
                 <p>A ColorTransform object that you use to adjust the
@@ -1121,6 +1377,255 @@ BitmapImage2D object.</p>
         </div>
 
             </li>
+            <li>
+                <h5><span class="tsd-flag ts-flagOptional">Optional</span> blendMode: <span class="tsd-signature-type">BlendMode</span></h5>
+
+                        <div class="tsd-comment tsd-typography">
+                <p>A string value, from the flash.display.BlendMode
+                      class, specifying the blend mode to be applied to
+                      the resulting bitmap.</p>
+
+        </div>
+
+            </li>
+            <li>
+                <h5><span class="tsd-flag ts-flagOptional">Optional</span> clipRect: <span class="tsd-signature-type">Rectangle</span></h5>
+
+                        <div class="tsd-comment tsd-typography">
+                <p>A Rectangle object that defines the area of the
+                      source object to draw. If you do not supply this
+                      value, no clipping occurs and the entire source
+                      object is drawn.</p>
+
+        </div>
+
+            </li>
+            <li>
+                <h5><span class="tsd-flag ts-flagOptional">Optional</span> smoothing: <span class="tsd-signature-type">boolean</span></h5>
+
+                        <div class="tsd-comment tsd-typography">
+                <p>A Boolean value that determines whether a BitmapImage2D
+                      object is smoothed when scaled or rotated, due to a
+                      scaling or rotation in the <code>matrix</code>
+                      parameter. The <code>smoothing</code> parameter only
+                      applies if the <code>source</code> parameter is a
+                      BitmapImage2D object. With <code>smoothing</code> set
+                      to <code>false</code>, the rotated or scaled
+                      BitmapImage2D image can appear pixelated or jagged. For
+                      example, the following two images use the same
+                      BitmapImage2D object for the <code>source</code>
+                      parameter, but the <code>smoothing</code> parameter
+                      is set to <code>true</code> on the left and
+                      <code>false</code> on the right:</p>
+<pre><code>                  <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>Drawing a bitmap with <span class="hljs-tag">&lt;<span class="hljs-name">code</span>&gt;</span>smoothing<span class="hljs-tag">&lt;/<span class="hljs-name">code</span>&gt;</span> set
+                  to <span class="hljs-tag">&lt;<span class="hljs-name">code</span>&gt;</span>true<span class="hljs-tag">&lt;/<span class="hljs-name">code</span>&gt;</span> takes longer than doing so with
+                  <span class="hljs-tag">&lt;<span class="hljs-name">code</span>&gt;</span>smoothing<span class="hljs-tag">&lt;/<span class="hljs-name">code</span>&gt;</span> set to
+                  <span class="hljs-tag">&lt;<span class="hljs-name">code</span>&gt;</span>false<span class="hljs-tag">&lt;/<span class="hljs-name">code</span>&gt;</span>.<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+</code></pre>
+        </div>
+
+            </li>
+    </ul>
+
+    <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">any</span></h4>
+
+
+        </li>
+        <li class="tsd-description">
+                <aside class="tsd-sources">
+        <p>Overwrites BitmapImage2D.draw</p>
+        <ul>
+                    <li>Defined in image/ViewImage2D.ts:196</li>
+        </ul>
+</aside>
+
+
+    <h4 class="tsd-parameters-title">Parameters</h4>
+    <ul class="tsd-parameters">
+            <li>
+                <h5>source: <span class="tsd-signature-type">BitmapImage2D</span></h5>
+
+                
+            </li>
+            <li>
+                <h5><span class="tsd-flag ts-flagOptional">Optional</span> matrix: <span class="tsd-signature-type">Matrix</span></h5>
+
+                
+            </li>
+            <li>
+                <h5><span class="tsd-flag ts-flagOptional">Optional</span> colorTransform: <span class="tsd-signature-type">ColorTransform</span></h5>
+
+                
+            </li>
+            <li>
+                <h5><span class="tsd-flag ts-flagOptional">Optional</span> blendMode: <span class="tsd-signature-type">BlendMode</span></h5>
+
+                
+            </li>
+            <li>
+                <h5><span class="tsd-flag ts-flagOptional">Optional</span> clipRect: <span class="tsd-signature-type">Rectangle</span></h5>
+
+                
+            </li>
+            <li>
+                <h5><span class="tsd-flag ts-flagOptional">Optional</span> smoothing: <span class="tsd-signature-type">boolean</span></h5>
+
+                
+            </li>
+    </ul>
+
+    <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">any</span></h4>
+
+
+        </li>
+        <li class="tsd-description">
+                <aside class="tsd-sources">
+        <p>Overwrites BitmapImage2D.draw</p>
+        <ul>
+                    <li>Defined in image/ViewImage2D.ts:197</li>
+        </ul>
+</aside>
+
+
+    <h4 class="tsd-parameters-title">Parameters</h4>
+    <ul class="tsd-parameters">
+            <li>
+                <h5>source: <span class="tsd-signature-type">HTMLElement</span></h5>
+
+                
+            </li>
+            <li>
+                <h5><span class="tsd-flag ts-flagOptional">Optional</span> matrix: <span class="tsd-signature-type">Matrix</span></h5>
+
+                
+            </li>
+            <li>
+                <h5><span class="tsd-flag ts-flagOptional">Optional</span> colorTransform: <span class="tsd-signature-type">ColorTransform</span></h5>
+
+                
+            </li>
+            <li>
+                <h5><span class="tsd-flag ts-flagOptional">Optional</span> blendMode: <span class="tsd-signature-type">BlendMode</span></h5>
+
+                
+            </li>
+            <li>
+                <h5><span class="tsd-flag ts-flagOptional">Optional</span> clipRect: <span class="tsd-signature-type">Rectangle</span></h5>
+
+                
+            </li>
+            <li>
+                <h5><span class="tsd-flag ts-flagOptional">Optional</span> smoothing: <span class="tsd-signature-type">boolean</span></h5>
+
+                
+            </li>
+    </ul>
+
+    <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">any</span></h4>
+
+
+        </li>
+        <li class="tsd-description">
+                <aside class="tsd-sources">
+        <p>Overwrites BitmapImage2D.draw</p>
+        <ul>
+                    <li>Defined in image/ViewImage2D.ts:198</li>
+        </ul>
+</aside>
+
+
+    <h4 class="tsd-parameters-title">Parameters</h4>
+    <ul class="tsd-parameters">
+            <li>
+                <h5>source: <span class="tsd-signature-type">Uint8Array</span></h5>
+
+                
+            </li>
+            <li>
+                <h5><span class="tsd-flag ts-flagOptional">Optional</span> matrix: <span class="tsd-signature-type">Matrix</span></h5>
+
+                
+            </li>
+            <li>
+                <h5><span class="tsd-flag ts-flagOptional">Optional</span> colorTransform: <span class="tsd-signature-type">ColorTransform</span></h5>
+
+                
+            </li>
+            <li>
+                <h5><span class="tsd-flag ts-flagOptional">Optional</span> blendMode: <span class="tsd-signature-type">BlendMode</span></h5>
+
+                
+            </li>
+            <li>
+                <h5><span class="tsd-flag ts-flagOptional">Optional</span> clipRect: <span class="tsd-signature-type">Rectangle</span></h5>
+
+                
+            </li>
+            <li>
+                <h5><span class="tsd-flag ts-flagOptional">Optional</span> smoothing: <span class="tsd-signature-type">boolean</span></h5>
+
+                
+            </li>
+    </ul>
+
+    <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">any</span></h4>
+
+
+        </li>
+</ul>    
+
+</section>
+            <section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+    <a name="fillRect" class="tsd-anchor"></a>
+        <h3>fill<wbr>Rect</h3>
+
+        <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+        <li class="tsd-signature tsd-kind-icon">fill<wbr>Rect<span class="tsd-signature-symbol">(</span>rect<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Rectangle</span>, color<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+</ul>
+
+<ul class="tsd-descriptions">
+        <li class="tsd-description">
+                <aside class="tsd-sources">
+        <p>Inherited from BitmapImage2D.fillRect</p>
+        <ul>
+                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/graphics/dist/lib/image/BitmapImage2D.d.ts:320</li>
+        </ul>
+</aside>
+        <div class="tsd-comment tsd-typography">
+                <div class="lead">
+                    <p>Fills a rectangular area of pixels with a specified ARGB color.</p>
+
+                </div>
+                <dl class="tsd-comment-tags">
+                        <dt>throws</dt>
+                        <dd><p>TypeError The rect is null.</p>
+</dd>
+                </dl>
+        </div>
+
+
+    <h4 class="tsd-parameters-title">Parameters</h4>
+    <ul class="tsd-parameters">
+            <li>
+                <h5>rect: <span class="tsd-signature-type">Rectangle</span></h5>
+
+                        <div class="tsd-comment tsd-typography">
+                <p>The rectangular area to fill.</p>
+
+        </div>
+
+            </li>
+            <li>
+                <h5>color: <span class="tsd-signature-type">number</span></h5>
+
+                        <div class="tsd-comment tsd-typography">
+                <p>The ARGB color value that fills the area. ARGB colors are
+             often specified in hexadecimal format; for example,
+             0xFF336699.</p>
+
+        </div>
+
+            </li>
     </ul>
 
     <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
@@ -1131,19 +1636,49 @@ BitmapImage2D object.</p>
 
 </section>
             <section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+    <a name="getCanvas" class="tsd-anchor"></a>
+        <h3>get<wbr>Canvas</h3>
+
+        <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+        <li class="tsd-signature tsd-kind-icon">get<wbr>Canvas<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">HTMLCanvasElement</span></li>
+</ul>
+
+<ul class="tsd-descriptions">
+        <li class="tsd-description">
+                <aside class="tsd-sources">
+        <p>Inherited from BitmapImage2D.getCanvas</p>
+        <ul>
+                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/graphics/dist/lib/image/BitmapImage2D.d.ts:485</li>
+        </ul>
+</aside>
+        <div class="tsd-comment tsd-typography">
+        </div>
+
+
+
+    <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">HTMLCanvasElement</span></h4>
+
+        
+
+        </li>
+</ul>    
+
+</section>
+            <section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-overwrite tsd-is-inherited">
     <a name="getImageData" class="tsd-anchor"></a>
         <h3>get<wbr>Image<wbr>Data</h3>
 
-        <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+        <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-overwrite tsd-is-inherited">
         <li class="tsd-signature tsd-kind-icon">get<wbr>Image<wbr>Data<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">ImageData</span></li>
 </ul>
 
 <ul class="tsd-descriptions">
         <li class="tsd-description">
                 <aside class="tsd-sources">
-        <p>Inherited from Image2D.getImageData</p>
+        <p>Inherited from BitmapImage2D.getImageData</p>
+        <p>Overwrites Image2D.getImageData</p>
         <ul>
-                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/graphics/dist/lib/image/Image2D.d.ts:51</li>
+                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/graphics/dist/lib/image/BitmapImage2D.d.ts:480</li>
         </ul>
 </aside>
         <div class="tsd-comment tsd-typography">
@@ -1154,6 +1689,191 @@ BitmapImage2D object.</p>
     <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">ImageData</span></h4>
 
         
+
+        </li>
+</ul>    
+
+</section>
+            <section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+    <a name="getPixel" class="tsd-anchor"></a>
+        <h3>get<wbr>Pixel</h3>
+
+        <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+        <li class="tsd-signature tsd-kind-icon">get<wbr>Pixel<span class="tsd-signature-symbol">(</span>x<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span>, y<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span></li>
+</ul>
+
+<ul class="tsd-descriptions">
+        <li class="tsd-description">
+                <aside class="tsd-sources">
+        <p>Inherited from BitmapImage2D.getPixel</p>
+        <ul>
+                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/graphics/dist/lib/image/BitmapImage2D.d.ts:344</li>
+        </ul>
+</aside>
+        <div class="tsd-comment tsd-typography">
+                <div class="lead">
+                    <p>Returns an integer that represents an RGB pixel value from a BitmapImage2D
+object at a specific point(<i>x</i>, <i>y</i>). The
+<code>getPixel()</code> method returns an unmultiplied pixel value. No
+alpha information is returned.</p>
+
+                </div>
+                <p>All pixels in a BitmapImage2D object are stored as premultiplied color
+values. A premultiplied image pixel has the red, green, and blue color
+channel values already multiplied by the alpha data. For example, if the
+alpha value is 0, the values for the RGB channels are also 0, independent
+of their unmultiplied values. This loss of data can cause some problems
+when you perform operations. All BitmapImage2D methods take and return
+unmultiplied values. The internal pixel representation is converted from
+premultiplied to unmultiplied before it is returned as a value. During a
+set operation, the pixel value is premultiplied before the raw image pixel
+is set.</p>
+
+        </div>
+
+
+    <h4 class="tsd-parameters-title">Parameters</h4>
+    <ul class="tsd-parameters">
+            <li>
+                <h5>x: <span class="tsd-signature-type">any</span></h5>
+
+                        <div class="tsd-comment tsd-typography">
+                <p>The <i>x</i> position of the pixel.</p>
+
+        </div>
+
+            </li>
+            <li>
+                <h5>y: <span class="tsd-signature-type">any</span></h5>
+
+                        <div class="tsd-comment tsd-typography">
+                <p>The <i>y</i> position of the pixel.</p>
+
+        </div>
+
+            </li>
+    </ul>
+
+    <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">number</span></h4>
+
+        <p>A number that represents an RGB pixel value. If the(<i>x</i>,
+        <i>y</i>) coordinates are outside the bounds of the image, the
+        method returns 0.</p>
+
+
+        </li>
+</ul>    
+
+</section>
+            <section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+    <a name="getPixel32" class="tsd-anchor"></a>
+        <h3>get<wbr>Pixel32</h3>
+
+        <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+        <li class="tsd-signature tsd-kind-icon">get<wbr>Pixel32<span class="tsd-signature-symbol">(</span>x<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span>, y<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span></li>
+</ul>
+
+<ul class="tsd-descriptions">
+        <li class="tsd-description">
+                <aside class="tsd-sources">
+        <p>Inherited from BitmapImage2D.getPixel32</p>
+        <ul>
+                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/graphics/dist/lib/image/BitmapImage2D.d.ts:367</li>
+        </ul>
+</aside>
+        <div class="tsd-comment tsd-typography">
+                <div class="lead">
+                    <p>Returns an ARGB color value that contains alpha channel data and RGB data.
+This method is similar to the <code>getPixel()</code> method, which
+returns an RGB color without alpha channel data.</p>
+
+                </div>
+                <p>All pixels in a BitmapImage2D object are stored as premultiplied color
+values. A premultiplied image pixel has the red, green, and blue color
+channel values already multiplied by the alpha data. For example, if the
+alpha value is 0, the values for the RGB channels are also 0, independent
+of their unmultiplied values. This loss of data can cause some problems
+when you perform operations. All BitmapImage2D methods take and return
+unmultiplied values. The internal pixel representation is converted from
+premultiplied to unmultiplied before it is returned as a value. During a
+set operation, the pixel value is premultiplied before the raw image pixel
+is set.</p>
+
+        </div>
+
+
+    <h4 class="tsd-parameters-title">Parameters</h4>
+    <ul class="tsd-parameters">
+            <li>
+                <h5>x: <span class="tsd-signature-type">any</span></h5>
+
+                        <div class="tsd-comment tsd-typography">
+                <p>The <i>x</i> position of the pixel.</p>
+
+        </div>
+
+            </li>
+            <li>
+                <h5>y: <span class="tsd-signature-type">any</span></h5>
+
+                        <div class="tsd-comment tsd-typography">
+                <p>The <i>y</i> position of the pixel.</p>
+
+        </div>
+
+            </li>
+    </ul>
+
+    <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">number</span></h4>
+
+        <p>A number representing an ARGB pixel value. If the(<i>x</i>,
+        <i>y</i>) coordinates are outside the bounds of the image, 0 is
+        returned.</p>
+
+
+        </li>
+</ul>    
+
+</section>
+            <section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+    <a name="getPixelData" class="tsd-anchor"></a>
+        <h3>get<wbr>Pixel<wbr>Data</h3>
+
+        <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+        <li class="tsd-signature tsd-kind-icon">get<wbr>Pixel<wbr>Data<span class="tsd-signature-symbol">(</span>x<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span>, y<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span>, imagePixel<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Uint8ClampedArray</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+</ul>
+
+<ul class="tsd-descriptions">
+        <li class="tsd-description">
+                <aside class="tsd-sources">
+        <p>Inherited from BitmapImage2D.getPixelData</p>
+        <ul>
+                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/graphics/dist/lib/image/BitmapImage2D.d.ts:368</li>
+        </ul>
+</aside>
+
+
+    <h4 class="tsd-parameters-title">Parameters</h4>
+    <ul class="tsd-parameters">
+            <li>
+                <h5>x: <span class="tsd-signature-type">any</span></h5>
+
+                
+            </li>
+            <li>
+                <h5>y: <span class="tsd-signature-type">any</span></h5>
+
+                
+            </li>
+            <li>
+                <h5>imagePixel: <span class="tsd-signature-type">Uint8ClampedArray</span></h5>
+
+                
+            </li>
+    </ul>
+
+    <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+
 
         </li>
 </ul>    
@@ -1322,6 +2042,106 @@ BitmapImage2D object.</p>
 
 </section>
             <section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+    <a name="lock" class="tsd-anchor"></a>
+        <h3>lock</h3>
+
+        <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+        <li class="tsd-signature tsd-kind-icon">lock<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+</ul>
+
+<ul class="tsd-descriptions">
+        <li class="tsd-description">
+                <aside class="tsd-sources">
+        <p>Inherited from BitmapImage2D.lock</p>
+        <ul>
+                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/graphics/dist/lib/image/BitmapImage2D.d.ts:378</li>
+        </ul>
+</aside>
+        <div class="tsd-comment tsd-typography">
+                <div class="lead">
+                    <p>Locks an image so that any objects that reference the BitmapImage2D object,
+such as Bitmap objects, are not updated when this BitmapImage2D object
+changes. To improve performance, use this method along with the
+<code>unlock()</code> method before and after numerous calls to the
+<code>setPixel()</code> or <code>setPixel32()</code> method.</p>
+
+                </div>
+        </div>
+
+
+
+    <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+
+
+        </li>
+</ul>    
+
+</section>
+            <section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+    <a name="merge" class="tsd-anchor"></a>
+        <h3>merge</h3>
+
+        <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+        <li class="tsd-signature tsd-kind-icon">merge<span class="tsd-signature-symbol">(</span>source<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">BitmapImage2D</span>, sourceRect<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Rectangle</span>, destPoint<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Point</span>, redMultiplier<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span>, greenMultiplier<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span>, blueMultiplier<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span>, alphaMultiplier<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+</ul>
+
+<ul class="tsd-descriptions">
+        <li class="tsd-description">
+                <aside class="tsd-sources">
+        <p>Inherited from BitmapImage2D.merge</p>
+        <ul>
+                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/graphics/dist/lib/image/BitmapImage2D.d.ts:215</li>
+        </ul>
+</aside>
+
+
+    <h4 class="tsd-parameters-title">Parameters</h4>
+    <ul class="tsd-parameters">
+            <li>
+                <h5>source: <span class="tsd-signature-type">BitmapImage2D</span></h5>
+
+                
+            </li>
+            <li>
+                <h5>sourceRect: <span class="tsd-signature-type">Rectangle</span></h5>
+
+                
+            </li>
+            <li>
+                <h5>destPoint: <span class="tsd-signature-type">Point</span></h5>
+
+                
+            </li>
+            <li>
+                <h5>redMultiplier: <span class="tsd-signature-type">number</span></h5>
+
+                
+            </li>
+            <li>
+                <h5>greenMultiplier: <span class="tsd-signature-type">number</span></h5>
+
+                
+            </li>
+            <li>
+                <h5>blueMultiplier: <span class="tsd-signature-type">number</span></h5>
+
+                
+            </li>
+            <li>
+                <h5>alphaMultiplier: <span class="tsd-signature-type">number</span></h5>
+
+                
+            </li>
+    </ul>
+
+    <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+
+
+        </li>
+</ul>    
+
+</section>
+            <section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
     <a name="removeEventListener" class="tsd-anchor"></a>
         <h3>remove<wbr>Event<wbr>Listener</h3>
 
@@ -1433,6 +2253,417 @@ BitmapImage2D object.</p>
                 
             </li>
     </ul>
+
+    <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+
+
+        </li>
+</ul>    
+
+</section>
+            <section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+    <a name="setArray" class="tsd-anchor"></a>
+        <h3>set<wbr>Array</h3>
+
+        <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+        <li class="tsd-signature tsd-kind-icon">set<wbr>Array<span class="tsd-signature-symbol">(</span>rect<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Rectangle</span>, inputArray<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Array</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+</ul>
+
+<ul class="tsd-descriptions">
+        <li class="tsd-description">
+                <aside class="tsd-sources">
+        <p>Inherited from BitmapImage2D.setArray</p>
+        <ul>
+                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/graphics/dist/lib/image/BitmapImage2D.d.ts:391</li>
+        </ul>
+</aside>
+        <div class="tsd-comment tsd-typography">
+                <div class="lead">
+                    <p>Converts an Array into a rectangular region of pixel data. For each pixel,
+an Array element is read and written into the BitmapImage2D pixel. The data
+in the Array is expected to be 32-bit ARGB pixel values.</p>
+
+                </div>
+                <dl class="tsd-comment-tags">
+                        <dt>throws</dt>
+                        <dd><p>RangeError The vector array is not large enough to read all the
+                   pixel data.</p>
+</dd>
+                </dl>
+        </div>
+
+
+    <h4 class="tsd-parameters-title">Parameters</h4>
+    <ul class="tsd-parameters">
+            <li>
+                <h5>rect: <span class="tsd-signature-type">Rectangle</span></h5>
+
+                        <div class="tsd-comment tsd-typography">
+                <p>Specifies the rectangular region of the BitmapImage2D
+                   object.</p>
+
+        </div>
+
+            </li>
+            <li>
+                <h5>inputArray: <span class="tsd-signature-type">Array</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">&gt;</span></h5>
+
+                        <div class="tsd-comment tsd-typography">
+                <p>An Array that consists of 32-bit unmultiplied pixel
+                   values to be used in the rectangular region.</p>
+
+        </div>
+
+            </li>
+    </ul>
+
+    <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+
+
+        </li>
+</ul>    
+
+</section>
+            <section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+    <a name="setPixel" class="tsd-anchor"></a>
+        <h3>set<wbr>Pixel</h3>
+
+        <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+        <li class="tsd-signature tsd-kind-icon">set<wbr>Pixel<span class="tsd-signature-symbol">(</span>x<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span>, y<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span>, color<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+</ul>
+
+<ul class="tsd-descriptions">
+        <li class="tsd-description">
+                <aside class="tsd-sources">
+        <p>Inherited from BitmapImage2D.setPixel</p>
+        <ul>
+                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/graphics/dist/lib/image/BitmapImage2D.d.ts:409</li>
+        </ul>
+</aside>
+        <div class="tsd-comment tsd-typography">
+                <div class="lead">
+                    <p>Sets a single pixel of a BitmapImage2D object. The current alpha channel
+value of the image pixel is preserved during this operation. The value of
+the RGB color parameter is treated as an unmultiplied color value.</p>
+
+                </div>
+                <p><b>Note:</b> To increase performance, when you use the
+<code>setPixel()</code> or <code>setPixel32()</code> method repeatedly,
+call the <code>lock()</code> method before you call the
+<code>setPixel()</code> or <code>setPixel32()</code> method, and then call
+the <code>unlock()</code> method when you have made all pixel changes.
+This process prevents objects that reference this BitmapImage2D instance from
+updating until you finish making the pixel changes.</p>
+
+        </div>
+
+
+    <h4 class="tsd-parameters-title">Parameters</h4>
+    <ul class="tsd-parameters">
+            <li>
+                <h5>x: <span class="tsd-signature-type">number</span></h5>
+
+                        <div class="tsd-comment tsd-typography">
+                <p>The <i>x</i> position of the pixel whose value changes.</p>
+
+        </div>
+
+            </li>
+            <li>
+                <h5>y: <span class="tsd-signature-type">number</span></h5>
+
+                        <div class="tsd-comment tsd-typography">
+                <p>The <i>y</i> position of the pixel whose value changes.</p>
+
+        </div>
+
+            </li>
+            <li>
+                <h5>color: <span class="tsd-signature-type">number</span></h5>
+
+                        <div class="tsd-comment tsd-typography">
+                <p>The resulting RGB color for the pixel.</p>
+
+        </div>
+
+            </li>
+    </ul>
+
+    <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+
+
+        </li>
+</ul>    
+
+</section>
+            <section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+    <a name="setPixel32" class="tsd-anchor"></a>
+        <h3>set<wbr>Pixel32</h3>
+
+        <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+        <li class="tsd-signature tsd-kind-icon">set<wbr>Pixel32<span class="tsd-signature-symbol">(</span>x<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span>, y<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span>, color<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+</ul>
+
+<ul class="tsd-descriptions">
+        <li class="tsd-description">
+                <aside class="tsd-sources">
+        <p>Inherited from BitmapImage2D.setPixel32</p>
+        <ul>
+                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/graphics/dist/lib/image/BitmapImage2D.d.ts:442</li>
+        </ul>
+</aside>
+        <div class="tsd-comment tsd-typography">
+                <div class="lead">
+                    <p>Sets the color and alpha transparency values of a single pixel of a
+BitmapImage2D object. This method is similar to the <code>setPixel()</code>
+method; the main difference is that the <code>setPixel32()</code> method
+takes an ARGB color value that contains alpha channel information.</p>
+
+                </div>
+                <p>All pixels in a BitmapImage2D object are stored as premultiplied color
+values. A premultiplied image pixel has the red, green, and blue color
+channel values already multiplied by the alpha data. For example, if the
+alpha value is 0, the values for the RGB channels are also 0, independent
+of their unmultiplied values. This loss of data can cause some problems
+when you perform operations. All BitmapImage2D methods take and return
+unmultiplied values. The internal pixel representation is converted from
+premultiplied to unmultiplied before it is returned as a value. During a
+set operation, the pixel value is premultiplied before the raw image pixel
+is set.</p>
+
+<p><b>Note:</b> To increase performance, when you use the
+<code>setPixel()</code> or <code>setPixel32()</code> method repeatedly,
+call the <code>lock()</code> method before you call the
+<code>setPixel()</code> or <code>setPixel32()</code> method, and then call
+the <code>unlock()</code> method when you have made all pixel changes.
+This process prevents objects that reference this BitmapImage2D instance from
+updating until you finish making the pixel changes.</p>
+
+        </div>
+
+
+    <h4 class="tsd-parameters-title">Parameters</h4>
+    <ul class="tsd-parameters">
+            <li>
+                <h5>x: <span class="tsd-signature-type">any</span></h5>
+
+                        <div class="tsd-comment tsd-typography">
+                <p>The <i>x</i> position of the pixel whose value changes.</p>
+
+        </div>
+
+            </li>
+            <li>
+                <h5>y: <span class="tsd-signature-type">any</span></h5>
+
+                        <div class="tsd-comment tsd-typography">
+                <p>The <i>y</i> position of the pixel whose value changes.</p>
+
+        </div>
+
+            </li>
+            <li>
+                <h5>color: <span class="tsd-signature-type">number</span></h5>
+
+                        <div class="tsd-comment tsd-typography">
+                <p>The resulting ARGB color for the pixel. If the bitmap is
+             opaque(not transparent), the alpha transparency portion of
+             this color value is ignored.</p>
+
+        </div>
+
+            </li>
+    </ul>
+
+    <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+
+
+        </li>
+</ul>    
+
+</section>
+            <section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+    <a name="setPixelData" class="tsd-anchor"></a>
+        <h3>set<wbr>Pixel<wbr>Data</h3>
+
+        <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+        <li class="tsd-signature tsd-kind-icon">set<wbr>Pixel<wbr>Data<span class="tsd-signature-symbol">(</span>x<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span>, y<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span>, imagePixel<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Uint8ClampedArray</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+</ul>
+
+<ul class="tsd-descriptions">
+        <li class="tsd-description">
+                <aside class="tsd-sources">
+        <p>Inherited from BitmapImage2D.setPixelData</p>
+        <ul>
+                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/graphics/dist/lib/image/BitmapImage2D.d.ts:369</li>
+        </ul>
+</aside>
+
+
+    <h4 class="tsd-parameters-title">Parameters</h4>
+    <ul class="tsd-parameters">
+            <li>
+                <h5>x: <span class="tsd-signature-type">any</span></h5>
+
+                
+            </li>
+            <li>
+                <h5>y: <span class="tsd-signature-type">any</span></h5>
+
+                
+            </li>
+            <li>
+                <h5>imagePixel: <span class="tsd-signature-type">Uint8ClampedArray</span></h5>
+
+                
+            </li>
+    </ul>
+
+    <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+
+
+        </li>
+</ul>    
+
+</section>
+            <section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+    <a name="setPixelFromArray" class="tsd-anchor"></a>
+        <h3>set<wbr>Pixel<wbr>From<wbr>Array</h3>
+
+        <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+        <li class="tsd-signature tsd-kind-icon">set<wbr>Pixel<wbr>From<wbr>Array<span class="tsd-signature-symbol">(</span>x<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span>, y<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span>, colors<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+</ul>
+
+<ul class="tsd-descriptions">
+        <li class="tsd-description">
+                <aside class="tsd-sources">
+        <p>Inherited from BitmapImage2D.setPixelFromArray</p>
+        <ul>
+                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/graphics/dist/lib/image/BitmapImage2D.d.ts:410</li>
+        </ul>
+</aside>
+
+
+    <h4 class="tsd-parameters-title">Parameters</h4>
+    <ul class="tsd-parameters">
+            <li>
+                <h5>x: <span class="tsd-signature-type">number</span></h5>
+
+                
+            </li>
+            <li>
+                <h5>y: <span class="tsd-signature-type">number</span></h5>
+
+                
+            </li>
+            <li>
+                <h5>colors: <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">[]</span></h5>
+
+                
+            </li>
+    </ul>
+
+    <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+
+
+        </li>
+</ul>    
+
+</section>
+            <section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+    <a name="setPixels" class="tsd-anchor"></a>
+        <h3>set<wbr>Pixels</h3>
+
+        <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+        <li class="tsd-signature tsd-kind-icon">set<wbr>Pixels<span class="tsd-signature-symbol">(</span>rect<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Rectangle</span>, input<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Uint8ClampedArray</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+</ul>
+
+<ul class="tsd-descriptions">
+        <li class="tsd-description">
+                <aside class="tsd-sources">
+        <p>Inherited from BitmapImage2D.setPixels</p>
+        <ul>
+                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/graphics/dist/lib/image/BitmapImage2D.d.ts:462</li>
+        </ul>
+</aside>
+        <div class="tsd-comment tsd-typography">
+                <div class="lead">
+                    <p>Converts a byte array into a rectangular region of pixel data. For each
+pixel, the <code>ByteArray.readUnsignedInt()</code> method is called and
+the return value is written into the pixel. If the byte array ends before
+the full rectangle is written, the function returns. The data in the byte
+array is expected to be 32-bit ARGB pixel values. No seeking is performed
+on the byte array before or after the pixels are read.</p>
+
+                </div>
+                <dl class="tsd-comment-tags">
+                        <dt>throws</dt>
+                        <dd><p>EOFError  The <code>inputByteArray</code> object does not include
+                  enough data to fill the area of the <code>rect</code>
+                  rectangle. The method fills as many pixels as possible
+                  before throwing the exception.</p>
+</dd>
+                        <dt>throws</dt>
+                        <dd><p>TypeError The rect or inputByteArray are null.</p>
+</dd>
+                </dl>
+        </div>
+
+
+    <h4 class="tsd-parameters-title">Parameters</h4>
+    <ul class="tsd-parameters">
+            <li>
+                <h5>rect: <span class="tsd-signature-type">Rectangle</span></h5>
+
+                        <div class="tsd-comment tsd-typography">
+                <p>Specifies the rectangular region of the BitmapImage2D
+                      object.</p>
+
+        </div>
+
+            </li>
+            <li>
+                <h5>input: <span class="tsd-signature-type">Uint8ClampedArray</span></h5>
+
+                
+            </li>
+    </ul>
+
+    <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+
+
+        </li>
+</ul>    
+
+</section>
+            <section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+    <a name="unlock" class="tsd-anchor"></a>
+        <h3>unlock</h3>
+
+        <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+        <li class="tsd-signature tsd-kind-icon">unlock<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+</ul>
+
+<ul class="tsd-descriptions">
+        <li class="tsd-description">
+                <aside class="tsd-sources">
+        <p>Inherited from BitmapImage2D.unlock</p>
+        <ul>
+                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/graphics/dist/lib/image/BitmapImage2D.d.ts:475</li>
+        </ul>
+</aside>
+        <div class="tsd-comment tsd-typography">
+                <div class="lead">
+                    <p>Unlocks an image so that any objects that reference the BitmapImage2D object,
+such as Bitmap objects, are updated when this BitmapImage2D object changes.
+To improve performance, use this method along with the <code>lock()</code>
+method before and after numerous calls to the <code>setPixel()</code> or
+<code>setPixel32()</code> method.</p>
+
+                </div>
+        </div>
+
+
 
     <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
 

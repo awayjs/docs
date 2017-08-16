@@ -101,6 +101,7 @@ using material methods to define their appearance.</p>
         <h3>Implements</h3>
         <ul class="tsd-hierarchy">
                 <li><span class="tsd-signature-type">IAsset</span></li>
+                <li><span class="tsd-signature-type">IAssetAdapter</span></li>
                 <li><span class="tsd-signature-type">IMaterial</span></li>
         </ul>
     </section>
@@ -121,12 +122,15 @@ using material methods to define their appearance.</p>
                 <section class="tsd-index-section ">
                     <h3>Properties</h3>
                     <ul class="tsd-index-list">
+                        <li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="MethodMaterial.html#_adapter" class="tsd-kind-icon">_adapter</a></li>
                         <li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="MethodMaterial.html#_iBaseScreenPassIndex" class="tsd-kind-icon">_i<wbr>Base<wbr>Screen<wbr>Pass<wbr>Index</a></li>
                         <li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited tsd-is-private"><a href="MethodMaterial.html#_iClassification" class="tsd-kind-icon">_i<wbr>Classification</a></li>
                         <li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="MethodMaterial.html#_pAlphaThreshold" class="tsd-kind-icon">_p<wbr>Alpha<wbr>Threshold</a></li>
                         <li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="MethodMaterial.html#_pAnimateUVs" class="tsd-kind-icon">_p<wbr>AnimateUVs</a></li>
                         <li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="MethodMaterial.html#_pBlendMode" class="tsd-kind-icon">_p<wbr>Blend<wbr>Mode</a></li>
                         <li class="tsd-kind-property tsd-parent-kind-class"><a href="MethodMaterial.html#_pLightPicker" class="tsd-kind-icon">_p<wbr>Light<wbr>Picker</a></li>
+                        <li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="MethodMaterial.html#adaptee" class="tsd-kind-icon">adaptee</a></li>
+                        <li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="MethodMaterial.html#adapter" class="tsd-kind-icon">adapter</a></li>
                         <li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="MethodMaterial.html#alpha" class="tsd-kind-icon">alpha</a></li>
                         <li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="MethodMaterial.html#alphaBlending" class="tsd-kind-icon">alpha<wbr>Blending</a></li>
                         <li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="MethodMaterial.html#alphaPremultiplied" class="tsd-kind-icon">alpha<wbr>Premultiplied</a></li>
@@ -197,6 +201,7 @@ using material methods to define their appearance.</p>
                         <li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="MethodMaterial.html#removeEventListener" class="tsd-kind-icon">remove<wbr>Event<wbr>Listener</a></li>
                         <li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="MethodMaterial.html#removeTexture" class="tsd-kind-icon">remove<wbr>Texture</a></li>
                         <li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="MethodMaterial.html#resetAssetPath" class="tsd-kind-icon">reset<wbr>Asset<wbr>Path</a></li>
+                        <li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="MethodMaterial.html#updateFullPath" class="tsd-kind-icon">update<wbr>Full<wbr>Path</a></li>
                     </ul>
                 </section>
         </div>
@@ -286,6 +291,22 @@ using material methods to define their appearance.</p>
 </section>
         <section class="tsd-panel-group tsd-member-group ">
     <h2>Properties</h2>
+            <section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-inherited">
+    <a name="_adapter" class="tsd-anchor"></a>
+        <h3>_adapter</h3>
+
+        <div class="tsd-signature tsd-kind-icon">_adapter<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">IAssetAdapter</span></div>
+
+<aside class="tsd-sources">
+        <p>Inherited from AssetBase._adapter</p>
+        <ul>
+                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/core/dist/lib/library/AssetBase.d.ts:7</li>
+        </ul>
+</aside>
+
+    
+
+</section>
             <section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-inherited">
     <a name="_iBaseScreenPassIndex" class="tsd-anchor"></a>
         <h3>_i<wbr>Base<wbr>Screen<wbr>Pass<wbr>Index</h3>
@@ -385,6 +406,45 @@ that the deferred renderer knows not to take the forward rendering path.</p>
                     <li>Defined in MethodMaterial.ts:40</li>
         </ul>
 </aside>
+
+    
+
+</section>
+            <section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-inherited">
+    <a name="adaptee" class="tsd-anchor"></a>
+        <h3>adaptee</h3>
+
+        <div class="tsd-signature tsd-kind-icon">adaptee<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">AssetBase</span></div>
+
+<aside class="tsd-sources">
+        <p>Inherited from AssetBase.adaptee</p>
+        <ul>
+                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/core/dist/lib/library/AssetBase.d.ts:15</li>
+        </ul>
+</aside>
+
+    
+
+</section>
+            <section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-inherited">
+    <a name="adapter" class="tsd-anchor"></a>
+        <h3>adapter</h3>
+
+        <div class="tsd-signature tsd-kind-icon">adapter<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">IAssetAdapter</span></div>
+
+<aside class="tsd-sources">
+        <p>Inherited from AssetBase.adapter</p>
+        <ul>
+                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/core/dist/lib/library/AssetBase.d.ts:20</li>
+        </ul>
+</aside>
+        <div class="tsd-comment tsd-typography">
+                <div class="lead">
+                    <p>adapter is used to provide MovieClip to scripts taken from different platforms
+setter typically managed by factory. getter defaults to AwayJS class</p>
+
+                </div>
+        </div>
 
     
 
@@ -529,7 +589,7 @@ Recommended values are 0 to disable alpha, or 0.5 to create smooth edges. Defaul
 <aside class="tsd-sources">
         <p>Inherited from AssetBase.assetFullPath</p>
         <ul>
-                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/core/dist/lib/library/AssetBase.d.ts:38</li>
+                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/core/dist/lib/library/AssetBase.d.ts:46</li>
         </ul>
 </aside>
 
@@ -545,7 +605,7 @@ Recommended values are 0 to disable alpha, or 0.5 to create smooth edges. Defaul
 <aside class="tsd-sources">
         <p>Inherited from AssetBase.assetNamespace</p>
         <ul>
-                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/core/dist/lib/library/AssetBase.d.ts:37</li>
+                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/core/dist/lib/library/AssetBase.d.ts:45</li>
         </ul>
 </aside>
 
@@ -699,7 +759,7 @@ Recommended values are 0 to disable alpha, or 0.5 to create smooth edges. Defaul
 <aside class="tsd-sources">
         <p>Inherited from AssetBase.id</p>
         <ul>
-                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/core/dist/lib/library/AssetBase.d.ts:26</li>
+                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/core/dist/lib/library/AssetBase.d.ts:34</li>
         </ul>
 </aside>
         <div class="tsd-comment tsd-typography">
@@ -743,7 +803,7 @@ Recommended values are 0 to disable alpha, or 0.5 to create smooth edges. Defaul
 <aside class="tsd-sources">
         <p>Inherited from AssetBase.name</p>
         <ul>
-                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/core/dist/lib/library/AssetBase.d.ts:27</li>
+                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/core/dist/lib/library/AssetBase.d.ts:35</li>
         </ul>
 </aside>
 
@@ -759,7 +819,7 @@ Recommended values are 0 to disable alpha, or 0.5 to create smooth edges. Defaul
 <aside class="tsd-sources">
         <p>Inherited from AssetBase.originalName</p>
         <ul>
-                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/core/dist/lib/library/AssetBase.d.ts:22</li>
+                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/core/dist/lib/library/AssetBase.d.ts:30</li>
         </ul>
 </aside>
         <div class="tsd-comment tsd-typography">
@@ -827,7 +887,7 @@ have changed due to of a name conflict.</p>
 <aside class="tsd-sources">
         <p>Inherited from AssetBase.DEFAULT_NAMESPACE</p>
         <ul>
-                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/core/dist/lib/library/AssetBase.d.ts:11</li>
+                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/core/dist/lib/library/AssetBase.d.ts:13</li>
         </ul>
 </aside>
 
@@ -843,7 +903,7 @@ have changed due to of a name conflict.</p>
 <aside class="tsd-sources">
         <p>Inherited from AssetBase.ID_COUNT</p>
         <ul>
-                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/core/dist/lib/library/AssetBase.d.ts:5</li>
+                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/core/dist/lib/library/AssetBase.d.ts:6</li>
         </ul>
 </aside>
 
@@ -1859,7 +1919,7 @@ etc. The method will be applied to the result of the methods with a lower index.
                 <aside class="tsd-sources">
         <p>Inherited from AssetBase.assetPathEquals</p>
         <ul>
-                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/core/dist/lib/library/AssetBase.d.ts:39</li>
+                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/core/dist/lib/library/AssetBase.d.ts:47</li>
         </ul>
 </aside>
 
@@ -1898,7 +1958,7 @@ etc. The method will be applied to the result of the methods with a lower index.
                 <aside class="tsd-sources">
         <p>Inherited from AssetBase.clear</p>
         <ul>
-                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/core/dist/lib/library/AssetBase.d.ts:36</li>
+                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/core/dist/lib/library/AssetBase.d.ts:44</li>
         </ul>
 </aside>
 
@@ -1969,7 +2029,7 @@ etc. The method will be applied to the result of the methods with a lower index.
                 <aside class="tsd-sources">
         <p>Inherited from AssetBase.dispose</p>
         <ul>
-                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/core/dist/lib/library/AssetBase.d.ts:35</li>
+                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/core/dist/lib/library/AssetBase.d.ts:43</li>
         </ul>
 </aside>
         <div class="tsd-comment tsd-typography">
@@ -2279,7 +2339,7 @@ Programs depend on animation. This method needs to be called when a material is 
                 <aside class="tsd-sources">
         <p>Inherited from AssetBase.invalidate</p>
         <ul>
-                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/core/dist/lib/library/AssetBase.d.ts:31</li>
+                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/core/dist/lib/library/AssetBase.d.ts:39</li>
         </ul>
 </aside>
 
@@ -2389,7 +2449,7 @@ Programs depend on animation. This method needs to be called when a material is 
                 <aside class="tsd-sources">
         <p>Inherited from AssetBase.isAsset</p>
         <ul>
-                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/core/dist/lib/library/AssetBase.d.ts:40</li>
+                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/core/dist/lib/library/AssetBase.d.ts:48</li>
         </ul>
 </aside>
 
@@ -2576,7 +2636,7 @@ Programs depend on animation. This method needs to be called when a material is 
                 <aside class="tsd-sources">
         <p>Inherited from AssetBase.resetAssetPath</p>
         <ul>
-                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/core/dist/lib/library/AssetBase.d.ts:41</li>
+                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/core/dist/lib/library/AssetBase.d.ts:49</li>
         </ul>
 </aside>
 
@@ -2599,6 +2659,32 @@ Programs depend on animation. This method needs to be called when a material is 
                 
             </li>
     </ul>
+
+    <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+
+
+        </li>
+</ul>    
+
+</section>
+            <section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+    <a name="updateFullPath" class="tsd-anchor"></a>
+        <h3>update<wbr>Full<wbr>Path</h3>
+
+        <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+        <li class="tsd-signature tsd-kind-icon">update<wbr>Full<wbr>Path<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+</ul>
+
+<ul class="tsd-descriptions">
+        <li class="tsd-description">
+                <aside class="tsd-sources">
+        <p>Inherited from AssetBase.updateFullPath</p>
+        <ul>
+                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/core/dist/lib/library/AssetBase.d.ts:50</li>
+        </ul>
+</aside>
+
+
 
     <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
 

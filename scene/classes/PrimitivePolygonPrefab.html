@@ -100,6 +100,7 @@
         <h3>Implements</h3>
         <ul class="tsd-hierarchy">
                 <li><span class="tsd-signature-type">IAsset</span></li>
+                <li><span class="tsd-signature-type">IAssetAdapter</span></li>
         </ul>
     </section>
 
@@ -119,6 +120,7 @@
                 <section class="tsd-index-section tsd-is-inherited">
                     <h3>Properties</h3>
                     <ul class="tsd-index-list">
+                        <li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="PrimitivePolygonPrefab.html#_adapter" class="tsd-kind-icon">_adapter</a></li>
                         <li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="PrimitivePolygonPrefab.html#_pBottomRadius" class="tsd-kind-icon">_p<wbr>Bottom<wbr>Radius</a></li>
                         <li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="PrimitivePolygonPrefab.html#_pObjects" class="tsd-kind-icon">_p<wbr>Objects</a></li>
                         <li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="PrimitivePolygonPrefab.html#_pSegmentsH" class="tsd-kind-icon">_p<wbr>SegmentsH</a></li>
@@ -127,6 +129,8 @@
                         <li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="PrimitivePolygonPrefab.html#_scaleU" class="tsd-kind-icon">_scaleU</a></li>
                         <li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="PrimitivePolygonPrefab.html#_scaleV" class="tsd-kind-icon">_scaleV</a></li>
                         <li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="PrimitivePolygonPrefab.html#_uvDirty" class="tsd-kind-icon">_uv<wbr>Dirty</a></li>
+                        <li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="PrimitivePolygonPrefab.html#adaptee" class="tsd-kind-icon">adaptee</a></li>
+                        <li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="PrimitivePolygonPrefab.html#adapter" class="tsd-kind-icon">adapter</a></li>
                         <li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="PrimitivePolygonPrefab.html#assetFullPath" class="tsd-kind-icon">asset<wbr>Full<wbr>Path</a></li>
                         <li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="PrimitivePolygonPrefab.html#assetNamespace" class="tsd-kind-icon">asset<wbr>Namespace</a></li>
                         <li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="PrimitivePolygonPrefab.html#id" class="tsd-kind-icon">id</a></li>
@@ -180,6 +184,7 @@
                         <li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="PrimitivePolygonPrefab.html#resetAssetPath" class="tsd-kind-icon">reset<wbr>Asset<wbr>Path</a></li>
                         <li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="PrimitivePolygonPrefab.html#setSegmentsH" class="tsd-kind-icon">set<wbr>SegmentsH</a></li>
                         <li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="PrimitivePolygonPrefab.html#setSegmentsW" class="tsd-kind-icon">set<wbr>SegmentsW</a></li>
+                        <li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="PrimitivePolygonPrefab.html#updateFullPath" class="tsd-kind-icon">update<wbr>Full<wbr>Path</a></li>
                     </ul>
                 </section>
         </div>
@@ -268,6 +273,22 @@
 </section>
         <section class="tsd-panel-group tsd-member-group tsd-is-inherited">
     <h2>Properties</h2>
+            <section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-inherited">
+    <a name="_adapter" class="tsd-anchor"></a>
+        <h3>_adapter</h3>
+
+        <div class="tsd-signature tsd-kind-icon">_adapter<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">IAssetAdapter</span></div>
+
+<aside class="tsd-sources">
+        <p>Inherited from AssetBase._adapter</p>
+        <ul>
+                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/core/dist/lib/library/AssetBase.d.ts:7</li>
+        </ul>
+</aside>
+
+    
+
+</section>
             <section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-inherited">
     <a name="_pBottomRadius" class="tsd-anchor"></a>
         <h3>_p<wbr>Bottom<wbr>Radius</h3>
@@ -397,6 +418,45 @@
 
 </section>
             <section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-inherited">
+    <a name="adaptee" class="tsd-anchor"></a>
+        <h3>adaptee</h3>
+
+        <div class="tsd-signature tsd-kind-icon">adaptee<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">AssetBase</span></div>
+
+<aside class="tsd-sources">
+        <p>Inherited from AssetBase.adaptee</p>
+        <ul>
+                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/core/dist/lib/library/AssetBase.d.ts:15</li>
+        </ul>
+</aside>
+
+    
+
+</section>
+            <section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-inherited">
+    <a name="adapter" class="tsd-anchor"></a>
+        <h3>adapter</h3>
+
+        <div class="tsd-signature tsd-kind-icon">adapter<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">IAssetAdapter</span></div>
+
+<aside class="tsd-sources">
+        <p>Inherited from AssetBase.adapter</p>
+        <ul>
+                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/core/dist/lib/library/AssetBase.d.ts:20</li>
+        </ul>
+</aside>
+        <div class="tsd-comment tsd-typography">
+                <div class="lead">
+                    <p>adapter is used to provide MovieClip to scripts taken from different platforms
+setter typically managed by factory. getter defaults to AwayJS class</p>
+
+                </div>
+        </div>
+
+    
+
+</section>
+            <section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-inherited">
     <a name="assetFullPath" class="tsd-anchor"></a>
         <h3>asset<wbr>Full<wbr>Path</h3>
 
@@ -405,7 +465,7 @@
 <aside class="tsd-sources">
         <p>Inherited from AssetBase.assetFullPath</p>
         <ul>
-                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/core/dist/lib/library/AssetBase.d.ts:38</li>
+                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/core/dist/lib/library/AssetBase.d.ts:46</li>
         </ul>
 </aside>
 
@@ -421,7 +481,7 @@
 <aside class="tsd-sources">
         <p>Inherited from AssetBase.assetNamespace</p>
         <ul>
-                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/core/dist/lib/library/AssetBase.d.ts:37</li>
+                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/core/dist/lib/library/AssetBase.d.ts:45</li>
         </ul>
 </aside>
 
@@ -437,7 +497,7 @@
 <aside class="tsd-sources">
         <p>Inherited from AssetBase.id</p>
         <ul>
-                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/core/dist/lib/library/AssetBase.d.ts:26</li>
+                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/core/dist/lib/library/AssetBase.d.ts:34</li>
         </ul>
 </aside>
         <div class="tsd-comment tsd-typography">
@@ -459,7 +519,7 @@
 <aside class="tsd-sources">
         <p>Inherited from AssetBase.name</p>
         <ul>
-                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/core/dist/lib/library/AssetBase.d.ts:27</li>
+                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/core/dist/lib/library/AssetBase.d.ts:35</li>
         </ul>
 </aside>
 
@@ -475,7 +535,7 @@
 <aside class="tsd-sources">
         <p>Inherited from AssetBase.originalName</p>
         <ul>
-                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/core/dist/lib/library/AssetBase.d.ts:22</li>
+                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/core/dist/lib/library/AssetBase.d.ts:30</li>
         </ul>
 </aside>
         <div class="tsd-comment tsd-typography">
@@ -499,7 +559,7 @@ have changed due to of a name conflict.</p>
 <aside class="tsd-sources">
         <p>Inherited from AssetBase.DEFAULT_NAMESPACE</p>
         <ul>
-                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/core/dist/lib/library/AssetBase.d.ts:11</li>
+                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/core/dist/lib/library/AssetBase.d.ts:13</li>
         </ul>
 </aside>
 
@@ -515,7 +575,7 @@ have changed due to of a name conflict.</p>
 <aside class="tsd-sources">
         <p>Inherited from AssetBase.ID_COUNT</p>
         <ul>
-                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/core/dist/lib/library/AssetBase.d.ts:5</li>
+                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/core/dist/lib/library/AssetBase.d.ts:6</li>
         </ul>
 </aside>
 
@@ -1736,7 +1796,7 @@ have changed due to of a name conflict.</p>
                 <aside class="tsd-sources">
         <p>Inherited from AssetBase.assetPathEquals</p>
         <ul>
-                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/core/dist/lib/library/AssetBase.d.ts:39</li>
+                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/core/dist/lib/library/AssetBase.d.ts:47</li>
         </ul>
 </aside>
 
@@ -1775,7 +1835,7 @@ have changed due to of a name conflict.</p>
                 <aside class="tsd-sources">
         <p>Inherited from AssetBase.clear</p>
         <ul>
-                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/core/dist/lib/library/AssetBase.d.ts:36</li>
+                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/core/dist/lib/library/AssetBase.d.ts:44</li>
         </ul>
 </aside>
 
@@ -1846,7 +1906,7 @@ have changed due to of a name conflict.</p>
                 <aside class="tsd-sources">
         <p>Inherited from AssetBase.dispose</p>
         <ul>
-                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/core/dist/lib/library/AssetBase.d.ts:35</li>
+                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/core/dist/lib/library/AssetBase.d.ts:43</li>
         </ul>
 </aside>
         <div class="tsd-comment tsd-typography">
@@ -1986,7 +2046,7 @@ have changed due to of a name conflict.</p>
                 <aside class="tsd-sources">
         <p>Inherited from AssetBase.invalidate</p>
         <ul>
-                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/core/dist/lib/library/AssetBase.d.ts:31</li>
+                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/core/dist/lib/library/AssetBase.d.ts:39</li>
         </ul>
 </aside>
 
@@ -2012,7 +2072,7 @@ have changed due to of a name conflict.</p>
                 <aside class="tsd-sources">
         <p>Inherited from AssetBase.isAsset</p>
         <ul>
-                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/core/dist/lib/library/AssetBase.d.ts:40</li>
+                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/core/dist/lib/library/AssetBase.d.ts:48</li>
         </ul>
 </aside>
 
@@ -2122,7 +2182,7 @@ have changed due to of a name conflict.</p>
                 <aside class="tsd-sources">
         <p>Inherited from AssetBase.resetAssetPath</p>
         <ul>
-                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/core/dist/lib/library/AssetBase.d.ts:41</li>
+                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/core/dist/lib/library/AssetBase.d.ts:49</li>
         </ul>
 </aside>
 
@@ -2213,6 +2273,32 @@ have changed due to of a name conflict.</p>
                 
             </li>
     </ul>
+
+    <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+
+
+        </li>
+</ul>    
+
+</section>
+            <section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+    <a name="updateFullPath" class="tsd-anchor"></a>
+        <h3>update<wbr>Full<wbr>Path</h3>
+
+        <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+        <li class="tsd-signature tsd-kind-icon">update<wbr>Full<wbr>Path<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+</ul>
+
+<ul class="tsd-descriptions">
+        <li class="tsd-description">
+                <aside class="tsd-sources">
+        <p>Inherited from AssetBase.updateFullPath</p>
+        <ul>
+                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/core/dist/lib/library/AssetBase.d.ts:50</li>
+        </ul>
+</aside>
+
+
 
     <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
 

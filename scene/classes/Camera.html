@@ -92,6 +92,7 @@
         <h3>Implements</h3>
         <ul class="tsd-hierarchy">
                 <li><span class="tsd-signature-type">IAsset</span></li>
+                <li><span class="tsd-signature-type">IAssetAdapter</span></li>
                 <li><a href="../interfaces/IBitmapDrawable.html" class="tsd-signature-type">IBitmapDrawable</a></li>
                 <li><span class="tsd-signature-type">IEntity</span></li>
                 <li><span class="tsd-signature-type">IEntity</span></li>
@@ -121,7 +122,7 @@
                 <section class="tsd-index-section ">
                     <h3>Properties</h3>
                     <ul class="tsd-index-list">
-                        <li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="Camera.html#_adapter" class="tsd-kind-icon">_adapter</a></li>
+                        <li class="tsd-kind-property tsd-parent-kind-class tsd-is-overwrite tsd-is-inherited"><a href="Camera.html#_adapter" class="tsd-kind-icon">_adapter</a></li>
                         <li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="Camera.html#_boundsType" class="tsd-kind-icon">_bounds<wbr>Type</a></li>
                         <li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited tsd-is-protected"><a href="Camera.html#_boxBoundsInvalid" class="tsd-kind-icon">_box<wbr>Bounds<wbr>Invalid</a></li>
                         <li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="Camera.html#_children" class="tsd-kind-icon">_children</a></li>
@@ -157,6 +158,7 @@
                         <li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="Camera.html#_tempTransform" class="tsd-kind-icon">_temp<wbr>Transform</a></li>
                         <li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited tsd-is-protected"><a href="Camera.html#_transform" class="tsd-kind-icon">_transform</a></li>
                         <li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="Camera.html#_width" class="tsd-kind-icon">_width</a></li>
+                        <li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="Camera.html#adaptee" class="tsd-kind-icon">adaptee</a></li>
                         <li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="Camera.html#alignmentMode" class="tsd-kind-icon">alignment<wbr>Mode</a></li>
                         <li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="Camera.html#assetFullPath" class="tsd-kind-icon">asset<wbr>Full<wbr>Path</a></li>
                         <li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="Camera.html#assetNamespace" class="tsd-kind-icon">asset<wbr>Namespace</a></li>
@@ -185,7 +187,7 @@
                     <h3>Accessors</h3>
                     <ul class="tsd-index-list">
                         <li class="tsd-kind-get-signature tsd-parent-kind-class tsd-is-inherited"><a href="Camera.html#_iPickingCollision" class="tsd-kind-icon">_i<wbr>Picking<wbr>Collision</a></li>
-                        <li class="tsd-kind-accessor tsd-parent-kind-class tsd-is-inherited"><a href="Camera.html#adapter" class="tsd-kind-icon">adapter</a></li>
+                        <li class="tsd-kind-accessor tsd-parent-kind-class tsd-is-overwrite tsd-is-inherited"><a href="Camera.html#adapter" class="tsd-kind-icon">adapter</a></li>
                         <li class="tsd-kind-accessor tsd-parent-kind-class tsd-is-inherited"><a href="Camera.html#alpha" class="tsd-kind-icon">alpha</a></li>
                         <li class="tsd-kind-accessor tsd-parent-kind-class tsd-is-inherited"><a href="Camera.html#animator" class="tsd-kind-icon">animator</a></li>
                         <li class="tsd-kind-get-signature tsd-parent-kind-class tsd-is-overwrite"><a href="Camera.html#assetType" class="tsd-kind-icon">asset<wbr>Type</a></li>
@@ -314,6 +316,7 @@
                         <li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="Camera.html#swapChildren" class="tsd-kind-icon">swap<wbr>Children</a></li>
                         <li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="Camera.html#swapChildrenAt" class="tsd-kind-icon">swap<wbr>Children<wbr>At</a></li>
                         <li class="tsd-kind-method tsd-parent-kind-class"><a href="Camera.html#unproject" class="tsd-kind-icon">unproject</a></li>
+                        <li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="Camera.html#updateFullPath" class="tsd-kind-icon">update<wbr>Full<wbr>Path</a></li>
                     </ul>
                 </section>
         </div>
@@ -514,7 +517,7 @@ other display object container. </p>
 </section>
         <section class="tsd-panel-group tsd-member-group ">
     <h2>Properties</h2>
-            <section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-inherited">
+            <section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-overwrite tsd-is-inherited">
     <a name="_adapter" class="tsd-anchor"></a>
         <h3>_adapter</h3>
 
@@ -522,6 +525,7 @@ other display object container. </p>
 
 <aside class="tsd-sources">
         <p>Inherited from <a href="../globals.html#DisplayObject">DisplayObject</a>.<a href="../globals.html#DisplayObject._adapter">_adapter</a></p>
+        <p>Overwrites AssetBase._adapter</p>
         <ul>
                     <li>Defined in display/DisplayObject.ts:156</li>
         </ul>
@@ -1097,6 +1101,22 @@ other display object container. </p>
 
 </section>
             <section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-inherited">
+    <a name="adaptee" class="tsd-anchor"></a>
+        <h3>adaptee</h3>
+
+        <div class="tsd-signature tsd-kind-icon">adaptee<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">AssetBase</span></div>
+
+<aside class="tsd-sources">
+        <p>Inherited from AssetBase.adaptee</p>
+        <ul>
+                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/core/dist/lib/library/AssetBase.d.ts:15</li>
+        </ul>
+</aside>
+
+    
+
+</section>
+            <section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-inherited">
     <a name="alignmentMode" class="tsd-anchor"></a>
         <h3>alignment<wbr>Mode</h3>
 
@@ -1121,7 +1141,7 @@ other display object container. </p>
 <aside class="tsd-sources">
         <p>Inherited from AssetBase.assetFullPath</p>
         <ul>
-                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/core/dist/lib/library/AssetBase.d.ts:38</li>
+                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/core/dist/lib/library/AssetBase.d.ts:46</li>
         </ul>
 </aside>
 
@@ -1137,7 +1157,7 @@ other display object container. </p>
 <aside class="tsd-sources">
         <p>Inherited from AssetBase.assetNamespace</p>
         <ul>
-                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/core/dist/lib/library/AssetBase.d.ts:37</li>
+                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/core/dist/lib/library/AssetBase.d.ts:45</li>
         </ul>
 </aside>
 
@@ -1310,7 +1330,7 @@ and <i>y</i> position is changed).</p>
 <aside class="tsd-sources">
         <p>Inherited from AssetBase.id</p>
         <ul>
-                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/core/dist/lib/library/AssetBase.d.ts:26</li>
+                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/core/dist/lib/library/AssetBase.d.ts:34</li>
         </ul>
 </aside>
         <div class="tsd-comment tsd-typography">
@@ -1430,7 +1450,7 @@ first object, and that object&#39;s <code>mask</code> property becomes
 <aside class="tsd-sources">
         <p>Inherited from AssetBase.originalName</p>
         <ul>
-                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/core/dist/lib/library/AssetBase.d.ts:22</li>
+                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/core/dist/lib/library/AssetBase.d.ts:30</li>
         </ul>
 </aside>
         <div class="tsd-comment tsd-typography">
@@ -1645,7 +1665,7 @@ Flex. Instead, use the
 <aside class="tsd-sources">
         <p>Inherited from AssetBase.DEFAULT_NAMESPACE</p>
         <ul>
-                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/core/dist/lib/library/AssetBase.d.ts:11</li>
+                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/core/dist/lib/library/AssetBase.d.ts:13</li>
         </ul>
 </aside>
 
@@ -1661,7 +1681,7 @@ Flex. Instead, use the
 <aside class="tsd-sources">
         <p>Inherited from AssetBase.ID_COUNT</p>
         <ul>
-                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/core/dist/lib/library/AssetBase.d.ts:5</li>
+                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/core/dist/lib/library/AssetBase.d.ts:6</li>
         </ul>
 </aside>
 
@@ -1736,12 +1756,12 @@ Flex. Instead, use the
 </ul>
 
 </section>
-            <section class="tsd-panel tsd-member tsd-kind-accessor tsd-parent-kind-class tsd-is-inherited">
+            <section class="tsd-panel tsd-member tsd-kind-accessor tsd-parent-kind-class tsd-is-overwrite tsd-is-inherited">
     <a name="adapter" class="tsd-anchor"></a>
         <h3>adapter</h3>
 
 
-        <ul class="tsd-signatures tsd-kind-accessor tsd-parent-kind-class tsd-is-inherited">
+        <ul class="tsd-signatures tsd-kind-accessor tsd-parent-kind-class tsd-is-overwrite tsd-is-inherited">
             <li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">get</span> <span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="../interfaces/IDisplayObjectAdapter.html" class="tsd-signature-type">IDisplayObjectAdapter</a></li>
             <li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">set</span> <span class="tsd-signature-symbol">(</span>value<span class="tsd-signature-symbol">: </span><a href="../interfaces/IDisplayObjectAdapter.html" class="tsd-signature-type">IDisplayObjectAdapter</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
 </ul>
@@ -1750,6 +1770,7 @@ Flex. Instead, use the
             <li class="tsd-description">
                     <aside class="tsd-sources">
         <p>Inherited from <a href="../globals.html#DisplayObject">DisplayObject</a>.<a href="../globals.html#DisplayObject.adapter">adapter</a></p>
+        <p>Overwrites AssetBase.adapter</p>
         <ul>
                     <li>Defined in display/DisplayObject.ts:242</li>
         </ul>
@@ -1771,6 +1792,7 @@ setter typically managed by factory</p>
             <li class="tsd-description">
                     <aside class="tsd-sources">
         <p>Inherited from <a href="../globals.html#DisplayObject">DisplayObject</a>.<a href="../globals.html#DisplayObject.adapter">adapter</a></p>
+        <p>Overwrites AssetBase.adapter</p>
         <ul>
                     <li>Defined in display/DisplayObject.ts:247</li>
         </ul>
@@ -5424,7 +5446,7 @@ y</del>cameraFocalLength/cameraRelativeZPosition)</code></p>
                 <aside class="tsd-sources">
         <p>Inherited from AssetBase.assetPathEquals</p>
         <ul>
-                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/core/dist/lib/library/AssetBase.d.ts:39</li>
+                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/core/dist/lib/library/AssetBase.d.ts:47</li>
         </ul>
 </aside>
 
@@ -6595,7 +6617,7 @@ Scene).</p>
                 <aside class="tsd-sources">
         <p>Inherited from AssetBase.invalidate</p>
         <ul>
-                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/core/dist/lib/library/AssetBase.d.ts:31</li>
+                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/core/dist/lib/library/AssetBase.d.ts:39</li>
         </ul>
 </aside>
 
@@ -6699,7 +6721,7 @@ Scene).</p>
                 <aside class="tsd-sources">
         <p>Inherited from AssetBase.isAsset</p>
         <ul>
-                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/core/dist/lib/library/AssetBase.d.ts:40</li>
+                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/core/dist/lib/library/AssetBase.d.ts:48</li>
         </ul>
 </aside>
 
@@ -7415,7 +7437,7 @@ if no other references to it exist.</p>
                 <aside class="tsd-sources">
         <p>Inherited from AssetBase.resetAssetPath</p>
         <ul>
-                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/core/dist/lib/library/AssetBase.d.ts:41</li>
+                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/core/dist/lib/library/AssetBase.d.ts:49</li>
         </ul>
 </aside>
 
@@ -7710,6 +7732,32 @@ the display object container remain in the same index positions.</p>
     <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Vector3D</span></h4>
 
         <p>The scene position of the given screen coordinates.</p>
+
+
+        </li>
+</ul>    
+
+</section>
+            <section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+    <a name="updateFullPath" class="tsd-anchor"></a>
+        <h3>update<wbr>Full<wbr>Path</h3>
+
+        <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+        <li class="tsd-signature tsd-kind-icon">update<wbr>Full<wbr>Path<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+</ul>
+
+<ul class="tsd-descriptions">
+        <li class="tsd-description">
+                <aside class="tsd-sources">
+        <p>Inherited from AssetBase.updateFullPath</p>
+        <ul>
+                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/core/dist/lib/library/AssetBase.d.ts:50</li>
+        </ul>
+</aside>
+
+
+
+    <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
 
 
         </li>

@@ -182,7 +182,7 @@ use one of the bundled concrete strategy classes:</p>
         <h3>_p<wbr>Update<wbr>Names</h3>
 
         <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
-        <li class="tsd-signature tsd-kind-icon">_p<wbr>Update<wbr>Names<span class="tsd-signature-symbol">(</span>ns<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span>, nonConflictingName<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span>, oldAsset<span class="tsd-signature-symbol">: </span><a href="../interfaces/IAsset.html" class="tsd-signature-type">IAsset</a>, newAsset<span class="tsd-signature-symbol">: </span><a href="../interfaces/IAsset.html" class="tsd-signature-type">IAsset</a>, assetsDictionary<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Object</span>, precedence<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+        <li class="tsd-signature tsd-kind-icon">_p<wbr>Update<wbr>Names<span class="tsd-signature-symbol">(</span>ns<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span>, nonConflictingName<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span>, oldAsset<span class="tsd-signature-symbol">: </span><a href="../interfaces/IAssetAdapter.html" class="tsd-signature-type">IAssetAdapter</a>, newAsset<span class="tsd-signature-symbol">: </span><a href="../interfaces/IAssetAdapter.html" class="tsd-signature-type">IAssetAdapter</a>, assetsDictionary<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Object</span>, precedence<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
 </ul>
 
 <ul class="tsd-descriptions">
@@ -214,12 +214,12 @@ the conflict resolution by applying the new names and dispatching the correct ev
                 
             </li>
             <li>
-                <h5>oldAsset: <a href="../interfaces/IAsset.html" class="tsd-signature-type">IAsset</a></h5>
+                <h5>oldAsset: <a href="../interfaces/IAssetAdapter.html" class="tsd-signature-type">IAssetAdapter</a></h5>
 
                 
             </li>
             <li>
-                <h5>newAsset: <a href="../interfaces/IAsset.html" class="tsd-signature-type">IAsset</a></h5>
+                <h5>newAsset: <a href="../interfaces/IAssetAdapter.html" class="tsd-signature-type">IAssetAdapter</a></h5>
 
                 
             </li>
@@ -280,7 +280,7 @@ would break any state caching that happens inside the strategy class.</p>
         <h3>resolve<wbr>Conflict</h3>
 
         <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
-        <li class="tsd-signature tsd-kind-icon">resolve<wbr>Conflict<span class="tsd-signature-symbol">(</span>changedAsset<span class="tsd-signature-symbol">: </span><a href="../interfaces/IAsset.html" class="tsd-signature-type">IAsset</a>, oldAsset<span class="tsd-signature-symbol">: </span><a href="../interfaces/IAsset.html" class="tsd-signature-type">IAsset</a>, assetsDictionary<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Object</span>, precedence<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+        <li class="tsd-signature tsd-kind-icon">resolve<wbr>Conflict<span class="tsd-signature-symbol">(</span>changedAsset<span class="tsd-signature-symbol">: </span><a href="../interfaces/IAssetAdapter.html" class="tsd-signature-type">IAssetAdapter</a>, oldAsset<span class="tsd-signature-symbol">: </span><a href="../interfaces/IAssetAdapter.html" class="tsd-signature-type">IAssetAdapter</a>, assetsDictionary<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Object</span>, precedence<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
 </ul>
 
 <ul class="tsd-descriptions">
@@ -302,12 +302,12 @@ classes.</p>
     <h4 class="tsd-parameters-title">Parameters</h4>
     <ul class="tsd-parameters">
             <li>
-                <h5>changedAsset: <a href="../interfaces/IAsset.html" class="tsd-signature-type">IAsset</a></h5>
+                <h5>changedAsset: <a href="../interfaces/IAssetAdapter.html" class="tsd-signature-type">IAssetAdapter</a></h5>
 
                 
             </li>
             <li>
-                <h5>oldAsset: <a href="../interfaces/IAsset.html" class="tsd-signature-type">IAsset</a></h5>
+                <h5>oldAsset: <a href="../interfaces/IAssetAdapter.html" class="tsd-signature-type">IAssetAdapter</a></h5>
 
                 
             </li>
@@ -614,6 +614,9 @@ classes.</p>
 </li>
                         <li class=" tsd-kind-interface">
     <a href="../interfaces/IAsset.html" class="tsd-kind-icon">IAsset</a>
+</li>
+                        <li class=" tsd-kind-interface">
+    <a href="../interfaces/IAssetAdapter.html" class="tsd-kind-icon">IAsset<wbr>Adapter</a>
 </li>
                         <li class=" tsd-kind-interface">
     <a href="../interfaces/IAssetClass.html" class="tsd-kind-icon">IAsset<wbr>Class</a>

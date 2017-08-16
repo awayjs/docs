@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>IAudioChannelClass | core</title>
+    <title>IAssetAdapter | core</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="../../assets/css/main.css">
@@ -29,7 +29,7 @@
                             
     <!--<li>-->
         <!---->
-            <!--<a href="IAudioChannelClass.html">IAudioChannelClass</a>-->
+            <!--<a href="IAssetAdapter.html">IAssetAdapter</a>-->
         <!---->
     <!--</li>-->
 
@@ -66,7 +66,7 @@
     <!-- Page title: only show in leafs -->
         <div class="tsd-page-title">
             <div class="container">
-                <h1>Interface IAudioChannelClass</h1>
+                <h1>Interface IAssetAdapter</h1>
             </div>
         </div>
 </header>
@@ -82,7 +82,7 @@
         <h3>Hierarchy</h3>
         <ul class="tsd-hierarchy">
         <li>
-                <span class="target">IAudioChannelClass</span>
+                <span class="target">IAssetAdapter</span>
 
         </li>
 </ul>
@@ -90,6 +90,22 @@
     </section>
 
 
+    <section class="tsd-panel">
+        <h3>Implemented by</h3>
+        <ul class="tsd-hierarchy">
+                <li><a href="../classes/AssetBase.html" class="tsd-signature-type">AssetBase</a></li>
+                <li><a href="../classes/AttributesBuffer.html" class="tsd-signature-type">AttributesBuffer</a></li>
+                <li><a href="../classes/AttributesView.html" class="tsd-signature-type">AttributesView</a></li>
+                <li><a href="../classes/Byte4Attributes.html" class="tsd-signature-type">Byte4Attributes</a></li>
+                <li><a href="../classes/Float1Attributes.html" class="tsd-signature-type">Float1Attributes</a></li>
+                <li><a href="../classes/Float2Attributes.html" class="tsd-signature-type">Float2Attributes</a></li>
+                <li><a href="../classes/Float3Attributes.html" class="tsd-signature-type">Float3Attributes</a></li>
+                <li><a href="../classes/Float4Attributes.html" class="tsd-signature-type">Float4Attributes</a></li>
+                <li><a href="../classes/Short2Attributes.html" class="tsd-signature-type">Short2Attributes</a></li>
+                <li><a href="../classes/Short3Attributes.html" class="tsd-signature-type">Short3Attributes</a></li>
+                <li><a href="../classes/WaveAudio.html" class="tsd-signature-type">WaveAudio</a></li>
+        </ul>
+    </section>
 
 
 
@@ -98,79 +114,63 @@
     <section class="tsd-panel tsd-index-panel">
         <div class="tsd-index-content">
                 <section class="tsd-index-section ">
-                    <h3>Constructors</h3>
+                    <h3>Properties</h3>
                     <ul class="tsd-index-list">
-                        <li class="tsd-kind-constructor tsd-parent-kind-interface"><a href="IAudioChannelClass.html#constructor" class="tsd-kind-icon">constructor</a></li>
+                        <li class="tsd-kind-property tsd-parent-kind-interface"><a href="IAssetAdapter.html#adaptee" class="tsd-kind-icon">adaptee</a></li>
                     </ul>
                 </section>
                 <section class="tsd-index-section ">
-                    <h3>Properties</h3>
+                    <h3>Methods</h3>
                     <ul class="tsd-index-list">
-                        <li class="tsd-kind-property tsd-parent-kind-interface"><a href="IAudioChannelClass.html#_channels" class="tsd-kind-icon">_channels</a></li>
-                        <li class="tsd-kind-property tsd-parent-kind-interface"><a href="IAudioChannelClass.html#maxChannels" class="tsd-kind-icon">max<wbr>Channels</a></li>
+                        <li class="tsd-kind-method tsd-parent-kind-interface"><a href="IAssetAdapter.html#dispose" class="tsd-kind-icon">dispose</a></li>
                     </ul>
                 </section>
         </div>
     </section>
 </section>
             <section class="tsd-panel-group tsd-member-group ">
-    <h2>Constructors</h2>
-            <section class="tsd-panel tsd-member tsd-kind-constructor tsd-parent-kind-interface">
-    <a name="constructor" class="tsd-anchor"></a>
-        <h3>constructor</h3>
+    <h2>Properties</h2>
+            <section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
+    <a name="adaptee" class="tsd-anchor"></a>
+        <h3>adaptee</h3>
 
-        <ul class="tsd-signatures tsd-kind-constructor tsd-parent-kind-interface">
-        <li class="tsd-signature tsd-kind-icon">new IAudio<wbr>Channel<wbr>Class<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="IAudioChannel.html" class="tsd-signature-type">IAudioChannel</a></li>
+        <div class="tsd-signature tsd-kind-icon">adaptee<span class="tsd-signature-symbol">:</span> <a href="IAsset.html" class="tsd-signature-type">IAsset</a></div>
+
+<aside class="tsd-sources">
+        <ul>
+                    <li>Defined in library/IAssetAdapter.ts:5</li>
+        </ul>
+</aside>
+
+    
+
+</section>
+</section>
+        <section class="tsd-panel-group tsd-member-group ">
+    <h2>Methods</h2>
+            <section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-interface">
+    <a name="dispose" class="tsd-anchor"></a>
+        <h3>dispose</h3>
+
+        <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-interface">
+        <li class="tsd-signature tsd-kind-icon">dispose<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span></li>
 </ul>
 
 <ul class="tsd-descriptions">
         <li class="tsd-description">
                 <aside class="tsd-sources">
         <ul>
-                    <li>Defined in managers/IAudioChannelClass.ts:7</li>
+                    <li>Defined in library/IAssetAdapter.ts:7</li>
         </ul>
 </aside>
 
 
 
-    <h4 class="tsd-returns-title">Returns <a href="IAudioChannel.html" class="tsd-signature-type">IAudioChannel</a></h4>
+    <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">any</span></h4>
 
 
         </li>
 </ul>    
-
-</section>
-</section>
-        <section class="tsd-panel-group tsd-member-group ">
-    <h2>Properties</h2>
-            <section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
-    <a name="_channels" class="tsd-anchor"></a>
-        <h3>_channels</h3>
-
-        <div class="tsd-signature tsd-kind-icon">_channels<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">Array</span><span class="tsd-signature-symbol">&lt;</span><a href="IAudioChannel.html" class="tsd-signature-type">IAudioChannel</a><span class="tsd-signature-symbol">&gt;</span></div>
-
-<aside class="tsd-sources">
-        <ul>
-                    <li>Defined in managers/IAudioChannelClass.ts:7</li>
-        </ul>
-</aside>
-
-    
-
-</section>
-            <section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
-    <a name="maxChannels" class="tsd-anchor"></a>
-        <h3>max<wbr>Channels</h3>
-
-        <div class="tsd-signature tsd-kind-icon">max<wbr>Channels<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
-
-<aside class="tsd-sources">
-        <ul>
-                    <li>Defined in managers/IAudioChannelClass.ts:5</li>
-        </ul>
-</aside>
-
-    
 
 </section>
 </section>

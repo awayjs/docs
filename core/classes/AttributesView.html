@@ -92,6 +92,7 @@
         <h3>Implements</h3>
         <ul class="tsd-hierarchy">
                 <li><a href="../interfaces/IAsset.html" class="tsd-signature-type">IAsset</a></li>
+                <li><a href="../interfaces/IAssetAdapter.html" class="tsd-signature-type">IAssetAdapter</a></li>
         </ul>
     </section>
 
@@ -111,6 +112,7 @@
                 <section class="tsd-index-section ">
                     <h3>Properties</h3>
                     <ul class="tsd-index-list">
+                        <li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="AttributesView.html#_adapter" class="tsd-kind-icon">_adapter</a></li>
                         <li class="tsd-kind-property tsd-parent-kind-class"><a href="AttributesView.html#_arrayClass" class="tsd-kind-icon">_array<wbr>Class</a></li>
                         <li class="tsd-kind-property tsd-parent-kind-class"><a href="AttributesView.html#_attributesBuffer" class="tsd-kind-icon">_attributes<wbr>Buffer</a></li>
                         <li class="tsd-kind-property tsd-parent-kind-class"><a href="AttributesView.html#_bufferDirty" class="tsd-kind-icon">_buffer<wbr>Dirty</a></li>
@@ -125,6 +127,8 @@
                 <section class="tsd-index-section ">
                     <h3>Accessors</h3>
                     <ul class="tsd-index-list">
+                        <li class="tsd-kind-get-signature tsd-parent-kind-class tsd-is-inherited"><a href="AttributesView.html#adaptee" class="tsd-kind-icon">adaptee</a></li>
+                        <li class="tsd-kind-accessor tsd-parent-kind-class tsd-is-inherited"><a href="AttributesView.html#adapter" class="tsd-kind-icon">adapter</a></li>
                         <li class="tsd-kind-get-signature tsd-parent-kind-class tsd-is-inherited"><a href="AttributesView.html#assetFullPath" class="tsd-kind-icon">asset<wbr>Full<wbr>Path</a></li>
                         <li class="tsd-kind-get-signature tsd-parent-kind-class tsd-is-inherited"><a href="AttributesView.html#assetNamespace" class="tsd-kind-icon">asset<wbr>Namespace</a></li>
                         <li class="tsd-kind-get-signature tsd-parent-kind-class tsd-is-overwrite"><a href="AttributesView.html#assetType" class="tsd-kind-icon">asset<wbr>Type</a></li>
@@ -158,6 +162,7 @@
                         <li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="AttributesView.html#removeEventListener" class="tsd-kind-icon">remove<wbr>Event<wbr>Listener</a></li>
                         <li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="AttributesView.html#resetAssetPath" class="tsd-kind-icon">reset<wbr>Asset<wbr>Path</a></li>
                         <li class="tsd-kind-method tsd-parent-kind-class"><a href="AttributesView.html#set" class="tsd-kind-icon">set</a></li>
+                        <li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="AttributesView.html#updateFullPath" class="tsd-kind-icon">update<wbr>Full<wbr>Path</a></li>
                     </ul>
                 </section>
         </div>
@@ -255,6 +260,22 @@
 </section>
         <section class="tsd-panel-group tsd-member-group ">
     <h2>Properties</h2>
+            <section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-inherited">
+    <a name="_adapter" class="tsd-anchor"></a>
+        <h3>_adapter</h3>
+
+        <div class="tsd-signature tsd-kind-icon">_adapter<span class="tsd-signature-symbol">:</span> <a href="../interfaces/IAssetAdapter.html" class="tsd-signature-type">IAssetAdapter</a></div>
+
+<aside class="tsd-sources">
+        <p>Inherited from <a href="AssetBase.html">AssetBase</a>.<a href="AssetBase.html#_adapter">_adapter</a></p>
+        <ul>
+                    <li>Defined in library/AssetBase.ts:12</li>
+        </ul>
+</aside>
+
+    
+
+</section>
             <section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
     <a name="_arrayClass" class="tsd-anchor"></a>
         <h3>_array<wbr>Class</h3>
@@ -354,7 +375,7 @@
 <aside class="tsd-sources">
         <p>Inherited from <a href="AssetBase.html">AssetBase</a>.<a href="AssetBase.html#DEFAULT_NAMESPACE">DEFAULT_NAMESPACE</a></p>
         <ul>
-                    <li>Defined in library/AssetBase.ts:17</li>
+                    <li>Defined in library/AssetBase.ts:19</li>
         </ul>
 </aside>
 
@@ -370,7 +391,7 @@
 <aside class="tsd-sources">
         <p>Inherited from <a href="AssetBase.html">AssetBase</a>.<a href="AssetBase.html#ID_COUNT">ID_COUNT</a></p>
         <ul>
-                    <li>Defined in library/AssetBase.ts:9</li>
+                    <li>Defined in library/AssetBase.ts:10</li>
         </ul>
 </aside>
 
@@ -396,6 +417,97 @@
         <section class="tsd-panel-group tsd-member-group ">
     <h2>Accessors</h2>
             <section class="tsd-panel tsd-member tsd-kind-get-signature tsd-parent-kind-class tsd-is-inherited">
+    <a name="adaptee" class="tsd-anchor"></a>
+        <h3>adaptee</h3>
+
+
+        <ul class="tsd-signatures tsd-kind-get-signature tsd-parent-kind-class tsd-is-inherited">
+            <li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">get</span> <span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="AssetBase.html" class="tsd-signature-type">AssetBase</a></li>
+</ul>
+
+<ul class="tsd-descriptions">
+            <li class="tsd-description">
+                    <aside class="tsd-sources">
+        <p>Inherited from <a href="AssetBase.html">AssetBase</a>.<a href="AssetBase.html#adaptee">adaptee</a></p>
+        <ul>
+                    <li>Defined in library/AssetBase.ts:36</li>
+        </ul>
+</aside>
+
+
+
+    <h4 class="tsd-returns-title">Returns <a href="AssetBase.html" class="tsd-signature-type">AssetBase</a></h4>
+
+
+            </li>
+</ul>
+
+</section>
+            <section class="tsd-panel tsd-member tsd-kind-accessor tsd-parent-kind-class tsd-is-inherited">
+    <a name="adapter" class="tsd-anchor"></a>
+        <h3>adapter</h3>
+
+
+        <ul class="tsd-signatures tsd-kind-accessor tsd-parent-kind-class tsd-is-inherited">
+            <li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">get</span> <span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="../interfaces/IAssetAdapter.html" class="tsd-signature-type">IAssetAdapter</a></li>
+            <li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">set</span> <span class="tsd-signature-symbol">(</span>value<span class="tsd-signature-symbol">: </span><a href="../interfaces/IAssetAdapter.html" class="tsd-signature-type">IAssetAdapter</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+</ul>
+
+<ul class="tsd-descriptions">
+            <li class="tsd-description">
+                    <aside class="tsd-sources">
+        <p>Inherited from <a href="AssetBase.html">AssetBase</a>.<a href="AssetBase.html#adapter">adapter</a></p>
+        <ul>
+                    <li>Defined in library/AssetBase.ts:45</li>
+        </ul>
+</aside>
+        <div class="tsd-comment tsd-typography">
+                <div class="lead">
+                    <p>adapter is used to provide MovieClip to scripts taken from different platforms
+setter typically managed by factory. getter defaults to AwayJS class</p>
+
+                </div>
+        </div>
+
+
+
+    <h4 class="tsd-returns-title">Returns <a href="../interfaces/IAssetAdapter.html" class="tsd-signature-type">IAssetAdapter</a></h4>
+
+
+            </li>
+            <li class="tsd-description">
+                    <aside class="tsd-sources">
+        <p>Inherited from <a href="AssetBase.html">AssetBase</a>.<a href="AssetBase.html#adapter">adapter</a></p>
+        <ul>
+                    <li>Defined in library/AssetBase.ts:50</li>
+        </ul>
+</aside>
+        <div class="tsd-comment tsd-typography">
+                <div class="lead">
+                    <p>adapter is used to provide MovieClip to scripts taken from different platforms
+setter typically managed by factory. getter defaults to AwayJS class</p>
+
+                </div>
+        </div>
+
+
+    <h4 class="tsd-parameters-title">Parameters</h4>
+    <ul class="tsd-parameters">
+            <li>
+                <h5>value: <a href="../interfaces/IAssetAdapter.html" class="tsd-signature-type">IAssetAdapter</a></h5>
+
+                
+            </li>
+    </ul>
+
+    <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+
+
+            </li>
+</ul>
+
+</section>
+            <section class="tsd-panel tsd-member tsd-kind-get-signature tsd-parent-kind-class tsd-is-inherited">
     <a name="assetFullPath" class="tsd-anchor"></a>
         <h3>asset<wbr>Full<wbr>Path</h3>
 
@@ -409,7 +521,7 @@
                     <aside class="tsd-sources">
         <p>Inherited from <a href="AssetBase.html">AssetBase</a>.<a href="AssetBase.html#assetFullPath">assetFullPath</a></p>
         <ul>
-                    <li>Defined in library/AssetBase.ts:106</li>
+                    <li>Defined in library/AssetBase.ts:127</li>
         </ul>
 </aside>
 
@@ -436,7 +548,7 @@
                     <aside class="tsd-sources">
         <p>Inherited from <a href="AssetBase.html">AssetBase</a>.<a href="AssetBase.html#assetNamespace">assetNamespace</a></p>
         <ul>
-                    <li>Defined in library/AssetBase.ts:101</li>
+                    <li>Defined in library/AssetBase.ts:122</li>
         </ul>
 </aside>
 
@@ -616,7 +728,7 @@
                     <aside class="tsd-sources">
         <p>Inherited from <a href="AssetBase.html">AssetBase</a>.<a href="AssetBase.html#id">id</a></p>
         <ul>
-                    <li>Defined in library/AssetBase.ts:55</li>
+                    <li>Defined in library/AssetBase.ts:76</li>
         </ul>
 </aside>
         <div class="tsd-comment tsd-typography">
@@ -676,7 +788,7 @@
                     <aside class="tsd-sources">
         <p>Inherited from <a href="AssetBase.html">AssetBase</a>.<a href="AssetBase.html#name">name</a></p>
         <ul>
-                    <li>Defined in library/AssetBase.ts:60</li>
+                    <li>Defined in library/AssetBase.ts:81</li>
         </ul>
 </aside>
 
@@ -690,7 +802,7 @@
                     <aside class="tsd-sources">
         <p>Inherited from <a href="AssetBase.html">AssetBase</a>.<a href="AssetBase.html#name">name</a></p>
         <ul>
-                    <li>Defined in library/AssetBase.ts:65</li>
+                    <li>Defined in library/AssetBase.ts:86</li>
         </ul>
 </aside>
 
@@ -751,7 +863,7 @@
                     <aside class="tsd-sources">
         <p>Inherited from <a href="AssetBase.html">AssetBase</a>.<a href="AssetBase.html#originalName">originalName</a></p>
         <ul>
-                    <li>Defined in library/AssetBase.ts:47</li>
+                    <li>Defined in library/AssetBase.ts:68</li>
         </ul>
 </aside>
         <div class="tsd-comment tsd-typography">
@@ -1002,7 +1114,7 @@ have changed due to of a name conflict.</p>
         <p>Implementation of <a href="../interfaces/IAsset.html">IAsset</a>.<a href="../interfaces/IAsset.html#assetPathEquals">assetPathEquals</a></p>
         <p>Inherited from <a href="AssetBase.html">AssetBase</a>.<a href="AssetBase.html#assetPathEquals">assetPathEquals</a></p>
         <ul>
-                    <li>Defined in library/AssetBase.ts:111</li>
+                    <li>Defined in library/AssetBase.ts:132</li>
         </ul>
 </aside>
 
@@ -1042,7 +1154,7 @@ have changed due to of a name conflict.</p>
         <p>Implementation of <a href="../interfaces/IAsset.html">IAsset</a>.<a href="../interfaces/IAsset.html#clear">clear</a></p>
         <p>Inherited from <a href="AssetBase.html">AssetBase</a>.<a href="AssetBase.html#clear">clear</a></p>
         <ul>
-                    <li>Defined in library/AssetBase.ts:96</li>
+                    <li>Defined in library/AssetBase.ts:117</li>
         </ul>
 </aside>
 
@@ -1145,7 +1257,7 @@ have changed due to of a name conflict.</p>
 <ul class="tsd-descriptions">
         <li class="tsd-description">
                 <aside class="tsd-sources">
-        <p>Implementation of <a href="../interfaces/IAsset.html">IAsset</a>.<a href="../interfaces/IAsset.html#dispose">dispose</a></p>
+        <p>Implementation of <a href="../interfaces/IAssetAdapter.html">IAssetAdapter</a>.<a href="../interfaces/IAssetAdapter.html#dispose">dispose</a></p>
         <p>Overwrites <a href="AssetBase.html">AssetBase</a>.<a href="AssetBase.html#dispose">dispose</a></p>
         <ul>
                     <li>Defined in attributes/AttributesView.ts:166</li>
@@ -1315,7 +1427,7 @@ have changed due to of a name conflict.</p>
                 <aside class="tsd-sources">
         <p>Inherited from <a href="AssetBase.html">AssetBase</a>.<a href="AssetBase.html#isAsset">isAsset</a></p>
         <ul>
-                    <li>Defined in library/AssetBase.ts:117</li>
+                    <li>Defined in library/AssetBase.ts:138</li>
         </ul>
 </aside>
 
@@ -1426,7 +1538,7 @@ have changed due to of a name conflict.</p>
         <p>Implementation of <a href="../interfaces/IAsset.html">IAsset</a>.<a href="../interfaces/IAsset.html#resetAssetPath">resetAssetPath</a></p>
         <p>Inherited from <a href="AssetBase.html">AssetBase</a>.<a href="AssetBase.html#resetAssetPath">resetAssetPath</a></p>
         <ul>
-                    <li>Defined in library/AssetBase.ts:122</li>
+                    <li>Defined in library/AssetBase.ts:143</li>
         </ul>
 </aside>
 
@@ -1516,6 +1628,32 @@ have changed due to of a name conflict.</p>
     </ul>
 
     <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">any</span></h4>
+
+
+        </li>
+</ul>    
+
+</section>
+            <section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+    <a name="updateFullPath" class="tsd-anchor"></a>
+        <h3>update<wbr>Full<wbr>Path</h3>
+
+        <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+        <li class="tsd-signature tsd-kind-icon">update<wbr>Full<wbr>Path<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+</ul>
+
+<ul class="tsd-descriptions">
+        <li class="tsd-description">
+                <aside class="tsd-sources">
+        <p>Inherited from <a href="AssetBase.html">AssetBase</a>.<a href="AssetBase.html#updateFullPath">updateFullPath</a></p>
+        <ul>
+                    <li>Defined in library/AssetBase.ts:155</li>
+        </ul>
+</aside>
+
+
+
+    <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
 
 
         </li>
@@ -1806,6 +1944,9 @@ have changed due to of a name conflict.</p>
 </li>
                         <li class=" tsd-kind-interface">
     <a href="../interfaces/IAsset.html" class="tsd-kind-icon">IAsset</a>
+</li>
+                        <li class=" tsd-kind-interface">
+    <a href="../interfaces/IAssetAdapter.html" class="tsd-kind-icon">IAsset<wbr>Adapter</a>
 </li>
                         <li class=" tsd-kind-interface">
     <a href="../interfaces/IAssetClass.html" class="tsd-kind-icon">IAsset<wbr>Class</a>

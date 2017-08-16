@@ -122,7 +122,7 @@
                 <section class="tsd-index-section ">
                     <h3>Properties</h3>
                     <ul class="tsd-index-list">
-                        <li class="tsd-kind-property tsd-parent-kind-class tsd-is-overwrite tsd-is-inherited"><a href="PointLight.html#_adapter" class="tsd-kind-icon">_adapter</a></li>
+                        <li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="PointLight.html#_adapter" class="tsd-kind-icon">_adapter</a></li>
                         <li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="PointLight.html#_boundsType" class="tsd-kind-icon">_bounds<wbr>Type</a></li>
                         <li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited tsd-is-protected"><a href="PointLight.html#_boxBoundsInvalid" class="tsd-kind-icon">_box<wbr>Bounds<wbr>Invalid</a></li>
                         <li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="PointLight.html#_children" class="tsd-kind-icon">_children</a></li>
@@ -171,6 +171,7 @@
                         <li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited tsd-is-protected"><a href="PointLight.html#_transform" class="tsd-kind-icon">_transform</a></li>
                         <li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="PointLight.html#_width" class="tsd-kind-icon">_width</a></li>
                         <li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="PointLight.html#adaptee" class="tsd-kind-icon">adaptee</a></li>
+                        <li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="PointLight.html#adapter" class="tsd-kind-icon">adapter</a></li>
                         <li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="PointLight.html#alignmentMode" class="tsd-kind-icon">alignment<wbr>Mode</a></li>
                         <li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="PointLight.html#assetFullPath" class="tsd-kind-icon">asset<wbr>Full<wbr>Path</a></li>
                         <li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="PointLight.html#assetNamespace" class="tsd-kind-icon">asset<wbr>Namespace</a></li>
@@ -199,7 +200,6 @@
                     <h3>Accessors</h3>
                     <ul class="tsd-index-list">
                         <li class="tsd-kind-get-signature tsd-parent-kind-class tsd-is-inherited"><a href="PointLight.html#_iPickingCollision" class="tsd-kind-icon">_i<wbr>Picking<wbr>Collision</a></li>
-                        <li class="tsd-kind-accessor tsd-parent-kind-class tsd-is-overwrite tsd-is-inherited"><a href="PointLight.html#adapter" class="tsd-kind-icon">adapter</a></li>
                         <li class="tsd-kind-accessor tsd-parent-kind-class tsd-is-inherited"><a href="PointLight.html#alpha" class="tsd-kind-icon">alpha</a></li>
                         <li class="tsd-kind-accessor tsd-parent-kind-class tsd-is-inherited"><a href="PointLight.html#ambient" class="tsd-kind-icon">ambient</a></li>
                         <li class="tsd-kind-accessor tsd-parent-kind-class tsd-is-inherited"><a href="PointLight.html#ambientColor" class="tsd-kind-icon">ambient<wbr>Color</a></li>
@@ -530,17 +530,16 @@ other display object container. </p>
 </section>
         <section class="tsd-panel-group tsd-member-group ">
     <h2>Properties</h2>
-            <section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-overwrite tsd-is-inherited">
+            <section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-inherited">
     <a name="_adapter" class="tsd-anchor"></a>
         <h3>_adapter</h3>
 
-        <div class="tsd-signature tsd-kind-icon">_adapter<span class="tsd-signature-symbol">:</span> <a href="../interfaces/IDisplayObjectAdapter.html" class="tsd-signature-type">IDisplayObjectAdapter</a></div>
+        <div class="tsd-signature tsd-kind-icon">_adapter<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">IAssetAdapter</span></div>
 
 <aside class="tsd-sources">
-        <p>Inherited from <a href="../globals.html#DisplayObject">DisplayObject</a>.<a href="../globals.html#DisplayObject._adapter">_adapter</a></p>
-        <p>Overwrites AssetBase._adapter</p>
+        <p>Inherited from AssetBase._adapter</p>
         <ul>
-                    <li>Defined in display/DisplayObject.ts:156</li>
+                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/core/dist/lib/library/AssetBase.d.ts:7</li>
         </ul>
 </aside>
 
@@ -556,7 +555,7 @@ other display object container. </p>
 <aside class="tsd-sources">
         <p>Inherited from <a href="../globals.html#DisplayObject">DisplayObject</a>.<a href="../globals.html#DisplayObject._boundsType">_boundsType</a></p>
         <ul>
-                    <li>Defined in display/DisplayObject.ts:216</li>
+                    <li>Defined in display/DisplayObject.ts:215</li>
         </ul>
 </aside>
 
@@ -572,7 +571,7 @@ other display object container. </p>
 <aside class="tsd-sources">
         <p>Inherited from <a href="../globals.html#DisplayObject">DisplayObject</a>.<a href="../globals.html#DisplayObject._boxBoundsInvalid">_boxBoundsInvalid</a></p>
         <ul>
-                    <li>Defined in display/DisplayObject.ts:167</li>
+                    <li>Defined in display/DisplayObject.ts:166</li>
         </ul>
 </aside>
 
@@ -604,7 +603,7 @@ other display object container. </p>
 <aside class="tsd-sources">
         <p>Inherited from <a href="../globals.html#DisplayObject">DisplayObject</a>.<a href="../globals.html#DisplayObject._concatenatedMatrix3D">_concatenatedMatrix3D</a></p>
         <ul>
-                    <li>Defined in display/DisplayObject.ts:175</li>
+                    <li>Defined in display/DisplayObject.ts:174</li>
         </ul>
 </aside>
 
@@ -620,7 +619,7 @@ other display object container. </p>
 <aside class="tsd-sources">
         <p>Inherited from <a href="../globals.html#DisplayObject">DisplayObject</a>.<a href="../globals.html#DisplayObject._depth">_depth</a></p>
         <ul>
-                    <li>Defined in display/DisplayObject.ts:209</li>
+                    <li>Defined in display/DisplayObject.ts:208</li>
         </ul>
 </aside>
 
@@ -636,7 +635,7 @@ other display object container. </p>
 <aside class="tsd-sources">
         <p>Inherited from <a href="../globals.html#DisplayObject">DisplayObject</a>.<a href="../globals.html#DisplayObject._depthID">_depthID</a></p>
         <ul>
-                    <li>Defined in display/DisplayObject.ts:180</li>
+                    <li>Defined in display/DisplayObject.ts:179</li>
         </ul>
 </aside>
 
@@ -652,7 +651,7 @@ other display object container. </p>
 <aside class="tsd-sources">
         <p>Inherited from <a href="../globals.html#DisplayObject">DisplayObject</a>.<a href="../globals.html#DisplayObject._explicitMasks">_explicitMasks</a></p>
         <ul>
-                    <li>Defined in display/DisplayObject.ts:192</li>
+                    <li>Defined in display/DisplayObject.ts:191</li>
         </ul>
 </aside>
 
@@ -668,7 +667,7 @@ other display object container. </p>
 <aside class="tsd-sources">
         <p>Inherited from <a href="../globals.html#DisplayObject">DisplayObject</a>.<a href="../globals.html#DisplayObject._height">_height</a></p>
         <ul>
-                    <li>Defined in display/DisplayObject.ts:208</li>
+                    <li>Defined in display/DisplayObject.ts:207</li>
         </ul>
 </aside>
 
@@ -684,7 +683,7 @@ other display object container. </p>
 <aside class="tsd-sources">
         <p>Inherited from <a href="../globals.html#DisplayObject">DisplayObject</a>.<a href="../globals.html#DisplayObject._hierarchicalPropsDirty">_hierarchicalPropsDirty</a></p>
         <ul>
-                    <li>Defined in display/DisplayObject.ts:223</li>
+                    <li>Defined in display/DisplayObject.ts:222</li>
         </ul>
 </aside>
 
@@ -748,7 +747,7 @@ other display object container. </p>
 <aside class="tsd-sources">
         <p>Inherited from <a href="../globals.html#DisplayObject">DisplayObject</a>.<a href="../globals.html#DisplayObject._iController">_iController</a></p>
         <ul>
-                    <li>Defined in display/DisplayObject.ts:2031</li>
+                    <li>Defined in display/DisplayObject.ts:2013</li>
         </ul>
 </aside>
         <div class="tsd-comment tsd-typography">
@@ -850,7 +849,7 @@ other display object container. </p>
 <aside class="tsd-sources">
         <p>Inherited from <a href="../globals.html#DisplayObject">DisplayObject</a>.<a href="../globals.html#DisplayObject._iSourcePrefab">_iSourcePrefab</a></p>
         <ul>
-                    <li>Defined in display/DisplayObject.ts:218</li>
+                    <li>Defined in display/DisplayObject.ts:217</li>
         </ul>
 </aside>
 
@@ -914,7 +913,7 @@ other display object container. </p>
 <aside class="tsd-sources">
         <p>Inherited from <a href="../globals.html#DisplayObject">DisplayObject</a>.<a href="../globals.html#DisplayObject._material">_material</a></p>
         <ul>
-                    <li>Defined in display/DisplayObject.ts:158</li>
+                    <li>Defined in display/DisplayObject.ts:157</li>
         </ul>
 </aside>
 
@@ -930,7 +929,7 @@ other display object container. </p>
 <aside class="tsd-sources">
         <p>Inherited from <a href="../globals.html#DisplayObject">DisplayObject</a>.<a href="../globals.html#DisplayObject._pBoxBounds">_pBoxBounds</a></p>
         <ul>
-                    <li>Defined in display/DisplayObject.ts:166</li>
+                    <li>Defined in display/DisplayObject.ts:165</li>
         </ul>
 </aside>
 
@@ -976,7 +975,7 @@ other display object container. </p>
 <aside class="tsd-sources">
         <p>Inherited from <a href="../globals.html#DisplayObject">DisplayObject</a>.<a href="../globals.html#DisplayObject._pImplicitColorTransform">_pImplicitColorTransform</a></p>
         <ul>
-                    <li>Defined in display/DisplayObject.ts:199</li>
+                    <li>Defined in display/DisplayObject.ts:198</li>
         </ul>
 </aside>
 
@@ -992,7 +991,7 @@ other display object container. </p>
 <aside class="tsd-sources">
         <p>Inherited from <a href="../globals.html#DisplayObject">DisplayObject</a>.<a href="../globals.html#DisplayObject._pImplicitMaskId">_pImplicitMaskId</a></p>
         <ul>
-                    <li>Defined in display/DisplayObject.ts:194</li>
+                    <li>Defined in display/DisplayObject.ts:193</li>
         </ul>
 </aside>
 
@@ -1008,7 +1007,7 @@ other display object container. </p>
 <aside class="tsd-sources">
         <p>Inherited from <a href="../globals.html#DisplayObject">DisplayObject</a>.<a href="../globals.html#DisplayObject._pImplicitMaskIds">_pImplicitMaskIds</a></p>
         <ul>
-                    <li>Defined in display/DisplayObject.ts:196</li>
+                    <li>Defined in display/DisplayObject.ts:195</li>
         </ul>
 </aside>
 
@@ -1024,7 +1023,7 @@ other display object container. </p>
 <aside class="tsd-sources">
         <p>Inherited from <a href="../globals.html#DisplayObject">DisplayObject</a>.<a href="../globals.html#DisplayObject._pImplicitMasks">_pImplicitMasks</a></p>
         <ul>
-                    <li>Defined in display/DisplayObject.ts:195</li>
+                    <li>Defined in display/DisplayObject.ts:194</li>
         </ul>
 </aside>
 
@@ -1040,7 +1039,7 @@ other display object container. </p>
 <aside class="tsd-sources">
         <p>Inherited from <a href="../globals.html#DisplayObject">DisplayObject</a>.<a href="../globals.html#DisplayObject._pImplicitMouseEnabled">_pImplicitMouseEnabled</a></p>
         <ul>
-                    <li>Defined in display/DisplayObject.ts:198</li>
+                    <li>Defined in display/DisplayObject.ts:197</li>
         </ul>
 </aside>
 
@@ -1056,7 +1055,7 @@ other display object container. </p>
 <aside class="tsd-sources">
         <p>Inherited from <a href="../globals.html#DisplayObject">DisplayObject</a>.<a href="../globals.html#DisplayObject._pImplicitVisibility">_pImplicitVisibility</a></p>
         <ul>
-                    <li>Defined in display/DisplayObject.ts:193</li>
+                    <li>Defined in display/DisplayObject.ts:192</li>
         </ul>
 </aside>
 
@@ -1072,7 +1071,7 @@ other display object container. </p>
 <aside class="tsd-sources">
         <p>Inherited from <a href="../globals.html#DisplayObject">DisplayObject</a>.<a href="../globals.html#DisplayObject._pIsContainer">_pIsContainer</a></p>
         <ul>
-                    <li>Defined in display/DisplayObject.ts:178</li>
+                    <li>Defined in display/DisplayObject.ts:177</li>
         </ul>
 </aside>
 
@@ -1088,7 +1087,7 @@ other display object container. </p>
 <aside class="tsd-sources">
         <p>Inherited from <a href="../globals.html#DisplayObject">DisplayObject</a>.<a href="../globals.html#DisplayObject._pIsEntity">_pIsEntity</a></p>
         <ul>
-                    <li>Defined in display/DisplayObject.ts:177</li>
+                    <li>Defined in display/DisplayObject.ts:176</li>
         </ul>
 </aside>
 
@@ -1104,7 +1103,7 @@ other display object container. </p>
 <aside class="tsd-sources">
         <p>Inherited from <a href="../globals.html#DisplayObject">DisplayObject</a>.<a href="../globals.html#DisplayObject._pName">_pName</a></p>
         <ul>
-                    <li>Defined in display/DisplayObject.ts:171</li>
+                    <li>Defined in display/DisplayObject.ts:170</li>
         </ul>
 </aside>
 
@@ -1120,7 +1119,7 @@ other display object container. </p>
 <aside class="tsd-sources">
         <p>Inherited from <a href="../globals.html#DisplayObject">DisplayObject</a>.<a href="../globals.html#DisplayObject._pParent">_pParent</a></p>
         <ul>
-                    <li>Defined in display/DisplayObject.ts:174</li>
+                    <li>Defined in display/DisplayObject.ts:173</li>
         </ul>
 </aside>
 
@@ -1136,7 +1135,7 @@ other display object container. </p>
 <aside class="tsd-sources">
         <p>Inherited from <a href="../globals.html#DisplayObject">DisplayObject</a>.<a href="../globals.html#DisplayObject._pPartition">_pPartition</a></p>
         <ul>
-                    <li>Defined in display/DisplayObject.ts:182</li>
+                    <li>Defined in display/DisplayObject.ts:181</li>
         </ul>
 </aside>
 
@@ -1167,7 +1166,7 @@ other display object container. </p>
 <aside class="tsd-sources">
         <p>Inherited from <a href="../globals.html#DisplayObject">DisplayObject</a>.<a href="../globals.html#DisplayObject._pScene">_pScene</a></p>
         <ul>
-                    <li>Defined in display/DisplayObject.ts:173</li>
+                    <li>Defined in display/DisplayObject.ts:172</li>
         </ul>
 </aside>
 
@@ -1183,7 +1182,7 @@ other display object container. </p>
 <aside class="tsd-sources">
         <p>Inherited from <a href="../globals.html#DisplayObject">DisplayObject</a>.<a href="../globals.html#DisplayObject._pSphereBounds">_pSphereBounds</a></p>
         <ul>
-                    <li>Defined in display/DisplayObject.ts:168</li>
+                    <li>Defined in display/DisplayObject.ts:167</li>
         </ul>
 </aside>
 
@@ -1199,7 +1198,7 @@ other display object container. </p>
 <aside class="tsd-sources">
         <p>Inherited from <a href="../globals.html#DisplayObject">DisplayObject</a>.<a href="../globals.html#DisplayObject._registrationMatrix3D">_registrationMatrix3D</a></p>
         <ul>
-                    <li>Defined in display/DisplayObject.ts:211</li>
+                    <li>Defined in display/DisplayObject.ts:210</li>
         </ul>
 </aside>
 
@@ -1215,7 +1214,7 @@ other display object container. </p>
 <aside class="tsd-sources">
         <p>Inherited from <a href="../globals.html#DisplayObject">DisplayObject</a>.<a href="../globals.html#DisplayObject._sessionID">_sessionID</a></p>
         <ul>
-                    <li>Defined in display/DisplayObject.ts:179</li>
+                    <li>Defined in display/DisplayObject.ts:178</li>
         </ul>
 </aside>
 
@@ -1231,7 +1230,7 @@ other display object container. </p>
 <aside class="tsd-sources">
         <p>Inherited from <a href="../globals.html#DisplayObject">DisplayObject</a>.<a href="../globals.html#DisplayObject._style">_style</a></p>
         <ul>
-                    <li>Defined in display/DisplayObject.ts:159</li>
+                    <li>Defined in display/DisplayObject.ts:158</li>
         </ul>
 </aside>
 
@@ -1263,7 +1262,7 @@ other display object container. </p>
 <aside class="tsd-sources">
         <p>Inherited from <a href="../globals.html#DisplayObject">DisplayObject</a>.<a href="../globals.html#DisplayObject._tempTransform">_tempTransform</a></p>
         <ul>
-                    <li>Defined in display/DisplayObject.ts:176</li>
+                    <li>Defined in display/DisplayObject.ts:175</li>
         </ul>
 </aside>
 
@@ -1279,7 +1278,7 @@ other display object container. </p>
 <aside class="tsd-sources">
         <p>Inherited from <a href="../globals.html#DisplayObject">DisplayObject</a>.<a href="../globals.html#DisplayObject._transform">_transform</a></p>
         <ul>
-                    <li>Defined in display/DisplayObject.ts:186</li>
+                    <li>Defined in display/DisplayObject.ts:185</li>
         </ul>
 </aside>
 
@@ -1295,7 +1294,7 @@ other display object container. </p>
 <aside class="tsd-sources">
         <p>Inherited from <a href="../globals.html#DisplayObject">DisplayObject</a>.<a href="../globals.html#DisplayObject._width">_width</a></p>
         <ul>
-                    <li>Defined in display/DisplayObject.ts:207</li>
+                    <li>Defined in display/DisplayObject.ts:206</li>
         </ul>
 </aside>
 
@@ -1319,6 +1318,29 @@ other display object container. </p>
 
 </section>
             <section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-inherited">
+    <a name="adapter" class="tsd-anchor"></a>
+        <h3>adapter</h3>
+
+        <div class="tsd-signature tsd-kind-icon">adapter<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">IAssetAdapter</span></div>
+
+<aside class="tsd-sources">
+        <p>Inherited from AssetBase.adapter</p>
+        <ul>
+                    <li>Defined in /home/travis/build/awayjs/docs/node_modules/@awayjs/core/dist/lib/library/AssetBase.d.ts:20</li>
+        </ul>
+</aside>
+        <div class="tsd-comment tsd-typography">
+                <div class="lead">
+                    <p>adapter is used to provide MovieClip to scripts taken from different platforms
+setter typically managed by factory. getter defaults to AwayJS class</p>
+
+                </div>
+        </div>
+
+    
+
+</section>
+            <section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-inherited">
     <a name="alignmentMode" class="tsd-anchor"></a>
         <h3>alignment<wbr>Mode</h3>
 
@@ -1327,7 +1349,7 @@ other display object container. </p>
 <aside class="tsd-sources">
         <p>Inherited from <a href="../globals.html#DisplayObject">DisplayObject</a>.<a href="../globals.html#DisplayObject.alignmentMode">alignmentMode</a></p>
         <ul>
-                    <li>Defined in display/DisplayObject.ts:270</li>
+                    <li>Defined in display/DisplayObject.ts:255</li>
         </ul>
 </aside>
 
@@ -1375,7 +1397,7 @@ other display object container. </p>
 <aside class="tsd-sources">
         <p>Inherited from <a href="../globals.html#DisplayObject">DisplayObject</a>.<a href="../globals.html#DisplayObject.blendMode">blendMode</a></p>
         <ul>
-                    <li>Defined in display/DisplayObject.ts:314</li>
+                    <li>Defined in display/DisplayObject.ts:299</li>
         </ul>
 </aside>
         <div class="tsd-comment tsd-typography">
@@ -1418,7 +1440,7 @@ object(2) superimposed on another display object(1).</p>
 <aside class="tsd-sources">
         <p>Inherited from <a href="../globals.html#DisplayObject">DisplayObject</a>.<a href="../globals.html#DisplayObject.cacheAsBitmap">cacheAsBitmap</a></p>
         <ul>
-                    <li>Defined in display/DisplayObject.ts:393</li>
+                    <li>Defined in display/DisplayObject.ts:378</li>
         </ul>
 </aside>
         <div class="tsd-comment tsd-typography">
@@ -1494,7 +1516,7 @@ and <i>y</i> position is changed).</p>
 <aside class="tsd-sources">
         <p>Inherited from <a href="../globals.html#DisplayObject">DisplayObject</a>.<a href="../globals.html#DisplayObject.castsShadows">castsShadows</a></p>
         <ul>
-                    <li>Defined in display/DisplayObject.ts:398</li>
+                    <li>Defined in display/DisplayObject.ts:383</li>
         </ul>
 </aside>
 
@@ -1510,7 +1532,7 @@ and <i>y</i> position is changed).</p>
 <aside class="tsd-sources">
         <p>Inherited from <a href="../globals.html#DisplayObject">DisplayObject</a>.<a href="../globals.html#DisplayObject.extra">extra</a></p>
         <ul>
-                    <li>Defined in display/DisplayObject.ts:457</li>
+                    <li>Defined in display/DisplayObject.ts:442</li>
         </ul>
 </aside>
         <div class="tsd-comment tsd-typography">
@@ -1554,7 +1576,7 @@ and <i>y</i> position is changed).</p>
 <aside class="tsd-sources">
         <p>Inherited from <a href="../globals.html#DisplayObject">DisplayObject</a>.<a href="../globals.html#DisplayObject.isSlice9ScaledMC">isSlice9ScaledMC</a></p>
         <ul>
-                    <li>Defined in display/DisplayObject.ts:230</li>
+                    <li>Defined in display/DisplayObject.ts:229</li>
         </ul>
 </aside>
 
@@ -1570,7 +1592,7 @@ and <i>y</i> position is changed).</p>
 <aside class="tsd-sources">
         <p>Inherited from <a href="../globals.html#DisplayObject">DisplayObject</a>.<a href="../globals.html#DisplayObject.isSlice9ScaledSprite">isSlice9ScaledSprite</a></p>
         <ul>
-                    <li>Defined in display/DisplayObject.ts:231</li>
+                    <li>Defined in display/DisplayObject.ts:230</li>
         </ul>
 </aside>
 
@@ -1586,7 +1608,7 @@ and <i>y</i> position is changed).</p>
 <aside class="tsd-sources">
         <p>Inherited from <a href="../globals.html#DisplayObject">DisplayObject</a>.<a href="../globals.html#DisplayObject.mask">mask</a></p>
         <ul>
-                    <li>Defined in display/DisplayObject.ts:655</li>
+                    <li>Defined in display/DisplayObject.ts:640</li>
         </ul>
 </aside>
         <div class="tsd-comment tsd-typography">
@@ -1636,7 +1658,7 @@ first object, and that object&#39;s <code>mask</code> property becomes
 <aside class="tsd-sources">
         <p>Inherited from <a href="../globals.html#DisplayObject">DisplayObject</a>.<a href="../globals.html#DisplayObject.orientationMode">orientationMode</a></p>
         <ul>
-                    <li>Defined in display/DisplayObject.ts:750</li>
+                    <li>Defined in display/DisplayObject.ts:735</li>
         </ul>
 </aside>
 
@@ -1676,7 +1698,7 @@ have changed due to of a name conflict.</p>
 <aside class="tsd-sources">
         <p>Inherited from <a href="../globals.html#DisplayObject">DisplayObject</a>.<a href="../globals.html#DisplayObject.rotation">rotation</a></p>
         <ul>
-                    <li>Defined in display/DisplayObject.ts:905</li>
+                    <li>Defined in display/DisplayObject.ts:890</li>
         </ul>
 </aside>
         <div class="tsd-comment tsd-typography">
@@ -1703,7 +1725,7 @@ is the same as <code> my_video.rotation = 90</code>.</p>
 <aside class="tsd-sources">
         <p>Inherited from <a href="../globals.html#DisplayObject">DisplayObject</a>.<a href="../globals.html#DisplayObject.scale9Grid">scale9Grid</a></p>
         <ul>
-                    <li>Defined in display/DisplayObject.ts:1023</li>
+                    <li>Defined in display/DisplayObject.ts:1008</li>
         </ul>
 </aside>
         <div class="tsd-comment tsd-typography">
@@ -1775,7 +1797,7 @@ width when the component is scaled.</p>
 <aside class="tsd-sources">
         <p>Inherited from <a href="../globals.html#DisplayObject">DisplayObject</a>.<a href="../globals.html#DisplayObject.scrollRect">scrollRect</a></p>
         <ul>
-                    <li>Defined in display/DisplayObject.ts:1205</li>
+                    <li>Defined in display/DisplayObject.ts:1190</li>
         </ul>
 </aside>
         <div class="tsd-comment tsd-typography">
@@ -1851,7 +1873,7 @@ Flex. Instead, use the
 <aside class="tsd-sources">
         <p>Inherited from <a href="../globals.html#DisplayObject">DisplayObject</a>.<a href="../globals.html#DisplayObject.zOffset">zOffset</a></p>
         <ul>
-                    <li>Defined in display/DisplayObject.ts:1507</li>
+                    <li>Defined in display/DisplayObject.ts:1492</li>
         </ul>
 </aside>
 
@@ -1939,7 +1961,7 @@ Flex. Instead, use the
                     <aside class="tsd-sources">
         <p>Inherited from <a href="../globals.html#DisplayObject">DisplayObject</a>.<a href="../globals.html#DisplayObject._iPickingCollision">_iPickingCollision</a></p>
         <ul>
-                    <li>Defined in display/DisplayObject.ts:2036</li>
+                    <li>Defined in display/DisplayObject.ts:2018</li>
         </ul>
 </aside>
         <div class="tsd-comment tsd-typography">
@@ -1952,72 +1974,6 @@ Flex. Instead, use the
 
 
     <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">PickingCollision</span></h4>
-
-
-            </li>
-</ul>
-
-</section>
-            <section class="tsd-panel tsd-member tsd-kind-accessor tsd-parent-kind-class tsd-is-overwrite tsd-is-inherited">
-    <a name="adapter" class="tsd-anchor"></a>
-        <h3>adapter</h3>
-
-
-        <ul class="tsd-signatures tsd-kind-accessor tsd-parent-kind-class tsd-is-overwrite tsd-is-inherited">
-            <li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">get</span> <span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="../interfaces/IDisplayObjectAdapter.html" class="tsd-signature-type">IDisplayObjectAdapter</a></li>
-            <li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">set</span> <span class="tsd-signature-symbol">(</span>value<span class="tsd-signature-symbol">: </span><a href="../interfaces/IDisplayObjectAdapter.html" class="tsd-signature-type">IDisplayObjectAdapter</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
-</ul>
-
-<ul class="tsd-descriptions">
-            <li class="tsd-description">
-                    <aside class="tsd-sources">
-        <p>Inherited from <a href="../globals.html#DisplayObject">DisplayObject</a>.<a href="../globals.html#DisplayObject.adapter">adapter</a></p>
-        <p>Overwrites AssetBase.adapter</p>
-        <ul>
-                    <li>Defined in display/DisplayObject.ts:242</li>
-        </ul>
-</aside>
-        <div class="tsd-comment tsd-typography">
-                <div class="lead">
-                    <p>adapter is used to provide MovieClip to scripts taken from different platforms
-setter typically managed by factory</p>
-
-                </div>
-        </div>
-
-
-
-    <h4 class="tsd-returns-title">Returns <a href="../interfaces/IDisplayObjectAdapter.html" class="tsd-signature-type">IDisplayObjectAdapter</a></h4>
-
-
-            </li>
-            <li class="tsd-description">
-                    <aside class="tsd-sources">
-        <p>Inherited from <a href="../globals.html#DisplayObject">DisplayObject</a>.<a href="../globals.html#DisplayObject.adapter">adapter</a></p>
-        <p>Overwrites AssetBase.adapter</p>
-        <ul>
-                    <li>Defined in display/DisplayObject.ts:247</li>
-        </ul>
-</aside>
-        <div class="tsd-comment tsd-typography">
-                <div class="lead">
-                    <p>adapter is used to provide MovieClip to scripts taken from different platforms
-setter typically managed by factory</p>
-
-                </div>
-        </div>
-
-
-    <h4 class="tsd-parameters-title">Parameters</h4>
-    <ul class="tsd-parameters">
-            <li>
-                <h5>value: <a href="../interfaces/IDisplayObjectAdapter.html" class="tsd-signature-type">IDisplayObjectAdapter</a></h5>
-
-                
-            </li>
-    </ul>
-
-    <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
 
 
             </li>
@@ -2039,7 +1995,7 @@ setter typically managed by factory</p>
                     <aside class="tsd-sources">
         <p>Inherited from <a href="../globals.html#DisplayObject">DisplayObject</a>.<a href="../globals.html#DisplayObject.alpha">alpha</a></p>
         <ul>
-                    <li>Defined in display/DisplayObject.ts:278</li>
+                    <li>Defined in display/DisplayObject.ts:263</li>
         </ul>
 </aside>
         <div class="tsd-comment tsd-typography">
@@ -2064,7 +2020,7 @@ even though they are invisible.</li>
                     <aside class="tsd-sources">
         <p>Inherited from <a href="../globals.html#DisplayObject">DisplayObject</a>.<a href="../globals.html#DisplayObject.alpha">alpha</a></p>
         <ul>
-                    <li>Defined in display/DisplayObject.ts:283</li>
+                    <li>Defined in display/DisplayObject.ts:268</li>
         </ul>
 </aside>
         <div class="tsd-comment tsd-typography">
@@ -2211,7 +2167,7 @@ even though they are invisible.</li>
                     <aside class="tsd-sources">
         <p>Inherited from <a href="../globals.html#DisplayObject">DisplayObject</a>.<a href="../globals.html#DisplayObject.animator">animator</a></p>
         <ul>
-                    <li>Defined in display/DisplayObject.ts:1211</li>
+                    <li>Defined in display/DisplayObject.ts:1196</li>
         </ul>
 </aside>
         <div class="tsd-comment tsd-typography">
@@ -2231,7 +2187,7 @@ even though they are invisible.</li>
                     <aside class="tsd-sources">
         <p>Inherited from <a href="../globals.html#DisplayObject">DisplayObject</a>.<a href="../globals.html#DisplayObject.animator">animator</a></p>
         <ul>
-                    <li>Defined in display/DisplayObject.ts:1216</li>
+                    <li>Defined in display/DisplayObject.ts:1201</li>
         </ul>
 </aside>
         <div class="tsd-comment tsd-typography">
@@ -2300,7 +2256,7 @@ even though they are invisible.</li>
                     <aside class="tsd-sources">
         <p>Inherited from <a href="../globals.html#DisplayObject">DisplayObject</a>.<a href="../globals.html#DisplayObject.boundsType">boundsType</a></p>
         <ul>
-                    <li>Defined in display/DisplayObject.ts:319</li>
+                    <li>Defined in display/DisplayObject.ts:304</li>
         </ul>
 </aside>
 
@@ -2314,7 +2270,7 @@ even though they are invisible.</li>
                     <aside class="tsd-sources">
         <p>Inherited from <a href="../globals.html#DisplayObject">DisplayObject</a>.<a href="../globals.html#DisplayObject.boundsType">boundsType</a></p>
         <ul>
-                    <li>Defined in display/DisplayObject.ts:324</li>
+                    <li>Defined in display/DisplayObject.ts:309</li>
         </ul>
 </aside>
 
@@ -2400,7 +2356,7 @@ even though they are invisible.</li>
                     <aside class="tsd-sources">
         <p>Inherited from <a href="../globals.html#DisplayObject">DisplayObject</a>.<a href="../globals.html#DisplayObject.debugVisible">debugVisible</a></p>
         <ul>
-                    <li>Defined in display/DisplayObject.ts:1286</li>
+                    <li>Defined in display/DisplayObject.ts:1271</li>
         </ul>
 </aside>
 
@@ -2414,7 +2370,7 @@ even though they are invisible.</li>
                     <aside class="tsd-sources">
         <p>Inherited from <a href="../globals.html#DisplayObject">DisplayObject</a>.<a href="../globals.html#DisplayObject.debugVisible">debugVisible</a></p>
         <ul>
-                    <li>Defined in display/DisplayObject.ts:1291</li>
+                    <li>Defined in display/DisplayObject.ts:1276</li>
         </ul>
 </aside>
 
@@ -2450,7 +2406,7 @@ even though they are invisible.</li>
                     <aside class="tsd-sources">
         <p>Inherited from <a href="../globals.html#DisplayObject">DisplayObject</a>.<a href="../globals.html#DisplayObject.depth">depth</a></p>
         <ul>
-                    <li>Defined in display/DisplayObject.ts:410</li>
+                    <li>Defined in display/DisplayObject.ts:395</li>
         </ul>
 </aside>
         <div class="tsd-comment tsd-typography">
@@ -2477,7 +2433,7 @@ set <code>depth</code> to a different value.</p>
                     <aside class="tsd-sources">
         <p>Inherited from <a href="../globals.html#DisplayObject">DisplayObject</a>.<a href="../globals.html#DisplayObject.depth">depth</a></p>
         <ul>
-                    <li>Defined in display/DisplayObject.ts:418</li>
+                    <li>Defined in display/DisplayObject.ts:403</li>
         </ul>
 </aside>
         <div class="tsd-comment tsd-typography">
@@ -2576,7 +2532,7 @@ set <code>depth</code> to a different value.</p>
                     <aside class="tsd-sources">
         <p>Inherited from <a href="../globals.html#DisplayObject">DisplayObject</a>.<a href="../globals.html#DisplayObject.eulers">eulers</a></p>
         <ul>
-                    <li>Defined in display/DisplayObject.ts:431</li>
+                    <li>Defined in display/DisplayObject.ts:416</li>
         </ul>
 </aside>
         <div class="tsd-comment tsd-typography">
@@ -2596,7 +2552,7 @@ set <code>depth</code> to a different value.</p>
                     <aside class="tsd-sources">
         <p>Inherited from <a href="../globals.html#DisplayObject">DisplayObject</a>.<a href="../globals.html#DisplayObject.eulers">eulers</a></p>
         <ul>
-                    <li>Defined in display/DisplayObject.ts:443</li>
+                    <li>Defined in display/DisplayObject.ts:428</li>
         </ul>
 </aside>
         <div class="tsd-comment tsd-typography">
@@ -2686,7 +2642,7 @@ set <code>depth</code> to a different value.</p>
                     <aside class="tsd-sources">
         <p>Inherited from <a href="../globals.html#DisplayObject">DisplayObject</a>.<a href="../globals.html#DisplayObject.height">height</a></p>
         <ul>
-                    <li>Defined in display/DisplayObject.ts:550</li>
+                    <li>Defined in display/DisplayObject.ts:535</li>
         </ul>
 </aside>
         <div class="tsd-comment tsd-typography">
@@ -2713,7 +2669,7 @@ set <code>height</code> to a different value.</p>
                     <aside class="tsd-sources">
         <p>Inherited from <a href="../globals.html#DisplayObject">DisplayObject</a>.<a href="../globals.html#DisplayObject.height">height</a></p>
         <ul>
-                    <li>Defined in display/DisplayObject.ts:558</li>
+                    <li>Defined in display/DisplayObject.ts:543</li>
         </ul>
 </aside>
         <div class="tsd-comment tsd-typography">
@@ -2761,7 +2717,7 @@ set <code>height</code> to a different value.</p>
                     <aside class="tsd-sources">
         <p>Inherited from <a href="../globals.html#DisplayObject">DisplayObject</a>.<a href="../globals.html#DisplayObject.index">index</a></p>
         <ul>
-                    <li>Defined in display/DisplayObject.ts:582</li>
+                    <li>Defined in display/DisplayObject.ts:567</li>
         </ul>
 </aside>
         <div class="tsd-comment tsd-typography">
@@ -2800,7 +2756,7 @@ container.</p>
                     <aside class="tsd-sources">
         <p>Inherited from <a href="../globals.html#DisplayObject">DisplayObject</a>.<a href="../globals.html#DisplayObject.inheritColorTransform">inheritColorTransform</a></p>
         <ul>
-                    <li>Defined in display/DisplayObject.ts:252</li>
+                    <li>Defined in display/DisplayObject.ts:237</li>
         </ul>
 </aside>
 
@@ -2814,7 +2770,7 @@ container.</p>
                     <aside class="tsd-sources">
         <p>Inherited from <a href="../globals.html#DisplayObject">DisplayObject</a>.<a href="../globals.html#DisplayObject.inheritColorTransform">inheritColorTransform</a></p>
         <ul>
-                    <li>Defined in display/DisplayObject.ts:257</li>
+                    <li>Defined in display/DisplayObject.ts:242</li>
         </ul>
 </aside>
 
@@ -2849,7 +2805,7 @@ container.</p>
                     <aside class="tsd-sources">
         <p>Inherited from <a href="../globals.html#DisplayObject">DisplayObject</a>.<a href="../globals.html#DisplayObject.isContainer">isContainer</a></p>
         <ul>
-                    <li>Defined in display/DisplayObject.ts:601</li>
+                    <li>Defined in display/DisplayObject.ts:586</li>
         </ul>
 </aside>
 
@@ -2876,7 +2832,7 @@ container.</p>
                     <aside class="tsd-sources">
         <p>Inherited from <a href="../globals.html#DisplayObject">DisplayObject</a>.<a href="../globals.html#DisplayObject.isEntity">isEntity</a></p>
         <ul>
-                    <li>Defined in display/DisplayObject.ts:593</li>
+                    <li>Defined in display/DisplayObject.ts:578</li>
         </ul>
 </aside>
 
@@ -2904,7 +2860,7 @@ container.</p>
                     <aside class="tsd-sources">
         <p>Inherited from <a href="../globals.html#DisplayObject">DisplayObject</a>.<a href="../globals.html#DisplayObject.isPartition">isPartition</a></p>
         <ul>
-                    <li>Defined in display/DisplayObject.ts:774</li>
+                    <li>Defined in display/DisplayObject.ts:759</li>
         </ul>
 </aside>
 
@@ -2918,7 +2874,7 @@ container.</p>
                     <aside class="tsd-sources">
         <p>Inherited from <a href="../globals.html#DisplayObject">DisplayObject</a>.<a href="../globals.html#DisplayObject.isPartition">isPartition</a></p>
         <ul>
-                    <li>Defined in display/DisplayObject.ts:779</li>
+                    <li>Defined in display/DisplayObject.ts:764</li>
         </ul>
 </aside>
 
@@ -2953,7 +2909,7 @@ container.</p>
                     <aside class="tsd-sources">
         <p>Inherited from <a href="../globals.html#DisplayObject">DisplayObject</a>.<a href="../globals.html#DisplayObject.loaderInfo">loaderInfo</a></p>
         <ul>
-                    <li>Defined in display/DisplayObject.ts:619</li>
+                    <li>Defined in display/DisplayObject.ts:604</li>
         </ul>
 </aside>
         <div class="tsd-comment tsd-typography">
@@ -2997,7 +2953,7 @@ func)</code>.</p>
                     <aside class="tsd-sources">
         <p>Inherited from <a href="../globals.html#DisplayObject">DisplayObject</a>.<a href="../globals.html#DisplayObject.maskMode">maskMode</a></p>
         <ul>
-                    <li>Defined in display/DisplayObject.ts:657</li>
+                    <li>Defined in display/DisplayObject.ts:642</li>
         </ul>
 </aside>
 
@@ -3011,7 +2967,7 @@ func)</code>.</p>
                     <aside class="tsd-sources">
         <p>Inherited from <a href="../globals.html#DisplayObject">DisplayObject</a>.<a href="../globals.html#DisplayObject.maskMode">maskMode</a></p>
         <ul>
-                    <li>Defined in display/DisplayObject.ts:662</li>
+                    <li>Defined in display/DisplayObject.ts:647</li>
         </ul>
 </aside>
 
@@ -3047,7 +3003,7 @@ func)</code>.</p>
                     <aside class="tsd-sources">
         <p>Inherited from <a href="../globals.html#DisplayObject">DisplayObject</a>.<a href="../globals.html#DisplayObject.masks">masks</a></p>
         <ul>
-                    <li>Defined in display/DisplayObject.ts:1364</li>
+                    <li>Defined in display/DisplayObject.ts:1349</li>
         </ul>
 </aside>
 
@@ -3061,7 +3017,7 @@ func)</code>.</p>
                     <aside class="tsd-sources">
         <p>Inherited from <a href="../globals.html#DisplayObject">DisplayObject</a>.<a href="../globals.html#DisplayObject.masks">masks</a></p>
         <ul>
-                    <li>Defined in display/DisplayObject.ts:1369</li>
+                    <li>Defined in display/DisplayObject.ts:1354</li>
         </ul>
 </aside>
 
@@ -3097,7 +3053,7 @@ func)</code>.</p>
                     <aside class="tsd-sources">
         <p>Inherited from <a href="../globals.html#DisplayObject">DisplayObject</a>.<a href="../globals.html#DisplayObject.material">material</a></p>
         <ul>
-                    <li>Defined in display/DisplayObject.ts:1230</li>
+                    <li>Defined in display/DisplayObject.ts:1215</li>
         </ul>
 </aside>
 
@@ -3111,7 +3067,7 @@ func)</code>.</p>
                     <aside class="tsd-sources">
         <p>Inherited from <a href="../globals.html#DisplayObject">DisplayObject</a>.<a href="../globals.html#DisplayObject.material">material</a></p>
         <ul>
-                    <li>Defined in display/DisplayObject.ts:1235</li>
+                    <li>Defined in display/DisplayObject.ts:1220</li>
         </ul>
 </aside>
 
@@ -3245,7 +3201,7 @@ functionality.</p>
                     <aside class="tsd-sources">
         <p>Inherited from <a href="../globals.html#DisplayObject">DisplayObject</a>.<a href="../globals.html#DisplayObject.mouseEnabled">mouseEnabled</a></p>
         <ul>
-                    <li>Defined in display/DisplayObject.ts:689</li>
+                    <li>Defined in display/DisplayObject.ts:674</li>
         </ul>
 </aside>
         <div class="tsd-comment tsd-typography">
@@ -3278,7 +3234,7 @@ functionality.</p>
                     <aside class="tsd-sources">
         <p>Inherited from <a href="../globals.html#DisplayObject">DisplayObject</a>.<a href="../globals.html#DisplayObject.mouseEnabled">mouseEnabled</a></p>
         <ul>
-                    <li>Defined in display/DisplayObject.ts:694</li>
+                    <li>Defined in display/DisplayObject.ts:679</li>
         </ul>
 </aside>
         <div class="tsd-comment tsd-typography">
@@ -3332,7 +3288,7 @@ functionality.</p>
                     <aside class="tsd-sources">
         <p>Inherited from <a href="../globals.html#DisplayObject">DisplayObject</a>.<a href="../globals.html#DisplayObject.mouseX">mouseX</a></p>
         <ul>
-                    <li>Defined in display/DisplayObject.ts:710</li>
+                    <li>Defined in display/DisplayObject.ts:695</li>
         </ul>
 </aside>
         <div class="tsd-comment tsd-typography">
@@ -3369,7 +3325,7 @@ coordinate will reflect the non-rotated object.</p>
                     <aside class="tsd-sources">
         <p>Inherited from <a href="../globals.html#DisplayObject">DisplayObject</a>.<a href="../globals.html#DisplayObject.mouseY">mouseY</a></p>
         <ul>
-                    <li>Defined in display/DisplayObject.ts:722</li>
+                    <li>Defined in display/DisplayObject.ts:707</li>
         </ul>
 </aside>
         <div class="tsd-comment tsd-typography">
@@ -3408,7 +3364,7 @@ coordinate will reflect the non-rotated object.</p>
         <p>Inherited from <a href="../globals.html#DisplayObject">DisplayObject</a>.<a href="../globals.html#DisplayObject.name">name</a></p>
         <p>Overwrites AssetBase.name</p>
         <ul>
-                    <li>Defined in display/DisplayObject.ts:737</li>
+                    <li>Defined in display/DisplayObject.ts:722</li>
         </ul>
 </aside>
         <div class="tsd-comment tsd-typography">
@@ -3439,7 +3395,7 @@ container.</p>
         <p>Inherited from <a href="../globals.html#DisplayObject">DisplayObject</a>.<a href="../globals.html#DisplayObject.name">name</a></p>
         <p>Overwrites AssetBase.name</p>
         <ul>
-                    <li>Defined in display/DisplayObject.ts:742</li>
+                    <li>Defined in display/DisplayObject.ts:727</li>
         </ul>
 </aside>
         <div class="tsd-comment tsd-typography">
@@ -3516,7 +3472,7 @@ container.</p>
                     <aside class="tsd-sources">
         <p>Inherited from <a href="../globals.html#DisplayObject">DisplayObject</a>.<a href="../globals.html#DisplayObject.parent">parent</a></p>
         <ul>
-                    <li>Defined in display/DisplayObject.ts:766</li>
+                    <li>Defined in display/DisplayObject.ts:751</li>
         </ul>
 </aside>
         <div class="tsd-comment tsd-typography">
@@ -3563,7 +3519,7 @@ display list as in the following:</p>
                     <aside class="tsd-sources">
         <p>Inherited from <a href="../globals.html#DisplayObject">DisplayObject</a>.<a href="../globals.html#DisplayObject.partition">partition</a></p>
         <ul>
-                    <li>Defined in display/DisplayObject.ts:1149</li>
+                    <li>Defined in display/DisplayObject.ts:1134</li>
         </ul>
 </aside>
 
@@ -3639,7 +3595,7 @@ display list as in the following:</p>
                     <aside class="tsd-sources">
         <p>Inherited from <a href="../globals.html#DisplayObject">DisplayObject</a>.<a href="../globals.html#DisplayObject.registrationPoint">registrationPoint</a></p>
         <ul>
-                    <li>Defined in display/DisplayObject.ts:794</li>
+                    <li>Defined in display/DisplayObject.ts:779</li>
         </ul>
 </aside>
         <div class="tsd-comment tsd-typography">
@@ -3659,7 +3615,7 @@ display list as in the following:</p>
                     <aside class="tsd-sources">
         <p>Inherited from <a href="../globals.html#DisplayObject">DisplayObject</a>.<a href="../globals.html#DisplayObject.registrationPoint">registrationPoint</a></p>
         <ul>
-                    <li>Defined in display/DisplayObject.ts:803</li>
+                    <li>Defined in display/DisplayObject.ts:788</li>
         </ul>
 </aside>
         <div class="tsd-comment tsd-typography">
@@ -3701,7 +3657,7 @@ display list as in the following:</p>
                     <aside class="tsd-sources">
         <p>Inherited from <a href="../globals.html#DisplayObject">DisplayObject</a>.<a href="../globals.html#DisplayObject.registrationScale">registrationScale</a></p>
         <ul>
-                    <li>Defined in display/DisplayObject.ts:832</li>
+                    <li>Defined in display/DisplayObject.ts:817</li>
         </ul>
 </aside>
         <div class="tsd-comment tsd-typography">
@@ -3721,7 +3677,7 @@ display list as in the following:</p>
                     <aside class="tsd-sources">
         <p>Inherited from <a href="../globals.html#DisplayObject">DisplayObject</a>.<a href="../globals.html#DisplayObject.registrationScale">registrationScale</a></p>
         <ul>
-                    <li>Defined in display/DisplayObject.ts:841</li>
+                    <li>Defined in display/DisplayObject.ts:826</li>
         </ul>
 </aside>
         <div class="tsd-comment tsd-typography">
@@ -3762,7 +3718,7 @@ display list as in the following:</p>
                     <aside class="tsd-sources">
         <p>Inherited from <a href="../globals.html#DisplayObject">DisplayObject</a>.<a href="../globals.html#DisplayObject.root">root</a></p>
         <ul>
-                    <li>Defined in display/DisplayObject.ts:892</li>
+                    <li>Defined in display/DisplayObject.ts:877</li>
         </ul>
 </aside>
         <div class="tsd-comment tsd-typography">
@@ -3819,7 +3775,7 @@ set.</p>
                     <aside class="tsd-sources">
         <p>Inherited from <a href="../globals.html#DisplayObject">DisplayObject</a>.<a href="../globals.html#DisplayObject.rotationX">rotationX</a></p>
         <ul>
-                    <li>Defined in display/DisplayObject.ts:914</li>
+                    <li>Defined in display/DisplayObject.ts:899</li>
         </ul>
 </aside>
         <div class="tsd-comment tsd-typography">
@@ -3843,7 +3799,7 @@ to or subtracted from 360 to obtain a value within the range.</p>
                     <aside class="tsd-sources">
         <p>Inherited from <a href="../globals.html#DisplayObject">DisplayObject</a>.<a href="../globals.html#DisplayObject.rotationX">rotationX</a></p>
         <ul>
-                    <li>Defined in display/DisplayObject.ts:919</li>
+                    <li>Defined in display/DisplayObject.ts:904</li>
         </ul>
 </aside>
         <div class="tsd-comment tsd-typography">
@@ -3889,7 +3845,7 @@ to or subtracted from 360 to obtain a value within the range.</p>
                     <aside class="tsd-sources">
         <p>Inherited from <a href="../globals.html#DisplayObject">DisplayObject</a>.<a href="../globals.html#DisplayObject.rotationY">rotationY</a></p>
         <ul>
-                    <li>Defined in display/DisplayObject.ts:936</li>
+                    <li>Defined in display/DisplayObject.ts:921</li>
         </ul>
 </aside>
         <div class="tsd-comment tsd-typography">
@@ -3913,7 +3869,7 @@ to or subtracted from 360 to obtain a value within the range.</p>
                     <aside class="tsd-sources">
         <p>Inherited from <a href="../globals.html#DisplayObject">DisplayObject</a>.<a href="../globals.html#DisplayObject.rotationY">rotationY</a></p>
         <ul>
-                    <li>Defined in display/DisplayObject.ts:941</li>
+                    <li>Defined in display/DisplayObject.ts:926</li>
         </ul>
 </aside>
         <div class="tsd-comment tsd-typography">
@@ -3959,7 +3915,7 @@ to or subtracted from 360 to obtain a value within the range.</p>
                     <aside class="tsd-sources">
         <p>Inherited from <a href="../globals.html#DisplayObject">DisplayObject</a>.<a href="../globals.html#DisplayObject.rotationZ">rotationZ</a></p>
         <ul>
-                    <li>Defined in display/DisplayObject.ts:958</li>
+                    <li>Defined in display/DisplayObject.ts:943</li>
         </ul>
 </aside>
         <div class="tsd-comment tsd-typography">
@@ -3983,7 +3939,7 @@ to or subtracted from 360 to obtain a value within the range.</p>
                     <aside class="tsd-sources">
         <p>Inherited from <a href="../globals.html#DisplayObject">DisplayObject</a>.<a href="../globals.html#DisplayObject.rotationZ">rotationZ</a></p>
         <ul>
-                    <li>Defined in display/DisplayObject.ts:963</li>
+                    <li>Defined in display/DisplayObject.ts:948</li>
         </ul>
 </aside>
         <div class="tsd-comment tsd-typography">
@@ -4029,7 +3985,7 @@ to or subtracted from 360 to obtain a value within the range.</p>
                     <aside class="tsd-sources">
         <p>Inherited from <a href="../globals.html#DisplayObject">DisplayObject</a>.<a href="../globals.html#DisplayObject.scaleX">scaleX</a></p>
         <ul>
-                    <li>Defined in display/DisplayObject.ts:1033</li>
+                    <li>Defined in display/DisplayObject.ts:1018</li>
         </ul>
 </aside>
         <div class="tsd-comment tsd-typography">
@@ -4054,7 +4010,7 @@ equals 100% scale.</p>
                     <aside class="tsd-sources">
         <p>Inherited from <a href="../globals.html#DisplayObject">DisplayObject</a>.<a href="../globals.html#DisplayObject.scaleX">scaleX</a></p>
         <ul>
-                    <li>Defined in display/DisplayObject.ts:1038</li>
+                    <li>Defined in display/DisplayObject.ts:1023</li>
         </ul>
 </aside>
         <div class="tsd-comment tsd-typography">
@@ -4101,7 +4057,7 @@ equals 100% scale.</p>
                     <aside class="tsd-sources">
         <p>Inherited from <a href="../globals.html#DisplayObject">DisplayObject</a>.<a href="../globals.html#DisplayObject.scaleY">scaleY</a></p>
         <ul>
-                    <li>Defined in display/DisplayObject.ts:1054</li>
+                    <li>Defined in display/DisplayObject.ts:1039</li>
         </ul>
 </aside>
         <div class="tsd-comment tsd-typography">
@@ -4126,7 +4082,7 @@ registration point of the object. The default registration point is(0,0).
                     <aside class="tsd-sources">
         <p>Inherited from <a href="../globals.html#DisplayObject">DisplayObject</a>.<a href="../globals.html#DisplayObject.scaleY">scaleY</a></p>
         <ul>
-                    <li>Defined in display/DisplayObject.ts:1059</li>
+                    <li>Defined in display/DisplayObject.ts:1044</li>
         </ul>
 </aside>
         <div class="tsd-comment tsd-typography">
@@ -4173,7 +4129,7 @@ registration point of the object. The default registration point is(0,0).
                     <aside class="tsd-sources">
         <p>Inherited from <a href="../globals.html#DisplayObject">DisplayObject</a>.<a href="../globals.html#DisplayObject.scaleZ">scaleZ</a></p>
         <ul>
-                    <li>Defined in display/DisplayObject.ts:1076</li>
+                    <li>Defined in display/DisplayObject.ts:1061</li>
         </ul>
 </aside>
         <div class="tsd-comment tsd-typography">
@@ -4199,7 +4155,7 @@ whole pixels. </p>
                     <aside class="tsd-sources">
         <p>Inherited from <a href="../globals.html#DisplayObject">DisplayObject</a>.<a href="../globals.html#DisplayObject.scaleZ">scaleZ</a></p>
         <ul>
-                    <li>Defined in display/DisplayObject.ts:1081</li>
+                    <li>Defined in display/DisplayObject.ts:1066</li>
         </ul>
 </aside>
         <div class="tsd-comment tsd-typography">
@@ -4246,7 +4202,7 @@ whole pixels. </p>
                     <aside class="tsd-sources">
         <p>Inherited from <a href="../globals.html#DisplayObject">DisplayObject</a>.<a href="../globals.html#DisplayObject.scene">scene</a></p>
         <ul>
-                    <li>Defined in display/DisplayObject.ts:1157</li>
+                    <li>Defined in display/DisplayObject.ts:1142</li>
         </ul>
 </aside>
 
@@ -4273,7 +4229,7 @@ whole pixels. </p>
                     <aside class="tsd-sources">
         <p>Inherited from <a href="../globals.html#DisplayObject">DisplayObject</a>.<a href="../globals.html#DisplayObject.scenePosition">scenePosition</a></p>
         <ul>
-                    <li>Defined in display/DisplayObject.ts:1165</li>
+                    <li>Defined in display/DisplayObject.ts:1150</li>
         </ul>
 </aside>
 
@@ -4300,7 +4256,7 @@ whole pixels. </p>
                     <aside class="tsd-sources">
         <p>Inherited from <a href="../globals.html#DisplayObject">DisplayObject</a>.<a href="../globals.html#DisplayObject.shaderPickingDetails">shaderPickingDetails</a></p>
         <ul>
-                    <li>Defined in display/DisplayObject.ts:1278</li>
+                    <li>Defined in display/DisplayObject.ts:1263</li>
         </ul>
 </aside>
 
@@ -4428,7 +4384,7 @@ whole pixels. </p>
                     <aside class="tsd-sources">
         <p>Inherited from <a href="../globals.html#DisplayObject">DisplayObject</a>.<a href="../globals.html#DisplayObject.skewX">skewX</a></p>
         <ul>
-                    <li>Defined in display/DisplayObject.ts:1093</li>
+                    <li>Defined in display/DisplayObject.ts:1078</li>
         </ul>
 </aside>
         <div class="tsd-comment tsd-typography">
@@ -4449,7 +4405,7 @@ the registration point. The default registration point is(0,0).</p>
                     <aside class="tsd-sources">
         <p>Inherited from <a href="../globals.html#DisplayObject">DisplayObject</a>.<a href="../globals.html#DisplayObject.skewX">skewX</a></p>
         <ul>
-                    <li>Defined in display/DisplayObject.ts:1098</li>
+                    <li>Defined in display/DisplayObject.ts:1083</li>
         </ul>
 </aside>
         <div class="tsd-comment tsd-typography">
@@ -4492,7 +4448,7 @@ the registration point. The default registration point is(0,0).</p>
                     <aside class="tsd-sources">
         <p>Inherited from <a href="../globals.html#DisplayObject">DisplayObject</a>.<a href="../globals.html#DisplayObject.skewY">skewY</a></p>
         <ul>
-                    <li>Defined in display/DisplayObject.ts:1112</li>
+                    <li>Defined in display/DisplayObject.ts:1097</li>
         </ul>
 </aside>
         <div class="tsd-comment tsd-typography">
@@ -4513,7 +4469,7 @@ registration point of the object. The default registration point is(0,0).</p>
                     <aside class="tsd-sources">
         <p>Inherited from <a href="../globals.html#DisplayObject">DisplayObject</a>.<a href="../globals.html#DisplayObject.skewY">skewY</a></p>
         <ul>
-                    <li>Defined in display/DisplayObject.ts:1117</li>
+                    <li>Defined in display/DisplayObject.ts:1102</li>
         </ul>
 </aside>
         <div class="tsd-comment tsd-typography">
@@ -4556,7 +4512,7 @@ registration point of the object. The default registration point is(0,0).</p>
                     <aside class="tsd-sources">
         <p>Inherited from <a href="../globals.html#DisplayObject">DisplayObject</a>.<a href="../globals.html#DisplayObject.skewZ">skewZ</a></p>
         <ul>
-                    <li>Defined in display/DisplayObject.ts:1131</li>
+                    <li>Defined in display/DisplayObject.ts:1116</li>
         </ul>
 </aside>
         <div class="tsd-comment tsd-typography">
@@ -4577,7 +4533,7 @@ registration point of the object. The default registration point is(0,0).</p>
                     <aside class="tsd-sources">
         <p>Inherited from <a href="../globals.html#DisplayObject">DisplayObject</a>.<a href="../globals.html#DisplayObject.skewZ">skewZ</a></p>
         <ul>
-                    <li>Defined in display/DisplayObject.ts:1136</li>
+                    <li>Defined in display/DisplayObject.ts:1121</li>
         </ul>
 </aside>
         <div class="tsd-comment tsd-typography">
@@ -4670,7 +4626,7 @@ registration point of the object. The default registration point is(0,0).</p>
                     <aside class="tsd-sources">
         <p>Inherited from <a href="../globals.html#DisplayObject">DisplayObject</a>.<a href="../globals.html#DisplayObject.style">style</a></p>
         <ul>
-                    <li>Defined in display/DisplayObject.ts:1254</li>
+                    <li>Defined in display/DisplayObject.ts:1239</li>
         </ul>
 </aside>
 
@@ -4684,7 +4640,7 @@ registration point of the object. The default registration point is(0,0).</p>
                     <aside class="tsd-sources">
         <p>Inherited from <a href="../globals.html#DisplayObject">DisplayObject</a>.<a href="../globals.html#DisplayObject.style">style</a></p>
         <ul>
-                    <li>Defined in display/DisplayObject.ts:1259</li>
+                    <li>Defined in display/DisplayObject.ts:1244</li>
         </ul>
 </aside>
 
@@ -4719,7 +4675,7 @@ registration point of the object. The default registration point is(0,0).</p>
                     <aside class="tsd-sources">
         <p>Inherited from <a href="../globals.html#DisplayObject">DisplayObject</a>.<a href="../globals.html#DisplayObject.transform">transform</a></p>
         <ul>
-                    <li>Defined in display/DisplayObject.ts:1339</li>
+                    <li>Defined in display/DisplayObject.ts:1324</li>
         </ul>
 </aside>
         <div class="tsd-comment tsd-typography">
@@ -4815,7 +4771,7 @@ available, for color transforms.</p>
                     <aside class="tsd-sources">
         <p>Inherited from <a href="../globals.html#DisplayObject">DisplayObject</a>.<a href="../globals.html#DisplayObject.visible">visible</a></p>
         <ul>
-                    <li>Defined in display/DisplayObject.ts:1349</li>
+                    <li>Defined in display/DisplayObject.ts:1334</li>
         </ul>
 </aside>
         <div class="tsd-comment tsd-typography">
@@ -4837,7 +4793,7 @@ InteractiveObject instance, it cannot be clicked.</p>
                     <aside class="tsd-sources">
         <p>Inherited from <a href="../globals.html#DisplayObject">DisplayObject</a>.<a href="../globals.html#DisplayObject.visible">visible</a></p>
         <ul>
-                    <li>Defined in display/DisplayObject.ts:1354</li>
+                    <li>Defined in display/DisplayObject.ts:1339</li>
         </ul>
 </aside>
         <div class="tsd-comment tsd-typography">
@@ -4881,7 +4837,7 @@ InteractiveObject instance, it cannot be clicked.</p>
                     <aside class="tsd-sources">
         <p>Inherited from <a href="../globals.html#DisplayObject">DisplayObject</a>.<a href="../globals.html#DisplayObject.width">width</a></p>
         <ul>
-                    <li>Defined in display/DisplayObject.ts:1396</li>
+                    <li>Defined in display/DisplayObject.ts:1381</li>
         </ul>
 </aside>
         <div class="tsd-comment tsd-typography">
@@ -4908,7 +4864,7 @@ content(such as an empty sprite) has a width of 0, even if you try to set
                     <aside class="tsd-sources">
         <p>Inherited from <a href="../globals.html#DisplayObject">DisplayObject</a>.<a href="../globals.html#DisplayObject.width">width</a></p>
         <ul>
-                    <li>Defined in display/DisplayObject.ts:1404</li>
+                    <li>Defined in display/DisplayObject.ts:1389</li>
         </ul>
 </aside>
         <div class="tsd-comment tsd-typography">
@@ -4957,7 +4913,7 @@ content(such as an empty sprite) has a width of 0, even if you try to set
                     <aside class="tsd-sources">
         <p>Inherited from <a href="../globals.html#DisplayObject">DisplayObject</a>.<a href="../globals.html#DisplayObject.x">x</a></p>
         <ul>
-                    <li>Defined in display/DisplayObject.ts:1430</li>
+                    <li>Defined in display/DisplayObject.ts:1415</li>
         </ul>
 </aside>
         <div class="tsd-comment tsd-typography">
@@ -4984,7 +4940,7 @@ registration point position.</p>
                     <aside class="tsd-sources">
         <p>Inherited from <a href="../globals.html#DisplayObject">DisplayObject</a>.<a href="../globals.html#DisplayObject.x">x</a></p>
         <ul>
-                    <li>Defined in display/DisplayObject.ts:1435</li>
+                    <li>Defined in display/DisplayObject.ts:1420</li>
         </ul>
 </aside>
         <div class="tsd-comment tsd-typography">
@@ -5033,7 +4989,7 @@ registration point position.</p>
                     <aside class="tsd-sources">
         <p>Inherited from <a href="../globals.html#DisplayObject">DisplayObject</a>.<a href="../globals.html#DisplayObject.y">y</a></p>
         <ul>
-                    <li>Defined in display/DisplayObject.ts:1455</li>
+                    <li>Defined in display/DisplayObject.ts:1440</li>
         </ul>
 </aside>
         <div class="tsd-comment tsd-typography">
@@ -5060,7 +5016,7 @@ registration point position.</p>
                     <aside class="tsd-sources">
         <p>Inherited from <a href="../globals.html#DisplayObject">DisplayObject</a>.<a href="../globals.html#DisplayObject.y">y</a></p>
         <ul>
-                    <li>Defined in display/DisplayObject.ts:1460</li>
+                    <li>Defined in display/DisplayObject.ts:1445</li>
         </ul>
 </aside>
         <div class="tsd-comment tsd-typography">
@@ -5109,7 +5065,7 @@ registration point position.</p>
                     <aside class="tsd-sources">
         <p>Inherited from <a href="../globals.html#DisplayObject">DisplayObject</a>.<a href="../globals.html#DisplayObject.z">z</a></p>
         <ul>
-                    <li>Defined in display/DisplayObject.ts:1489</li>
+                    <li>Defined in display/DisplayObject.ts:1474</li>
         </ul>
 </aside>
         <div class="tsd-comment tsd-typography">
@@ -5145,7 +5101,7 @@ y</del>cameraFocalLength/cameraRelativeZPosition)</code></p>
                     <aside class="tsd-sources">
         <p>Inherited from <a href="../globals.html#DisplayObject">DisplayObject</a>.<a href="../globals.html#DisplayObject.z">z</a></p>
         <ul>
-                    <li>Defined in display/DisplayObject.ts:1494</li>
+                    <li>Defined in display/DisplayObject.ts:1479</li>
         </ul>
 </aside>
         <div class="tsd-comment tsd-typography">
@@ -5204,7 +5160,7 @@ y</del>cameraFocalLength/cameraRelativeZPosition)</code></p>
                 <aside class="tsd-sources">
         <p>Inherited from <a href="../globals.html#DisplayObject">DisplayObject</a>.<a href="../globals.html#DisplayObject._acceptTraverser">_acceptTraverser</a></p>
         <ul>
-                    <li>Defined in display/DisplayObject.ts:2218</li>
+                    <li>Defined in display/DisplayObject.ts:2200</li>
         </ul>
 </aside>
 
@@ -5288,7 +5244,7 @@ y</del>cameraFocalLength/cameraRelativeZPosition)</code></p>
                 <aside class="tsd-sources">
         <p>Inherited from <a href="../globals.html#DisplayObject">DisplayObject</a>.<a href="../globals.html#DisplayObject._iAssignedColorTransform">_iAssignedColorTransform</a></p>
         <ul>
-                    <li>Defined in display/DisplayObject.ts:2198</li>
+                    <li>Defined in display/DisplayObject.ts:2180</li>
         </ul>
 </aside>
 
@@ -5314,7 +5270,7 @@ y</del>cameraFocalLength/cameraRelativeZPosition)</code></p>
                 <aside class="tsd-sources">
         <p>Inherited from <a href="../globals.html#DisplayObject">DisplayObject</a>.<a href="../globals.html#DisplayObject._iAssignedMaskId">_iAssignedMaskId</a></p>
         <ul>
-                    <li>Defined in display/DisplayObject.ts:2171</li>
+                    <li>Defined in display/DisplayObject.ts:2153</li>
         </ul>
 </aside>
         <div class="tsd-comment tsd-typography">
@@ -5346,7 +5302,7 @@ y</del>cameraFocalLength/cameraRelativeZPosition)</code></p>
                 <aside class="tsd-sources">
         <p>Inherited from <a href="../globals.html#DisplayObject">DisplayObject</a>.<a href="../globals.html#DisplayObject._iAssignedMasks">_iAssignedMasks</a></p>
         <ul>
-                    <li>Defined in display/DisplayObject.ts:2182</li>
+                    <li>Defined in display/DisplayObject.ts:2164</li>
         </ul>
 </aside>
         <div class="tsd-comment tsd-typography">
@@ -5378,7 +5334,7 @@ y</del>cameraFocalLength/cameraRelativeZPosition)</code></p>
                 <aside class="tsd-sources">
         <p>Inherited from <a href="../globals.html#DisplayObject">DisplayObject</a>.<a href="../globals.html#DisplayObject._iInternalUpdate">_iInternalUpdate</a></p>
         <ul>
-                    <li>Defined in display/DisplayObject.ts:2144</li>
+                    <li>Defined in display/DisplayObject.ts:2126</li>
         </ul>
 </aside>
 
@@ -5404,7 +5360,7 @@ y</del>cameraFocalLength/cameraRelativeZPosition)</code></p>
                 <aside class="tsd-sources">
         <p>Inherited from <a href="../globals.html#DisplayObject">DisplayObject</a>.<a href="../globals.html#DisplayObject._iIsMouseEnabled">_iIsMouseEnabled</a></p>
         <ul>
-                    <li>Defined in display/DisplayObject.ts:2210</li>
+                    <li>Defined in display/DisplayObject.ts:2192</li>
         </ul>
 </aside>
         <div class="tsd-comment tsd-typography">
@@ -5436,7 +5392,7 @@ y</del>cameraFocalLength/cameraRelativeZPosition)</code></p>
                 <aside class="tsd-sources">
         <p>Inherited from <a href="../globals.html#DisplayObject">DisplayObject</a>.<a href="../globals.html#DisplayObject._iIsVisible">_iIsVisible</a></p>
         <ul>
-                    <li>Defined in display/DisplayObject.ts:2160</li>
+                    <li>Defined in display/DisplayObject.ts:2142</li>
         </ul>
 </aside>
         <div class="tsd-comment tsd-typography">
@@ -5468,7 +5424,7 @@ y</del>cameraFocalLength/cameraRelativeZPosition)</code></p>
                 <aside class="tsd-sources">
         <p>Inherited from <a href="../globals.html#DisplayObject">DisplayObject</a>.<a href="../globals.html#DisplayObject._iMasksConfig">_iMasksConfig</a></p>
         <ul>
-                    <li>Defined in display/DisplayObject.ts:2190</li>
+                    <li>Defined in display/DisplayObject.ts:2172</li>
         </ul>
 </aside>
 
@@ -5592,7 +5548,7 @@ y</del>cameraFocalLength/cameraRelativeZPosition)</code></p>
                 <aside class="tsd-sources">
         <p>Inherited from <a href="../globals.html#DisplayObject">DisplayObject</a>.<a href="../globals.html#DisplayObject._onInvalidateProperties">_onInvalidateProperties</a></p>
         <ul>
-                    <li>Defined in display/DisplayObject.ts:2412</li>
+                    <li>Defined in display/DisplayObject.ts:2394</li>
         </ul>
 </aside>
 
@@ -5626,7 +5582,7 @@ y</del>cameraFocalLength/cameraRelativeZPosition)</code></p>
                 <aside class="tsd-sources">
         <p>Inherited from <a href="../globals.html#DisplayObject">DisplayObject</a>.<a href="../globals.html#DisplayObject._onUpdateConcatenatedMatrix3D">_onUpdateConcatenatedMatrix3D</a></p>
         <ul>
-                    <li>Defined in display/DisplayObject.ts:2119</li>
+                    <li>Defined in display/DisplayObject.ts:2101</li>
         </ul>
 </aside>
         <div class="tsd-comment tsd-typography">
@@ -5662,7 +5618,7 @@ y</del>cameraFocalLength/cameraRelativeZPosition)</code></p>
                 <aside class="tsd-sources">
         <p>Inherited from <a href="../globals.html#DisplayObject">DisplayObject</a>.<a href="../globals.html#DisplayObject._pInvalidateBounds">_pInvalidateBounds</a></p>
         <ul>
-                    <li>Defined in display/DisplayObject.ts:2246</li>
+                    <li>Defined in display/DisplayObject.ts:2228</li>
         </ul>
 </aside>
 
@@ -5747,7 +5703,7 @@ y</del>cameraFocalLength/cameraRelativeZPosition)</code></p>
                 <aside class="tsd-sources">
         <p>Inherited from <a href="../globals.html#DisplayObject">DisplayObject</a>.<a href="../globals.html#DisplayObject._setScaleX">_setScaleX</a></p>
         <ul>
-                    <li>Defined in display/DisplayObject.ts:2282</li>
+                    <li>Defined in display/DisplayObject.ts:2264</li>
         </ul>
 </aside>
 
@@ -5781,7 +5737,7 @@ y</del>cameraFocalLength/cameraRelativeZPosition)</code></p>
                 <aside class="tsd-sources">
         <p>Inherited from <a href="../globals.html#DisplayObject">DisplayObject</a>.<a href="../globals.html#DisplayObject._setScaleY">_setScaleY</a></p>
         <ul>
-                    <li>Defined in display/DisplayObject.ts:2292</li>
+                    <li>Defined in display/DisplayObject.ts:2274</li>
         </ul>
 </aside>
 
@@ -5815,7 +5771,7 @@ y</del>cameraFocalLength/cameraRelativeZPosition)</code></p>
                 <aside class="tsd-sources">
         <p>Inherited from <a href="../globals.html#DisplayObject">DisplayObject</a>.<a href="../globals.html#DisplayObject._setScaleZ">_setScaleZ</a></p>
         <ul>
-                    <li>Defined in display/DisplayObject.ts:2302</li>
+                    <li>Defined in display/DisplayObject.ts:2284</li>
         </ul>
 </aside>
 
@@ -5876,7 +5832,7 @@ y</del>cameraFocalLength/cameraRelativeZPosition)</code></p>
                 <aside class="tsd-sources">
         <p>Inherited from <a href="../globals.html#DisplayObject">DisplayObject</a>.<a href="../globals.html#DisplayObject._updateMouseEnabled">_updateMouseEnabled</a></p>
         <ul>
-                    <li>Defined in display/DisplayObject.ts:2312</li>
+                    <li>Defined in display/DisplayObject.ts:2294</li>
         </ul>
 </aside>
 
@@ -5981,7 +5937,7 @@ y</del>cameraFocalLength/cameraRelativeZPosition)</code></p>
         <p>Inherited from <a href="../globals.html#DisplayObject">DisplayObject</a>.<a href="../globals.html#DisplayObject.addEventListener">addEventListener</a></p>
         <p>Overwrites EventDispatcher.addEventListener</p>
         <ul>
-                    <li>Defined in display/DisplayObject.ts:1535</li>
+                    <li>Defined in display/DisplayObject.ts:1520</li>
         </ul>
 </aside>
 
@@ -6086,7 +6042,7 @@ y</del>cameraFocalLength/cameraRelativeZPosition)</code></p>
         <p>Inherited from <a href="../globals.html#DisplayObject">DisplayObject</a>.<a href="../globals.html#DisplayObject.clear">clear</a></p>
         <p>Overwrites AssetBase.clear</p>
         <ul>
-                    <li>Defined in display/DisplayObject.ts:2382</li>
+                    <li>Defined in display/DisplayObject.ts:2364</li>
         </ul>
 </aside>
 
@@ -6272,7 +6228,7 @@ instance. Grandchildren, great-grandchildren, and so on each return
         <p>Inherited from <a href="../globals.html#DisplayObject">DisplayObject</a>.<a href="../globals.html#DisplayObject.dispose">dispose</a></p>
         <p>Overwrites AssetBase.dispose</p>
         <ul>
-                    <li>Defined in display/DisplayObject.ts:1588</li>
+                    <li>Defined in display/DisplayObject.ts:1570</li>
         </ul>
 </aside>
 
@@ -6325,7 +6281,7 @@ instance. Grandchildren, great-grandchildren, and so on each return
                 <aside class="tsd-sources">
         <p>Inherited from <a href="../globals.html#DisplayObject">DisplayObject</a>.<a href="../globals.html#DisplayObject.getBounds">getBounds</a></p>
         <ul>
-                    <li>Defined in display/DisplayObject.ts:1642</li>
+                    <li>Defined in display/DisplayObject.ts:1624</li>
         </ul>
 </aside>
         <div class="tsd-comment tsd-typography">
@@ -6389,7 +6345,7 @@ an example, see the description of the <code>getRect()</code> method.</p>
                 <aside class="tsd-sources">
         <p>Inherited from <a href="../globals.html#DisplayObject">DisplayObject</a>.<a href="../globals.html#DisplayObject.getBox">getBox</a></p>
         <ul>
-                    <li>Defined in display/DisplayObject.ts:1670</li>
+                    <li>Defined in display/DisplayObject.ts:1652</li>
         </ul>
 </aside>
 
@@ -6735,7 +6691,7 @@ methods to convert points between these coordinate spaces.</p>
                 <aside class="tsd-sources">
         <p>Inherited from <a href="../globals.html#DisplayObject">DisplayObject</a>.<a href="../globals.html#DisplayObject.getRect">getRect</a></p>
         <ul>
-                    <li>Defined in display/DisplayObject.ts:1665</li>
+                    <li>Defined in display/DisplayObject.ts:1647</li>
         </ul>
 </aside>
         <div class="tsd-comment tsd-typography">
@@ -6793,7 +6749,7 @@ coordinates, respectively.</p>
                 <aside class="tsd-sources">
         <p>Inherited from <a href="../globals.html#DisplayObject">DisplayObject</a>.<a href="../globals.html#DisplayObject.getRenderSceneTransform">getRenderSceneTransform</a></p>
         <ul>
-                    <li>Defined in display/DisplayObject.ts:1987</li>
+                    <li>Defined in display/DisplayObject.ts:1969</li>
         </ul>
 </aside>
 
@@ -6827,7 +6783,7 @@ coordinates, respectively.</p>
                 <aside class="tsd-sources">
         <p>Inherited from <a href="../globals.html#DisplayObject">DisplayObject</a>.<a href="../globals.html#DisplayObject.getSphere">getSphere</a></p>
         <ul>
-                    <li>Defined in display/DisplayObject.ts:1712</li>
+                    <li>Defined in display/DisplayObject.ts:1694</li>
         </ul>
 </aside>
 
@@ -6861,7 +6817,7 @@ coordinates, respectively.</p>
                 <aside class="tsd-sources">
         <p>Inherited from <a href="../globals.html#DisplayObject">DisplayObject</a>.<a href="../globals.html#DisplayObject.globalToLocal">globalToLocal</a></p>
         <ul>
-                    <li>Defined in display/DisplayObject.ts:1740</li>
+                    <li>Defined in display/DisplayObject.ts:1722</li>
         </ul>
 </aside>
         <div class="tsd-comment tsd-typography">
@@ -6923,7 +6879,7 @@ object instead of the origin of the Scene.</p>
                 <aside class="tsd-sources">
         <p>Inherited from <a href="../globals.html#DisplayObject">DisplayObject</a>.<a href="../globals.html#DisplayObject.globalToLocal3D">globalToLocal3D</a></p>
         <ul>
-                    <li>Defined in display/DisplayObject.ts:1772</li>
+                    <li>Defined in display/DisplayObject.ts:1754</li>
         </ul>
 </aside>
         <div class="tsd-comment tsd-typography">
@@ -7052,7 +7008,7 @@ are relative to the origin of the three-dimensional display object.</p>
                 <aside class="tsd-sources">
         <p>Inherited from <a href="../globals.html#DisplayObject">DisplayObject</a>.<a href="../globals.html#DisplayObject.hitTestObject">hitTestObject</a></p>
         <ul>
-                    <li>Defined in display/DisplayObject.ts:1785</li>
+                    <li>Defined in display/DisplayObject.ts:1767</li>
         </ul>
 </aside>
         <div class="tsd-comment tsd-typography">
@@ -7100,7 +7056,7 @@ intersects with the bounding box of the <code>obj</code> display object.</p>
                 <aside class="tsd-sources">
         <p>Inherited from <a href="../globals.html#DisplayObject">DisplayObject</a>.<a href="../globals.html#DisplayObject.hitTestPoint">hitTestPoint</a></p>
         <ul>
-                    <li>Defined in display/DisplayObject.ts:1825</li>
+                    <li>Defined in display/DisplayObject.ts:1807</li>
         </ul>
 </aside>
         <div class="tsd-comment tsd-typography">
@@ -7246,7 +7202,7 @@ Scene).</p>
                 <aside class="tsd-sources">
         <p>Inherited from <a href="../globals.html#DisplayObject">DisplayObject</a>.<a href="../globals.html#DisplayObject.iSetParent">iSetParent</a></p>
         <ul>
-                    <li>Defined in display/DisplayObject.ts:2047</li>
+                    <li>Defined in display/DisplayObject.ts:2029</li>
         </ul>
 </aside>
         <div class="tsd-comment tsd-typography">
@@ -7312,7 +7268,7 @@ Scene).</p>
                 <aside class="tsd-sources">
         <p>Inherited from <a href="../globals.html#DisplayObject">DisplayObject</a>.<a href="../globals.html#DisplayObject.invalidateElements">invalidateElements</a></p>
         <ul>
-                    <li>Defined in display/DisplayObject.ts:2407</li>
+                    <li>Defined in display/DisplayObject.ts:2389</li>
         </ul>
 </aside>
 
@@ -7338,7 +7294,7 @@ Scene).</p>
                 <aside class="tsd-sources">
         <p>Inherited from <a href="../globals.html#DisplayObject">DisplayObject</a>.<a href="../globals.html#DisplayObject.invalidateMaterial">invalidateMaterial</a></p>
         <ul>
-                    <li>Defined in display/DisplayObject.ts:2402</li>
+                    <li>Defined in display/DisplayObject.ts:2384</li>
         </ul>
 </aside>
 
@@ -7364,7 +7320,7 @@ Scene).</p>
                 <aside class="tsd-sources">
         <p>Inherited from <a href="../globals.html#DisplayObject">DisplayObject</a>.<a href="../globals.html#DisplayObject.invalidatePartitionBounds">invalidatePartitionBounds</a></p>
         <ul>
-                    <li>Defined in display/DisplayObject.ts:2392</li>
+                    <li>Defined in display/DisplayObject.ts:2374</li>
         </ul>
 </aside>
 
@@ -7424,7 +7380,7 @@ Scene).</p>
                 <aside class="tsd-sources">
         <p>Inherited from <a href="../globals.html#DisplayObject">DisplayObject</a>.<a href="../globals.html#DisplayObject.localToGlobal">localToGlobal</a></p>
         <ul>
-                    <li>Defined in display/DisplayObject.ts:1905</li>
+                    <li>Defined in display/DisplayObject.ts:1887</li>
         </ul>
 </aside>
         <div class="tsd-comment tsd-typography">
@@ -7492,7 +7448,7 @@ Scene instead of the origin of the display object.</p>
                 <aside class="tsd-sources">
         <p>Inherited from <a href="../globals.html#DisplayObject">DisplayObject</a>.<a href="../globals.html#DisplayObject.localToGlobal3D">localToGlobal3D</a></p>
         <ul>
-                    <li>Defined in display/DisplayObject.ts:1944</li>
+                    <li>Defined in display/DisplayObject.ts:1926</li>
         </ul>
 </aside>
         <div class="tsd-comment tsd-typography">
@@ -7557,7 +7513,7 @@ the origin of the Scene instead of the origin of the display object.</p>
                 <aside class="tsd-sources">
         <p>Inherited from <a href="../globals.html#DisplayObject">DisplayObject</a>.<a href="../globals.html#DisplayObject.lookAt">lookAt</a></p>
         <ul>
-                    <li>Defined in display/DisplayObject.ts:1868</li>
+                    <li>Defined in display/DisplayObject.ts:1850</li>
         </ul>
 </aside>
         <div class="tsd-comment tsd-typography">
@@ -7606,7 +7562,7 @@ the origin of the Scene instead of the origin of the display object.</p>
                 <aside class="tsd-sources">
         <p>Inherited from <a href="../globals.html#DisplayObject">DisplayObject</a>.<a href="../globals.html#DisplayObject.movePivot">movePivot</a></p>
         <ul>
-                    <li>Defined in display/DisplayObject.ts:1956</li>
+                    <li>Defined in display/DisplayObject.ts:1938</li>
         </ul>
 </aside>
         <div class="tsd-comment tsd-typography">
@@ -8000,7 +7956,7 @@ if no other references to it exist.</p>
         <p>Inherited from <a href="../globals.html#DisplayObject">DisplayObject</a>.<a href="../globals.html#DisplayObject.removeEventListener">removeEventListener</a></p>
         <p>Overwrites EventDispatcher.removeEventListener</p>
         <ul>
-                    <li>Defined in display/DisplayObject.ts:2011</li>
+                    <li>Defined in display/DisplayObject.ts:1993</li>
         </ul>
 </aside>
 
@@ -8065,7 +8021,7 @@ if no other references to it exist.</p>
                 <aside class="tsd-sources">
         <p>Inherited from <a href="../globals.html#DisplayObject">DisplayObject</a>.<a href="../globals.html#DisplayObject.reset">reset</a></p>
         <ul>
-                    <li>Defined in display/DisplayObject.ts:1971</li>
+                    <li>Defined in display/DisplayObject.ts:1953</li>
         </ul>
 </aside>
 

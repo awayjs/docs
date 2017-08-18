@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>DefaultSceneGraphFactory | scene</title>
+    <title>DefaultSceneGraphFactory | parsers</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="../../assets/css/main.css">
@@ -25,7 +25,7 @@
                     <!-- Title (with breadcrumbs) -->
                     <ul class="tsd-breadcrumb title">
                             <li><a href="/docs">@awayjs</a></li>
-                            <li><a href="../index.html">scene</a></li>
+                            <li><a href="../index.html">parsers</a></li>
                             
     <!--<li>-->
         <!---->
@@ -92,7 +92,7 @@
     <section class="tsd-panel">
         <h3>Implements</h3>
         <ul class="tsd-hierarchy">
-                <li><a href="../interfaces/ISceneGraphFactory.html" class="tsd-signature-type">ISceneGraphFactory</a></li>
+                <li><span class="tsd-signature-type">ISceneGraphFactory</span></li>
         </ul>
     </section>
 
@@ -114,6 +114,7 @@
                     <ul class="tsd-index-list">
                         <li class="tsd-kind-method tsd-parent-kind-class"><a href="DefaultSceneGraphFactory.html#createBillboard" class="tsd-kind-icon">create<wbr>Billboard</a></li>
                         <li class="tsd-kind-method tsd-parent-kind-class"><a href="DefaultSceneGraphFactory.html#createDisplayObjectContainer" class="tsd-kind-icon">create<wbr>Display<wbr>Object<wbr>Container</a></li>
+                        <li class="tsd-kind-method tsd-parent-kind-class"><a href="DefaultSceneGraphFactory.html#createMaterial" class="tsd-kind-icon">create<wbr>Material</a></li>
                         <li class="tsd-kind-method tsd-parent-kind-class"><a href="DefaultSceneGraphFactory.html#createMovieClip" class="tsd-kind-icon">create<wbr>Movie<wbr>Clip</a></li>
                         <li class="tsd-kind-method tsd-parent-kind-class"><a href="DefaultSceneGraphFactory.html#createSprite" class="tsd-kind-icon">create<wbr>Sprite</a></li>
                         <li class="tsd-kind-method tsd-parent-kind-class"><a href="DefaultSceneGraphFactory.html#createTextField" class="tsd-kind-icon">create<wbr>Text<wbr>Field</a></li>
@@ -136,7 +137,7 @@
         <li class="tsd-description">
                 <aside class="tsd-sources">
         <ul>
-                    <li>Defined in factories/DefaultSceneGraphFactory.ts:13</li>
+                    <li>Defined in factories/DefaultSceneGraphFactory.ts:8</li>
         </ul>
 </aside>
 
@@ -157,15 +158,14 @@
         <h3>create<wbr>Billboard</h3>
 
         <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
-        <li class="tsd-signature tsd-kind-icon">create<wbr>Billboard<span class="tsd-signature-symbol">(</span>material<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">MaterialBase</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="Billboard.html" class="tsd-signature-type">Billboard</a></li>
+        <li class="tsd-signature tsd-kind-icon">create<wbr>Billboard<span class="tsd-signature-symbol">(</span>material<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">MaterialBase</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Billboard</span></li>
 </ul>
 
 <ul class="tsd-descriptions">
         <li class="tsd-description">
                 <aside class="tsd-sources">
-        <p>Implementation of <a href="../interfaces/ISceneGraphFactory.html">ISceneGraphFactory</a>.<a href="../interfaces/ISceneGraphFactory.html#createBillboard">createBillboard</a></p>
         <ul>
-                    <li>Defined in factories/DefaultSceneGraphFactory.ts:38</li>
+                    <li>Defined in factories/DefaultSceneGraphFactory.ts:33</li>
         </ul>
 </aside>
 
@@ -179,7 +179,7 @@
             </li>
     </ul>
 
-    <h4 class="tsd-returns-title">Returns <a href="Billboard.html" class="tsd-signature-type">Billboard</a></h4>
+    <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Billboard</span></h4>
 
 
         </li>
@@ -191,21 +191,85 @@
         <h3>create<wbr>Display<wbr>Object<wbr>Container</h3>
 
         <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
-        <li class="tsd-signature tsd-kind-icon">create<wbr>Display<wbr>Object<wbr>Container<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="DisplayObjectContainer.html" class="tsd-signature-type">DisplayObjectContainer</a></li>
+        <li class="tsd-signature tsd-kind-icon">create<wbr>Display<wbr>Object<wbr>Container<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">DisplayObjectContainer</span></li>
 </ul>
 
 <ul class="tsd-descriptions">
         <li class="tsd-description">
                 <aside class="tsd-sources">
-        <p>Implementation of <a href="../interfaces/ISceneGraphFactory.html">ISceneGraphFactory</a>.<a href="../interfaces/ISceneGraphFactory.html#createDisplayObjectContainer">createDisplayObjectContainer</a></p>
         <ul>
-                    <li>Defined in factories/DefaultSceneGraphFactory.ts:28</li>
+                    <li>Defined in factories/DefaultSceneGraphFactory.ts:23</li>
         </ul>
 </aside>
 
 
 
-    <h4 class="tsd-returns-title">Returns <a href="DisplayObjectContainer.html" class="tsd-signature-type">DisplayObjectContainer</a></h4>
+    <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">DisplayObjectContainer</span></h4>
+
+
+        </li>
+</ul>    
+
+</section>
+            <section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+    <a name="createMaterial" class="tsd-anchor"></a>
+        <h3>create<wbr>Material</h3>
+
+        <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+        <li class="tsd-signature tsd-kind-icon">create<wbr>Material<span class="tsd-signature-symbol">(</span>image<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">Image2D</span>, alpha<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">MethodMaterial</span></li>
+        <li class="tsd-signature tsd-kind-icon">create<wbr>Material<span class="tsd-signature-symbol">(</span>color<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">number</span>, alpha<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">MethodMaterial</span></li>
+</ul>
+
+<ul class="tsd-descriptions">
+        <li class="tsd-description">
+                <aside class="tsd-sources">
+        <ul>
+                    <li>Defined in factories/DefaultSceneGraphFactory.ts:38</li>
+        </ul>
+</aside>
+
+
+    <h4 class="tsd-parameters-title">Parameters</h4>
+    <ul class="tsd-parameters">
+            <li>
+                <h5><span class="tsd-flag ts-flagOptional">Optional</span> image: <span class="tsd-signature-type">Image2D</span></h5>
+
+                
+            </li>
+            <li>
+                <h5><span class="tsd-flag ts-flagOptional">Optional</span> alpha: <span class="tsd-signature-type">number</span></h5>
+
+                
+            </li>
+    </ul>
+
+    <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">MethodMaterial</span></h4>
+
+
+        </li>
+        <li class="tsd-description">
+                <aside class="tsd-sources">
+        <ul>
+                    <li>Defined in factories/DefaultSceneGraphFactory.ts:39</li>
+        </ul>
+</aside>
+
+
+    <h4 class="tsd-parameters-title">Parameters</h4>
+    <ul class="tsd-parameters">
+            <li>
+                <h5><span class="tsd-flag ts-flagOptional">Optional</span> color: <span class="tsd-signature-type">number</span></h5>
+
+                
+            </li>
+            <li>
+                <h5><span class="tsd-flag ts-flagOptional">Optional</span> alpha: <span class="tsd-signature-type">number</span></h5>
+
+                
+            </li>
+    </ul>
+
+    <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">MethodMaterial</span></h4>
 
 
         </li>
@@ -217,15 +281,14 @@
         <h3>create<wbr>Movie<wbr>Clip</h3>
 
         <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
-        <li class="tsd-signature tsd-kind-icon">create<wbr>Movie<wbr>Clip<span class="tsd-signature-symbol">(</span>timeline<span class="tsd-signature-symbol">?: </span><a href="Timeline.html" class="tsd-signature-type">Timeline</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="MovieClip.html" class="tsd-signature-type">MovieClip</a></li>
+        <li class="tsd-signature tsd-kind-icon">create<wbr>Movie<wbr>Clip<span class="tsd-signature-symbol">(</span>timeline<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">Timeline</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">MovieClip</span></li>
 </ul>
 
 <ul class="tsd-descriptions">
         <li class="tsd-description">
                 <aside class="tsd-sources">
-        <p>Implementation of <a href="../interfaces/ISceneGraphFactory.html">ISceneGraphFactory</a>.<a href="../interfaces/ISceneGraphFactory.html#createMovieClip">createMovieClip</a></p>
         <ul>
-                    <li>Defined in factories/DefaultSceneGraphFactory.ts:18</li>
+                    <li>Defined in factories/DefaultSceneGraphFactory.ts:13</li>
         </ul>
 </aside>
 
@@ -233,13 +296,13 @@
     <h4 class="tsd-parameters-title">Parameters</h4>
     <ul class="tsd-parameters">
             <li>
-                <h5><span class="tsd-flag ts-flagDefault value">Default value</span> timeline: <a href="Timeline.html" class="tsd-signature-type">Timeline</a><span class="tsd-signature-symbol"> =&nbsp;null</span></h5>
+                <h5><span class="tsd-flag ts-flagDefault value">Default value</span> timeline: <span class="tsd-signature-type">Timeline</span><span class="tsd-signature-symbol"> =&nbsp;null</span></h5>
 
                 
             </li>
     </ul>
 
-    <h4 class="tsd-returns-title">Returns <a href="MovieClip.html" class="tsd-signature-type">MovieClip</a></h4>
+    <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">MovieClip</span></h4>
 
 
         </li>
@@ -251,21 +314,20 @@
         <h3>create<wbr>Sprite</h3>
 
         <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
-        <li class="tsd-signature tsd-kind-icon">create<wbr>Sprite<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="Sprite.html" class="tsd-signature-type">Sprite</a></li>
+        <li class="tsd-signature tsd-kind-icon">create<wbr>Sprite<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Sprite</span></li>
 </ul>
 
 <ul class="tsd-descriptions">
         <li class="tsd-description">
                 <aside class="tsd-sources">
-        <p>Implementation of <a href="../interfaces/ISceneGraphFactory.html">ISceneGraphFactory</a>.<a href="../interfaces/ISceneGraphFactory.html#createSprite">createSprite</a></p>
         <ul>
-                    <li>Defined in factories/DefaultSceneGraphFactory.ts:23</li>
+                    <li>Defined in factories/DefaultSceneGraphFactory.ts:18</li>
         </ul>
 </aside>
 
 
 
-    <h4 class="tsd-returns-title">Returns <a href="Sprite.html" class="tsd-signature-type">Sprite</a></h4>
+    <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Sprite</span></h4>
 
 
         </li>
@@ -277,21 +339,20 @@
         <h3>create<wbr>Text<wbr>Field</h3>
 
         <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
-        <li class="tsd-signature tsd-kind-icon">create<wbr>Text<wbr>Field<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="../globals.html#TextField" class="tsd-signature-type">TextField</a></li>
+        <li class="tsd-signature tsd-kind-icon">create<wbr>Text<wbr>Field<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">TextField</span></li>
 </ul>
 
 <ul class="tsd-descriptions">
         <li class="tsd-description">
                 <aside class="tsd-sources">
-        <p>Implementation of <a href="../interfaces/ISceneGraphFactory.html">ISceneGraphFactory</a>.<a href="../interfaces/ISceneGraphFactory.html#createTextField">createTextField</a></p>
         <ul>
-                    <li>Defined in factories/DefaultSceneGraphFactory.ts:33</li>
+                    <li>Defined in factories/DefaultSceneGraphFactory.ts:28</li>
         </ul>
 </aside>
 
 
 
-    <h4 class="tsd-returns-title">Returns <a href="../globals.html#TextField" class="tsd-signature-type">TextField</a></h4>
+    <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">TextField</span></h4>
 
 
         </li>
@@ -305,265 +366,106 @@
             <nav class="tsd-navigation secondary menu-sticky">
                 <ul class="before-current">
                         <li class=" tsd-kind-class">
-    <a href="AlignmentMode.html" class="tsd-kind-icon">Alignment<wbr>Mode</a>
+    <a href="AWD3Utils.html" class="tsd-kind-icon">AWD3<wbr>Utils</a>
 </li>
                         <li class=" tsd-kind-class">
-    <a href="AntiAliasType.html" class="tsd-kind-icon">Anti<wbr>Alias<wbr>Type</a>
+    <a href="AWDBlock.html" class="tsd-kind-icon">AWDBlock</a>
 </li>
                         <li class=" tsd-kind-class">
-    <a href="AxisAlignedBoundingBox.html" class="tsd-kind-icon">Axis<wbr>Aligned<wbr>Bounding<wbr>Box</a>
+    <a href="AWDEncoder.html" class="tsd-kind-icon">AWDEncoder</a>
 </li>
                         <li class=" tsd-kind-class">
-    <a href="AxisAlignedBoundingBox2D.html" class="tsd-kind-icon">Axis<wbr>Aligned<wbr>Bounding<wbr>Box2D</a>
+    <a href="AWDFile.html" class="tsd-kind-icon">AWDFile</a>
 </li>
                         <li class=" tsd-kind-class">
-    <a href="Billboard.html" class="tsd-kind-icon">Billboard</a>
+    <a href="AWDParser.html" class="tsd-kind-icon">AWDParser</a>
 </li>
                         <li class=" tsd-kind-class">
-    <a href="BitmapFontChar.html" class="tsd-kind-icon">Bitmap<wbr>Font<wbr>Char</a>
+    <a href="BaseFrameData.html" class="tsd-kind-icon">Base<wbr>Frame<wbr>Data</a>
 </li>
                         <li class=" tsd-kind-class">
-    <a href="BitmapFontTable.html" class="tsd-kind-icon">Bitmap<wbr>Font<wbr>Table</a>
-</li>
-                        <li class=" tsd-kind-class">
-    <a href="BoundingSphere.html" class="tsd-kind-icon">Bounding<wbr>Sphere</a>
-</li>
-                        <li class=" tsd-kind-class">
-    <a href="BoundingVolumeBase.html" class="tsd-kind-icon">Bounding<wbr>Volume<wbr>Base</a>
-</li>
-                        <li class=" tsd-kind-class">
-    <a href="BoundsType.html" class="tsd-kind-icon">Bounds<wbr>Type</a>
-</li>
-                        <li class=" tsd-kind-class">
-    <a href="Camera.html" class="tsd-kind-icon">Camera</a>
-</li>
-                        <li class=" tsd-kind-class">
-    <a href="CameraEvent.html" class="tsd-kind-icon">Camera<wbr>Event</a>
-</li>
-                        <li class=" tsd-kind-class">
-    <a href="CascadeShadowMapper.html" class="tsd-kind-icon">Cascade<wbr>Shadow<wbr>Mapper</a>
-</li>
-                        <li class=" tsd-kind-class">
-    <a href="Cast.html" class="tsd-kind-icon">Cast</a>
-</li>
-                        <li class=" tsd-kind-class">
-    <a href="CastError.html" class="tsd-kind-icon">Cast<wbr>Error</a>
-</li>
-                        <li class=" tsd-kind-class">
-    <a href="ControllerBase.html" class="tsd-kind-icon">Controller<wbr>Base</a>
-</li>
-                        <li class=" tsd-kind-class">
-    <a href="CubeMapShadowMapper.html" class="tsd-kind-icon">Cube<wbr>Map<wbr>Shadow<wbr>Mapper</a>
-</li>
-                        <li class=" tsd-kind-class">
-    <a href="DefaultFontManager.html" class="tsd-kind-icon">Default<wbr>Font<wbr>Manager</a>
+    <a href="BoundsData.html" class="tsd-kind-icon">Bounds<wbr>Data</a>
 </li>
                         <li class=" tsd-kind-class">
     <a href="DefaultSceneGraphFactory.html" class="tsd-kind-icon">Default<wbr>Scene<wbr>Graph<wbr>Factory</a>
 </li>
                         <li class=" tsd-kind-class">
-    <a href="DirectionalLight.html" class="tsd-kind-icon">Directional<wbr>Light</a>
+    <a href="ElementsData.html" class="tsd-kind-icon">Elements<wbr>Data</a>
 </li>
                         <li class=" tsd-kind-class">
-    <a href="DirectionalShadowMapper.html" class="tsd-kind-icon">Directional<wbr>Shadow<wbr>Mapper</a>
+    <a href="FNTParser.html" class="tsd-kind-icon">FNTParser</a>
 </li>
                         <li class=" tsd-kind-class">
-    <a href="DisplayObjectContainer.html" class="tsd-kind-icon">Display<wbr>Object<wbr>Container</a>
+    <a href="FaceData.html" class="tsd-kind-icon">Face<wbr>Data</a>
 </li>
                         <li class=" tsd-kind-class">
-    <a href="DisplayObjectEvent.html" class="tsd-kind-icon">Display<wbr>Object<wbr>Event</a>
+    <a href="FaceVO.html" class="tsd-kind-icon">FaceVO</a>
 </li>
                         <li class=" tsd-kind-class">
-    <a href="FirstPersonController.html" class="tsd-kind-icon">First<wbr>Person<wbr>Controller</a>
+    <a href="FontParser.html" class="tsd-kind-icon">Font<wbr>Parser</a>
 </li>
                         <li class=" tsd-kind-class">
-    <a href="FollowController.html" class="tsd-kind-icon">Follow<wbr>Controller</a>
+    <a href="FrameData.html" class="tsd-kind-icon">Frame<wbr>Data</a>
 </li>
                         <li class=" tsd-kind-class">
-    <a href="Font.html" class="tsd-kind-icon">Font</a>
+    <a href="Group.html" class="tsd-kind-icon">Group</a>
 </li>
                         <li class=" tsd-kind-class">
-    <a href="FrameScriptManager.html" class="tsd-kind-icon">Frame<wbr>Script<wbr>Manager</a>
+    <a href="HierarchyData.html" class="tsd-kind-icon">Hierarchy<wbr>Data</a>
 </li>
                         <li class=" tsd-kind-class">
-    <a href="GridFitType.html" class="tsd-kind-icon">Grid<wbr>Fit<wbr>Type</a>
+    <a href="JointData.html" class="tsd-kind-icon">Joint<wbr>Data</a>
 </li>
                         <li class=" tsd-kind-class">
-    <a href="HierarchicalProperties.html" class="tsd-kind-icon">Hierarchical<wbr>Properties</a>
+    <a href="LoadedMaterial.html" class="tsd-kind-icon">Loaded<wbr>Material</a>
 </li>
                         <li class=" tsd-kind-class">
-    <a href="HoverController.html" class="tsd-kind-icon">Hover<wbr>Controller</a>
+    <a href="MD2Parser.html" class="tsd-kind-icon">MD2<wbr>Parser</a>
 </li>
                         <li class=" tsd-kind-class">
-    <a href="LightBase.html" class="tsd-kind-icon">Light<wbr>Base</a>
+    <a href="MD5AnimParser.html" class="tsd-kind-icon">MD5<wbr>Anim<wbr>Parser</a>
 </li>
                         <li class=" tsd-kind-class">
-    <a href="LightEvent.html" class="tsd-kind-icon">Light<wbr>Event</a>
+    <a href="MD5MeshParser.html" class="tsd-kind-icon">MD5<wbr>Mesh<wbr>Parser</a>
 </li>
                         <li class=" tsd-kind-class">
-    <a href="LightPickerBase.html" class="tsd-kind-icon">Light<wbr>Picker<wbr>Base</a>
+    <a href="MaterialGroup.html" class="tsd-kind-icon">Material<wbr>Group</a>
 </li>
                         <li class=" tsd-kind-class">
-    <a href="LightProbe.html" class="tsd-kind-icon">Light<wbr>Probe</a>
+    <a href="MaterialVO.html" class="tsd-kind-icon">MaterialVO</a>
 </li>
                         <li class=" tsd-kind-class">
-    <a href="LightSources.html" class="tsd-kind-icon">Light<wbr>Sources</a>
+    <a href="Max3DSParser.html" class="tsd-kind-icon">Max3DSParser</a>
 </li>
                         <li class=" tsd-kind-class">
-    <a href="LineSegment.html" class="tsd-kind-icon">Line<wbr>Segment</a>
+    <a href="OBJParser.html" class="tsd-kind-icon">OBJParser</a>
 </li>
                         <li class=" tsd-kind-class">
-    <a href="LoaderContainer.html" class="tsd-kind-icon">Loader<wbr>Container</a>
+    <a href="ObjectGroup.html" class="tsd-kind-icon">Object<wbr>Group</a>
 </li>
                         <li class=" tsd-kind-class">
-    <a href="LookAtController.html" class="tsd-kind-icon">Look<wbr>AtController</a>
+    <a href="ObjectVO.html" class="tsd-kind-icon">ObjectVO</a>
 </li>
                         <li class=" tsd-kind-class">
-    <a href="Merge.html" class="tsd-kind-icon">Merge</a>
+    <a href="Parsers.html" class="tsd-kind-icon">Parsers</a>
 </li>
                         <li class=" tsd-kind-class">
-    <a href="MouseEvent.html" class="tsd-kind-icon">Mouse<wbr>Event</a>
+    <a href="PositionData.html" class="tsd-kind-icon">Position<wbr>Data</a>
 </li>
                         <li class=" tsd-kind-class">
-    <a href="MovieClip.html" class="tsd-kind-icon">Movie<wbr>Clip</a>
+    <a href="SpecularData.html" class="tsd-kind-icon">Specular<wbr>Data</a>
 </li>
                         <li class=" tsd-kind-class">
-    <a href="NearDirectionalShadowMapper.html" class="tsd-kind-icon">Near<wbr>Directional<wbr>Shadow<wbr>Mapper</a>
+    <a href="TextureVO.html" class="tsd-kind-icon">TextureVO</a>
 </li>
                         <li class=" tsd-kind-class">
-    <a href="NullBounds.html" class="tsd-kind-icon">Null<wbr>Bounds</a>
+    <a href="UV.html" class="tsd-kind-icon">UV</a>
 </li>
                         <li class=" tsd-kind-class">
-    <a href="OrientationMode.html" class="tsd-kind-icon">Orientation<wbr>Mode</a>
+    <a href="Vertex.html" class="tsd-kind-icon">Vertex</a>
 </li>
                         <li class=" tsd-kind-class">
-    <a href="PointLight.html" class="tsd-kind-icon">Point<wbr>Light</a>
-</li>
-                        <li class=" tsd-kind-class">
-    <a href="PrefabBase.html" class="tsd-kind-icon">Prefab<wbr>Base</a>
-</li>
-                        <li class=" tsd-kind-class">
-    <a href="PrimitiveCapsulePrefab.html" class="tsd-kind-icon">Primitive<wbr>Capsule<wbr>Prefab</a>
-</li>
-                        <li class=" tsd-kind-class">
-    <a href="PrimitiveConePrefab.html" class="tsd-kind-icon">Primitive<wbr>Cone<wbr>Prefab</a>
-</li>
-                        <li class=" tsd-kind-class">
-    <a href="PrimitiveCubePrefab.html" class="tsd-kind-icon">Primitive<wbr>Cube<wbr>Prefab</a>
-</li>
-                        <li class=" tsd-kind-class">
-    <a href="PrimitiveCylinderPrefab.html" class="tsd-kind-icon">Primitive<wbr>Cylinder<wbr>Prefab</a>
-</li>
-                        <li class=" tsd-kind-class">
-    <a href="PrimitivePlanePrefab.html" class="tsd-kind-icon">Primitive<wbr>Plane<wbr>Prefab</a>
-</li>
-                        <li class=" tsd-kind-class">
-    <a href="PrimitivePolygonPrefab.html" class="tsd-kind-icon">Primitive<wbr>Polygon<wbr>Prefab</a>
-</li>
-                        <li class=" tsd-kind-class">
-    <a href="PrimitivePrefabBase.html" class="tsd-kind-icon">Primitive<wbr>Prefab<wbr>Base</a>
-</li>
-                        <li class=" tsd-kind-class">
-    <a href="PrimitiveSpherePrefab.html" class="tsd-kind-icon">Primitive<wbr>Sphere<wbr>Prefab</a>
-</li>
-                        <li class=" tsd-kind-class">
-    <a href="PrimitiveTorusPrefab.html" class="tsd-kind-icon">Primitive<wbr>Torus<wbr>Prefab</a>
-</li>
-                        <li class=" tsd-kind-class">
-    <a href="ResizeEvent.html" class="tsd-kind-icon">Resize<wbr>Event</a>
-</li>
-                        <li class=" tsd-kind-class">
-    <a href="Scene.html" class="tsd-kind-icon">Scene</a>
-</li>
-                        <li class=" tsd-kind-class">
-    <a href="ShadowMapperBase.html" class="tsd-kind-icon">Shadow<wbr>Mapper<wbr>Base</a>
-</li>
-                        <li class=" tsd-kind-class">
-    <a href="ShapeVO.html" class="tsd-kind-icon">ShapeVO</a>
-</li>
-                        <li class=" tsd-kind-class">
-    <a href="Skybox.html" class="tsd-kind-icon">Skybox</a>
-</li>
-                        <li class=" tsd-kind-class">
-    <a href="SpringController.html" class="tsd-kind-icon">Spring<wbr>Controller</a>
-</li>
-                        <li class=" tsd-kind-class">
-    <a href="Sprite.html" class="tsd-kind-icon">Sprite</a>
-</li>
-                        <li class=" tsd-kind-class">
-    <a href="StaticLightPicker.html" class="tsd-kind-icon">Static<wbr>Light<wbr>Picker</a>
-</li>
-                        <li class=" tsd-kind-class">
-    <a href="TesselatedFontChar.html" class="tsd-kind-icon">Tesselated<wbr>Font<wbr>Char</a>
-</li>
-                        <li class=" tsd-kind-class">
-    <a href="TesselatedFontTable.html" class="tsd-kind-icon">Tesselated<wbr>Font<wbr>Table</a>
-</li>
-                        <li class=" tsd-kind-class">
-    <a href="TextFieldAutoSize.html" class="tsd-kind-icon">Text<wbr>Field<wbr>Auto<wbr>Size</a>
-</li>
-                        <li class=" tsd-kind-class">
-    <a href="TextFieldType.html" class="tsd-kind-icon">Text<wbr>Field<wbr>Type</a>
-</li>
-                        <li class=" tsd-kind-class">
-    <a href="TextFormat.html" class="tsd-kind-icon">Text<wbr>Format</a>
-</li>
-                        <li class=" tsd-kind-class">
-    <a href="TextFormatAlign.html" class="tsd-kind-icon">Text<wbr>Format<wbr>Align</a>
-</li>
-                        <li class=" tsd-kind-class">
-    <a href="TextInteractionMode.html" class="tsd-kind-icon">Text<wbr>Interaction<wbr>Mode</a>
-</li>
-                        <li class=" tsd-kind-class">
-    <a href="TextLineMetrics.html" class="tsd-kind-icon">Text<wbr>Line<wbr>Metrics</a>
-</li>
-                        <li class=" tsd-kind-class">
-    <a href="TextShape.html" class="tsd-kind-icon">Text<wbr>Shape</a>
-</li>
-                        <li class=" tsd-kind-class">
-    <a href="TextureAtlas.html" class="tsd-kind-icon">Texture<wbr>Atlas</a>
-</li>
-                        <li class=" tsd-kind-class">
-    <a href="TextureProjector.html" class="tsd-kind-icon">Texture<wbr>Projector</a>
-</li>
-                        <li class=" tsd-kind-class">
-    <a href="TextureProjectorEvent.html" class="tsd-kind-icon">Texture<wbr>Projector<wbr>Event</a>
-</li>
-                        <li class=" tsd-kind-class">
-    <a href="Timeline.html" class="tsd-kind-icon">Timeline</a>
-</li>
-                        <li class=" tsd-kind-class">
-    <a href="TouchEvent.html" class="tsd-kind-icon">Touch<wbr>Event</a>
-</li>
-                        <li class=" tsd-kind-class">
-    <a href="TouchPoint.html" class="tsd-kind-icon">Touch<wbr>Point</a>
-</li>
-                        <li class=" tsd-kind-interface">
-    <a href="../interfaces/IBitmapDrawable.html" class="tsd-kind-icon">IBitmap<wbr>Drawable</a>
-</li>
-                        <li class=" tsd-kind-interface">
-    <a href="../interfaces/IDisplayObjectAdapter.html" class="tsd-kind-icon">IDisplay<wbr>Object<wbr>Adapter</a>
-</li>
-                        <li class=" tsd-kind-interface">
-    <a href="../interfaces/IFontTable.html" class="tsd-kind-icon">IFont<wbr>Table</a>
-</li>
-                        <li class=" tsd-kind-interface">
-    <a href="../interfaces/IMovieClipAdapter.html" class="tsd-kind-icon">IMovie<wbr>Clip<wbr>Adapter</a>
-</li>
-                        <li class=" tsd-kind-interface">
-    <a href="../interfaces/IRenderer.html" class="tsd-kind-icon">IRenderer</a>
-</li>
-                        <li class=" tsd-kind-interface">
-    <a href="../interfaces/ISceneGraphFactory.html" class="tsd-kind-icon">IScene<wbr>Graph<wbr>Factory</a>
-</li>
-                        <li class=" tsd-kind-interface">
-    <a href="../interfaces/IView.html" class="tsd-kind-icon">IView</a>
-</li>
-                        <li class=" tsd-kind-event">
-    <a href="../globals.html#DisplayObject" class="tsd-kind-icon">Display<wbr>Object</a>
-</li>
-                        <li class=" tsd-kind-event">
-    <a href="../globals.html#TextField" class="tsd-kind-icon">Text<wbr>Field</a>
+    <a href="VertexVO.html" class="tsd-kind-icon">VertexVO</a>
 </li>
                 </ul>
             </nav>

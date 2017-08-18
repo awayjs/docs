@@ -90,12 +90,6 @@
     </section>
 
 
-    <section class="tsd-panel">
-        <h3>Implemented by</h3>
-        <ul class="tsd-hierarchy">
-                <li><a href="../classes/DefaultSceneGraphFactory.html" class="tsd-signature-type">DefaultSceneGraphFactory</a></li>
-        </ul>
-    </section>
 
 
 
@@ -108,6 +102,7 @@
                     <ul class="tsd-index-list">
                         <li class="tsd-kind-method tsd-parent-kind-interface"><a href="ISceneGraphFactory.html#createBillboard" class="tsd-kind-icon">create<wbr>Billboard</a></li>
                         <li class="tsd-kind-method tsd-parent-kind-interface"><a href="ISceneGraphFactory.html#createDisplayObjectContainer" class="tsd-kind-icon">create<wbr>Display<wbr>Object<wbr>Container</a></li>
+                        <li class="tsd-kind-method tsd-parent-kind-interface"><a href="ISceneGraphFactory.html#createMaterial" class="tsd-kind-icon">create<wbr>Material</a></li>
                         <li class="tsd-kind-method tsd-parent-kind-interface"><a href="ISceneGraphFactory.html#createMovieClip" class="tsd-kind-icon">create<wbr>Movie<wbr>Clip</a></li>
                         <li class="tsd-kind-method tsd-parent-kind-interface"><a href="ISceneGraphFactory.html#createSprite" class="tsd-kind-icon">create<wbr>Sprite</a></li>
                         <li class="tsd-kind-method tsd-parent-kind-interface"><a href="ISceneGraphFactory.html#createTextField" class="tsd-kind-icon">create<wbr>Text<wbr>Field</a></li>
@@ -130,7 +125,7 @@
         <li class="tsd-description">
                 <aside class="tsd-sources">
         <ul>
-                    <li>Defined in factories/ISceneGraphFactory.ts:16</li>
+                    <li>Defined in factories/ISceneGraphFactory.ts:20</li>
         </ul>
 </aside>
 
@@ -163,13 +158,78 @@
         <li class="tsd-description">
                 <aside class="tsd-sources">
         <ul>
-                    <li>Defined in factories/ISceneGraphFactory.ts:14</li>
+                    <li>Defined in factories/ISceneGraphFactory.ts:16</li>
         </ul>
 </aside>
 
 
 
     <h4 class="tsd-returns-title">Returns <a href="../classes/DisplayObjectContainer.html" class="tsd-signature-type">DisplayObjectContainer</a></h4>
+
+
+        </li>
+</ul>    
+
+</section>
+            <section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-interface">
+    <a name="createMaterial" class="tsd-anchor"></a>
+        <h3>create<wbr>Material</h3>
+
+        <ul class="tsd-signatures tsd-kind-method tsd-parent-kind-interface">
+        <li class="tsd-signature tsd-kind-icon">create<wbr>Material<span class="tsd-signature-symbol">(</span>image<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">Image2D</span>, alpha<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">MaterialBase</span></li>
+        <li class="tsd-signature tsd-kind-icon">create<wbr>Material<span class="tsd-signature-symbol">(</span>color<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">number</span>, alpha<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">MaterialBase</span></li>
+</ul>
+
+<ul class="tsd-descriptions">
+        <li class="tsd-description">
+                <aside class="tsd-sources">
+        <ul>
+                    <li>Defined in factories/ISceneGraphFactory.ts:22</li>
+        </ul>
+</aside>
+
+
+    <h4 class="tsd-parameters-title">Parameters</h4>
+    <ul class="tsd-parameters">
+            <li>
+                <h5><span class="tsd-flag ts-flagOptional">Optional</span> image: <span class="tsd-signature-type">Image2D</span></h5>
+
+                
+            </li>
+            <li>
+                <h5><span class="tsd-flag ts-flagOptional">Optional</span> alpha: <span class="tsd-signature-type">number</span></h5>
+
+                
+            </li>
+    </ul>
+
+    <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">MaterialBase</span></h4>
+
+
+        </li>
+        <li class="tsd-description">
+                <aside class="tsd-sources">
+        <ul>
+                    <li>Defined in factories/ISceneGraphFactory.ts:23</li>
+        </ul>
+</aside>
+
+
+    <h4 class="tsd-parameters-title">Parameters</h4>
+    <ul class="tsd-parameters">
+            <li>
+                <h5><span class="tsd-flag ts-flagOptional">Optional</span> color: <span class="tsd-signature-type">number</span></h5>
+
+                
+            </li>
+            <li>
+                <h5><span class="tsd-flag ts-flagOptional">Optional</span> alpha: <span class="tsd-signature-type">number</span></h5>
+
+                
+            </li>
+    </ul>
+
+    <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">MaterialBase</span></h4>
 
 
         </li>
@@ -221,7 +281,7 @@
         <li class="tsd-description">
                 <aside class="tsd-sources">
         <ul>
-                    <li>Defined in factories/ISceneGraphFactory.ts:15</li>
+                    <li>Defined in factories/ISceneGraphFactory.ts:18</li>
         </ul>
 </aside>
 
@@ -246,7 +306,7 @@
         <li class="tsd-description">
                 <aside class="tsd-sources">
         <ul>
-                    <li>Defined in factories/ISceneGraphFactory.ts:13</li>
+                    <li>Defined in factories/ISceneGraphFactory.ts:14</li>
         </ul>
 </aside>
 
@@ -318,9 +378,6 @@
 </li>
                         <li class=" tsd-kind-class">
     <a href="../classes/DefaultFontManager.html" class="tsd-kind-icon">Default<wbr>Font<wbr>Manager</a>
-</li>
-                        <li class=" tsd-kind-class">
-    <a href="../classes/DefaultSceneGraphFactory.html" class="tsd-kind-icon">Default<wbr>Scene<wbr>Graph<wbr>Factory</a>
 </li>
                         <li class=" tsd-kind-class">
     <a href="../classes/DirectionalLight.html" class="tsd-kind-icon">Directional<wbr>Light</a>
